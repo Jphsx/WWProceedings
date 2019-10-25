@@ -1,0 +1,66 @@
+\subsection{Lepton ID}
+\label{subsec:Lepton_ID}
+The approach towards the identification of leptons is treat each flavor of lepton universally. A cone based approach is used capture narrow isolated jets that have low track multiplicity. The lepton acceptance criteria consists of these  parameters:
+\begin{itemize}
+\item search cone angle - The opening (half) angle of the search cone for the lepton jet [rad]
+\item isolation cone angle - The outer isolation cone angle w.r.t to the search cone [rad]
+\item isolation energy - The total energy allowed within the isolation cone region [GeV]
+\item Invariant Mass The upper limit on the lepton candidate mass [GeV]
+\item pt seed - the minimum pt of a track that seeds a lepton candidate [GeV] 
+\end{itemize}
+Additional requirements are imposed on all of the reconstructed PFOs in the event in order to suppress pile up particles being included in the lepton jet.
+\begin{itemize}
+\item pt $> 0.2$ GeV
+\item $|cos\theta| < 0.99$
+\end{itemize}
+The formation of a lepton follows three steps (1) candidate construction, (2) candidate merging, (3) isolation testing.
+The first step starts with a list of seed tracks sorted by energy in descending order. The track energy is calculated with respect to an assumed mass that is imposed by Pandora PFA.  A track that qualifies as a seed track forms a new lepton candidate, any track that falls within the search cone of the lepton candidate is added to the lepton candidate, with each newly added particle the energy and momentum is updated for the lepton candidate. When a track has been added to a lepton candidate it is removed from the track seed list. Next, the neutral particles that fall inside the search cone are added to the lepton candidate. The neutral particles also reside on a list, and are removed from the list if added to a lepton candidate, this enforces uniqueness for each lepton candidate. Lepton candidates are continually formed until the list of seed tracks is completely exhausted. When there are no more candidates to be created, the candidates are subjected to the some of the acceptance criteria: the lepton jet mass is required to be below upper mass limit (2 GeV) and the number of charged tracks within the jet is non-zero and less than or equal to 4. If a lepton jet violates these conditions it is deleted. The next step in the process is merging. If two lepton candidates fall within each others search cones, the candidates are merged. If the mass or track multiplicity conditions are violated, both lepton candidates are deleted.  All of the surviving candidates of the merging step are subjected to the isolation testing. For each candidate, the sum of energy of all the particles that fall inside the isolation cone is computed. If the total energy inside the isolation cone is greater than the maximum allowed energy inside the isolation cone the lepton candidate is deleted.\\
+\quad \quad \\
+The acceptance criteria for leptons are optimized according to lepton flavor and $\tau$ decay topology. The categories created are:
+\begin{itemize}
+\item Prompt $\mu$
+\item Prompt $e$
+\item $\tau \rightarrow \mu \bar{\nu_{\mu}} \nu_{\tau} $
+\item $\tau \rightarrow e \bar{\nu_{e}} \nu_{\tau} $
+\item $\tau \rightarrow$ hadrons (1-prong)
+\item $\tau \rightarrow$ hadrons (3-prong)
+\end{itemize} 
+The Prompt categories refer to events which the leptonic W decays directly to either a muon or electron and associated neutrino. The tau categories address the various dominant decay topologies of the tau lepton. For each category we find the optimal lepton acceptance criteria where only the events that match the desired topology are considered for the category in question.
+ 
+ The optimal acceptance criteria is the  set of parameters that most correctly identify lepton candidate jets that originate from true leptons while fail to fake lepton candidates that originate from hadronic jets. To find this set of parameters, a scan over a 3D space is performed using the search Cone-$\alpha$, isolation cone-$\beta$, and isolation energy-$E_{iso}$. The invariant mass is held at a fixed 2 GeV for simplicity. The ranges and step sizes through this space are:
+ \begin{itemize}
+ \item $\alpha \in [0,0.15]$ rad with 0.01 rad steps
+ \item $\beta \in [0,0.15]$ rad with 0.01 rad steps
+ \item $E_{iso} \in [0,5.5]$ GeV with 0.5 GeV steps
+ \end{itemize}
+Two uncorrelated push-pull optimization parameters are defined to find the optimal working point in the lepton finding space. The first is related to correctly identifying jets originating from true leptons. This is denoted as the efficiency of reconstructing a true lepton $\epsilon_T$. The second optimization parameter is denoted as $P_F$, the probability of a fake lepton jet arising from a single hadronic jet.  
+\begin{equation}
+\label{eq:et}
+\epsilon_T = N_{match}/N_{Stotal}
+\end{equation}
+\begin{equation}
+\begin{split}
+\label{eq:pf}
+P_F = 1-(1-\epsilon_F)^{\frac{1}{4}} \\
+\epsilon_F = N_{fake}/N_{Btotal}
+\end{split}
+\end{equation}
+The true lepton reconstruction efficiency is maximized with the signal sample $WW\rightarrow q\bar{q}\ell\bar{\nu}$. The denominator represents the total, category specific, number of events which contain three generator visible fermions($q\bar{q}\ell$ that all fall within the acceptance range $|cos\theta| < 0.99$. $N_{match}$ is the number of signal sample events in which a lepton candidate jet is reconstructed and can be matched to the true lepton, such that the opening angle between the reconstructed lepton and the true lepton are less than 0.1 radians. The distribution of opening angles is shown if Figure X. In the case that a reconstructed lepton is being matched to a generator tau, the matching angle is between the reconstructed lepton and the vector formed from the sum of the visible generator components of the tau decay. The visible components of the tau decay consist of the direct decay products whereas photons from final state radiation are excluded. The fake lepton probability is minimized using the background sample $WW\rightarrow q\bar{q}q\bar{q}$ and is a function of the fake lepton reconstruction efficiency $\epsilon_F$. The fake efficiency denominator is the total number of events with visible generator fermions that fall within the same acceptance range $|cos\theta| < 0.99$. The numerator is the total number of events in which contain at least one reconstructed fake lepton. The 4-quark sample fake efficiency represents the binomial probability of $r$-successes(lepton reconstructions) in 4 trials(hadronic jets). The probability of a single success in a single trial, $P_F$, can be directly derived from the Binomial p.d.f using the fake efficiency $\epsilon_F$. The optimal parameters $\alpha$, $\beta$, $E_{iso}$ for each lepton category are extracted from max$[(1-P_F)\epsilon_T]$. The results for each category are shown in Table X. 
+
+Since there is only one expected lepton jet in the signal sample, a single lepton jet is selected as the candidate for the event. If there are multiple lepton jets reconstructed in a single event the lepton jet with the highest energy is selected as the single candidate for the event. The Energy distribution of true and fake leptons is shown in Figure X. If the two highest energy lepton jets are of equal energy then the candidate selected will be the jet with the highest energy original seed track, based on the original seed track sorting.  Any additional lepton jets that are not selected are treated as part of the hadronic system.
+
+
+\subsection{Pileup mitigation}
+\label{subsec:Pileup_mitigation}
+Following the lepton selection the remaining particles in the system are expected to form the hadronically decaying W boson. However, the sum of the four momenta of the paricles  produces a distrbution that is often greater than the true hadonic mass. Figure X shows the systematic mismeasurement of the hadronic W mass. Small variations between the true W mass and measured W mass naturally arise due to the mismeasurment of particles -- specically neutral hadrons. If the diffence between the measured and true W mass is signifcantly negative it means that hadronic particles have been lost due to acceptance.  Events in which the difference between the measured and true W mass is significantly positive indicates that the hadronic system contains particles that are not associated with the WW process i.e. pileup.   To combat the measuerment excess due to pileup jet clustering algorithms via FastJet\cite{fastjet} are used.  The standard approach for pileup mitigation is to use the kT algorithm\cite{kt} and tune the R parameter such that the pileup particles are associated with beam jets while the desired particles are associated to non beam jets. With successful kT clustering the beam jets can be thrown away without damaging the reconstruction of the desired event. However, this approach only works well in events that are centrally produced.  The leading cross-section of WW in the $e^{-}_L e^{+}_R$ polarization yields an kinematic topology where the down like quark tends to be boosted forward causing overlap between the jet particles and pile-up particles. In this topology employing the kT algorithm leads to rejecting desired particles and severe undermeasuremnt of the the W mass. The solution to proper pileup mitigation is through jet fragmentation.   Using the standard JADE algorithm which has no beam jet association and uses the mass based cutoff parameter $y_{cut} > y_{ij}$ where $y_{ij} = M_{ij}^2 / Q^2$ with $M_{ij}$ being the invariant mass of the pair of objects being combined and $Q^2$ being the visible energy in the $e^{+}e^{-}$ annihilation \cite{ycut}. By tuning the $y_{cut}$ parameter the mass of individually reconstructed jets can be controlled. For large ycut values O(1e-3) a single massive jet is reconstructed and in the limit that ycut becomes infinitely small the number of jets reconstructed is the number of reconstructed particles.  The ycut value  chosen is the value that forms mini-jets that safely couple together hard and soft emissions from  the original parton while segregating pile into its own mini-jets. The mini-jets are then subjected to kinematic cuts that are chosen to maximize the pileup rejection and minimize the rejection of true W daughter particles. The optimal ycut and mini-jet kinematic cut combination are selected over the range
+\begin{itemize}
+\item $y_{cut} \in [1\times 10^{-3}, 0.5\times 10^{-3}, \ldots , 4.5\times 10^{-6}, 5\times 10^{-6}$
+\item mini-jet $pT < x $ where $ x \in [0,5]$ in bins of 0.5 GeV
+\item mini-jet $|cos\theta| < y $ where $y \in [0.9, 1]$ in 0.01 bins
+\end{itemize}
+The optimization parameters used to select best combination are two statisical estimators from the distribution of $M_{qq}^{meas} - M_{qq}^{true}$. This binned mass difference distribution is created from the subset of mini-jets that arise from clustering with a given $y_{cut}$ and and also pass some jet veto cut $x$ and $y$. The estimators are the Full Width Half Maximum(FWHM) and the number of entries in the Mode.  
+Using estimators calculated from a binned histogram creates unwanted sensitivity to bin size. To workaround this feature various tricks are employed. First the mode is defined as the center of the bin with the most entries the mode entries is the number of entries in the mode bin plus the number of entries in the mode bins nearest neighbors. For the FWHM, the mass distribution is assumed to be monotonically decreasing around the half maxmimum. 
+
+
+\subsection{EventSelection}
+\label{subsec:EventSelection}

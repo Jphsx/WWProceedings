@@ -1,0 +1,35 @@
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  12 OCT 2019 12:33
+ restricted \write18 enabled.
+**abstract.tex
+(./abstract.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 1 language(s) loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 A
+   n analysis of the semileptonic WW process used to benchmark ILD performan...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+! Emergency stop.
+<*> abstract.tex
+             
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 7 strings out of 495004
+ 100000,89155 words of node,token memory allocated 1223 words of node memory still in use:
+   1 hlist, 31 glue, 147 glyph, 34 glue_spec, 1 temp, 1 local_par, 1 dir nodes
+   avail lists: 2:11,3:2
+ 3695 multiletter control sequences out of 65536+600000
+ 14 fonts using 562767 bytes
+ 5i,0n,4p,191b,15s stack positions out of 5000i,500n,10000p,200000b,100000s
+!  ==> Fatal error occurred, no output PDF file produced!

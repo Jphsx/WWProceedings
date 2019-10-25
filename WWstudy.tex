@@ -1,0 +1,124 @@
+\documentclass[%
+ %reprint, %uncomment to make into two columns
+%superscriptaddress,
+%groupedaddress,
+%unsortedaddress,
+%runinaddress,
+%frontmatterverbose, 
+% preprint, %comment to make into two columns
+%showpacs,preprintnumbers,
+%nofootinbib,
+%nobibnotes,
+%bibnotes,
+ amsmath,amssymb,
+ aps,
+ prc
+%pra,
+%prb,cms@ex
+%rmp,
+%prstab,
+%prstper,
+%floatfix,
+]{revtex4-1}
+
+\usepackage{graphicx}% Include figure files
+\usepackage{graphics}
+\usepackage{ctable}
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{ifthen}
+\usepackage{xspace}
+%\usepackage{ptdr-definitions}
+\usepackage{rotating}
+%number the lines
+\usepackage{lineno,xcolor}
+% Running line numbers:
+%\linenumbers
+\setlength\linenumbersep{5pt}
+\usepackage{setspace}
+\linespread{1.3} %1.3 by default
+\newboolean{cms@external}
+\setboolean{cms@external}{true}
+%\usepackage{hyperref}% add hypertext capabilities
+%\usepackage[mathlines]{lineno}% Enable numbering of text and display math
+%\linenumbers\relax % Commence numbering lines
+
+%\usepackage[showframe,%Uncomment any one of the following lines to test 
+%%scale=0.7, marginratio={1:1, 2:3}, ignoreall,% default settings
+%%text={7in,10in},centering,
+%%margin=1.5in,
+%%total={6.5in,8.75in}, top=1.2in, left=0.9in, includefoot,
+%%height=10in,a5paper,hmargin={3cm,0.8in},
+%]{geometry}
+
+%------------------------------------------------------------
+
+\begin{document}
+
+\title{Study of WW $\rightarrow q\bar{q}\ell\bar{\nu}$ at ILC500 with ILD }
+\author{Justin Anguiano}
+\date{\today}
+
+%------------------------------------------------------------
+
+\begin{abstract}
+\input{abstract.tex}
+\end{abstract}
+
+%------------------------------------------------------------
+
+\maketitle
+
+%------------------------------------------------------------
+
+\section{Introduction and motivation}
+\label{sec:Introduction}
+%\input{introduction.tex}
+
+\section{Electro-weak physics}
+\label{sec:ElectroWeak_physics}
+\subsection{ElectroWeak physics}
+\label{subsec:ElectorWeak_physics}
+\input{physics.tex}
+
+%------------------------------------------------------------
+
+
+%------------------------------------------------------------
+
+\section{The ILC and ILD}
+\label{sec:CMS_detector}
+%\input{CMS_detector.tex}
+
+%------------------------------------------------------------
+
+\section{Measurement of the W mass and other features}
+\label{Current_Work} 
+\input{Current_work.tex}
+%\subsection{Lepton ID}
+%\label{subsec:Lepton_ID}
+
+%\subsection{Pileup mitigation}
+%\label{subsec:Pileup_mitigation}
+
+%\subsection{EventSelection}
+%\label{subsec:EventSelection}
+%------------------------------------------------------------
+
+\section{Future Analysis}
+\label{future_analysis}
+%\input{future_analysis}
+
+%------------------------------------------------------------
+
+\section{Conclusions}
+\label{sec:Conclusions}
+%\input{Conclusions.tex}
+
+%------------------------------------------------------------
+
+\clearpage %uncomment to push bib to next page
+\bibliography{mybib}{}
+\bibliographystyle{plain}
+
+\end{document}

@@ -1,0 +1,41 @@
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  12 OCT 2019 14:24
+ restricted \write18 enabled.
+**physics.tex
+(./physics.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 1 language(s) loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \begin{itemize}
+                 
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 3--3
+[][] 
+ []
+
+)
+! Emergency stop.
+<*> physics.tex
+            
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 9 strings out of 495004
+ 100000,89155 words of node,token memory allocated 1621 words of node memory still in use:
+   18 hlist, 68 glue, 14 penalty, 139 glyph, 54 glue_spec, 5 local_par, 1 dir no
+des
+   avail lists: 2:12,4:1,5:1,6:1,7:8,10:7
+ 3697 multiletter control sequences out of 65536+600000
+ 14 fonts using 562767 bytes
+ 9i,1n,6p,74b,62s stack positions out of 5000i,500n,10000p,200000b,100000s
+!  ==> Fatal error occurred, no output PDF file produced!
