@@ -20,7 +20,7 @@
 %prstper,
 %floatfix,
 ]{revtex4-1}
-
+\usepackage[compat=1.0.0]{tikz-feynman}
 \usepackage{graphicx}% Include figure files
 \usepackage{graphics}
 \usepackage{ctable}
@@ -39,6 +39,10 @@
 \linespread{1.3} %1.3 by default
 \newboolean{cms@external}
 \setboolean{cms@external}{true}
+\usepackage{amsfonts}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{capt-of}
 %\usepackage{hyperref}% add hypertext capabilities
 %\usepackage[mathlines]{lineno}% Enable numbering of text and display math
 %\linenumbers\relax % Commence numbering lines
@@ -75,10 +79,10 @@
 \label{sec:Introduction}
 %\input{introduction.tex}
 
-\section{Electro-weak physics}
-\label{sec:ElectroWeak_physics}
-\subsection{ElectroWeak physics}
-\label{subsec:ElectorWeak_physics}
+\section{Physics}
+\label{sec:physics}
+%\subsection{Standa physics}
+%\label{subsec:ElectorWeak_physics}
 \input{physics.tex}
 
 %------------------------------------------------------------
@@ -87,8 +91,8 @@
 %------------------------------------------------------------
 
 \section{The ILC and ILD}
-\label{sec:CMS_detector}
-%\input{CMS_detector.tex}
+\label{sec:ILC_detector}
+\input{detector.tex}
 
 %------------------------------------------------------------
 

@@ -1,0 +1,45 @@
+
+
+
+
+
+trigger system uneccessary, record every single (bunch crossing) event because the event rate compared to hadron collider is very low
+
+polarization
+polarized beams
+
+beamstrasshlung
+
+luminosity 
+
+ILD
+Particle flow
+
+synchotron radiation linac vs circular collider
+comparision to hadron colliders QCD background / clean environment
+
+describe forward region, this can link to efficiency of cos theta lepton
+proceedings paper? 2017
+proceedings give a luminosity error estimate 10^-3
+
+vtx detector
+main tracker tpc
+ecal 
+hcal
+forward detectors lumical beam cal
+
+
+description of ILCsoft
+Geant4 full sim etc.
+
+chapter 5 is about WW production wrt helicity in ivan thesis
+
+The use of longitudinally polarized beams plays a major role in reducing the background
+contribution as much as possible, while enhancing the signal rates. This is particularly
+important for searches for new physics, where the signal contribution is often expected
+to be extremely small compared to the SM background.
+
+LONGITUDINALLY POLARIZED BEAMS-- 
+
+in physics section talk about how W couples and cross section sensitivity J=1 vector particles in S-channel
+also tchannel W only couples to left handed elec and right handed pos 
