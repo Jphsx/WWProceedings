@@ -1,11 +1,38 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{pdg}
+Review of particle physics.
+\newblock {\em Phys. Rev. D}, 98:030001, Aug 2018.
+
+\bibitem{tdraccel}
+Chris Adolphsen.
+\newblock The international linear collider technical design report-volume 3.
+  ii: Accelerator baseline design.
+\newblock Technical report, Argonne National Lab.(ANL), Argonne, IL (United
+  States); Thomas Jefferson~…, 2013.
+
+\bibitem{lcio}
+Steve Aplin, Jan Engels, Frank Gaede, Norman~A. Graf, Tony Johnson, and Jeremy
+  McCormick.
+\newblock {LCIO: A Persistency Framework and Event Data Model for HEP}.
+\newblock In {\em {Proceedings, 2012 IEEE Nuclear Science Symposium and Medical
+  Imaging Conference (NSS/MIC 2012): Anaheim, California, USA, October
+  29-November 3, 2012}}, pages 2075--2079, 2012.
 
 \bibitem{currdetector}
 et~al Bambade, Philip.
+\newblock The international linear collider: A global project., 2019.
+
+\bibitem{tdrdet}
+Ties Behnke.
+\newblock The international linear collider technical design report-volume 4:
+  detectors.
+\newblock Technical report, Argonne National Lab.(ANL), Argonne, IL (United
+  States); Pacific Northwest~…, 2013.
 
 \bibitem{fastjet}
 Gavin P.~Salam Cacciari, Matteo and Gregory Soyez.
-\newblock Fastjet user manual.
+\newblock Fastjet user manual., 2012.
 
 \bibitem{kt}
 et~al. Catani, Stefano.
@@ -16,6 +43,17 @@ et~al. Catani, Stefano.
 et~al Dokshitzer, Yu~L.
 \newblock Better jet clustering algorithms., 1997.
 
+\bibitem{whizard}
+W.~Kilian, F.~Bach, T.~Ohl, and J.~Reuter.
+\newblock {WHIZARD 2.2 for Linear Colliders}.
+\newblock In {\em {International Workshop on Future Linear Colliders (LCWS13)
+  Tokyo, Japan, November 11-15, 2013}}, 2014.
+
+\bibitem{pfa}
+JS~Marshall and MA~Thomson.
+\newblock The pandora particle flow algorithm.
+\newblock {\em arXiv preprint arXiv:1308.4537}, 2013.
+
 \bibitem{helicity}
 GA~Moortgat-Pick, T~Abe, G~Alexander, B~Ananthanarayan, A~Babich, et~al.
 \newblock The role of polarized positrons and electrons in revealing
@@ -23,49 +61,21 @@ GA~Moortgat-Pick, T~Abe, G~Alexander, B~Ananthanarayan, A~Babich, et~al.
   (2008).
 \newblock {\em arXiv preprint hep-ph/0507011}.
 
-\bibitem{pdg}
-M.~Tanabashi, K.~Hagiwara, K.~Hikasa, K.~Nakamura, Y.~Sumino, F.~Takahashi,
-  J.~Tanaka, K.~Agashe, G.~Aielli, C.~Amsler, M.~Antonelli, D.~M. Asner,
-  H.~Baer, Sw. Banerjee, R.~M. Barnett, T.~Basaglia, C.~W. Bauer, J.~J. Beatty,
-  V.~I. Belousov, J.~Beringer, S.~Bethke, A.~Bettini, H.~Bichsel, O.~Biebel,
-  K.~M. Black, E.~Blucher, O.~Buchmuller, V.~Burkert, M.~A. Bychkov, R.~N.
-  Cahn, M.~Carena, A.~Ceccucci, A.~Cerri, D.~Chakraborty, M.-C. Chen, R.~S.
-  Chivukula, G.~Cowan, O.~Dahl, G.~D'Ambrosio, T.~Damour, D.~de~Florian,
-  A.~de~Gouv\^ea, T.~DeGrand, P.~de~Jong, G.~Dissertori, B.~A. Dobrescu,
-  M.~D'Onofrio, M.~Doser, M.~Drees, H.~K. Dreiner, D.~A. Dwyer, P.~Eerola,
-  S.~Eidelman, J.~Ellis, J.~Erler, V.~V. Ezhela, W.~Fetscher, B.~D. Fields,
-  R.~Firestone, B.~Foster, A.~Freitas, H.~Gallagher, L.~Garren, H.-J. Gerber,
-  G.~Gerbier, T.~Gershon, Y.~Gershtein, T.~Gherghetta, A.~A. Godizov,
-  M.~Goodman, C.~Grab, A.~V. Gritsan, C.~Grojean, D.~E. Groom, M.~Gr\"unewald,
-  A.~Gurtu, T.~Gutsche, H.~E. Haber, C.~Hanhart, S.~Hashimoto, Y.~Hayato, K.~G.
-  Hayes, A.~Hebecker, S.~Heinemeyer, B.~Heltsley, J.~J. Hern\'andez-Rey,
-  J.~Hisano, A.~H\"ocker, J.~Holder, A.~Holtkamp, T.~Hyodo, K.~D. Irwin, K.~F.
-  Johnson, M.~Kado, M.~Karliner, U.~F. Katz, S.~R. Klein, E.~Klempt, R.~V.
-  Kowalewski, F.~Krauss, M.~Kreps, B.~Krusche, Yu.~V. Kuyanov, Y.~Kwon,
-  O.~Lahav, J.~Laiho, J.~Lesgourgues, A.~Liddle, Z.~Ligeti, C.-J. Lin,
-  C.~Lippmann, T.~M. Liss, L.~Littenberg, K.~S. Lugovsky, S.~B. Lugovsky,
-  A.~Lusiani, Y.~Makida, F.~Maltoni, T.~Mannel, A.~V. Manohar, W.~J. Marciano,
-  A.~D. Martin, A.~Masoni, J.~Matthews, U.-G. Mei\ss{}ner, D.~Milstead, R.~E.
-  Mitchell, K.~M\"onig, P.~Molaro, F.~Moortgat, M.~Moskovic, H.~Murayama,
-  M.~Narain, P.~Nason, S.~Navas, M.~Neubert, P.~Nevski, Y.~Nir, K.~A. Olive,
-  S.~Pagan~Griso, J.~Parsons, C.~Patrignani, J.~A. Peacock, M.~Pennington,
-  S.~T. Petcov, V.~A. Petrov, E.~Pianori, A.~Piepke, A.~Pomarol, A.~Quadt,
-  J.~Rademacker, G.~Raffelt, B.~N. Ratcliff, P.~Richardson, A.~Ringwald,
-  S.~Roesler, S.~Rolli, A.~Romaniouk, L.~J. Rosenberg, J.~L. Rosner, G.~Rybka,
-  R.~A. Ryutin, C.~T. Sachrajda, Y.~Sakai, G.~P. Salam, S.~Sarkar, F.~Sauli,
-  O.~Schneider, K.~Scholberg, A.~J. Schwartz, D.~Scott, V.~Sharma, S.~R.
-  Sharpe, T.~Shutt, M.~Silari, T.~Sj\"ostrand, P.~Skands, T.~Skwarnicki, J.~G.
-  Smith, G.~F. Smoot, S.~Spanier, H.~Spieler, C.~Spiering, A.~Stahl, S.~L.
-  Stone, T.~Sumiyoshi, M.~J. Syphers, K.~Terashi, J.~Terning, U.~Thoma, R.~S.
-  Thorne, L.~Tiator, M.~Titov, N.~P. Tkachenko, N.~A. T\"ornqvist, D.~R. Tovey,
-  G.~Valencia, R.~Van~de Water, N.~Varelas, G.~Venanzoni, L.~Verde, M.~G.
-  Vincter, P.~Vogel, A.~Vogt, S.~P. Wakely, W.~Walkowiak, C.~W. Walter,
-  D.~Wands, D.~R. Ward, M.~O. Wascko, G.~Weiglein, D.~H. Weinberg, E.~J.
-  Weinberg, M.~White, L.~R. Wiencke, S.~Willocq, C.~G. Wohl, J.~Womersley,
-  C.~L. Woody, R.~L. Workman, W.-M. Yao, G.~P. Zeller, O.~V. Zenin, R.-Y. Zhu,
-  S.-L. Zhu, F.~Zimmermann, P.~A. Zyla, J.~Anderson, L.~Fuller, V.~S. Lugovsky,
-  and P.~Schaffner.
-\newblock Review of particle physics.
-\newblock {\em Phys. Rev. D}, 98:030001, Aug 2018.
+\bibitem{ilcsoft}
+R.~Poeschl.
+\newblock {Software Tools for ILC Detector Studies}.
+\newblock {\em eConf}, C0705302:PLE104, 2007.
+\newblock [,61(2007)].
+
+\bibitem{dd4hep}
+A.~Sailer, M.~Frank, F.~Gaede, D.~Hynds, S.~Lu, N.~Nikiforou, M.~Petric,
+  R.~Simoniello, and G.~Voutsinas.
+\newblock {DD4Hep based event reconstruction}.
+\newblock {\em J. Phys. Conf. Ser.}, 898(4):042017, 2017.
+
+\bibitem{thomson}
+Mark Thomson.
+\newblock {\em Modern particle physics}.
+\newblock Cambridge University Press, 2013.
 
 \end{thebibliography}

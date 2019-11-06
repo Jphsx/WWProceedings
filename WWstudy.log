@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  5 NOV 2019 17:14
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  6 NOV 2019 14:09
  restricted \write18 enabled.
 **WWstudy.tex
 (./WWstudy.tex
@@ -1147,30 +1147,30 @@ File: feyngraph.1 Graphic file (type mps)
 File: feyngraph.2 Graphic file (type mps)
  [MP to PDF] (./feyngraph.2)
 (./feyngraph.t2)) (./detector.tex
+Missing character: There is no − (U+2212) in font cmr7!
+Missing character: There is no − (U+2212) in font cmr7!
+Missing character: There is no − (U+2212) in font cmr7!
+Missing character: There is no − (U+2212) in font cmr7!
+ [4<./helicity1.pdf><./helicity2.pdf>]
+<ilc.pdf, id=54, 1438.37375pt x 590.205pt>
+File: ilc.pdf Graphic file (type pdf)
+ <use ilc.pdf>
+Package pdftex.def Info: ilc.pdf used on input line 9.
+(pdftex.def)             Requested size: 458.99689pt x 188.3381pt.
+ [5<./ilc.pdf>]
+<ild3d.pdf, id=65, 1176.395pt x 824.07875pt>
+File: ild3d.pdf Graphic file (type pdf)
+ <use ild3d.pdf>
+Package pdftex.def Info: ild3d.pdf used on input line 22.
+(pdftex.def)             Requested size: 249.9028pt x 175.0484pt.
 
-Package natbib Warning: Citation `TDR' on page 4 undefined on input line 6.
-
-[4<./helicity1.pdf><./helicity2.pdf>]
-
-Package natbib Warning: Citation `pfa' on page 5 undefined on input line 11.
-
-
-Package natbib Warning: Citation `ilcsoft' on page 5 undefined on input line 18.
-
-
-
-Package natbib Warning: Citation `dd4hep' on page 5 undefined on input line 18.
-
-
-Package natbib Warning: Citation `whizard' on page 5 undefined on input line 18.
-
-
-[5
-Missing character: There is no · (U+00B7) in font cmr10!
-Missing character: There is no − (U+2212) in font cmr10!
-Missing character: There is no − (U+2212) in font cmr10!
-Missing character: There is no − (U+2212) in font cmr10!
-]) (./Current_work.tex
+<ildxsec.pdf, id=66, 847.165pt x 774.895pt>
+File: ildxsec.pdf Graphic file (type pdf)
+ <use ildxsec.pdf>
+Package pdftex.def Info: ildxsec.pdf used on input line 23.
+(pdftex.def)             Requested size: 249.9028pt x 228.58022pt.
+)
+(./Current_work.tex [6<./ild3d.pdf><./ildxsec.pdf>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
@@ -1183,48 +1183,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--20
 
  []
 
-[6] [7] [8]) (./WWstudy.bbl [9])
-
-Package natbib Warning: There were undefined citations.
-
-[10
+[7] [8] [9]) (./WWstudy.bbl [10]) [11
+Missing character: There is no … (U+2026) in font cmr9!
+Missing character: There is no … (U+2026) in font cmr9!
 Missing character: There is no ⊥ (U+22A5) in font cmr9!
 ] (./WWstudy.aux))
 
 Here is how much of LuaTeX's memory you used:
- 29531 strings out of 495004
+ 29580 strings out of 495004
  100000,794899 words of node,token memory allocated
- 421 words of node memory still in use:
+ 431 words of node memory still in use:
    10 hlist, 2 vlist, 2 rule, 1 glue, 4 kern, 46 glue_spec nodes
-   avail lists: 1:6,2:45,3:1986,4:2959,5:518,6:8493,7:677,8:1,9:662,10:815
- 32017 multiletter control sequences out of 65536+600000
+   avail lists: 1:6,2:45,3:1996,4:2949,5:518,6:8493,7:677,8:1,9:662,10:720
+ 32054 multiletter control sequences out of 65536+600000
  95 fonts using 3742019 bytes
  61i,18n,105p,2846b,1623s stack positions out of 5000i,500n,10000p,200000b,100000s
-<</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><</usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><</usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><</usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><</usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi6.pfb><</usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi7.pfb><</usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-12.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><</usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><</usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><</usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><</usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy5.pfb><</usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy6.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy7.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmti10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-i9.pfb>
-Output written on WWstudy.pdf (10 pages, 346440 bytes).
+<</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><</usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><</usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><</usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><</usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi7.pfb><</usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb><</usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5
+.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><</
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><</usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><</usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><</usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy5.pfb><</usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy6.pfb><</usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy7.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmti10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti9.pfb>
+Output written on WWstudy.pdf (11 pages, 1475849 bytes).
 
-PDF statistics: 143 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
+PDF statistics: 168 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
