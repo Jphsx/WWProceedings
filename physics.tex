@@ -5,7 +5,10 @@ The current standard model consists of two types of elementary particles: fermio
 
 --- \textit{The W-boson }\\
  The W boson is electrically charged where as its partner the Z is electrically neutral. The W boson decays through a flavor changing vertex, meaning that the particles involved in the decay vertex are always different flavors, and often the same generation, as long as charge and lepton number is conserved. Examples of the W fundamental vertices coupling with fermions is shown in Figure \ref{fig:verts}. The rate at which the W decays hadronically(to a pair of quarks) or Branching Ratio(BR) is $\approx 70\%$. The rate at which a charged lepton and neutrino is produced is $\approx30\%$ and is split approximately evenly between the three charged leptons. The most difficult reconstruction of a final state from W decay is the case of a tau lepton. The tau can mimic the signature of hadrons or other leptons in a detector in addition to producing additional missing energy via neutrinos. The tau has a shorter lifetime compared to the other charged leptons and flies a short distance before decaying. If produced from the interaction point in a detector, the tau will travel on average $8\,\mu\text{m}$ before decaying. The other leptons, like the electron, is stable and doesn't decay, and the muon is not stable but is unlikely to decay inside of the detector. The tau lepton mainly decays hadronically -- into a tau neutrino and virtual W-boson that produces a pair of quarks. The virtual W's daughter quarks will hadronize into a charged particle ($\pi^\pm$) or radiate more quarks that form either more charged or neutral particles ($\pi^0$). If $\pi^0$'s are created they immediately decay into two photons. When a tau produces a single charged particle this is classified as a 1-prong decay, 3 charged particles is classified as a 3-prong decay. The virtual W in the tau decay is allowed to decay into leptons, so, the tau final state can include either a electron or muon along with the corresponding flavor neutrinos. The decay rates for tau are given in Table \ref{tab:taudecay}.
+
 \begin{table}[h] 
+
+ \parbox{249pt}{
     \begin{minipage}{0.45\textwidth}
         \centering
  \begin{tabular}{|c|l|c|} \toprule
@@ -29,7 +32,8 @@ The current standard model consists of two types of elementary particles: fermio
   
     \end{minipage}\hfill
 
-   
+   }
+   \parbox{249pt}{
 
     \begin{minipage}{0.45\textwidth}
         \centering
@@ -48,11 +52,11 @@ The current standard model consists of two types of elementary particles: fermio
        \captionof{figure}{Fundamental vertices between the W-boson and fermions}
        \label{fig:verts}
     \end{minipage}
-
+}
 \end{table}
 
 --- \textit {The W Mass}\\
-The W-boson is an unstable particle and abides by a total decay rate $\Gamma = 1/\tau$ where $\tau$ is the average lifetime.  A consequence of this decay length is that the observed mass distribution will approximately follow a Breit-Wigner distribution. The mass distribution is centered on the nominal W mass $M_W$ with a width characterized by the full width half maximum $\Gamma_W$. The current highest precision measurement for the mass and width are results of measurements through $W^+W^-$ production. These measurements use the combined results from LEP and Tevatron experiments which reports $M_W = 80.379 \pm 0.012 \, \, \text{GeV} $ and $\Gamma_W = 2.085 \pm 0.042 \,  \,\text{GeV}$ \cite{pdg}. The diagrams representing WW are given in Figure \ref{fig:wwdiag}. The final states of the WW process are either the fully hadronic $WW\rightarrow q\bar{q}q\bar{q}$, semileptonic $WW\rightarrow q\bar{q}\ell\nu_{\ell}$, or fully leptonic $WW\rightarrow \ell \nu \ell \nu$. The semileptonic mode is the most favorable way to measure the W mass because the hadronic system is easily obtained after the identification of the lepton. The hadronic mode is more challenging due to the combinatoric assignment of the four hadronic jets into two W's. The leptonic is also challenging because of the presence of two neutrinos.
+The W-boson is an unstable particle and abides by a total decay rate $\Gamma = 1/\tau$ where $\tau$ is the average lifetime.  A consequence of this decay length is that the observed mass distribution will approximately follow a Breit-Wigner distribution. The mass distribution is centered on the nominal W mass $M_W$ with a width characterized by the full width half maximum $\Gamma_W$. The current highest precision measurement for the mass and width are results of measurements through $W^+W^-$ production. These measurements use the combined results from LEP and Tevatron experiments which reports $M_W = 80.379 \pm 0.012 \, \, \text{GeV} $ and $\Gamma_W = 2.085 \pm 0.042 \,  \,\text{GeV}$ \cite{pdg}. The diagrams representing WW are given in Figure \ref{fig:wwdiag}. The final states of the WW process are either the fully hadronic $WW\rightarrow q\bar{q}q\bar{q}$, semileptonic $WW\rightarrow q\bar{q}\ell\nu_{\ell}$, or fully leptonic $WW\rightarrow \ell \nu \ell \nu$. The semileptonic mode is the most favorable way to measure the W mass because the hadronic system is easily obtained after the identification of the lepton. The hadronic mode is more challenging due to the combinatoric assignment of the four hadronic jets into two W's. The leptonic channel is also difficult because of the presence of two neutrinos.
 
 
 \begin{figure}
@@ -78,15 +82,78 @@ The W-boson is an unstable particle and abides by a total decay rate $\Gamma = 1
 
 \subsection{The Anatomy of an Event}
 \label{subsec:collphsx}
+--- \textit{Beam effects}\\
+Figure \ref{fig:wwdiag} illustrates the production of WW through initial state $e^- \, e^+$ annihlation. Within the collider $e^- e^+$ annihilation presents two important effects. The first is beamstrasshlung or initial state radiation(ISR), this process occurs when one of the electron/positron beams radiates a photon. The radiated photon generally goes undetected by escaping down the beam-pipe causing the effective center of mass energy to be reduced at the interaction point. Secondary particles from ISR can also scatter  into the detector and mix in with the event of interest. These ISR particles add a source of confusion wherein the foreign particles ``pile-up"  ontop of the true particles of an event, thus  trying to resolve the true particles of the event becomes more challenging. 
 
-THe figure X shows the production of WW through $e^- \, e^+$ annihlation. Through this mode of production two important effects are present in this mode. first is beamstrasshlung and beamstrashhlung or commonly referred to as initial state radiation(ISR) occurs when one of the electron beams interact with a electromagnetic field which then produces a photon through brehmstrasshlung radiation. This process is can generally go undetected since a high energy photon will escape down the beampipe. This causes the effective center of mass energy to be less at the interaction point. secondary particles from this process can also scatter off of the beam particles into the detector and mix in with the event of interest adding a source of confusion or pileup when trying to resolve the true particles associated with the event at the interaction point. 
-The second underlying physics property in every event is related to the spin or helicity of the electron positron. The possible combination of electron positron helicities in a collision is  $e^-_L e^+_R$(LR) with lefthanded electron and right handed positron , $e^-_R e^+_L$(RL) right handed electron and left handed positron as well as mirroring helicities RR and LL.  The beams in the collider however are mixed with multiple helicities which are represented by the polarization overall partial beam polarizations $Pe^- \, Pe^+$.  In the s-channel electron positron annihlation the helicties of the beams are coupled WW can only be produced in LR and RL configurations, whereas in the mirrored configuration the  recombination
-into a vector particle with J = 1 is  not possible. The possible t-channel diagrams the W's are directly coupled to the beam particles. The W has pure coupling only to left handed electrons or right handed positrons Therefore in WW production the number of events produced are sensitive to the beam polarization.  which means the overall cross-section for WW production is sensitive to beam polarizations. 
+--- \textit{Helicity}\\
+The second underlying physics property in every event is related to the helicity(spin) of the electron and positron. There are four possible combinations of electron positron helicities where each initial particle is either left or right handed. More explicitly, a collision can consist of  $e^-_L e^+_R$(LR) with left handed electron and right handed positron , $e^-_R e^+_L$(RL)  with right handed electron and left handed positron, or mirroring helicities RR and LL.  The beams in the collider are mixed with multiple helicities which is represented by an overall partial beam polarizations $P_{e^-} \, P_{e^+}$. A diagram of possible tree-level spin configuration is shown in Figure \ref{fig:spindiag}. In the s-channel, the electron positron helicities  are directly coupled, therefore, two W-bosons can only be produced in LR and RL configurations, whereas in the mirrored configuration the  recombination into particle of spin 1 is  not possible. In the t-channel diagrams, the W's are directly coupled to the beam particles. The W has pure coupling only to left handed electrons or right handed positrons so the number of  WW events produced are sensitive to the beam polarization.  If the number of events produced is sensitive to polarization then the overall cross-section for WW production is sensitive to beam polarization. 
 
-THe cross-section is important to measure because it gives it verifies consistency with the underlying standard model predictions for the rate at which a process occurs, But is doubly important for the WW process because it can implicitly provide a in situ measurement of the beam polarizations. A cross section is measured as a cross-sectional area and represents the probability of an interaction . The total number of events observed for a process is given by $n = \sigma \dot L$ where $\sigma$ is the crossection for a specific process and $L$ is the integrated luminosity and is a measure of the total number of collisions. In a physics analysis the desired process (signal) is accompanied other processes (background) which can unfortuanetly be nearly indistinguishable from the signal events. kinematic cuts are applied to each event to minimize the contamination of background events that enter the signal region. This reduces the number of observed events $n$ by the number of events lost to the event selection cuts. Thus the number of events observed is then $n = \sigma \dot L \dot \epsilon$ where $\epsilon$ is the efficiency of the signal selection: In Monte Carlo, the Number of signal events that pass selection/ the total number of signal events that can be selected.  
-One thing to note is that for a specific``process" the cross section includes contributions from all feynman diagrams that have the same initial and final state particles. which may include diagrams that are essentially not ``signal-like" for WW examples of these contribution diagrams are given in figure X.
-FIGURE off shell guys: elec photon and zw in ww
+\begin{figure}
+\label{fig:spindiag}
+\includegraphics[width=0.49\textwidth]{helicity1.pdf}
+\includegraphics[width=0.49\textwidth]{helicity2.pdf}
+\caption{Possible spin configurations in the s and t channel. \cite{helicity}}
+\end{figure}
 
+
+--- \textit{Cross-section}\\
+The cross-section is an important measurement because it verifies consistency with the underlying standard model predictions for the rate at which a process occurs. This measurement is doubly important for the WW process because it implicitly provides a in situ measurement of the beam polarizations. By definition, the cross-section is a cross-sectional area and represents the probability of an interaction. The total number of events $N$ observed for a process is given by $ N= \sigma L$ the cross-section is denoted by $\sigma$ and $L$ is the integrated luminosity which is a measure of the total number of collisions. In a physics analysis the desired process(signal) is accompanied other processes(background) that can unfortunately be nearly indistinguishable from the signal events. Topologocial or kinematic cuts are applied to each event to minimize the contamination of background events that enter the signal region when trying to count the number of signal events. This reduces the number of observed events $N$ by the number of events lost to the event selection cuts. Thus the number of events observed is then 
+\begin{equation}
+N = \sigma  L  \epsilon
+\end{equation}
+where $\epsilon$ is the efficiency of the signal selection in Monte Carlo simulation. The signal efficiency is defined as:
+ \begin{equation}
+\epsilon = \frac{\text{The number of signal events that pass selection}}{ \text{The total number of signal events that can be selected}}
+\end{equation} 
+One thing to note is that for a specific process the cross-section includes contributions from all Feynman diagrams that have the same initial and final state particles. This includes diagrams that are essentially not ``signal-like" for WW examples of these contribution diagrams are given in Figure \ref{fig:offshell}.
+
+\begin{figure}
+\begin{fmffile}{feyngraph}
+\parbox{100pt}{
+\begin{fmfgraph*}(85,75)
+\fmflabel{\sm$e^+ $}{v 16}
+\fmf{fermion}{v 20,v 16}
+\fmflabel{\sm$e^+ $}{v  4}
+\fmf{fermion}{v  4,v 20}
+\fmf{boson,lab=\sm\cyan$\gamma$}{v 21,v 20}
+\fmflabel{\sm$\bar{u} $}{v  1}
+\fmf{fermion}{v  1,v 21}
+\fmf{fermion,lab=\sm\cyan$\bar{u}$}{v 21,v 23}
+\fmflabel{\sm$d\ $}{v  2}
+\fmf{fermion}{v 23,v  2}
+\fmf{boson,lab=\sm\cyan$W^-$}{v 23,v  0}
+\fmflabel{\sm$\nu_e $}{v  8}
+\fmf{fermion}{v  0,v  8}
+\fmflabel{\sm$e^- $}{v 32}
+\fmf{fermion}{v 32,v  0}
+\fmfleft{v 16,v 32}
+\fmfright{v  4,v  1,v  2,v  8}
+\end{fmfgraph*}\\ 
+} \quad \parbox{100pt}{
+\begin{fmfgraph*}(100,75)
+\fmflabel{\sm$e^+ $}{v 16}
+\fmf{fermion}{v  0,v 16}
+\fmflabel{\sm$\nu_\mu $}{v  8}
+\fmf{fermion}{v 11,v  8}
+\fmflabel{\sm$\bar{u} $}{v  1}
+\fmf{fermion}{v  1,v  3}
+\fmflabel{\sm$d $}{v  2}
+\fmf{fermion}{v  3,v  2}
+\fmf{boson,lab=\sm\blue$W^-$}{v  3,v 11}
+\fmf{fermion}{v 15,v 11}
+\fmflabel{\sm$\mu^+$}{v  4}
+\fmf{fermion}{v  4,v 15}
+\fmf{boson,lab=\sm\blue$Z$}{v  0,v 15}
+\fmflabel{\sm$e^- $}{v 32}
+\fmf{fermion}{v 32,v  0}
+\fmfleft{v 16,v 32}
+\fmfright{v  8,v  1,v  2,v  4}
+\end{fmfgraph*}\\
+}
+\end{fmffile}
+\caption{Non signal-like contributions to the WW cross-section, such that, a pair of final state particles are not constrained to the W mass distribution. }
+\label{fig:offshell}
+\end{figure}
 
 
 

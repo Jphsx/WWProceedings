@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  4 NOV 2019 21:30
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  5 NOV 2019 17:14
  restricted \write18 enabled.
 **WWstudy.tex
 (./WWstudy.tex
@@ -1004,42 +1004,19 @@ Package: translator 2010/06/12 ver 1.10
 mappings.tex))) (/usr/share/texlive/texmf-dist/tex/latex/capt-of/capt-of.sty
 Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
 )
-Class revtex4-1 Info: Patching array package. on input line 60.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 60.
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 60.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 60.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 60.
+(/usr/share/texlive/texmf-dist/tex/latex/feynmp-auto/feynmp-auto.sty
+Package: feynmp-auto 2013/05/03 v1.1 Automatic processing of feynmp graphics
 
-(./WWstudy.aux)
-\openout1 = WWstudy.aux
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
- ABD: EveryShipout initializing macros
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count191
-\scratchdimen=\dimen313
-\scratchbox=\box84
-\nofMPsegments=\count192
-\nofMParguments=\count193
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count194
-\MPscratchDim=\dimen314
-\MPnumerator=\count195
-\makeMPintoPDFobject=\count196
-\everyMPtoPDFconversion=\toks44
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+(/usr/share/texmf/tex/latex/feynmf/feynmp.sty
+Package: feynmp 1996/12/02 v1.08 LaTeX/MetaPost Feynman Diagram Package (ohl)
+\@outfmf=\write5
+\fmfbuf@=\toks43
+\c@fmfgraph=\count191
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
 
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -1050,9 +1027,44 @@ Package pdftexcmds Info: \pdfdraftmode found.
 Package: luatex-loader 2010/03/09 v0.4 Lua module loader (HO)
 
 (/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua))
-\pdftexcmds@toks=\toks45
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+\pdftexcmds@toks=\toks44
+))
+Class revtex4-1 Info: Patching array package. on input line 70.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 70.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 70.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 70.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 70.
+
+(./WWstudy.aux)
+\openout1 = WWstudy.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+ ABD: EveryShipout initializing macros
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count192
+\scratchdimen=\dimen313
+\scratchbox=\box84
+\nofMPsegments=\count193
+\nofMParguments=\count194
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count195
+\MPscratchDim=\dimen314
+\MPnumerator=\count196
+\makeMPintoPDFobject=\count197
+\everyMPtoPDFconversion=\toks46
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -1080,7 +1092,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 
 Package tikz-feynman Warning: The preamble requested version 1.0.0, but the syst
-em version is 1.1.0. This may change some diagrams. on input line 60.
+em version is 1.1.0. This may change some diagrams. on input line 70.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
@@ -1091,57 +1103,57 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 )
 Class revtex4-1 Info: Overriding lineo.sty, restoring output routine, on input l
-ine 60.
-Class revtex4-1 Info: Line numbering not turned on yet on input line 60.
+ine 70.
+Class revtex4-1 Info: Line numbering not turned on yet on input line 70.
 
 \openout3 = WWstudyNotes.bib
-Class revtex4-1 Info: Overriding \@LN@LLerror on input line 60.
-\c__siunitx_mathsf_int=\count197
-LaTeX Font Info:    Try loading font information for U+msa on input line 60.
+Class revtex4-1 Info: Overriding \@LN@LLerror on input line 70.
+\c__siunitx_mathsf_int=\count198
+LaTeX Font Info:    Try loading font information for U+msa on input line 70.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 60.
+LaTeX Font Info:    Try loading font information for U+msb on input line 70.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\c__siunitx_mathtt_int=\count198
+\c__siunitx_mathtt_int=\count199
  (./abstract.tex)
 
 Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./physics.tex
 
-Package natbib Warning: Citation `pdg' on page 2 undefined on input line 26.
-
-
-Package natbib Warning: Citation `pdg' on page 2 undefined on input line 26.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[2] [3] <helicity1.pdf, id=31, 1402.23875pt x 430.60875pt>
+File: helicity1.pdf Graphic file (type pdf)
+ <use helicity1.pdf>
+Package pdftex.def Info: helicity1.pdf used on input line 93.
+(pdftex.def)             Requested size: 249.9028pt x 76.73747pt.
 
-Package natbib Warning: Citation `pdg' on page 2 undefined on input line 55.
+<helicity2.pdf, id=32, 1271.75125pt x 493.845pt>
+File: helicity2.pdf Graphic file (type pdf)
+ <use helicity2.pdf>
+Package pdftex.def Info: helicity2.pdf used on input line 94.
+(pdftex.def)             Requested size: 249.9028pt x 97.04163pt.
 
-[2] [3]) (./detector.tex
+\openout5 = feyngraph.mp
+File: feyngraph.1 Graphic file (type mps)
 
-Package natbib Warning: Citation `currdetector' on page 4 undefined on input lin
-e 6.
-
+[MP to PDF] (./feyngraph.1) (./feyngraph.t1)
+File: feyngraph.2 Graphic file (type mps)
+ [MP to PDF] (./feyngraph.2)
+(./feyngraph.t2)) (./detector.tex
 
 Package natbib Warning: Citation `TDR' on page 4 undefined on input line 6.
 
+[4<./helicity1.pdf><./helicity2.pdf>]
 
-Package natbib Warning: Citation `pfa' on page 4 undefined on input line 11.
+Package natbib Warning: Citation `pfa' on page 5 undefined on input line 11.
 
-[4
-Missing character: There is no · (U+00B7) in font cmr10!
-Missing character: There is no − (U+2212) in font cmr10!
-Missing character: There is no − (U+2212) in font cmr10!
-Missing character: There is no − (U+2212) in font cmr10!
-]
 
 Package natbib Warning: Citation `ilcsoft' on page 5 undefined on input line 18.
 
@@ -1153,61 +1165,66 @@ Package natbib Warning: Citation `dd4hep' on page 5 undefined on input line 18.
 Package natbib Warning: Citation `whizard' on page 5 undefined on input line 18.
 
 
-) (./Current_work.tex
+[5
+Missing character: There is no · (U+00B7) in font cmr10!
+Missing character: There is no − (U+2212) in font cmr10!
+Missing character: There is no − (U+2212) in font cmr10!
+Missing character: There is no − (U+2212) in font cmr10!
+]) (./Current_work.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
 
-[5]
 Underfull \hbox (badness 10000) in paragraph at lines 16--20
 
  []
 
-[6]
-
-Package natbib Warning: Citation `fastjet' on page 7 undefined on input line 55.
-
-
-
-Package natbib Warning: Citation `kt' on page 7 undefined on input line 55.
-
-[7]) (./WWstudy.bbl [8])
+[6] [7] [8]) (./WWstudy.bbl [9])
 
 Package natbib Warning: There were undefined citations.
 
-[9] (./WWstudy.aux))
+[10
+Missing character: There is no ⊥ (U+22A5) in font cmr9!
+] (./WWstudy.aux))
 
 Here is how much of LuaTeX's memory you used:
- 29196 strings out of 495004
- 125006,794899 words of node,token memory allocated
- 399 words of node memory still in use:
-   10 hlist, 2 vlist, 2 rule, 1 glue, 2 kern, 46 glue_spec nodes
-   avail lists: 1:15,2:52,3:1979,4:2965,5:669,6:10756,7:677,8:1,9:657,10:1046
- 31757 multiletter control sequences out of 65536+600000
+ 29531 strings out of 495004
+ 100000,794899 words of node,token memory allocated
+ 421 words of node memory still in use:
+   10 hlist, 2 vlist, 2 rule, 1 glue, 4 kern, 46 glue_spec nodes
+   avail lists: 1:6,2:45,3:1986,4:2959,5:518,6:8493,7:677,8:1,9:662,10:815
+ 32017 multiletter control sequences out of 65536+600000
  95 fonts using 3742019 bytes
- 61i,17n,98p,2846b,1599s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 61i,18n,105p,2846b,1623s stack positions out of 5000i,500n,10000p,200000b,100000s
 <</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><</usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><</usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><</usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><</usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi7.pfb><</usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr12.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr5.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
-.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><</
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><</usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><</usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><</usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on WWstudy.pdf (9 pages, 209522 bytes).
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb><</usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi7.pfb><</usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+12.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><</usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><</usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><</usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><</usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb><</usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy5.pfb><</usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy6.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy7.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i9.pfb>
+Output written on WWstudy.pdf (10 pages, 346440 bytes).
 
-PDF statistics: 99 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
+PDF statistics: 143 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

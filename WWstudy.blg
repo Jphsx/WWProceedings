@@ -4,44 +4,65 @@ The top-level auxiliary file: WWstudy.aux
 The style file: plain.bst
 Database file #1: WWstudyNotes.bib
 Database file #2: mybib.bib
-You've used 1 entry,
+I was expecting a `,' or a `}'---line 7 of file mybib.bib
+ :  
+ :  title = "The International Linear Collider: A Global Project.",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 25 of file mybib.bib
+ :   
+ :   year = "2012"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "TDR"
+Warning--I didn't find a database entry for "pfa"
+Warning--I didn't find a database entry for "ilcsoft"
+Warning--I didn't find a database entry for "dd4hep"
+Warning--I didn't find a database entry for "whizard"
+Name 1 in "Cacciari, Matteo, Gavin P. Salam, and Gregory Soyez." has a comma at the end for entry fastjet
+while executing---line 1049 of file plain.bst
+Name 1 in "Cacciari, Matteo, Gavin P. Salam, and Gregory Soyez." has a comma at the end for entry fastjet
+while executing---line 1090 of file plain.bst
+Warning--empty year in helicity
+You've used 6 entries,
             2118 wiz_defined-function locations,
-            504 strings with 4151 characters,
-and the built_in function-call counts, 217 in all, are:
-= -- 17
-> -- 7
+            534 strings with 8662 characters,
+and the built_in function-call counts, 8595 in all, are:
+= -- 584
+> -- 1225
 < -- 0
-+ -- 3
-- -- 2
-* -- 8
-:= -- 41
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 4
++ -- 491
+- -- 484
+* -- 998
+:= -- 1633
+add.period$ -- 13
+call.type$ -- 6
+change.case$ -- 258
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 7
-empty$ -- 23
-format.name$ -- 2
-if$ -- 44
+cite$ -- 7
+duplicate$ -- 49
+empty$ -- 131
+format.name$ -- 484
+if$ -- 1450
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 7
-num.names$ -- 2
-pop$ -- 9
+int.to.str$ -- 6
+missing$ -- 2
+newline$ -- 28
+num.names$ -- 12
+pop$ -- 277
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 253
 quote$ -- 0
-skip$ -- 8
+skip$ -- 53
 stack$ -- 0
-substring$ -- 5
-swap$ -- 1
+substring$ -- 49
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
-warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 10
+type$ -- 24
+warning$ -- 1
+while$ -- 13
+width$ -- 7
+write$ -- 50
+(There were 4 error messages)
