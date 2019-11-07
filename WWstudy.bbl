@@ -5,43 +5,43 @@ Review of particle physics.
 \newblock {\em Phys. Rev. D}, 98:030001, Aug 2018.
 
 \bibitem{tdraccel}
-Chris Adolphsen.
+C.~Adolphsen.
 \newblock The international linear collider technical design report-volume 3.
   ii: Accelerator baseline design.
 \newblock Technical report, Argonne National Lab.(ANL), Argonne, IL (United
   States); Thomas Jefferson~…, 2013.
 
 \bibitem{lcio}
-Steve Aplin, Jan Engels, Frank Gaede, Norman~A. Graf, Tony Johnson, and Jeremy
-  McCormick.
+S.~Aplin, J.~Engels, F.~Gaede, N.~A. Graf, T.~Johnson, and J.~McCormick.
 \newblock {LCIO: A Persistency Framework and Event Data Model for HEP}.
 \newblock In {\em {Proceedings, 2012 IEEE Nuclear Science Symposium and Medical
   Imaging Conference (NSS/MIC 2012): Anaheim, California, USA, October
   29-November 3, 2012}}, pages 2075--2079, 2012.
 
 \bibitem{currdetector}
-et~al Bambade, Philip.
-\newblock The international linear collider: A global project., 2019.
+P.~Bambade, T.~Barklow, T.~Behnke, M.~Berggren, J.~Brau, D.~Denisov,
+  A.~Faus-Golfe, K.~Fujii, J.~Fuster, F.~Gaede, et~al.
+\newblock The international linear collider: A global project, 2019.
 
 \bibitem{tdrdet}
-Ties Behnke.
+T.~Behnke.
 \newblock The international linear collider technical design report-volume 4:
   detectors.
 \newblock Technical report, Argonne National Lab.(ANL), Argonne, IL (United
   States); Pacific Northwest~…, 2013.
 
 \bibitem{fastjet}
-Gavin P.~Salam Cacciari, Matteo and Gregory Soyez.
-\newblock Fastjet user manual., 2012.
+M.~Cacciari, G.~P. Salam, and G.~Soyez.
+\newblock Fastjet user manual, 2012.
 
 \bibitem{kt}
-et~al. Catani, Stefano.
+S.~Catani, Y.~L. Dokshitzer, M.~H. Seymour, and B.~R. Webber.
 \newblock Longitudinally-invariant k⊥-clustering algorithms for hadron-hadron
-  collisions., 1993.
+  collisions, 1993.
 
 \bibitem{ycut}
-et~al Dokshitzer, Yu~L.
-\newblock Better jet clustering algorithms., 1997.
+Y.~L. Dokshitzer, G.~Leder, S.~Moretti, and B.~Webber.
+\newblock Better jet clustering algorithms, 1997.
 
 \bibitem{whizard}
 W.~Kilian, F.~Bach, T.~Ohl, and J.~Reuter.
@@ -50,12 +50,12 @@ W.~Kilian, F.~Bach, T.~Ohl, and J.~Reuter.
   Tokyo, Japan, November 11-15, 2013}}, 2014.
 
 \bibitem{pfa}
-JS~Marshall and MA~Thomson.
+J.~Marshall and M.~Thomson.
 \newblock The pandora particle flow algorithm.
 \newblock {\em arXiv preprint arXiv:1308.4537}, 2013.
 
 \bibitem{helicity}
-GA~Moortgat-Pick, T~Abe, G~Alexander, B~Ananthanarayan, A~Babich, et~al.
+G.~Moortgat-Pick, T.~Abe, G.~Alexander, B.~Ananthanarayan, A.~Babich, et~al.
 \newblock The role of polarized positrons and electrons in revealing
   fundamental interactions at the linear collider, phys. rept. 460, 131--243
   (2008).
@@ -74,7 +74,7 @@ A.~Sailer, M.~Frank, F.~Gaede, D.~Hynds, S.~Lu, N.~Nikiforou, M.~Petric,
 \newblock {\em J. Phys. Conf. Ser.}, 898(4):042017, 2017.
 
 \bibitem{thomson}
-Mark Thomson.
+M.~Thomson.
 \newblock {\em Modern particle physics}.
 \newblock Cambridge University Press, 2013.
 
