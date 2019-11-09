@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  7 NOV 2019 15:03
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  8 NOV 2019 22:11
  restricted \write18 enabled.
 **WWstudy.tex
 (./WWstudy.tex
@@ -1192,23 +1192,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--62
 
  []
 
-[8<./cone.pdf>] [9] [10]) (./WWstudy.bbl [11])
+[8<./cone.pdf>] [9] <matchingangle.pdf, id=109, 569.12625pt x 384.43625pt>
+File: matchingangle.pdf Graphic file (type pdf)
+
+<use matchingangle.pdf>
+Package pdftex.def Info: matchingangle.pdf used on input line 95.
+(pdftex.def)             Requested size: 244.79782pt x 165.35715pt.
+ <candEnergy.pdf, id=110, 569.12625pt x 384.43625pt>
+File: candEnergy.pdf Graphic file (type pdf)
+
+<use candEnergy.pdf>
+Package pdftex.def Info: candEnergy.pdf used on input line 103.
+(pdftex.def)             Requested size: 244.79782pt x 165.35715pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[][]|\OT1/cmr/m/n/10 Search-Cone
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[][]|\OT1/cmr/m/n/10 Iso.Cone
+ []
+
+[10<./matchingangle.pdf><./candEnergy.pdf>] [11]) (./WWstudy.bbl [12])
 
 Package natbib Warning: There were undefined citations.
 
-[12
+[13
 Missing character: There is no … (U+2026) in font cmr9!
 Missing character: There is no … (U+2026) in font cmr9!
 Missing character: There is no ⊥ (U+22A5) in font cmr9!
 ] (./WWstudy.aux))
 
 Here is how much of LuaTeX's memory you used:
- 29597 strings out of 495004
+ 29615 strings out of 495004
  100000,794899 words of node,token memory allocated
- 436 words of node memory still in use:
+ 441 words of node memory still in use:
    10 hlist, 2 vlist, 2 rule, 1 glue, 4 kern, 46 glue_spec nodes
-   avail lists: 1:6,2:45,3:2001,4:2944,5:518,6:8493,7:685,8:1,9:662,10:783
- 32067 multiletter control sequences out of 65536+600000
+   avail lists: 1:6,2:45,3:2006,4:2939,5:518,6:8493,7:685,8:1,9:662,10:720
+ 32077 multiletter control sequences out of 65536+600000
  95 fonts using 3742019 bytes
  61i,18n,105p,2846b,1623s stack positions out of 5000i,500n,10000p,200000b,100000s
 <</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><</usr
@@ -1230,13 +1252,13 @@ onts/type1/public/amsfonts/cm/cmsy10.pfb><</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy5.pfb><</usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy6.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy7.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmti10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-i9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
->
-Output written on WWstudy.pdf (12 pages, 1509298 bytes).
+cm/cmsy9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+<</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on WWstudy.pdf (13 pages, 1545171 bytes).
 
-PDF statistics: 193 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
+PDF statistics: 294 PDF objects out of 1000 (max. 8388607)
+ 182 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

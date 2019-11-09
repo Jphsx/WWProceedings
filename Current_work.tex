@@ -43,7 +43,7 @@ The approach towards the identification of leptons relies on treating leptons un
 \item Isolation energy - The total energy allowed within the isolation cone region [GeV]
 \item Invariant Mass - The upper limit on the lepton candidate mass [GeV]
 \item Track multiplicity - The allowed number of tracks in a lepton candidate
-\item $P_t$ seed - the minimum transverse momentum of a track that seeds a lepton candidate [GeV] 
+\item Minimum $P_t$ seed - the minimum transverse momentum of a track that seeds a lepton candidate [GeV] 
 \end{itemize}
 An example of the cone and parameters are shown in Figure \ref{fig:cone}. Additional requirements are imposed on all of the reconstructed Particle Flow Objects(PFOs) in the event in order to suppress pile-up particles being included in the lepton jet.
 \begin{figure}
@@ -68,11 +68,13 @@ The universal lepton treatment is not conducive to a 1-size fits all approach to
 \item $\tau \rightarrow$ hadrons (3-prong)
 \end{itemize} 
 The Prompt categories refer to events which the leptonic W decays directly to either a muon or electron and associated neutrino. The tau categories address the various dominant decay topologies of the tau lepton. For each category, the optimal lepton acceptance criteria is calculated with respect to the events that match the desired topology. The optimal acceptance criteria is the set of parameters that maximally identify lepton candidates that originate from true leptons and minimize the fake lepton candidates that originate from hadronic jets. To find this set of parameters, a scan over a 3D space is performed using the search cone-$\alpha$, isolation cone-$\beta$, and isolation energy-$E_{iso}$. The invariant mass is held at a fixed 2 GeV for simplicity. The ranges and step sizes through this space are:
+
  \begin{itemize}
  \item $\alpha \in [0,0.15]$ rad with 0.01 rad steps
  \item $\beta \in [0,0.15]$ rad with 0.01 rad steps
  \item $E_{iso} \in [0,5.5]$ GeV with 0.5 GeV steps
  \end{itemize}
+
 Two uncorrelated push-pull parameters are defined to find the optimal working point in the lepton finding space. The first is related to correctly identifying jets originating from true leptons. This is denoted as the efficiency of reconstructing a true lepton $\epsilon_T$. The second optimization parameter is denoted as $P_F$, the probability of a fake lepton jet arising from a single hadronic jet.  
 \begin{equation}
 \label{eq:et}
@@ -85,9 +87,51 @@ P_F = 1-(1-\epsilon_F)^{\frac{1}{4}} \\
 \epsilon_F = N_{fake}/N_{Btotal}
 \end{split}
 \end{equation}
-The true lepton reconstruction efficiency is maximized with the signal sample $WW\rightarrow q\bar{q}\ell\nu$. The denominator represents the total, category specific, number of events which contain three generator visible fermions. The true $q\bar{q}\ell$ fermions are required to fall within the acceptance range $|cos\theta| < 0.99$. $N_{match}$ is the number of signal sample events in which a lepton candidate is reconstructed and can be matched to the true lepton, such that the opening angle between the reconstructed lepton and the true lepton are less than 0.1 radians. The distribution of opening angles is shown if Figure X. In the case that a reconstructed lepton is being matched to a true tau, the matching angle formed between the reconstructed lepton and the vector sum of the visible generator components of the tau decay. The visible components of the tau decay consist of the direct decay products whereas photons from final state radiation are excluded. The fake lepton probability $P_f$ is minimized using the background sample $WW\rightarrow q\bar{q}q\bar{q}$ and is a function of the fake lepton reconstruction efficiency $\epsilon_F$. The denominator for fake is also subjected to the same acceptance range $|cos\theta| < 0.99$ for all four fermions. The numerator is the total number of events  that contain at least one reconstructed fake lepton. The fake efficiency can be interpreted as the binomial probability of $r$-successes(lepton reconstructions) in 4 trials(hadronic jets). The probability of a single success in a single trial, $P_F$, can be directly derived from the Binomial p.d.f using the fake efficiency $\epsilon_F$. The optimal parameters $\alpha$, $\beta$, $E_{iso}$ for each lepton category are extracted from max$[(1-P_F)\epsilon_T]$. The results for each category are shown in Table X. 
+The true lepton reconstruction efficiency is maximized with the signal sample $WW\rightarrow q\bar{q}\ell\nu$. The denominator represents the total, category specific, number of events which contain three generator visible fermions. The true $q\bar{q}\ell$ fermions are required to fall within the acceptance range $|cos\theta| < 0.99$. $N_{match}$ is the number of signal sample events in which a lepton candidate is reconstructed and can be matched to the true lepton, such that the opening angle between the reconstructed lepton and the true lepton are less than 0.1 radians. The distribution of opening angles is shown if Figure \ref{fig:taupsi}. In the case that a reconstructed lepton is being matched to a true tau, the matching angle formed between the reconstructed lepton and the vector sum of the visible generator components of the tau decay. The visible components of the tau decay consist of the direct decay products whereas photons from final state radiation are excluded. The fake lepton probability $P_f$ is minimized using the background sample $WW\rightarrow q\bar{q}q\bar{q}$ and is a function of the fake lepton reconstruction efficiency $\epsilon_F$. The denominator for fake is also subjected to the same acceptance range $|cos\theta| < 0.99$ for all four fermions. The numerator is the total number of events  that contain at least one reconstructed fake lepton. The fake efficiency can be interpreted as the binomial probability of $r$-successes(lepton reconstructions) in 4 trials(hadronic jets). The probability of a single success in a single trial, $P_F$, can be directly derived from the Binomial p.d.f using the fake efficiency $\epsilon_F$. The optimal parameters $\alpha$, $\beta$, $E_{iso}$ for each lepton category are extracted from max$[(1-P_F)\epsilon_T]$. The results for each category are shown in Table X. 
 
-Since there is only one expected lepton jet in the signal sample, a single lepton jet is selected as the candidate for the event. If there are multiple lepton jets reconstructed in a single event the lepton jet with the highest energy is selected as the single candidate for the event. The Energy distribution of true and fake leptons is shown in Figure X. If the two highest energy lepton jets are of equal energy then the candidate selected will be the jet with the highest energy original seed track, based on the original seed track sorting.  Any additional lepton jets that are not selected are treated as part of the hadronic system.
+
+\begin{figure}
+\label{fig:taupsi}
+\includegraphics[width=0.48\textwidth]{matchingangle.pdf}
+\caption{Distribution of opening angles between the closest reconstructed lepton candidate and the true muon from $WW \rightarrow q \bar{q} \mu \nu_\mu$. $99.4\%$ of events with a muon candidate are matched to truth.} 
+\end{figure}
+
+
+
+\begin{figure}
+\label{fig:candE}
+\includegraphics[width=0.48\textwidth]{candEnergy.pdf}
+\caption{Energy distribution of lepton candidates matched to truth from $WW \rightarrow q \bar{q} \mu \nu_\mu $ and fake candidates from $ WW \rightarrow q\bar{q} q \bar{q}$ both normalized to unity.}
+\end{figure}
+
+\begin{table}
+\label{tab:taufinderopt}
+\begin{tabular}{|p{0.15\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.1\textwidth}p{0.1\textwidth}p{0.1\textwidth}|}
+
+\hline 
+Channel & $n \, \, \text{Lep} \geq 1$ & $1-P_{F}$ & $\epsilon_T$ & SearchCone [rad] & Iso.Cone [rad] & Iso.E [GeV] \\ 
+\hline 
+Prompt $\mu$ & $0.955 \pm 0.003$ & $0.974 \pm 0.001$ & $0.949 \pm 0.003$ & 0.03 & 0.15 & 3.0 \\ 
+
+Prompt $e$ & $0.920 \pm 0.003$ & $0.961 \pm 0.001$ & $0.904 \pm 0.003$ & 0.04 & 0.15 & 4.0 \\ 
+
+Inclusive $\tau$ & $0.800 \pm 0.005$ & $0.943 \pm 0.001$ &  $0.770 \pm 0.006$ & 0.07 & 0.15 & 4.5 \\ 
+
+
+ \hline
+$\tau \rightarrow \nu \nu \mu$ & $0.815 \pm 0.012$ & $0.974 \pm 0.001$ & $0.801 \pm 0.013$ & 0.03 & 0.15 & 3.0 \\ 
+ 
+$\tau \rightarrow \nu \nu e$ &  $0.800 \pm 0.012$ & $0.963 \pm 0.001$ &  $0.781 \pm 0.013$ & 0.05 & 0.15 & 3.5 \\ 
+ 
+$\tau$ Had-1p & $0.744 \pm 0.009$ & $0.930 \pm 0.002$ & $0.707 \pm 0.009$ & 0.07 & 0.15 & 4.5 \\ 
+ 
+$\tau$ Had-3p &  $0.756 \pm 0.015$ & $0.930 \pm 0.002$ & $0.710 \pm 0.016$ & 0.07 & 0.15 & 5.5  \\
+\hline
+\end{tabular} 
+\caption{Optimization results using $100 \%$ LR $q\bar{q}\ell \nu$ and $q\bar{q} q\bar{q}$ samples. The $n \, \, \text{Lep} \geq 1$ column pertains to signal samples where at least one lepton candidate was found and is not subjected to the truth matching criteria of 0.1 radians. Results shown are the configurations that maximize $(1-P_F)\epsilon_T$ }
+\end{table}
+
+Since only one lepton is expected from signal, a single lepton candidate is selected as the candidate for the event. If multiple lepton jets are reconstructed the lepton candidate with the highest energy is selected as the single candidate for the event. The energy distribution of true and fake leptons is shown in Figure \ref{fig:candE}. If the two highest energy lepton jets are of equal energy then the candidate selected will be the jet with the highest energy original seed track, due to seed track sorting.  Any additional lepton candidates not selected are treated as part of the hadronic system.
 
 
 \subsection{Pileup mitigation}
