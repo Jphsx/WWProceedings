@@ -1,0 +1,9 @@
+% feyngraph.t3 -- generated from feyngraph.mp
+\fmfL(74.62779,20.79439,lt){\sm \blue $W^+$}%
+\fmfL(33.3671,42.84947,r){\sm \cyan $\gamma $}%
+\fmfL(4.47044,-4.44507,rt){\sm $e^+$}%
+\fmfL(80.52956,-4.44507,lt){\sm $\bar \nu _e$}%
+\fmfL(89.77032,22.83421,l){\sm $u$}%
+\fmfL(89.77014,52.16638,l){\sm $\bar {d}$}%
+\fmfL(80.52956,79.44507,lb){\sm $e^-$}%
+\fmfL(4.47044,79.44507,rb){\sm $e^-$}%
