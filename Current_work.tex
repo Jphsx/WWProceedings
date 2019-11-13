@@ -155,7 +155,7 @@ Since only one lepton is expected from signal, a single lepton candidate is sele
 \end{figure}
 
 After a lepton candidate has been selected, the remaining particles in the system are expected to form the hadronically decaying W-boson. However, vector sum of the paricles  produces a distribution that is often in excess of the true hadonic mass. Variation between the true and measured mass naturally arise due to the mismeasurment of particles -- specically neutral hadrons, as well as particles lost beyond the acceptance range of the detector. Neither of these effects should create a systematic excess in the hadronic mass. The nature of the excess can be understood by through the kinematics of the WW in the LR and RL configurations shown in Figure \ref{fig:Epartition} and \ref{fig:fangles}. The highest yielding configuration, LR, typically has two fermions that are forward in the detector which both typically have a large fraction of the beam energy. These fermions are susceptible to pile-up scattering into the detector and mixing directly into the reconstructed jets. To combat effects of pile-up, jet clustering algorithms via FastJet\cite{fastjet} are used.  The standard approach for pileup mitigation is to use the kT algorithm\cite{kt} and tune the R parameter such that the pile-up particles associate with beam jets while the desired particles are not. With successful kT clustering the beam jets can be thrown away without damaging the reconstruction of the desired event. However, this approach only works well in events that are centrally produced.  The pile-up overlap in the forward topology with kT algorithm  based clustering leads to rejecting desired particles and severe undermeasuremnt of the the W mass. The solution to proper pileup mitigation is through the precise removal of foreign particles inside the reconstructed jets.  This can be achieved by using the standard JADE algorithm and mass based cut-off parameter $y_{cut} > y_{ij}$ where $y_{ij} = M_{ij}^2 / Q^2$ with $M_{ij}$ being the invariant mass of the pair of objects being combined and $Q^2$ being the visible energy in the $e^{+}e^{-}$ annihilation \cite{ycut}.  The mass of individually reconstructed jets can be controlled by tuning the $y_{cut}$ parameter. For large values, $y_{cut} =1\times10^{-3}$, a single massive jet is reconstructed. In the limit that $y_{cut}$ becomes infinitely small the number of jets reconstructed converges to the number of reconstructed particles.  The $y_{cut}$ value  chosen is the value that forms mini-jets that safely couple together hard and soft emissions from  the original quark jet while segregating pile-up into its own mini-jets. The mini-jets are then subjected to kinematic cuts that to maximize the pileup rejection and minimize the difference  between the true and measured hadronic W mass. The optimization is performed on the $100\%$ polarized LR signal muon dataset and the parameters used to select the best combination of $y_{cut}$ and mini-jet kinematic cuts are two statisical estimators from the distribution of $M_{qq}^{meas} - M_{qq}^{true}$. This binned mass difference distribution is created from the subset of mini-jets that arise from clustering with a given $y_{cut}$ and also pass some jet veto cuts $p_{Tjet} > x$ and $cos\theta_{jet} < y$. The estimators are the Full Width Half Maximum(FWHM) and the number of entries in the Mode.  
-Using estimators calculated from a binned histogram creates unwanted sensitivity to bin size. To reduce sensitivity to binning, the mode is defined as the center of the bin with the most entries. The ``mode entries" is the number of entries in the mode bin plus the number of entries in the mode bins nearest neighbors. For the FWHM, the mass distribution is assumed to be monotonically decreasing around the half maxmimum. To create a continuous distribution of the FWHM across multiple optimization parameters the FWHM is weighted towards the bin center of the two bins around (above/below) the half maximum. The FWHM moves towards the bin center of the bin that is closer to the half maximum based on how close the both above/below bins are to the half maximum. The results of the optimization are shown in Figure \ref{fig:supmass} and various $y_{cut}$s are shown in comparison to the optimal configuration in Figure \ref{fig:supdiff}. The leading result uses $y_{cut} = 5\times 10^{-5}$, mini jet $P_T > 2$ GeV, and has no $\cos \theta$ requirement. 
+Using estimators calculated from a binned histogram creates unwanted sensitivity to bin size. To reduce sensitivity to binning, the mode is defined as the center of the bin with the most entries. The ``mode entries" is the number of entries in the mode bin plus the number of entries in the mode bins nearest neighbors. For the FWHM, the mass distribution is assumed to be monotonically decreasing around the half maxmimum. To create a continuous distribution of the FWHM across multiple optimization parameters the FWHM is weighted towards the bin center of the two bins around (above/below) the half maximum. The results of the optimization are shown in Figure \ref{fig:supmass} and various $y_{cut}$s are shown in comparison to the optimal configuration in Figure \ref{fig:supdiff}. The leading result uses $y_{cut} = 5\times 10^{-5}$, mini jet $P_T > 2$ GeV, and has no $\cos \theta$ requirement. 
 
 \begin{figure}
     \centering
@@ -184,67 +184,71 @@ The W-pair selection has been optimized for a Monte Carlo sample of 1600 $\text{
 \item $E_{vis} < 500$ GeV 
 \item $E_{com} > 100$ GeV
 \item $40<M_{qq}<120$ GeV
-\item  $-qcos\theta_W$
+\item  $-qcos\theta_W < -0.95$
 \item  $m^2_{\nu recoil} < 135,000 \, \, \text{GeV}^2$
 \end{itemize}
 
+The track multiplicity and $E_{com}$ target 2 fermion backgrounds. $E_{com}$ is the Rest-frame energy that consists of the visible and inferred missing energy. The missing energy is treated as a single neutrino with zero mass such that $E_{com} = E_{vis} + |P_{miss}| \, \,  \, \text{and} \, \, P^\mu_{miss} = (|P_{miss}| , -\sum{\vec{p}_{vis}})$. Visible $P_T$ is scalar sum of all measured transverse momentum and $E_{vis}$ is the sum of all reconstructed visible energy in an event. The $P_T$ and $E_{vis}$ cuts target processes that do not have a genuine missing energy from a neutrino. The hadronic W-mass $M_{qq}$ requirement forces the hadronic system to be ``W-like" and the recoil mass uniquely requires the visible system to be recoiling against an invisible system with little to no mass. The recoil mass is defined as $m^2_{\nu recoil} = s + M^2_{vis} - 2\sqrt{s}E_{vis} \, \, \text{and} \, \, M^2_{vis} = ( P^{\mu}_{qq} +  P^{\mu}_{\ell})^2$. The W-scattering cut $-q\cos\theta_W$ is the angle of deflection of the system identified as $W^-$ with respect to the $e^-$ beam axis and limits backward scattering.  The charge of the lepton is extracted from the leading momentum track from candidates with 1,2,or 4 tracks, or in the case of 3 tracks the charge is the sum of the three track charges. The hadronic system is then tagged with the opposite charge.  This procedure results in the correct charge assignment of the lepton before selection cuts for about $98.9\%$ of prompt muons, $94.8\%$ of prompt electrons, and $95.9\%$ of taus. Following the event selection the correct charge assignment increases to $99.9\%$ for prompt muons, $98.3\%$ for prompt electrons, and $98.8\%$ for taus. The selection variables for signal and background are shown after the lepton requirement in Figures \ref{fig:stacks1} and \ref{fig:stacks2}.  The details of the selection for (-0.8,+0.3) at 1600$\text{fb}^{-1}$ are summarized in Table TIGHT and Table Loose. The selections in Table TIGHTandLOOSe differ by the veto of the tight lepton in the loose selection, where the preference for any event is to choose a always choose a tight lepton over loose. The primary selection also includes only ``WW-like" signal, this type of signal is such that both of the true fermion pairs invariant masses are each within $\pm10$ GeV of the nominal W mass. If an event contains a fermion pair that is outside the WW-like range, it is designated as an off-shell(O.S) event and is separated into it's own event selection summary shown in Table TIGHTOS LOOSEOS. The selection cuts are optimized to maximize the efficiency and purity of the total signal for the tight selection. The summarized results for each the main selection is show in TABLE SUMMARY1 and the summary of results propagated to the other beam scenarios are shown in TABLES SUMMARY2,3,4.
 \begin{figure}
+	\label{fig:stacks1}
  \centering
     \begin{minipage}{0.49\textwidth}
+   
         \centering
-        \includegraphics[width=0.99\textwidth]{nLepHist.pdf} % first figure itself
-        \caption{first figure}
+        \includegraphics[width=0.9\textwidth]{nLepHist.pdf} % first figure itself
+     
     \end{minipage}\hfill
     \begin{minipage}{0.49\textwidth}
         \centering
-        \includegraphics[width=0.99\textwidth]{ntracksHist.pdf} % second figure itself
-        \caption{s}
-     \end{minipage}
-\end{figure}
+        \includegraphics[width=0.9\textwidth]{ntracksHist.pdf} % second figure itself
+       
+     \end{minipage}\\
 
-\begin{figure}
  \centering
     \begin{minipage}{0.49\textwidth}
         \centering
-        \includegraphics[width=0.99\textwidth]{EcomHist.pdf} % first figure itself
-        \caption{first figure}
+        \includegraphics[width=0.9\textwidth]{EcomHist.pdf} % first figure itself
+        
     \end{minipage}\hfill
     \begin{minipage}{0.49\textwidth}
         \centering
-        \includegraphics[width=0.99\textwidth]{EvisHist.pdf} % second figure itself
-        \caption{s}
+        \includegraphics[width=0.9\textwidth]{EvisHist.pdf} % second figure itself
+        
      \end{minipage}
-\end{figure}
-\begin{figure}
- \centering
-    \begin{minipage}{0.49\textwidth}
-        \centering
-        \includegraphics[width=0.99\textwidth]{PtvisHist.pdf} % first figure itself
-        \caption{first figure}
-    \end{minipage}\hfill
-    \begin{minipage}{0.49\textwidth}
-        \centering
-        \includegraphics[width=0.99\textwidth]{mwhadHist.pdf} % second figure itself
-        \caption{s}
-     \end{minipage}
+     \caption{s}
 \end{figure}
 
 \begin{figure}
+	\label{fig:stacks2}
  \centering
     \begin{minipage}{0.49\textwidth}
         \centering
-        \includegraphics[width=0.99\textwidth]{vrecoilHist.pdf} % first figure itself
-        \caption{first figure}
+        \includegraphics[width=0.9\textwidth]{PtvisHist.pdf} % first figure itself
+   
     \end{minipage}\hfill
     \begin{minipage}{0.49\textwidth}
         \centering
-        \includegraphics[width=0.99\textwidth]{qcostHist.pdf} % second figure itself
-        \caption{s}\
+        \includegraphics[width=0.9\textwidth]{mwhadHist.pdf} % second figure itself
+     
+     \end{minipage}\\
+
+ \centering
+    \begin{minipage}{0.49\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{vrecoilHist.pdf} % first figure itself
+       
+    \end{minipage}\hfill
+    \begin{minipage}{0.49\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{qcostHist.pdf} % second figure itself
+        
      \end{minipage}
+          \caption{first figure}
 \end{figure}
 
-
-
+\begin{table}
+ \scriptsize
+ Tight selection with muon cone
    \begin{tabular}{|p{0.11\textwidth}|p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.1\textwidth}|}
 \hline 
    & Prompt $\mu$ & Prompt $e$ & $\tau$ & Tot. Sig. & 2f & 4f & 6f & Higgs \\ \hline 
@@ -308,7 +312,7 @@ $m^2_{\nu recoil}$ &\num{3.94e+04 } & \num{7.70e+04 } & \num{4.07e+05} &\num{5.2
  \hline
  \end{tabular}
 
-
+\end{table}
 
 \begin{tabular}{|p{0.16\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}|}
 \hline 
