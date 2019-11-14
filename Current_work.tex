@@ -36,7 +36,7 @@ The analysis workflow for semileptonic WW has three distinct stages, the lepton 
 
 \subsection{Lepton Identification}
 \label{subsec:Lepton_ID}
-The approach towards the identification of leptons relies on treating leptons universally. The easiest lepton to identify is the muon, which produces a single track along with hits in the muon detector. The electron also produces a track in the TPC but is often accompanied by photons via bremsstrahlung radiation. The tau is the most difficult lepton to identify due to its decay into multiple charged and neutral particles. To accommodate all types lepton signatures a cone based approach is used to either capture single tracks or collimated jets with low track multiplicity. The lepton finding cone consists consists of two major structures, a search cone containing the particles that belong to the lepton candidate and an isolation cone whose purpose is to reject a lepton candidate if the search cone is not well-isolated from other particles. The acceptance criteria for cone consists of these parameters:
+The approach towards the identification of leptons relies on treating leptons universally. The easiest lepton to identify is the muon, which produces a single track along with hits in the muon detector. The electron also produces a track in the TPC but is often accompanied by photons via bremsstrahlung radiation. The tau is the most difficult lepton to identify due to its decay into multiple charged and neutral particles. To accommodate all types lepton signatures a cone based approach is used to either capture single tracks or collimated jets with low track multiplicity. The lepton finding cone is based on TauFinder \cite{taufinder} designed for the Compact Linear Collider(CLIC). TauFinder consists of two major structures, a search cone containing the particles that belong to the lepton candidate and an isolation cone whose purpose is to reject a lepton candidate if the search cone is not well-isolated from other particles. The acceptance criteria for cone consists of these parameters:
 \begin{itemize}
 \item Search cone angle $\alpha$ - The opening (half) angle of the search cone for the lepton jet [rad]
 \item Isolation cone angle $\beta$ - The outer isolation cone angle w.r.t to the search cone [rad]
@@ -188,7 +188,7 @@ The W-pair selection has been optimized for a Monte Carlo sample of 1600 $\text{
 \item  $m^2_{\nu recoil} < 135,000 \, \, \text{GeV}^2$
 \end{itemize}
 
-The track multiplicity and $E_{com}$ target 2 fermion backgrounds. $E_{com}$ is the Rest-frame energy that consists of the visible and inferred missing energy. The missing energy is treated as a single neutrino with zero mass such that $E_{com} = E_{vis} + |P_{miss}| \, \,  \, \text{and} \, \, P^\mu_{miss} = (|P_{miss}| , -\sum{\vec{p}_{vis}})$. Visible $P_T$ is scalar sum of all measured transverse momentum and $E_{vis}$ is the sum of all reconstructed visible energy in an event. The $P_T$ and $E_{vis}$ cuts target processes that do not have a genuine missing energy from a neutrino. The hadronic W-mass $M_{qq}$ requirement forces the hadronic system to be ``W-like" and the recoil mass uniquely requires the visible system to be recoiling against an invisible system with little to no mass. The recoil mass is defined as $m^2_{\nu recoil} = s + M^2_{vis} - 2\sqrt{s}E_{vis} \, \, \text{and} \, \, M^2_{vis} = ( P^{\mu}_{qq} +  P^{\mu}_{\ell})^2$. The W-scattering cut $-q\cos\theta_W$ is the angle of deflection of the system identified as $W^-$ with respect to the $e^-$ beam axis and limits backward scattering.  The charge of the lepton is extracted from the leading momentum track from candidates with 1,2,or 4 tracks, or in the case of 3 tracks the charge is the sum of the three track charges. The hadronic system is then tagged with the opposite charge.  This procedure results in the correct charge assignment of the lepton before selection cuts for about $98.9\%$ of prompt muons, $94.8\%$ of prompt electrons, and $95.9\%$ of taus. Following the event selection the correct charge assignment increases to $99.9\%$ for prompt muons, $98.3\%$ for prompt electrons, and $98.8\%$ for taus. The selection variables for signal and background are shown after the lepton requirement in Figures \ref{fig:stacks1} and \ref{fig:stacks2}.  The details of the selection for (-0.8,+0.3) at 1600$\text{fb}^{-1}$ are summarized in Table TIGHT and Table Loose. The selections in Table TIGHTandLOOSe differ by the veto of the tight lepton in the loose selection, where the preference for any event is to choose a always choose a tight lepton over loose. The primary selection also includes only ``WW-like" signal, this type of signal is such that both of the true fermion pairs invariant masses are each within $\pm10$ GeV of the nominal W mass. If an event contains a fermion pair that is outside the WW-like range, it is designated as an off-shell(O.S) event and is separated into it's own event selection summary shown in Table TIGHTOS LOOSEOS. The selection cuts are optimized to maximize the efficiency and purity of the total signal for the tight selection. The summarized results for each the main selection is show in TABLE SUMMARY1 and the summary of results propagated to the other beam scenarios are shown in TABLES SUMMARY2,3,4.
+The track multiplicity and $E_{com}$ target 2 fermion backgrounds. $E_{com}$ is the Rest-frame energy that consists of the visible and inferred missing energy. The missing energy is treated as a single neutrino with zero mass such that $E_{com} = E_{vis} + |P_{miss}| \, \,  \, \text{and} \, \, P^\mu_{miss} = (|P_{miss}| , -\sum{\vec{p}_{vis}})$. Visible $P_T$ is scalar sum of all measured transverse momentum and $E_{vis}$ is the sum of all reconstructed visible energy in an event. The $P_T$ and $E_{vis}$ cuts target processes that do not have a genuine missing energy from a neutrino. The hadronic W-mass $M_{qq}$ requirement forces the hadronic system to be ``W-like" and the recoil mass uniquely requires the visible system to be recoiling against an invisible system with little to no mass. The recoil mass is defined as $m^2_{\nu recoil} = s + M^2_{vis} - 2\sqrt{s}E_{vis} \, \, \text{and} \, \, M^2_{vis} = ( P^{\mu}_{qq} +  P^{\mu}_{\ell})^2$. The W-scattering cut $-q\cos\theta_W$ is the angle of deflection of the system identified as $W^-$ with respect to the $e^-$ beam axis and limits backward scattering.  The charge of the lepton is extracted from the leading momentum track from candidates with 1,2,or 4 tracks, or in the case of 3 tracks the charge is the sum of the three track charges. The hadronic system is then tagged with the opposite charge.  This procedure results in the correct charge assignment of the lepton before selection cuts for about $98.9\%$ of prompt muons, $94.8\%$ of prompt electrons, and $95.9\%$ of taus. Following the event selection the correct charge assignment increases to $99.9\%$ for prompt muons, $98.3\%$ for prompt electrons, and $98.8\%$ for taus. The selection variables for signal and background are shown after the lepton requirement in Figures \ref{fig:stacks1}.  The details of the selection for (-0.8,+0.3) at 1600$\text{fb}^{-1}$ are summarized in Table \ref{tab:selection}. The selections in Table \ref{tab:selection} differ by the veto of the tight lepton in the loose selection, where the preference for any event is to choose a always choose a tight lepton over loose. The primary selection also includes only ``WW-like" signal, this type of signal is such that both of the true fermion pairs invariant masses are each within $\pm10$ GeV of the nominal W mass. If an event contains a fermion pair that is outside the WW-like range, it is designated as an off-shell(O.S) event and is placed in a different category. The selection cuts are optimized to maximize the efficiency and purity of the total signal for the tight selection. The results are summarized with the two selection cones with and without O.S. events in Table \ref{tab:summary}. The final results for the mass inclusive selection yields a signal efficiency of $58\%$ with only a $9\%$ of background contaminating selected events. The W-boson invariant mass after selection is shown with mass resolution in Figure \ref{fig:money}
 \begin{figure}
 	\label{fig:stacks1}
  \centering
@@ -214,12 +214,9 @@ The track multiplicity and $E_{com}$ target 2 fermion backgrounds. $E_{com}$ is 
         \centering
         \includegraphics[width=0.9\textwidth]{EvisHist.pdf} % second figure itself
         
-     \end{minipage}
-     \caption{s}
-\end{figure}
+     \end{minipage}\\
 
-\begin{figure}
-	\label{fig:stacks2}
+	
  \centering
     \begin{minipage}{0.49\textwidth}
         \centering
@@ -243,10 +240,12 @@ The track multiplicity and $E_{com}$ target 2 fermion backgrounds. $E_{com}$ is 
         \includegraphics[width=0.9\textwidth]{qcostHist.pdf} % second figure itself
         
      \end{minipage}
-          \caption{first figure}
+          \caption{ Variables used in WW selection. Signal is comprised of the events selected with the muon cone only for all three possible final state leptons ($\mu,e,\tau$).  The beam scenario is L = 1600$\text{fb}^{-1}$ (-0.8,+0.3).}
 \end{figure}
 
 \begin{table}
+\label{tab:selection}
+\caption{The tight and loose selection for 1600 $\text{fb}^{-1}$ (-0.8,+0.3). The tight selection is most efficient with prompt leptons with $69\%$ and $65\%$  for muons and electrons respectively, but struggles to efficiently reconstruct taus. The loose selection recovers $10\%$ of the tau efficiency and is inefficient for prompt leptons because of the tight lepton veto. The tight lepton veto enforces the orthogonality of the selections gives preference toward better lepton candidates. The signal categories Base Evts. only include events in which the true W mass of both fermion pairs are within 10 GeV of the nominal W mass.}
  \scriptsize
  Tight selection with muon cone
    \begin{tabular}{|p{0.11\textwidth}|p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.1\textwidth}|}
@@ -314,60 +313,66 @@ $m^2_{\nu recoil}$ &\num{3.94e+04 } & \num{7.70e+04 } & \num{4.07e+05} &\num{5.2
 
 \end{table}
 
-\begin{tabular}{|p{0.16\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}|}
+
+
+\begin{table}
+\caption{Selection summary showing the number of background events that pass the event selection, efficiency, and purity for the tight selection or combined selections and with or without the off-shell contributions.  The O.S. contributions are less efficiently reconstructed so their inclusion reduces the overall signal efficiency but boosts the purity by increasing the base number of signal events that can be selected. Selection is performed with 1600 $\text{fb}^{-1}$ in (-0.8, +0.3). }
+\label{tab:summary}
+ \begin{tabular}{ |p{0.12\textwidth}|p{0.12\textwidth}p{0.15\textwidth}|p{0.12\textwidth}|p{0.12\textwidth}p{0.15\textwidth}p{0.12\textwidth}|} 
+ \hline 
+   &  \multicolumn{3}{|l|}{Tight Selection} &  \multicolumn{3}{|l|}{ Tight + Loose Sel.}  \\  \hline  
+ & Sel. Total & Efficiency & Purity & Sel. Total & Efficiency & Purity \\ 
+ \hline  
+ Bkg. & \num{5.36e+05} & & & \num{7.25e+05} & &  \\ 
+ Signal & \num{4.49e+06} & 0.578 $\pm$ 0.002 & 0.893  & \num{4.93e+06} & 0.635 $\pm$ 0.002 & 0.872 \\ 
+ Sig.+O.S. & \num{6.93e+06} & 0.541 $\pm$ 0.001 & 0.928 & \num{7.47e+06} & 0.584 $\pm$ 0.001 & 0.912 \\ 
 \hline 
- & Prompt $\mu$ O.S. & Prompt $e$ O.S. & Tau O.S. \\ \hline 
-Base Evts &\num{5.78e+05 } & \num{3.88e+06 } & \num{5.70e+05}\\ 
+\end{tabular} 
+\end{table}
 
-Lepton &\num{5.11e+05 } & \num{2.27e+06 } & \num{3.42e+05}\\ 
- 
-$E_{vis}$ &\num{5.08e+05 } & \num{2.25e+06 } & \num{3.41e+05}\\ 
+\begin{figure}
+\label{fig:money}
+\centering
+    \begin{minipage}{0.49\textwidth}
+        \centering
+        \includegraphics[width=0.99\textwidth]{moneymassdiff.pdf} % first figure itself
+   
+    \end{minipage}\hfill
+    \begin{minipage}{0.49\textwidth}
+        \centering
+        \includegraphics[width=0.99\textwidth]{mwhadCutsHist.pdf} % second figure itself
+     
+     \end{minipage}\\
+     \caption{The right distribution is the mass of the hadronic W-boson after pile up removal and selection cuts against the remaining background events . The left distribution shows the resolution of the hadronic W mass with respect to the true mass in Monte Carlo before pile up removal and selection cuts and after pile up removal and selection cuts. The resolution shows a significant improvement in symmetry and events with excess mass are shifted centrally.  Uses 1600 $\text{fb}^{-1}$ in (-0.8,+0.3). 
+}
+\end{figure}
 
-N Tracks &\num{4.95e+05 } & \num{2.19e+06 } & \num{3.35e+05}\\ 
- 
-$-qcos\theta$ &\num{4.94e+05 } & \num{2.10e+06 } & \num{3.31e+05}\\ 
- 
-$M_{qq}$ $>$ 40 &\num{4.67e+05 } & \num{2.01e+06 } & \num{3.14e+05}\\ 
+\subsection{Results}
+\label{subsec:wmass}
 
-$M_{qq}$ $<$ 120 &\num{3.44e+05 } & \num{1.81e+06 } & \num{2.39e+05}\\ 
- 
-$E_{com}$ &\num{3.44e+05 } & \num{1.81e+06 } & \num{2.39e+05}\\ 
-
- Pt vis.&\num{3.40e+05 } & \num{1.80e+06 } & \num{2.36e+05}\\ 
- 
-$m^2_{\nu recoil}$ &\num{3.40e+05 } & \num{1.76e+06 } & \num{2.34e+05}\\ 
-\hline 
- $\epsilon$ & $0.588 \pm 0.006$ & $0.454 \pm 0.001$ & $0.411 \pm 0.006$ \\  \hline
-\end{tabular}
-
-
-
-  \begin{tabular}{|p{0.16\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}|}
-\hline 
-   & Prompt $\mu$ O.S. & Prompt $e$ O.S. & Tau O.S. \\ \hline 
-Base Evts &\num{5.78e+05 } & \num{3.88e+06 } & \num{5.70e+05}\\ 
-
-Lepton &\num{5.15e+05 } & \num{2.47e+06 } & \num{4.26e+05}\\ 
- 
-Tight Veto &\num{8.18e+03 } & \num{2.61e+05 } & \num{8.83e+04}\\ 
- 
-$E_{vis}$ &\num{7.87e+03 } & \num{2.61e+05 } & \num{8.83e+04}\\ 
- 
-N Tracks &\num{7.57e+03 } & \num{2.48e+05 } & \num{8.63e+04}\\ 
- 
-$-qcos\theta$ &\num{6.97e+03 } & \num{2.31e+05 } & \num{8.15e+04}\\ 
- 
-$M_{qq}$ $>$ 40 &\num{5.60e+03 } & \num{1.38e+05 } & \num{7.66e+04}\\ 
- 
-$M_{qq}$ $<$ 120 &\num{3.63e+03 } & \num{1.20e+05 } & \num{4.82e+04}\\ 
- 
-$E_{com}$ &\num{3.63e+03 } & \num{1.18e+05 } & \num{4.82e+04}\\ 
-
-Pt vis. &\num{3.63e+03 } & \num{1.18e+05 } & \num{4.77e+04}\\ 
- 
-$m^2_{\nu recoil}$ &\num{3.63e+03 } & \num{9.15e+04 } & \num{4.73e+04}\\ 
-\hline 
- $\epsilon$ & $0.006 \pm 0.001$ & $0.0236 \pm 0.0005$ & $0.083 \pm 0.004$ \\ \hline
+A Voigtian fit of the hadronic W mass is performed on the tight signal sample with the combined lepton categories shown in Figure \ref{fig:badfit}. The resulting fit models the shape and the mean of the distribution well but deviates around 90 GeV and edges of the fit window. The width of the fit is also in excess of the true width of the W of about 2 GeV. This means the Voitigian model in indadequate in describing  the data, but because it models the shape well the fitted model is used to understand the achievable mass resolution given a perfect model. Statistics consistent with 1600 $\text{fb}^{-1}$ (9.36M Events) are produced according the previously fitted model with a mean  $M_W = 79.7074$, width $\Gamma_W = 10.6972$ and $\sigma_W = 4.847e-7$ and refitted to achieve the statistical error on the mean $\Delta M_W \text{(stat.)} = 2.4$ MeV with goodness-of-fit $\chi^2 / ndof = 67.8/77$. The toy model refit is also included in Figure.
+The cross-section and errors are extracted from Table \ref{tab:selection} according to the formula:
+\begin{equation}
+\sigma = \frac{N_S - N_B}{L \epsilon}
+\end{equation}
+where $N_S$ is the observed number of events that passes selection and $N_B$ is expected number of background events that contaminate the signal selection. The resulting statistical error on the cross-section with $\epsilon$, $L$, and $N_B$ known perfectly $\frac{\Delta \sigma}{\sigma} = 0.04 \%$. Combining the errors for efficiency Poisson errors for $N_S$, with no background contribution, the resulting cross-section obtained in the combined selection is $7994 \pm 14 \, \, \text{fb}^{-1}$
+\begin{figure}
+\label{fig:badfit}
+\centering
+    \begin{minipage}{0.49\textwidth}
+        \centering
+        \includegraphics[width=0.99\textwidth]{WWSfit.pdf} % first figure itself
+   
+    \end{minipage}\hfill
+    \begin{minipage}{0.49\textwidth}
+        \centering
+        \includegraphics[width=0.99\textwidth]{Wtoyfit.pdf} % second figure itself
+     
+     \end{minipage}\\
+     \caption{ The left distribution shows the (-0.8,+0.3) W mass distribution for all signal after selection cuts. The fit results in the Voigtian parameters $M_W = 79.7074$, width $\Gamma_W = 10.6972$ and $\sigma_W = 4.847e-7$ with Monte Carlo statistics scaled up to 1600 $text{fb}^{-1}$. The right distribution shows the refit with 9.36M W's generated according to the fitted model.}
 
 
-\end{tabular} \\
+
+\end{figure}
+
+
