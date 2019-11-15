@@ -23,6 +23,11 @@ P.~Bambade, T.~Barklow, T.~Behnke, M.~Berggren, J.~Brau, D.~Denisov,
   A.~Faus-Golfe, K.~Fujii, J.~Fuster, F.~Gaede, et~al.
 \newblock The international linear collider: A global project, 2019.
 
+\bibitem{ilcop}
+T.~Barklow, J.~Brau, K.~Fujii, J.~Gao, J.~List, N.~Walker, and K.~Yokoya.
+\newblock Ilc operating scenarios.
+\newblock {\em arXiv preprint arXiv:1506.07830}, 2015.
+
 \bibitem{tdrdet}
 T.~Behnke.
 \newblock The international linear collider technical design report-volume 4:
@@ -43,6 +48,12 @@ S.~Catani, Y.~L. Dokshitzer, M.~H. Seymour, and B.~R. Webber.
 Y.~L. Dokshitzer, G.~Leder, S.~Moretti, and B.~Webber.
 \newblock Better jet clustering algorithms, 1997.
 
+\bibitem{graham}
+K.~Fujii, C.~Grojean, M.~E. Peskin, T.~Barklow, Y.~Gao, S.~Kanemura, H.~Kim,
+  J.~List, M.~Nojiri, M.~Perelstein, et~al.
+\newblock Tests of the standard model at the international linear collider.
+\newblock {\em arXiv preprint arXiv:1908.11299}, 2019.
+
 \bibitem{whizard}
 W.~Kilian, F.~Bach, T.~Ohl, and J.~Reuter.
 \newblock {WHIZARD 2.2 for Linear Colliders}.
@@ -60,6 +71,12 @@ G.~Moortgat-Pick, T.~Abe, G.~Alexander, B.~Ananthanarayan, A.~Babich, et~al.
   fundamental interactions at the linear collider, phys. rept. 460, 131--243
   (2008).
 \newblock {\em arXiv preprint hep-ph/0507011}.
+
+\bibitem{taufinder}
+A.~M{\"u}nnich.
+\newblock Taufinder: A reconstruction algorithm for $\tau$ leptons at linear
+  colliders.
+\newblock Technical report, 2010.
 
 \bibitem{ilcsoft}
 R.~Poeschl.
