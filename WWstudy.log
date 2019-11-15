@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  14 NOV 2019 19:55
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  15 NOV 2019 11:43
  restricted \write18 enabled.
 **WWstudy.tex
 (./WWstudy.tex
@@ -1029,27 +1029,27 @@ Package: luatex-loader 2010/03/09 v0.4 Lua module loader (HO)
 (/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua))
 \pdftexcmds@toks=\toks44
 ))
-Class revtex4-1 Info: Patching array package. on input line 70.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 70.
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 70.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 70.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 70.
+Class revtex4-1 Info: Patching array package. on input line 69.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 69.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 69.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 69.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 69.
 
 (./WWstudy.aux)
 \openout1 = WWstudy.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
  ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1092,7 +1092,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 
 Package tikz-feynman Warning: The preamble requested version 1.0.0, but the syst
-em version is 1.1.0. This may change some diagrams. on input line 70.
+em version is 1.1.0. This may change some diagrams. on input line 69.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
@@ -1103,35 +1103,32 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 )
 Class revtex4-1 Info: Overriding lineo.sty, restoring output routine, on input l
-ine 70.
-Class revtex4-1 Info: Line numbering not turned on yet on input line 70.
+ine 69.
+Class revtex4-1 Info: Line numbering not turned on yet on input line 69.
 
 \openout3 = WWstudyNotes.bib
-Class revtex4-1 Info: Overriding \@LN@LLerror on input line 70.
+Class revtex4-1 Info: Overriding \@LN@LLerror on input line 69.
 \c__siunitx_mathsf_int=\count198
-LaTeX Font Info:    Try loading font information for U+msa on input line 70.
+LaTeX Font Info:    Try loading font information for U+msa on input line 69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 70.
+LaTeX Font Info:    Try loading font information for U+msb on input line 69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count199
  (./abstract.tex)
-
-Class revtex4-1 Warning: Assuming \noaffiliation for authors.
-
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./introduction.tex)
-(./physics.tex [3] [4] <helicity1.pdf, id=35, 1402.23875pt x 430.60875pt>
+(./physics.tex [3] [4] <helicity1.pdf, id=36, 1402.23875pt x 430.60875pt>
 File: helicity1.pdf Graphic file (type pdf)
 
 <use helicity1.pdf>
 Package pdftex.def Info: helicity1.pdf used on input line 93.
 (pdftex.def)             Requested size: 249.9028pt x 76.73747pt.
- <helicity2.pdf, id=36, 1271.75125pt x 493.845pt>
+ <helicity2.pdf, id=37, 1271.75125pt x 493.845pt>
 File: helicity2.pdf Graphic file (type pdf)
 
 <use helicity2.pdf>
@@ -1153,19 +1150,19 @@ Missing character: There is no − (U+2212) in font cmr7!
 Missing character: There is no − (U+2212) in font cmr7!
 Missing character: There is no − (U+2212) in font cmr7!
 
-<ilc.pdf, id=56, 1438.37375pt x 590.205pt>
+<ilc.pdf, id=57, 1438.37375pt x 590.205pt>
 File: ilc.pdf Graphic file (type pdf)
  <use ilc.pdf>
 Package pdftex.def Info: ilc.pdf used on input line 9.
 (pdftex.def)             Requested size: 458.99689pt x 188.3381pt.
  [6]
-<ild3d.pdf, id=62, 1176.395pt x 824.07875pt>
+<ild3d.pdf, id=63, 1176.395pt x 824.07875pt>
 File: ild3d.pdf Graphic file (type pdf)
  <use ild3d.pdf>
 Package pdftex.def Info: ild3d.pdf used on input line 23.
 (pdftex.def)             Requested size: 249.9028pt x 175.0484pt.
 
-<ildxsec.pdf, id=63, 847.165pt x 774.895pt>
+<ildxsec.pdf, id=64, 847.165pt x 774.895pt>
 File: ildxsec.pdf Graphic file (type pdf)
  <use ildxsec.pdf>
 Package pdftex.def Info: ildxsec.pdf used on input line 24.
@@ -1189,7 +1186,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--58
 
  []
 
-[9] <cone.pdf, id=96, 170.05733pt x 157.95512pt>
+[9] <cone.pdf, id=97, 170.05733pt x 157.95512pt>
 File: cone.pdf Graphic file (type pdf)
  <use cone.pdf>
 Package pdftex.def Info: cone.pdf used on input line 72.
@@ -1199,13 +1196,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--76
 
  []
 
-[10<./cone.pdf>] <matchingangle.pdf, id=113, 569.12625pt x 384.43625pt>
+[10<./cone.pdf>] <matchingangle.pdf, id=114, 569.12625pt x 384.43625pt>
 File: matchingangle.pdf Graphic file (type pdf)
 
 <use matchingangle.pdf>
 Package pdftex.def Info: matchingangle.pdf used on input line 98.
 (pdftex.def)             Requested size: 220.31654pt x 148.82085pt.
- <candEnergy.pdf, id=114, 569.12625pt x 384.43625pt>
+ <candEnergy.pdf, id=115, 569.12625pt x 384.43625pt>
 File: candEnergy.pdf Graphic file (type pdf)
 
 <use candEnergy.pdf>
@@ -1222,37 +1219,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--118
  []
 
 [11<./matchingangle.pdf><./candEnergy.pdf>]
-<hxLR.pdf, id=211, 569.12625pt x 408.52625pt>
+<hxLR.pdf, id=212, 569.12625pt x 408.52625pt>
 File: hxLR.pdf Graphic file (type pdf)
  <use hxLR.pdf>
 Package pdftex.def Info: hxLR.pdf used on input line 148.
 (pdftex.def)             Requested size: 244.79782pt x 175.71896pt.
 
-<hxRL.pdf, id=212, 569.12625pt x 408.52625pt>
+<hxRL.pdf, id=213, 569.12625pt x 408.52625pt>
 File: hxRL.pdf Graphic file (type pdf)
  <use hxRL.pdf>
 Package pdftex.def Info: hxRL.pdf used on input line 149.
 (pdftex.def)             Requested size: 244.79782pt x 175.71896pt.
 
-<hsLR.pdf, id=213, 569.12625pt x 408.52625pt>
+<hsLR.pdf, id=214, 569.12625pt x 408.52625pt>
 File: hsLR.pdf Graphic file (type pdf)
  <use hsLR.pdf>
 Package pdftex.def Info: hsLR.pdf used on input line 157.
 (pdftex.def)             Requested size: 244.79782pt x 175.71896pt.
 
-<hsRL.pdf, id=214, 569.12625pt x 408.52625pt>
+<hsRL.pdf, id=215, 569.12625pt x 408.52625pt>
 File: hsRL.pdf Graphic file (type pdf)
  <use hsRL.pdf>
 Package pdftex.def Info: hsRL.pdf used on input line 158.
 (pdftex.def)             Requested size: 244.79782pt x 175.71896pt.
  [12<./hxLR.pdf><./hxRL.pdf><./hsLR.pdf><./hsRL.pdf>]
-<SupDiff.pdf, id=403, 569.12625pt x 309.155pt>
+<SupDiff.pdf, id=404, 569.12625pt x 309.155pt>
 File: SupDiff.pdf Graphic file (type pdf)
  <use SupDiff.pdf>
 Package pdftex.def Info: SupDiff.pdf used on input line 171.
 (pdftex.def)             Requested size: 247.40514pt x 134.39642pt.
 
-<SupMass.pdf, id=404, 569.12625pt x 332.24126pt>
+<SupMass.pdf, id=405, 569.12625pt x 332.24126pt>
 File: SupMass.pdf Graphic file (type pdf)
  <use SupMass.pdf>
 Package pdftex.def Info: SupMass.pdf used on input line 178.
@@ -1261,7 +1258,7 @@ Missing character: There is no − (U+2212) in font cmr7!
 Missing character: There is no − (U+2212) in font cmr7!
 
 
-LaTeX Warning: Reference `ivan' on page 13 undefined on input line 187.
+Package natbib Warning: Citation `ivan' on page 13 undefined on input line 187.
 
 [13] [14<./SupDiff.pdf><./SupMass.pdf>]
 Overfull \hbox (27.00558pt too wide) in paragraph at lines 207--237
@@ -1273,74 +1270,74 @@ Overfull \hbox (27.00558pt too wide) in paragraph at lines 239--270
  [][]$[]$ 
  []
 
-<moneymassdiff.pdf, id=505, 569.12625pt x 384.43625pt>
+<moneymassdiff.pdf, id=506, 569.12625pt x 384.43625pt>
 File: moneymassdiff.pdf Graphic file (type pdf)
  <use moneymassdiff.pdf>
 Package pdftex.def Info: moneymassdiff.pdf used on input line 295.
 (pdftex.def)             Requested size: 247.40514pt x 167.12282pt.
 
-<mwhadCutsHist.pdf, id=506, 569.12625pt x 385.44pt>
+<mwhadCutsHist.pdf, id=507, 569.12625pt x 385.44pt>
 File: mwhadCutsHist.pdf Graphic file (type pdf)
  <use mwhadCutsHist.pdf>
 Package pdftex.def Info: mwhadCutsHist.pdf used on input line 300.
 (pdftex.def)             Requested size: 247.40514pt x 167.55917pt.
 
-[15] <WWSfit.pdf, id=511, 569.12625pt x 421.575pt>
+[15] <WWSfit.pdf, id=512, 569.12625pt x 421.575pt>
 File: WWSfit.pdf Graphic file (type pdf)
  <use WWSfit.pdf>
 Package pdftex.def Info: WWSfit.pdf used on input line 322.
 (pdftex.def)             Requested size: 247.40514pt x 183.26785pt.
 
-<Wtoyfit.pdf, id=512, 569.12625pt x 421.575pt>
+<Wtoyfit.pdf, id=513, 569.12625pt x 421.575pt>
 File: Wtoyfit.pdf Graphic file (type pdf)
  <use Wtoyfit.pdf>
 Package pdftex.def Info: Wtoyfit.pdf used on input line 327.
 (pdftex.def)             Requested size: 247.40514pt x 183.26785pt.
 )
 (./conclude.tex [16<./moneymassdiff.pdf><./mwhadCutsHist.pdf><./WWSfit.pdf><./Wt
-oyfit.pdf>]) (./append.tex <nLepHist.pdf, id=701, 569.12625pt x 385.44pt>
+oyfit.pdf>]) (./append.tex <nLepHist.pdf, id=702, 569.12625pt x 385.44pt>
 File: nLepHist.pdf Graphic file (type pdf)
 
 <use nLepHist.pdf>
 Package pdftex.def Info: nLepHist.pdf used on input line 8.
 (pdftex.def)             Requested size: 224.911pt x 152.32065pt.
- <ntracksHist.pdf, id=702, 569.12625pt x 385.44pt>
+ <ntracksHist.pdf, id=703, 569.12625pt x 385.44pt>
 File: ntracksHist.pdf Graphic file (type pdf)
 
 <use ntracksHist.pdf>
 Package pdftex.def Info: ntracksHist.pdf used on input line 13.
 (pdftex.def)             Requested size: 224.911pt x 152.32065pt.
- <EcomHist.pdf, id=703, 569.12625pt x 385.44pt>
+ <EcomHist.pdf, id=704, 569.12625pt x 385.44pt>
 File: EcomHist.pdf Graphic file (type pdf)
 
 <use EcomHist.pdf>
 Package pdftex.def Info: EcomHist.pdf used on input line 20.
 (pdftex.def)             Requested size: 224.911pt x 152.32065pt.
- <EvisHist.pdf, id=704, 569.12625pt x 385.44pt>
+ <EvisHist.pdf, id=705, 569.12625pt x 385.44pt>
 File: EvisHist.pdf Graphic file (type pdf)
 
 <use EvisHist.pdf>
 Package pdftex.def Info: EvisHist.pdf used on input line 25.
 (pdftex.def)             Requested size: 224.911pt x 152.32065pt.
- <PtvisHist.pdf, id=705, 569.12625pt x 385.44pt>
+ <PtvisHist.pdf, id=706, 569.12625pt x 385.44pt>
 File: PtvisHist.pdf Graphic file (type pdf)
 
 <use PtvisHist.pdf>
 Package pdftex.def Info: PtvisHist.pdf used on input line 33.
 (pdftex.def)             Requested size: 224.911pt x 152.32065pt.
- <mwhadHist.pdf, id=706, 569.12625pt x 385.44pt>
+ <mwhadHist.pdf, id=707, 569.12625pt x 385.44pt>
 File: mwhadHist.pdf Graphic file (type pdf)
 
 <use mwhadHist.pdf>
 Package pdftex.def Info: mwhadHist.pdf used on input line 38.
 (pdftex.def)             Requested size: 224.911pt x 152.32065pt.
- <vrecoilHist.pdf, id=707, 569.12625pt x 385.44pt>
+ <vrecoilHist.pdf, id=708, 569.12625pt x 385.44pt>
 File: vrecoilHist.pdf Graphic file (type pdf)
 
 <use vrecoilHist.pdf>
 Package pdftex.def Info: vrecoilHist.pdf used on input line 45.
 (pdftex.def)             Requested size: 224.911pt x 152.32065pt.
- <qcostHist.pdf, id=708, 569.12625pt x 385.44pt>
+ <qcostHist.pdf, id=709, 569.12625pt x 385.44pt>
 File: qcostHist.pdf Graphic file (type pdf)
 
 <use qcostHist.pdf>
@@ -1348,28 +1345,25 @@ Package pdftex.def Info: qcostHist.pdf used on input line 50.
 (pdftex.def)             Requested size: 224.911pt x 152.32065pt.
 ) [17] (./WWstudy.bbl [18] [19<./nLepHist.pdf><./ntracksHist.pdf><./EcomHist.pdf
 ><./EvisHist.pdf><./PtvisHist.pdf><./mwhadHist.pdf><./vrecoilHist.pdf><./qcostHi
-st.pdf>]) [20
+st.pdf>])
+
+Package natbib Warning: There were undefined citations.
+
+[20
 Missing character: There is no … (U+2026) in font cmr9!
 Missing character: There is no … (U+2026) in font cmr9!
 Missing character: There is no ⊥ (U+22A5) in font cmr9!
-] (./WWstudy.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-)
+] (./WWstudy.aux))
 
 Here is how much of LuaTeX's memory you used:
  29828 strings out of 495004
- 156262,794899 words of node,token memory allocated
- 488 words of node memory still in use:
+ 156267,794899 words of node,token memory allocated
+ 489 words of node memory still in use:
    10 hlist, 2 vlist, 2 rule, 1 glue, 5 kern, 1 sub_mlist, 46 glue_spec nodes
-   avail lists: 1:15,2:227,3:2061,4:5915,5:509,6:8947,7:1462,8:1,9:3800,10:835
+   avail lists: 1:14,2:227,3:2061,4:5850,5:508,6:8548,7:1468,8:1,9:3797,10:839
  32177 multiletter control sequences out of 65536+600000
  95 fonts using 3742019 bytes
- 61i,18n,105p,3348b,1623s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 61i,18n,105p,3384b,1623s stack positions out of 5000i,500n,10000p,200000b,100000s
 <</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><</usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><</usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><</usr/share/texliv
@@ -1394,7 +1388,7 @@ y7.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
 <</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><</usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><</usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on WWstudy.pdf (20 pages, 1889595 bytes).
+Output written on WWstudy.pdf (20 pages, 1889073 bytes).
 
 PDF statistics: 1173 PDF objects out of 1200 (max. 8388607)
  580 compressed objects within 6 object streams
