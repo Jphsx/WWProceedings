@@ -184,7 +184,7 @@ Using estimators calculated from a binned histogram creates unwanted sensitivity
 
 \subsection{EventSelection}
 \label{subsec:EventSelection}
-The W-pair selection has been optimized for a Monte Carlo sample of 1600 $\text{fb}^{−1}$ with the $(-0.8,+0.3)$ beam scenario and is based on the selection in \cite{ivan}. The selection includes the full 2,4,6 fermion and Higgs SM background, and is performed with two independent subsets, a tight and loose selection. The tight selection uses the prompt muon cone to identify signal events that contain both prompt and non-prompt muons and electrons. The tight selection is inefficient in collecting hadronic taus, so, the loose selection, using the inclusive tau cone, is designed to recover the efficiency of hadronic taus and other problematic events. The selection criteria is as follows:
+The W-pair selection has been optimized for a Monte Carlo sample of 1600 $\text{fb}^{-1}$ with the $(-0.8,+0.3)$ beam scenario and is based on the selection in \cite{ivan}. The selection includes the full 2,4,6 fermion and Higgs SM background, and is performed with two independent subsets, a tight and loose selection. The tight selection uses the prompt muon cone to identify signal events that contain both prompt and non-prompt muons and electrons. The tight selection is inefficient in collecting hadronic taus, so, the loose selection, using the inclusive tau cone, is designed to recover the efficiency of hadronic taus and other problematic events. The selection criteria are as follows:
 \begin{itemize}
 \item N Leptons $\geq 1$
 \item Track Multiplicity $> 10$  
@@ -308,12 +308,12 @@ $m^2_{\nu recoil}$ &\num{3.94e+04 } & \num{7.70e+04 } & \num{4.07e+05} &\num{5.2
 \subsection{Results}
 \label{subsec:wmass}
 
-A Voigtian fit of the hadronic W mass is performed on the tight signal sample with the combined lepton categories shown in Figure \ref{fig:badfit}. The resulting fit models the shape and the mean of the distribution well but deviates around 90 GeV and edges of the fit window. The width of the fit is also in excess of the true width, which is about 2 GeV. This means the Voitigian model is indadequate in describing  the data, but, because shape is similar to data, the fitted model is used to understand the achievable mass resolution given a perfect model. Statistics consistent with 1600 $\text{fb}^{-1}$ (9.36M Events) are produced according the previously fitted model with a mean  $M_W = 79.7074$, width $\Gamma_W = 10.6972$ and $\sigma_W = 4.847 \times 10^{-7}$ and refitted to achieve the statistical error on the mean $\Delta M_W \text{(stat.)} = 2.4$ MeV with goodness-of-fit $\chi^2 / ndof = 67.8/77$. The toy model refit is also included in Figure \ref{fig:badfit}.
+A Voigtian fit of the hadronic W mass is performed on the tight signal sample with the combined lepton categories shown in Figure \ref{fig:badfit}. The resulting fit models the shape and the mean of the distribution well but deviates around 90 GeV and edges of the fit window. The width of the fit is also in excess of the true width, which is about 2 GeV. This means the Voitigian model is indadequate in describing  the data, but, because shape is similar to data, the fitted model is used to understand the achievable mass resolution given a perfect model. Statistics consistent with 1600 $\text{fb}^{-1}$ (9.36M Events) are produced according the previously fitted model with a mean  $M_W = 79.7074$ GeV, width $\Gamma_W = 10.6972$ GeV and $\sigma_W = 4.847 \times 10^{-7}$ GeV and refitted to achieve the statistical error on the mean $\Delta M_W \text{(stat.)} = 2.4$ MeV with goodness-of-fit $\chi^2 / ndof = 67.8/77$. The toy model refit is also included in Figure \ref{fig:badfit}.
 The cross-section and errors are extracted from Table \ref{tab:selection} according to the formula:
 \begin{equation}
-\sigma = \frac{N_S - N_B}{L \epsilon}
+\sigma = \frac{N_T - N_B}{L \epsilon}
 \end{equation}
-where $N_S$ is the observed number of events that passes selection and $N_B$ is expected number of background events that contaminate the signal selection. The resulting statistical error on the cross-section with $\epsilon$, $L$, and $N_B$ known perfectly is $\frac{\Delta \sigma}{\sigma} = 0.04 \%$. Combining the errors for efficiency, poisson errors for $N_S$, and having  no background contribution, the resulting cross-section obtained in the combined selection is $7994 \pm 14 \, \, \text{fb}$
+where $N_T$ is the observed number of events that passes selection and $N_B$ is expected number of background events that contaminate the signal selection. The resulting statistical error on the cross-section with $\epsilon$, $L$, and $N_B$ known perfectly is $\frac{\Delta \sigma}{\sigma} = 0.04 \%$. Combining the errors for efficiency, Poisson errors for $N_T$, and having  no background contribution, the resulting cross-section obtained in the combined selection is $7994 \pm 14 \, \, \text{fb}$
 \begin{figure}
 
 \centering
@@ -327,7 +327,7 @@ where $N_S$ is the observed number of events that passes selection and $N_B$ is 
         \includegraphics[width=0.99\textwidth]{Wtoyfit.pdf} % second figure itself
      
      \end{minipage}\\
-     \caption{ The left distribution shows the (-0.8,+0.3) W mass distribution for all signal after selection cuts. The fit results in the Voigtian parameters $M_W = 79.7074$, width $\Gamma_W = 10.6972$ and $\sigma_W = 4.847e-7$ with Monte Carlo statistics scaled up to 1600 $\text{fb}^{-1}$. The right distribution shows the refit with 9.36M W's generated according to the fitted model.}
+     \caption{ The left distribution shows the (-0.8,+0.3) W mass distribution for all signal after selection cuts. The fit results in the Voigtian parameters $M_W = 79.7074$ GeV, width $\Gamma_W = 10.6972$ GeV and $\sigma_W = 4.847e-7$ GeV with Monte Carlo statistics scaled up to 1600 $\text{fb}^{-1}$. The right distribution shows the refit with 9.36M W's generated according to the fitted model.}
 \label{fig:badfit}
 
 

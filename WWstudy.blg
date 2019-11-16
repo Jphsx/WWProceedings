@@ -8,45 +8,45 @@ Warning--to sort, need author or key in pdg
 Warning--empty author in pdg
 Warning--empty year in helicity
 Warning--empty institution in taufinder
-You've used 17 entries,
+You've used 18 entries,
             2118 wiz_defined-function locations,
-            597 strings with 7022 characters,
-and the built_in function-call counts, 5688 in all, are:
-= -- 496
-> -- 404
+            602 strings with 7151 characters,
+and the built_in function-call counts, 5885 in all, are:
+= -- 517
+> -- 411
 < -- 1
-+ -- 166
-- -- 144
-* -- 411
-:= -- 1009
-add.period$ -- 47
-call.type$ -- 17
-change.case$ -- 122
++ -- 169
+- -- 146
+* -- 420
+:= -- 1049
+add.period$ -- 50
+call.type$ -- 18
+change.case$ -- 125
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 176
-empty$ -- 373
-format.name$ -- 144
-if$ -- 1127
+cite$ -- 22
+duplicate$ -- 185
+empty$ -- 387
+format.name$ -- 146
+if$ -- 1165
 int.to.chr$ -- 0
-int.to.str$ -- 17
+int.to.str$ -- 18
 missing$ -- 11
-newline$ -- 84
-num.names$ -- 32
-pop$ -- 145
+newline$ -- 89
+num.names$ -- 34
+pop$ -- 148
 preamble$ -- 1
-purify$ -- 103
+purify$ -- 106
 quote$ -- 0
-skip$ -- 134
+skip$ -- 140
 stack$ -- 0
-substring$ -- 180
-swap$ -- 27
+substring$ -- 185
+swap$ -- 28
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 66
+type$ -- 70
 warning$ -- 4
-while$ -- 37
-width$ -- 19
-write$ -- 169
+while$ -- 39
+width$ -- 20
+write$ -- 180
 (There were 4 warnings)

@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  15 NOV 2019 11:43
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  15 NOV 2019 19:21
  restricted \write18 enabled.
 **WWstudy.tex
 (./WWstudy.tex
@@ -1254,13 +1254,8 @@ File: SupMass.pdf Graphic file (type pdf)
  <use SupMass.pdf>
 Package pdftex.def Info: SupMass.pdf used on input line 178.
 (pdftex.def)             Requested size: 247.40514pt x 144.43251pt.
-Missing character: There is no − (U+2212) in font cmr7!
-Missing character: There is no − (U+2212) in font cmr7!
-
-
-Package natbib Warning: Citation `ivan' on page 13 undefined on input line 187.
-
-[13] [14<./SupDiff.pdf><./SupMass.pdf>]
+ [13]
+[14<./SupDiff.pdf><./SupMass.pdf>]
 Overfull \hbox (27.00558pt too wide) in paragraph at lines 207--237
  []$ 
  []
@@ -1270,74 +1265,74 @@ Overfull \hbox (27.00558pt too wide) in paragraph at lines 239--270
  [][]$[]$ 
  []
 
-<moneymassdiff.pdf, id=506, 569.12625pt x 384.43625pt>
+<moneymassdiff.pdf, id=505, 569.12625pt x 384.43625pt>
 File: moneymassdiff.pdf Graphic file (type pdf)
  <use moneymassdiff.pdf>
 Package pdftex.def Info: moneymassdiff.pdf used on input line 295.
 (pdftex.def)             Requested size: 247.40514pt x 167.12282pt.
 
-<mwhadCutsHist.pdf, id=507, 569.12625pt x 385.44pt>
+<mwhadCutsHist.pdf, id=506, 569.12625pt x 385.44pt>
 File: mwhadCutsHist.pdf Graphic file (type pdf)
  <use mwhadCutsHist.pdf>
 Package pdftex.def Info: mwhadCutsHist.pdf used on input line 300.
 (pdftex.def)             Requested size: 247.40514pt x 167.55917pt.
 
-[15] <WWSfit.pdf, id=512, 569.12625pt x 421.575pt>
+[15] <WWSfit.pdf, id=511, 569.12625pt x 421.575pt>
 File: WWSfit.pdf Graphic file (type pdf)
  <use WWSfit.pdf>
 Package pdftex.def Info: WWSfit.pdf used on input line 322.
 (pdftex.def)             Requested size: 247.40514pt x 183.26785pt.
 
-<Wtoyfit.pdf, id=513, 569.12625pt x 421.575pt>
+<Wtoyfit.pdf, id=512, 569.12625pt x 421.575pt>
 File: Wtoyfit.pdf Graphic file (type pdf)
  <use Wtoyfit.pdf>
 Package pdftex.def Info: Wtoyfit.pdf used on input line 327.
 (pdftex.def)             Requested size: 247.40514pt x 183.26785pt.
 )
 (./conclude.tex [16<./moneymassdiff.pdf><./mwhadCutsHist.pdf><./WWSfit.pdf><./Wt
-oyfit.pdf>]) (./append.tex <nLepHist.pdf, id=702, 569.12625pt x 385.44pt>
+oyfit.pdf>]) (./append.tex <nLepHist.pdf, id=701, 569.12625pt x 385.44pt>
 File: nLepHist.pdf Graphic file (type pdf)
 
 <use nLepHist.pdf>
 Package pdftex.def Info: nLepHist.pdf used on input line 8.
 (pdftex.def)             Requested size: 224.911pt x 152.32065pt.
- <ntracksHist.pdf, id=703, 569.12625pt x 385.44pt>
+ <ntracksHist.pdf, id=702, 569.12625pt x 385.44pt>
 File: ntracksHist.pdf Graphic file (type pdf)
 
 <use ntracksHist.pdf>
 Package pdftex.def Info: ntracksHist.pdf used on input line 13.
 (pdftex.def)             Requested size: 224.911pt x 152.32065pt.
- <EcomHist.pdf, id=704, 569.12625pt x 385.44pt>
+ <EcomHist.pdf, id=703, 569.12625pt x 385.44pt>
 File: EcomHist.pdf Graphic file (type pdf)
 
 <use EcomHist.pdf>
 Package pdftex.def Info: EcomHist.pdf used on input line 20.
 (pdftex.def)             Requested size: 224.911pt x 152.32065pt.
- <EvisHist.pdf, id=705, 569.12625pt x 385.44pt>
+ <EvisHist.pdf, id=704, 569.12625pt x 385.44pt>
 File: EvisHist.pdf Graphic file (type pdf)
 
 <use EvisHist.pdf>
 Package pdftex.def Info: EvisHist.pdf used on input line 25.
 (pdftex.def)             Requested size: 224.911pt x 152.32065pt.
- <PtvisHist.pdf, id=706, 569.12625pt x 385.44pt>
+ <PtvisHist.pdf, id=705, 569.12625pt x 385.44pt>
 File: PtvisHist.pdf Graphic file (type pdf)
 
 <use PtvisHist.pdf>
 Package pdftex.def Info: PtvisHist.pdf used on input line 33.
 (pdftex.def)             Requested size: 224.911pt x 152.32065pt.
- <mwhadHist.pdf, id=707, 569.12625pt x 385.44pt>
+ <mwhadHist.pdf, id=706, 569.12625pt x 385.44pt>
 File: mwhadHist.pdf Graphic file (type pdf)
 
 <use mwhadHist.pdf>
 Package pdftex.def Info: mwhadHist.pdf used on input line 38.
 (pdftex.def)             Requested size: 224.911pt x 152.32065pt.
- <vrecoilHist.pdf, id=708, 569.12625pt x 385.44pt>
+ <vrecoilHist.pdf, id=707, 569.12625pt x 385.44pt>
 File: vrecoilHist.pdf Graphic file (type pdf)
 
 <use vrecoilHist.pdf>
 Package pdftex.def Info: vrecoilHist.pdf used on input line 45.
 (pdftex.def)             Requested size: 224.911pt x 152.32065pt.
- <qcostHist.pdf, id=709, 569.12625pt x 385.44pt>
+ <qcostHist.pdf, id=708, 569.12625pt x 385.44pt>
 File: qcostHist.pdf Graphic file (type pdf)
 
 <use qcostHist.pdf>
@@ -1345,53 +1340,48 @@ Package pdftex.def Info: qcostHist.pdf used on input line 50.
 (pdftex.def)             Requested size: 224.911pt x 152.32065pt.
 ) [17] (./WWstudy.bbl [18] [19<./nLepHist.pdf><./ntracksHist.pdf><./EcomHist.pdf
 ><./EvisHist.pdf><./PtvisHist.pdf><./mwhadHist.pdf><./vrecoilHist.pdf><./qcostHi
-st.pdf>])
-
-Package natbib Warning: There were undefined citations.
-
-[20
+st.pdf>]) [20
 Missing character: There is no … (U+2026) in font cmr9!
 Missing character: There is no … (U+2026) in font cmr9!
 Missing character: There is no ⊥ (U+22A5) in font cmr9!
 ] (./WWstudy.aux))
 
 Here is how much of LuaTeX's memory you used:
- 29828 strings out of 495004
+ 29831 strings out of 495004
  156267,794899 words of node,token memory allocated
- 489 words of node memory still in use:
+ 490 words of node memory still in use:
    10 hlist, 2 vlist, 2 rule, 1 glue, 5 kern, 1 sub_mlist, 46 glue_spec nodes
-   avail lists: 1:14,2:227,3:2061,4:5850,5:508,6:8548,7:1468,8:1,9:3797,10:839
- 32177 multiletter control sequences out of 65536+600000
+   avail lists: 1:14,2:228,3:2062,4:5849,5:508,6:8607,7:1468,8:2,9:3797,10:853
+ 32180 multiletter control sequences out of 65536+600000
  95 fonts using 3742019 bytes
  61i,18n,105p,3384b,1623s stack positions out of 5000i,500n,10000p,200000b,100000s
-<</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><</usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><</usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><</usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><</usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb><</usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi5.pfb><</usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi6.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi7.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi8.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><</usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><</usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><</usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><</usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr8.pfb><</usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy5.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy6.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y7.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-<</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><</usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><</usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on WWstudy.pdf (20 pages, 1889073 bytes).
+<</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><</usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><</usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><</usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><</usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi5.pfb><</usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi6.pfb><</usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi7.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><</usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><</usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><</usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><</usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr9.pfb><</usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy5.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy6.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+9.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+<</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><</usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on WWstudy.pdf (20 pages, 1880832 bytes).
 
-PDF statistics: 1173 PDF objects out of 1200 (max. 8388607)
- 580 compressed objects within 6 object streams
+PDF statistics: 1169 PDF objects out of 1200 (max. 8388607)
+ 577 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
