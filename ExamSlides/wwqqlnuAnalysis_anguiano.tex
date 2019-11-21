@@ -11,6 +11,7 @@
 \usepackage[compat=1.0.0]{tikz-feynman}
 \setbeamertemplate{footline}[frame number]
 \definecolor{emerald}{rgb}{0.31, 0.78, 0.47}
+\definecolor{lightblue}{rgb}{0.63, 0.79, 0.95}
 \usepackage{siunitx}
 \author{Justin Anguiano}
 
@@ -69,7 +70,7 @@ Google Trends ``International Linear Collider" 2004-Present
 \end{columns}
 \end{frame}
 
-\begin{frame}
+\begin{frame}{History of ILC}
 Google Trends ``International Linear Collider" 2004-Present
 \includegraphics[scale=0.25]{timeline1.png}\\
 August 2004 
@@ -80,7 +81,7 @@ August 2004
 \item This decision causes – the Next Linear Collider (NLC), the Global Linear Collider (GLC) and Teraelectronvolt Energy Superconducting Linear Accelerator (TESLA) -- to join their efforts (ILC)
 \end{itemize}
 \end{frame}
-\begin{frame}
+\begin{frame}{History of ILC}
 Google Trends ``International Linear Collider" 2004-Present
 \includegraphics[scale=0.25]{timeline2.png}\\
 \begin{columns}
@@ -101,7 +102,7 @@ August 2005
 \end{column}
 \end{columns}
 \end{frame}
-\begin{frame}
+\begin{frame}{History of ILC}
 Google Trends ``International Linear Collider" 2004-Present
 \includegraphics[scale=0.25]{timeline3.png}\\
 September 2008 
@@ -110,7 +111,7 @@ September 2008
 \item Open house at KEK, Japan expresses interest in hosting ILC
 \end{itemize} 
 \end{frame}
-\begin{frame}
+\begin{frame}{History of ILC}
 Google Trends ``International Linear Collider" 2004-Present
 \includegraphics[scale=0.25]{timeline4.png}\\
 August 2013 
@@ -128,7 +129,7 @@ August 2013
 \end{columns}
 
 \end{frame}
-\begin{frame}
+\begin{frame}{History of ILC}
 Google Trends ``International Linear Collider" 2004-Present
 \includegraphics[scale=0.25]{timeline5.png}\\
 March 2019
@@ -139,22 +140,41 @@ March 2019
 \end{itemize}
 \end{frame}
 
-\begin{frame}{ILC Detector the ILD  }
-The International Large Detector\\
-ILD concept\\
-magnetic field\\
-layers\\
+\begin{frame}{ILC Detector the ILD }
+The International Large Detector (ILD)\\
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\includegraphics[scale=0.14]{ild3d.pdf}
+\end{column}
+\begin{column}{0.5\textwidth}
+\includegraphics[scale=0.2]{ildxsec.pdf}
+\end{column}
+\end{columns}
+\begin{itemize}
+\item Maximizes detector particle resolving power by being large
+\item 3.5T Magnetic Field
+\item Gaseous Tracker $\rightarrow$ bubble chamber-like tracks
+\end{itemize}
 \end{frame}
 
-\begin{frame}{preface }
-explanation of polarization \\
-use beams to control physics/ supress or enhance certain processes
+\begin{frame}{Polarization primer }
+A key feature of ILC is beam polarization\\
+Use beams to control physics -- suppress or enhance certain processes which are sensitive to e/p helicity intital states\\
+\quad \quad \\ 
 
-tunable beams\\
-beam scenarios\\
-beam composistion\\
-jargon 0.8 0.3\\
-motivation of pol\\
+Example beam scenario : $(P_{e^-}, P_{e^+}) = (-0.8,+0.3)$\\
+$P_{e^\pm}$ is related to the fraction of Left or Right handed electron/positrons in a beam\\
+\quad \quad \\
+
+$P_{e^-} =-0.8$ means $e^-$ beam is $90\%$ L and $10\%$ R\\
+$P_{e^+} =+0.3$ means $e^+$ beam is $65^\%$ R and $35\%$ L\\
+\quad \quad\\
+
+So.. in $(-0.8,+0.3)$\\
+Most collisions will be between $e^-_L$ and $e^+_R$ (LR)\\
+but sometimes the opposite occurs $e^-_R$ and $e^+_L$ (RL)\\
+LL, RR is possible too (less important in WW) \\
+
 
 \end{frame}
 
@@ -178,18 +198,19 @@ motivation of pol\\
     };
 \end{column}
 \begin{column}{0.5\textwidth}
-	WW is a standard process with a large cross-section 
-		\begin{itemize}
-		\scriptsize
-		\item[--] 15 pb in semileptonic channel at 500 GeV
-		\end{itemize} 
-	Three central physics issues addressable by this channel are
+\begin{itemize}
+	\item WW is a standard process with a large cross-section 
+		
+		
+		\item Semileptonic mode offers significant advantages over fully hadronic/leptonic modes
+\item Offers utility in both new physics potential and benchmarking detector performance
+	\item Three central physics issues addressable by this channel are
 		\begin{itemize}
 		\scriptsize
 		\item[--] Dynamics of the charged triple gauge couplings
 		\item[--] Measurement of W boson mass, width, cross-section, and BR
 		\item[--] Beam polarization measurement
-		
+		\end{itemize}
 		\end{itemize}
 \end{column}
 \end{columns}
@@ -198,7 +219,7 @@ motivation of pol\\
 
 \begin{frame}{500 GeV Samples}
 
-Study here is at $\sqrt{s} = 500$ GeV\\
+Study here uses full simulation at $\sqrt{s} = 500$ GeV\\
 Total luminosity : 4000 fb$^{-1}$\\
 Polarizations:
 \scriptsize
@@ -260,10 +281,7 @@ MC Background Samples (DBD)--\\
 \end{itemize}
 \end{column}
 \end{columns}
-\quad \quad \\
-\scriptsize
-Note: signal events are split into WW-like and not WW-like events\\
-events that contain an off shell W ($\pm 10 GeV$ to nominal mass) are considered to be not WW-like
+
 
 \end{frame}
 
@@ -301,7 +319,7 @@ Identify signal lepton candidates with TauFinder\\
 With a selected lepton, treat the remaining system as hadronic components of $W\rightarrow qq$\\
 \quad \quad \scriptsize Use y-cut and kinematic cuts on mini-jets to mitigate pileup ($\gamma \gamma$)\\
 \normalsize
-\textbf{Step 3}- Perform basic event selection for multiple polarization scenarios\\
+\textbf{Step 3}- Perform basic event selection for most favorable polarization scenario\\
 \textbf{Step 4}- Obtain physics measurements\\
 \end{frame}
 
@@ -320,7 +338,7 @@ With a selected lepton, treat the remaining system as hadronic components of $W\
  \scriptsize
  	\item[-]\textbf{Search Cone Angle} \colorbox{orange}{$\alpha$}- The opening angle of the search cone for the lepton jet [rad]
  	\item[-] \textbf{Isolation Cone Angle} \colorbox{red}{$\beta$} - Outer isolation cone around the search cone of the lepton jet [rad]
- 	\item[-] \fbox{\transparent{0.5} \colorbox{blue}{\textbf{Isolation Energy}}} - The total energy allowed within the isolation cone region [GeV]
+ 	\item[-] \colorbox{lightblue}{\textbf{Isolation Energy}} - The total energy allowed within the isolation cone region [GeV]
  	\item[-]Invariant Mass - The upper limit on lepton candidate mass [GeV]
  	\item[-] $0 <$ Max N Tracks $\leq 3$
  \end{itemize}
@@ -335,23 +353,19 @@ With a selected lepton, treat the remaining system as hadronic components of $W\
 \begin{frame}{(1) TauFinder Optimization}
 \begin{columns}
 \begin{column}{0.5\textwidth}
-Optimization of 3 parameters:\\
-\scriptsize
--- SearchCone $\alpha$  $\in \, [0,0.15] $ rad with $0.01 $ rad steps\\
--- IsolationCone $\beta$ $\in \, [0,0.15] $ rad with $0.01 $ rad steps\\
--- IsolationEnergy $E_{iso}$ $\in \, [0,5.5] $ GeV with $0.5 $ GeV steps \\
+Optimization of 3 parameters $\alpha \, , \beta \, , E_{iso}$\\
+Fixed Mass $\leq 2$ GeV
 
-For simplicity, fix invariant mass cut $\leq$ 2 GeV
 \end{column}
 \begin{column}{0.5\textwidth}
 \includegraphics[scale=0.6]{cone.pdf}
 \end{column}
 \end{columns}
 
-\textbf{Optimization metric} definitions:\\
+
 \begin{columns}
 \begin{column}{0.5\textwidth}
-\textbf{Efficiency for true leptons} \\
+Maximize \textbf{Efficiency for true leptons} \\
 \scriptsize using $WW\rightarrow qq \ell \nu$ 
 \\
 \colorbox{yellow}{$\varepsilon_s = N_{matched}/N_{Stotal} $}\\
@@ -365,6 +379,7 @@ For simplicity, fix invariant mass cut $\leq$ 2 GeV
 	\quad \quad \quad \colorbox{green}{ max$[(1-P_{fake}) \varepsilon_s]$}
 \end{column}
 \begin{column}{0.5\textwidth}
+Minimize
 \textbf{Probability of fake leptons}\\
 \scriptsize using $WW \rightarrow qqqq$ \\
 \colorbox{yellow}{$P_{fake} = 1-(1 - \varepsilon_b)^{\frac{1}{4} }$}\\
@@ -385,31 +400,36 @@ For simplicity, fix invariant mass cut $\leq$ 2 GeV
 \begin{frame}{(1) TauFinder Optimization Results}
 \scriptsize
 Optimized against $qq\ell \nu$ and $qqqq$ samples with $100\% \, \, e^-_L e^+_R$ polarization 
-\begin{tabular}{|p{0.15\textwidth}|p{0.1\textwidth}p{0.1\textwidth}p{0.1\textwidth}p{0.1\textwidth}p{0.1\textwidth}p{0.1\textwidth}|}
+
+\tiny
+\begin{tabular}{|p{0.1\textwidth}|p{0.13\textwidth}p{0.13\textwidth}p{0.13\textwidth}p{0.1\textwidth}p{0.1\textwidth}p{0.1\textwidth}|}
 
 \hline 
 \rowcolor{lightgray}
-Channel & $\varepsilon_s$ & $1-P_{fake}$ & \% Matched & searchCone [rad] & isoCone [rad] & isoE [GeV] \\ 
+Channel & $n \, \, \text{Lep} \geq 1$ & $1-P_{F}$ & $\epsilon_T$ & SearchCone [rad] & Iso.Cone [rad] & Iso.E [GeV] \\ 
 \hline 
 \rowcolor{green}
-Prompt $\mu$ & 0.905 & 0.974 & 0.992 & 0.03 & 0.15 & 3.0 \\ 
+Prompt $\mu$ & $0.955 \pm 0.003$ & $0.974 \pm 0.001$ & $0.949 \pm 0.003$ & 0.03 & 0.15 & 3.0 \\ 
+
+Prompt $e$ & $0.920 \pm 0.003$ & $0.961 \pm 0.001$ & $0.904 \pm 0.003$ & 0.04 & 0.15 & 4.0 \\ 
 \rowcolor{emerald}
-Inclusive $\tau$ & 0.736 & 0.943 & 0.958 & 0.07 & 0.15 & 4.5 \\ 
+Inclusive $\tau$ & $0.800 \pm 0.005$ & $0.943 \pm 0.001$ &  $0.770 \pm 0.006$ & 0.07 & 0.15 & 4.5 \\ 
+
+
+ \hline
+$\tau \rightarrow \nu \nu \mu$ & $0.815 \pm 0.012$ & $0.974 \pm 0.001$ & $0.801 \pm 0.013$ & 0.03 & 0.15 & 3.0 \\ 
  
-$\tau \rightarrow \nu \nu \mu$ & 0.802 & 0.974 & 0.984 & 0.03 & 0.15 & 3.0 \\ 
+$\tau \rightarrow \nu \nu e$ &  $0.800 \pm 0.012$ & $0.963 \pm 0.001$ &  $0.781 \pm 0.013$ & 0.05 & 0.15 & 3.5 \\ 
  
-$\tau \rightarrow \nu \nu e$ & 0.781 & 0.963 & 0.981 & 0.05 & 0.15 & 3.5 \\ 
+$\tau$ Had-1p & $0.744 \pm 0.009$ & $0.930 \pm 0.002$ & $0.707 \pm 0.009$ & 0.07 & 0.15 & 4.5 \\ 
  
-$\tau$ Had-1p & 0.707 & 0.943 & 0.951 & 0.07 & 0.15 & 4.5 \\ 
- 
-$\tau$ Had-3p & 0.709 & 0.930 & 0.937 & 0.07 & 0.15 & 5.5 \\ 
- 
-Prompt $e$ & 0.839 & 0.961 & 0.970 & 0.04 & 0.15 & 4.0 \\ 
-\hline 
+$\tau$ Had-3p &  $0.756 \pm 0.015$ & $0.930 \pm 0.002$ & $0.710 \pm 0.016$ & 0.07 & 0.15 & 5.5  \\
+\hline
 \end{tabular} 
 \quad \quad \\
 \quad \quad \\
 \begin{itemize}
+\scriptsize
 \item Trickier reconstruction suggests wider cones and more isolation energy
 \item Use two cones for analysis \colorbox{green}{Prompt $\mu$} and \colorbox{emerald}{Inclusive $\tau$} for a \colorbox{green}{Tight} and \colorbox{emerald}{Loose} selection
 \item Expect tight selection to best capture all high quality lepton candidates
@@ -458,24 +478,21 @@ Mitigate Pileup with ``Jet Fragmentation"\\
 
 \end{frame}
 \begin{frame}{(2) Optimized W Mass}
-Find best W jet parameters with signal prompt muons\\
-\scriptsize
-Jet Clustering -- yCut:$[1\times10^{-3}, 5\times10^{-6}]$ \\
+\begin{columns}
+\begin{column}{0.5\textwidth}
+Find best y-cut combined with kinematic cuts to optimize hadronic W mass\
 
-$\text{Kinematic cuts} - 
-\begin{cases}
-	pT:[0,5]\, \, \text{bins of} \, \, 0.5 \text{GeV} \\
-	|cos\theta|:[0.9,1] \, \, 0.01 \text{bins}
-	\end{cases}
-$\\
-\quad \quad \\
-\normalsize
 \quad \quad \\
 Use 2 optimization parameters from the $M_{qq}^{meas} - M_{qq}^{gen}$ dist.:\\
 \begin{itemize}
-\item[-] Full Width Half Maximum (FWHM) \\
-\item[-]Number of bin Entries in the Mode\\
+\item[-]Minimize Full Width Half Maximum (FWHM) \\
+\item[-]Maximize Number of bin Entries in the Mode\\
 \end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth}
+\includegraphics[scale=0.3]{nocutDiff.pdf}\\
+\end{column}
+\end{columns}
 \quad \quad \\ 
 \scriptsize
 The Mode Entries is the number of entries in the Maximum bin + the number of Entries of the nearest left/right neighbor bins\\
@@ -536,7 +553,7 @@ Perform event selection with two mutually exclusive groups:\\
 Overall efficiency \colorbox{yellow}{$\epsilon = \epsilon_0 + \epsilon_1$}\\
 Overall purity \colorbox{yellow}{$p = (N_0 + N_1) / (B_0 + B_1 + N_0 +N_1)$}\\
 \quad \quad \\
-
+Selection is optimized to maximize $\epsilon \cdot p$ for the subset of events where both fermion pairs are near the nominal W-mass
 
 \end{frame}
 \begin{frame}
@@ -560,14 +577,17 @@ adapted from ref. \url{I. Marchesini DESY-THESIS 2011}\\
 \end{frame}
 
 \begin{frame}{(3) Event Selection (Tight)}
+
+Example of the most powerful cuts:\\
 \scriptsize
 Tight Signal $\Rightarrow$  muon cone for $\mu,e,\tau$ signal events\\
-All plots include an N Lepton $> 0$ cut (except N Lepton plot)\\
+All plots include an N Lepton $> 0$ cut \\
 Polarization: (-0.8,+0.3)\quad
 Luminosity: 1600 fb$^{-1}$
+(Includes off-shell types of events)
 \begin{columns}
 \begin{column}{0.5\textwidth}
-\includegraphics[scale=0.3, left]{nLepHist.pdf} \\
+\includegraphics[scale=0.3, left]{PtvisHist.pdf} \\
 N Leptons $> 0$
 \end{column}
 \begin{column}{0.5\textwidth}
@@ -577,71 +597,29 @@ N Tracks $> 10$
 \end{columns}
 \end{frame}
 
-\begin{frame}{(3) Event Selection (Tight)}
-\scriptsize
-Tight Signal $\Rightarrow$  muon cone for $\mu,e,\tau$ signal events\\
-All plots include an N Lepton $> 0$ cut\\
-Polarization: (-0.8,+0.3)\quad
-Luminosity: 1600 fb$^{-1}$
-\begin{columns}
-\begin{column}{0.5\textwidth}
-\includegraphics[scale=0.3, left]{PtvisHist.pdf} \\
-Visible Pt $> 5$ GeV
-\end{column}
-\begin{column}{0.5\textwidth}
-\includegraphics[scale=0.3, left]{EvisHist.pdf} \\
-Visible Energy $< 500$ GeV
-\end{column}
-\end{columns}
-\end{frame}
+
 
 \begin{frame}{(3) Event Selection (Tight)}
+
+Hadronic Mass Before and After all cuts\\
 \scriptsize
 Tight Signal $\Rightarrow$  muon cone for $\mu,e,\tau$ signal events\\
-All plots include an N Lepton $> 0$ cut\\
+Left plot includes an N Lepton $> 0$ cut\\
 Polarization: (-0.8,+0.3)\quad
 Luminosity: 1600 fb$^{-1}$
+(Includes off-shell types of events)
 \begin{columns}
-\begin{column}{0.5\textwidth}
-\includegraphics[scale=0.3, left]{EcomHist.pdf} \\
-$E_{com} > 100$ GeV
-\end{column}
 \begin{column}{0.5\textwidth}
 \includegraphics[scale=0.3, left]{mwhadHist.pdf} \\
 $ 40 < M_{qq} < 120$
 \end{column}
-\end{columns}
-\end{frame}
+\begin{column}{0.5\textwidth}
+\includegraphics[scale=0.3, left]{mwhadCutsHist.pdf} \\
 
-\begin{frame}{(3) Event Selection (Tight)}
-\scriptsize
-Tight Signal $\Rightarrow$  muon cone for $\mu,e,\tau$ signal events\\
-All plots include an N Lepton $> 0$ cut\\
-Polarization: (-0.8,+0.3)\quad
-Luminosity: 1600 fb$^{-1}$\\
-\begin{columns}
-\begin{column}{0.5\textwidth}
-\includegraphics[scale=0.3, left]{qcostHist.pdf} \\
-$-qcos\theta_W > -0.95$
-\end{column}
-\begin{column}{0.5\textwidth}
-\includegraphics[scale=0.3, left]{vrecoilHist.pdf} \\
-$m^2_{\nu recoil} < 135,000 \, \, \text{GeV}^2$
 \end{column}
 \end{columns}
 \end{frame}
-\begin{frame}{(3) Event Selection -- Example Distribution}
-Tight Signal $\Rightarrow$  muon cone for $\mu,e,\tau$ signal events\\
-Polarization: (-0.8,+0.3)\quad
-Luminosity: 1600 fb$^{-1}$\\
-Example: Hadronic mass distribution after all event selection cuts
-\begin{center}
-\includegraphics[scale=0.3, left]{mwhadCutsHist.pdf}
-\end{center}
 
-
-
-\end{frame}
 
 
 \begin{frame}{(3) Event Selection -- ``WW-like" Signal}
@@ -715,83 +693,7 @@ $m^2_{\nu recoil}$ &\num{3.94e+04 } & \num{7.70e+04 } & \num{4.07e+05} &\num{5.2
 %end box
 }}
 \end{frame}
-\begin{frame}{(3) Event Selection -- Not ``WW-like" Signal}
-\scriptsize
-Polarization: (-0.8,+0.3)\quad
-Luminosity: 1600 fb$^{-1}$\\
-Signal events containing off-shell W\\
- \scriptsize
-Signal events with at least 1 off off shell(O.S.) W are separated into a new category of not ``WW-like" signal events
-\tiny
-\begin{columns}
-\begin{column}{0.5\textwidth}
-Tight Selection with muon cone\\
-    \begin{tabular}{|p{0.18\textwidth}p{0.22\textwidth}p{0.21\textwidth}p{0.18\textwidth}|}
-\hline 
- & Prompt $\mu$ O.S. & Prompt e O.S. & Tau O.S. \\ \hline 
-Base Evts &\num{5.78e+05 } & \num{3.88e+06 } & \num{5.70e+05}\\ 
 
-Lepton &\num{5.11e+05 } & \num{2.27e+06 } & \num{3.42e+05}\\ 
- 
-$E_{vis}$ &\num{5.08e+05 } & \num{2.25e+06 } & \num{3.41e+05}\\ 
-
-N Tracks &\num{4.95e+05 } & \num{2.19e+06 } & \num{3.35e+05}\\ 
- 
-$-qcos\theta$ &\num{4.94e+05 } & \num{2.10e+06 } & \num{3.31e+05}\\ 
- 
-$M_{qq}$ $>$ 40 &\num{4.67e+05 } & \num{2.01e+06 } & \num{3.14e+05}\\ 
-
-$M_{qq}$ $<$ 120 &\num{3.44e+05 } & \num{1.81e+06 } & \num{2.39e+05}\\ 
- 
-$E_{com}$ &\num{3.44e+05 } & \num{1.81e+06 } & \num{2.39e+05}\\ 
-
- Pt vis.&\num{3.40e+05 } & \num{1.80e+06 } & \num{2.36e+05}\\ 
- 
-$m^2_{\nu recoil}$ &\num{3.40e+05 } & \num{1.76e+06 } & \num{2.34e+05}\\ 
-\hline 
-\rowcolor{green}
- $\epsilon$ & $0.5882 \pm 0.006$ & $0.4535 \pm 0.0014$ & $0.4108 \pm 0.0063$ \\  \hline
-\end{tabular}
-\end{column}
-\begin{column}{0.5\textwidth}
-Loose Selection with tau cone\\
-  \begin{tabular}{|p{0.18\textwidth}p{0.22\textwidth}p{0.21\textwidth}p{0.18\textwidth}|}
-\hline 
-   & Prompt $\mu$ O.S. & Prompt e O.S. & Tau O.S. \\ \hline 
-Base Evts &\num{5.78e+05 } & \num{3.88e+06 } & \num{5.70e+05}\\ 
-
-Lepton &\num{5.15e+05 } & \num{2.47e+06 } & \num{4.26e+05}\\ 
- 
-Tight Lep. Veto &\num{8.18e+03 } & \num{2.61e+05 } & \num{8.83e+04}\\ 
- 
-$E_{vis}$ &\num{7.87e+03 } & \num{2.61e+05 } & \num{8.83e+04}\\ 
- 
-N Tracks &\num{7.57e+03 } & \num{2.48e+05 } & \num{8.63e+04}\\ 
- 
-$-qcos\theta$ &\num{6.97e+03 } & \num{2.31e+05 } & \num{8.15e+04}\\ 
- 
-$M_{qq}$ $>$ 40 &\num{5.60e+03 } & \num{1.38e+05 } & \num{7.66e+04}\\ 
- 
-$M_{qq}$ $<$ 120 &\num{3.63e+03 } & \num{1.20e+05 } & \num{4.82e+04}\\ 
- 
-$E_{com}$ &\num{3.63e+03 } & \num{1.18e+05 } & \num{4.82e+04}\\ 
-
-Pt vis. &\num{3.63e+03 } & \num{1.18e+05 } & \num{4.77e+04}\\ 
- 
-$m^2_{\nu recoil}$ &\num{3.63e+03 } & \num{9.15e+04 } & \num{4.73e+04}\\ 
-\hline 
-
- $\epsilon$ & $0.006287 \pm 0.0011$ & $0.02358 \pm 0.00046$ & $0.08298 \pm 0.0038$ \\ \hline
-
-
-\end{tabular} \\
-\end{column}
-\end{columns}
-\scriptsize
--- selection is not that efficient for these types of events, and is not optimized to select these events
-  
-
-\end{frame}
 
 \begin{frame}{Event Selection Summary (LR)}
  \tiny
@@ -821,48 +723,45 @@ $m^2_{\nu recoil}$ &\num{3.63e+03 } & \num{9.15e+04 } & \num{4.73e+04}\\
 With Sig.+O.S. and Tight + Loose Sel.\\
 \colorbox{yellow}{ $ \frac{\Delta\sigma}{\sigma} (stat.) = 0.04 \%$}
 \end{frame}
+
 \begin{frame}{(4) W-Mass Measurement }
 Comparison of Generator mass differences\\
+Before $\&$ After  pileup removal and selection cuts \\
 Polarization: (-0.8,+0.3)\quad
 Luminosity: 1600 fb$^{-1}$\\
-\scriptsize
-\begin{columns}
-\begin{column}{0.5\textwidth}
-\includegraphics[scale=0.3, left]{mqqdiffOLHist.pdf} \\
-Before Event Selection and pileup removal
-\end{column}
-\begin{column}{0.5\textwidth}
 
-\includegraphics[scale=0.3, left]{mqqdiffHist.pdf} \\
-After Event selection and pileup removal
-\end{column}
-\end{columns}
-\quad \quad \\
-\quad \quad \\
+\begin{center}
+\includegraphics[scale=0.4]{moneymassdiff.pdf} \\
+\end{center}
 
 
 \end{frame}
 \begin{frame}{(4) W-Mass Measurement }
+\scriptsize
 Polarization: (-0.8,+0.3)\quad
 Luminosity: 1600 fb$^{-1}$\\
-Tight Signal+O.S. $\mu ,\tau$ only\\
+Tight Signal+O.S. $\mu ,\tau , e$\\
 \scriptsize
 \begin{columns}
 \begin{column}{0.5\textwidth}
+
 \includegraphics[scale=0.3, left]{WWSfit.pdf} \\
 \begin{itemize}
 \scriptsize
 \item Applied Voigtian fit to get a model for W-mass shape
 \item Poor fit, and statistical errors correspond to unweighted number of events
+\item Fit params. $M_W = 79.7074$ GeV, width $\Gamma_W = 10.6972$ GeV and $\sigma_W = 4.847e-7$ GeV
 \end{itemize}
 \end{column}
 \begin{column}{0.5\textwidth}
 
-\includegraphics[scale=0.3, left]{toymass.pdf} \\
+\includegraphics[scale=0.3, left]{Wtoyfit.pdf} \\
 \begin{itemize}
 \item Fit a toy model based on previous shape fit
-\item Uses statistics consistent with 1600 fb$^{-1}$ (5.06M Events)
-\item \colorbox{green}{$\Delta M_W (\text{stat.}) = 3.2 \, \text{MeV} \, \, \chi^2/ndof = 52.2/77$ }
+\item Uses statistics of 1600 fb$^{-1}$ (9M Events)
+\item \colorbox{green}{$\Delta M_W (\text{stat.}) = 2.4 \, \text{MeV} \, \, \chi^2/ndof = 67.8/77$ }
+\item Estimate with good systematics $\rightarrow$ $\Delta M_W = 4.6$ MeV
+\item Current PDG value: $\Delta M_W = 12$ MeV
 \end{itemize}
 \end{column}
 \end{columns}
@@ -873,12 +772,13 @@ Tight Signal+O.S. $\mu ,\tau$ only\\
 
 
 \begin{frame}{Summary}
+\scriptsize
 Completed Work:
 \begin{itemize}
 	\item[-] Performed a benchmarking analysis with $WW\rightarrow qq\ell\nu$
 	\item[-] Treated the leptons universally with TauFinder
 	\item[-] Rejected $\gamma \gamma$ pileup by fragmenting jets and making a Pt cut on the resulting mini-jets
-	\item[-] Performed a basic event selection for all polarizations for a total of 4000 fb$^-1$ of data
+	\item[-] Performed a basic event selection for main polarization with 1600 fb$^{-1}$ of data
 	\item[-] Reported statistical errors $\Delta M_W$ and $\Delta\sigma$
 	
 \end{itemize}
@@ -887,6 +787,14 @@ TODO:
 	\item[-] Constrained fitting for W-mass and event selection improvements
 	\item[-] Study efficiency as a function of $cos\theta$ of the lepton 
 	\item[-] Separate muonic taus and prompt muons using IP significance or constrained fits
+	\item[-] Do analysis at $\sqrt{s} = 250$ GeV
+
+\end{itemize}
+Future Plans:
+\begin{itemize}
+	\item[-] ILC progress doesn't grant much incentive to continue work
+	\item[-] Future focus: CMS exclusive
+	\item[-] compressed SUSY search w/ leptons, hopefully with new ML type approaches to analysis
 
 \end{itemize}
 
@@ -896,65 +804,6 @@ TODO:
 
 
 
-\begin{frame}
-Backup
-\end{frame}
-\begin{frame}{(1) TauFinder Optimization}
-Optimization of 3 parameters:\\
--- searchCone $\in \, [0,0.15] $ rad with $0.01 $ rad steps\\
--- isolationCone $\in \, [0,0.15] $ rad with $0.01 $ rad steps\\
--- isolationEnergy $\in \, [0,5.5] $ GeV with $0.5 $ GeV steps \\
 
-For simplicity, fix invariant mass cut at 3 GeV
-
-Define optimization metrics:\\
-\begin{columns}
-\begin{column}{0.5\textwidth}
-Efficiency using $WW\rightarrow qq l nu$ for
-true leptons:\\
-$\varepsilon_s = N_{matched}/N_{Stotal} $\\
-	\scriptsize
-	\quad -- a tau candidate is considered matched within 100 mrads of the gen lepton\\ 
-	\quad -- if the gen lepton is a tau, the jet is matched to the gen visible components -- excluding FSR
-	\quad -- $N_{Stotal}$ is the Number of events with 3 visible gen fermions $|cos\theta |< 0.99$
-\end{column}
-\begin{column}{0.5\textwidth}
-fake leptons:
-Use $WW \rightarrow qqqq$ \\
--- $\varepsilon_b = N_b/N_{Btotal}$ \\
-	\scriptsize
-	$N_b$ is any event with at least one reconstructed tau jet
-\quad \quad \\
-
-\quad 4 quarks give 4 chances to create a tau jet $\varepsilon_b$\\
---Use a better tuning parameter $P_{fake}$ which is the probability of reconstructing a tau jet from a single quark jet\\
-\quad \quad \\
-$P_{fake} = 1-(1 - \varepsilon_b)^{\frac{1}{4} }$\\
-$\sigma_{P_{fake}} = \frac{1}{4} \sqrt{\frac{\varepsilon_b}{N_{Btotal} \sqrt{1-\varepsilon_b}} }$
-
-\end{column}
-\end{columns}
-
-The optimal working point is chosen from the two tuning parameters max$[(1-P_{fake}) \varepsilon_s]$
-\end{frame}
-
-\begin{frame}{(3) Event Selection (Tight)}
-Performance of hadronic mass and $W^{-}$ scattering angle\\
-Polarization: (-0.8,+0.3)\quad
-Luminosity: 1600 fb$^{-1}$\\
-All cuts applied, tight selection only with $\mu ,e, \tau$
-
-\begin{columns}
-\begin{column}{0.5\textwidth}
-\includegraphics[scale=0.3, left]{qcostdiffHist.pdf} \\
-
-\end{column}
-\begin{column}{0.5\textwidth}
-\includegraphics[scale=0.3, left]{mqqdiffHist.pdf} \\
-
-\end{column}
-\end{columns}
-
-\end{frame}
 
 \end{document}
