@@ -1,4 +1,4 @@
-% feyngraph.mp -- do not edit, generated automatically by WWstudy.tex
+% feyngraph.mp -- do not edit, generated automatically by WWproc.tex
 input feynmp
 require_RCS_revision "1.30";
 beginchar(1, 85*1.0pt#, 75*1.0pt#, 0);

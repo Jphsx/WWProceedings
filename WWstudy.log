@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.4.7)  11 APR 2020 16:30
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.4.7)  14 APR 2020 16:29
  restricted system commands enabled.
 **WWstudy.tex
 (./WWstudy.tex
@@ -34,207 +34,32 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.176 seconds
+luaotfload | main : initialization completed in 0.130 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/revtex/revtex4-1.cls
-Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revte
-x4/ for documentation)
- Copyright (c) 2009 The American Physical Society.
- mailto:revtex@aps.org
- Licensed under the LPPL:
-http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
- Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
- Based on work by David Carlisle <david at dcarlisle.demon.co.uk>.
-ltxutil[2010/07/25/20:33:00 4.1r utilities package (portions licensed from W. E.
- Baxter web at superscript.com)]
-LaTeX Info: Redefining \@centercr on input line 308.
-Class revtex4-1 Info: Repairing broken LaTeX eqnarray on input line 358.
-\eqncolsep=\skip41
-Class revtex4-1 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfootn
-ote on input line 433.
-Class revtex4-1 Info: Repairing broken LateX \@sect on input line 755.
-\intertabularlinepenalty=\count79
-\@tbpen=\count80
-\@arstrutbox@hline=\box26
-Class revtex4-1 Info: Repairing broken LaTeX \@xbitor on input line 1786.
-Class revtex4-1 Info: Making \typeout \long on input line 2046.
-ltxfront[2010/07/25/20:33:00 4.1r frontmatter package (AO,DPC)]
-\c@affil=\count81
-\c@collab=\count82
-\absbox=\box27
-ltxgrid[2010/07/25/20:33:00 4.1r page grid package (portions licensed from W. E.
- Baxter web at superscript.com)]
-\c@linecount=\count83
-\output@latex=\toks14
-\box@size@1=\box28
-\box@size@2=\box29
-\@protection@box=\box30
-\@topmark@saved=\toks15
-\footins@saved=\box31
-\footins@recovered=\box32
-\column@recovered=\box33
-\pagesofar=\box34
-\footsofar=\box35
-\pagegrid@col=\count84
-Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and 
-\\  on input line 5578.
-\c@part=\count85
-\c@section=\count86
-\c@subsection=\count87
-\c@subsubsection=\count88
-\c@paragraph=\count89
-\c@subparagraph=\count90
-\abovecaptionskip=\skip42
-\belowcaptionskip=\skip43
-\c@figure=\count91
-\fbox@1=\box36
-\c@table=\count92
-\fbox@2=\box37
-\c@video=\count93
-\fbox@4=\box38
-\@bibdataout=\write3
-\widetext@top=\box39
-\widetext@bot=\box40
-Class revtex4-1 Info: Selecting society aps on input line 7542.
-(/usr/share/texlive/texmf-dist/tex/latex/revtex/aps4-1.rtx
-File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docum
-entation)
-Class revtex4-1 Info: RevTeX society APS selected on input line 31.
-)
-Class revtex4-1 Info: Selecting journal prc on input line 7544.
-Class revtex4-1 Info: APS journal PRC selected on input line 7545.
-
-
-Class revtex4-1 Warning: No type size specified, using default 10.
-
-(/usr/share/texlive/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
-File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for d
-ocumentation)
-Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
-Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks16
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip44
-
-For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
-\ex@=\dimen102
-)
-LaTeX Info: Redefining \text on input line 28.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen103
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
-)
-\inf@bad=\count94
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count95
-\leftroot@=\count96
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count97
-\DOTSCASE@=\count98
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box41
-\strutbox@=\box42
-\big@size=\dimen104
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count99
-\c@MaxMatrixCols=\count100
-\dotsspace@=\muskip10
-\c@parentequation=\count101
-\dspbrk@lvl=\count102
-\tag@help=\toks18
-\row@=\count103
-\column@=\count104
-\maxfields@=\count105
-\andhelp@=\toks19
-\eqnshift@=\dimen105
-\alignsep@=\dimen106
-\tagshift@=\dimen107
-\tagwidth@=\dimen108
-\totwidth@=\dimen109
-\lineht@=\dimen110
-\@envbody=\toks20
-\multlinegap=\skip45
-\multlinetaggap=\skip46
-\mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip11
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip47
-\bibsep=\skip48
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count106
-)
-Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
-
-(/usr/share/texlive/texmf-dist/tex/latex/revtex/revsymb4-1.sty
-Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ fo
-r documentation)
-LaTeX Info: Redefining \frak on input line 95.
-LaTeX Info: Redefining \Bbb on input line 111.
-LaTeX Info: Redefining \REV@mathfrak on input line 119.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty
-Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
-
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks22
-\pgfutil@tempdima=\dimen111
-\pgfutil@tempdimb=\dimen112
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box43
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
-))
-Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /home/justin/.texlive2017/texm
+f-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /home/justin/.te
+xlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc))
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks23
+\KV@toks@=\toks14
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
@@ -250,38 +75,201 @@ Package graphics Info: Driver file: luatex.def on input line 99.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
 File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
 ))
-\Gin@req@height=\dimen113
-\Gin@req@width=\dimen114
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
 )
+(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
+
+(/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
+
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks17
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen105
+\Hy@linkcounter=\count87
+\Hy@pagecounter=\count88
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count89
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count90
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen106
+\Fld@menulength=\count91
+\Field@Width=\dimen107
+\Fld@charsize=\dimen108
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count92
+\c@Item=\count93
+\c@Hfootnote=\count94
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2018/02/06 v6.86b Hyperref driver for luaTeX
+\Fld@listcount=\count95
+\c@bookmark@seq@number=\count96
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
+2.
+)
+\Hy@SectionHShift=\skip43
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count97
+\FV@InFile=\read1
+\FV@TabBox=\box26
+\c@FancyVerbLine=\count98
+\FV@StepNumber=\count99
+\FV@OutFile=\write3
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count100
+)
+(./econfmacros.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty
+Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen109
+\pgfutil@tempdimb=\dimen110
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box27
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks24
-\pgfkeys@temptoks=\toks25
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks26
+\pgfkeys@tmptoks=\toks21
 ))
-\pgf@x=\dimen115
-\pgf@y=\dimen116
-\pgf@xa=\dimen117
-\pgf@ya=\dimen118
-\pgf@xb=\dimen119
-\pgf@yb=\dimen120
-\pgf@xc=\dimen121
-\pgf@yc=\dimen122
+\pgf@x=\dimen111
+\pgf@y=\dimen112
+\pgf@xa=\dimen113
+\pgf@ya=\dimen114
+\pgf@xb=\dimen115
+\pgf@yb=\dimen116
+\pgf@xc=\dimen117
+\pgf@yc=\dimen118
 \w@pgf@writea=\write4
-\r@pgf@reada=\read1
-\c@pgf@counta=\count107
-\c@pgf@countb=\count108
-\c@pgf@countc=\count109
-\c@pgf@countd=\count110
-\t@pgf@toka=\toks27
-\t@pgf@tokb=\toks28
-\t@pgf@tokc=\toks29
+\r@pgf@reada=\read2
+\c@pgf@counta=\count101
+\c@pgf@countb=\count102
+\c@pgf@countc=\count103
+\c@pgf@countd=\count104
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -297,8 +285,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count111
-\pgfsyssoftpath@bigbuffer@items=\count112
+\pgfsyssoftpath@smallbuffer@items=\count105
+\pgfsyssoftpath@bigbuffer@items=\count106
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -327,12 +315,12 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen123
-\pgfmath@count=\count113
-\pgfmath@box=\box44
-\pgfmath@toks=\toks30
-\pgfmath@stack@operand=\toks31
-\pgfmath@stack@operation=\toks32
+\pgfmath@dimen=\dimen119
+\pgfmath@count=\count107
+\pgfmath@box=\box28
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -352,59 +340,57 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count114
+\c@pgfmathroundto@lastzeros=\count108
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen124
-\pgf@picmaxx=\dimen125
-\pgf@picminy=\dimen126
-\pgf@picmaxy=\dimen127
-\pgf@pathminx=\dimen128
-\pgf@pathmaxx=\dimen129
-\pgf@pathminy=\dimen130
-\pgf@pathmaxy=\dimen131
-\pgf@xx=\dimen132
-\pgf@xy=\dimen133
-\pgf@yx=\dimen134
-\pgf@yy=\dimen135
-\pgf@zx=\dimen136
-\pgf@zy=\dimen137
-luaotfload | db : Font names database loaded from /home/justin/.texlive2017/texm
-f-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /home/justin/.te
-xlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc))
+\pgf@picminx=\dimen120
+\pgf@picmaxx=\dimen121
+\pgf@picminy=\dimen122
+\pgf@picmaxy=\dimen123
+\pgf@pathminx=\dimen124
+\pgf@pathmaxx=\dimen125
+\pgf@pathminy=\dimen126
+\pgf@pathmaxy=\dimen127
+\pgf@xx=\dimen128
+\pgf@xy=\dimen129
+\pgf@yx=\dimen130
+\pgf@yy=\dimen131
+\pgf@zx=\dimen132
+\pgf@zy=\dimen133
+)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen138
-\pgf@path@lasty=\dimen139
+\pgf@path@lastx=\dimen134
+\pgf@path@lasty=\dimen135
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen140
-\pgf@shorten@start@additional=\dimen141
+\pgf@shorten@end@additional=\dimen136
+\pgf@shorten@start@additional=\dimen137
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box45
-\pgf@hbox=\box46
-\pgf@layerbox@main=\box47
-\pgf@picture@serial@count=\count115
+\pgfpic=\box29
+\pgf@hbox=\box30
+\pgf@layerbox@main=\box31
+\pgf@picture@serial@count=\count109
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen142
+\pgflinewidth=\dimen138
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen143
-\pgf@pt@y=\dimen144
-\pgf@pt@temp=\dimen145
+\pgf@pt@x=\dimen139
+\pgf@pt@y=\dimen140
+\pgf@pt@temp=\dimen141
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -420,12 +406,12 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen146
+\pgfarrowsep=\dimen142
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen147
-\pgf@sys@shading@range@num=\count116
+\pgf@max=\dimen143
+\pgf@sys@shading@range@num=\count110
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -433,7 +419,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box48
+\pgfexternal@startupbox=\box32
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -449,15 +435,15 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box49
+\pgfnodeparttextbox=\box33
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen148
-\pgf@nodesepend=\dimen149
+\pgf@nodesepstart=\dimen144
+\pgf@nodesepend=\dimen145
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -471,10 +457,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen150
-\pgffor@skip=\dimen151
-\pgffor@stack=\toks33
-\pgffor@toks=\toks34
+\pgffor@iter=\dimen146
+\pgffor@skip=\dimen147
+\pgffor@stack=\toks28
+\pgffor@toks=\toks29
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
@@ -482,54 +468,50 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count117
-\pgfplotmarksize=\dimen152
+\pgf@plot@mark@count=\count111
+\pgfplotmarksize=\dimen148
 )
-\tikz@lastx=\dimen153
-\tikz@lasty=\dimen154
-\tikz@lastxsaved=\dimen155
-\tikz@lastysaved=\dimen156
-\tikzleveldistance=\dimen157
-\tikzsiblingdistance=\dimen158
-\tikz@figbox=\box50
-\tikz@figbox@bg=\box51
-\tikz@tempbox=\box52
-\tikz@tempbox@bg=\box53
-\tikztreelevel=\count118
-\tikznumberofchildren=\count119
-\tikznumberofcurrentchild=\count120
-\tikz@fig@count=\count121
+\tikz@lastx=\dimen149
+\tikz@lasty=\dimen150
+\tikz@lastxsaved=\dimen151
+\tikz@lastysaved=\dimen152
+\tikzleveldistance=\dimen153
+\tikzsiblingdistance=\dimen154
+\tikz@figbox=\box34
+\tikz@figbox@bg=\box35
+\tikz@tempbox=\box36
+\tikz@tempbox@bg=\box37
+\tikztreelevel=\count112
+\tikznumberofchildren=\count113
+\tikznumberofcurrentchild=\count114
+\tikz@fig@count=\count115
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count122
-\pgfmatrixcurrentcolumn=\count123
-\pgf@matrix@numberofcolumns=\count124
+\pgfmatrixcurrentrow=\count116
+\pgfmatrixcurrentcolumn=\count117
+\pgf@matrix@numberofcolumns=\count118
 )
-\tikz@expandcount=\count125
+\tikz@expandcount=\count119
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX detected.
-)
 (/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks35
-\pgfopts@list@add@b@toks=\toks36
+\pgfopts@list@add@a@toks=\toks30
+\pgfopts@list@add@b@toks=\toks31
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikzlibraryfeynman.code.t
 ex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
 code.tex
 File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
-\pgfarrowinset=\dimen159
-\pgfarrowlength=\dimen160
-\pgfarrowwidth=\dimen161
-\pgfarrowlinewidth=\dimen162
+\pgfarrowinset=\dimen155
+\pgfarrowlength=\dimen156
+\pgfarrowwidth=\dimen157
+\pgfarrowlinewidth=\dimen158
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarycalc.code.tex
@@ -539,16 +521,16 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 zlibrarydecorations.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
 e.tex
-\pgfdecoratedcompleteddistance=\dimen163
-\pgfdecoratedremainingdistance=\dimen164
-\pgfdecoratedinputsegmentcompleteddistance=\dimen165
-\pgfdecoratedinputsegmentremainingdistance=\dimen166
-\pgf@decorate@distancetomove=\dimen167
-\pgf@decorate@repeatstate=\count126
-\pgfdecorationsegmentamplitude=\dimen168
-\pgfdecorationsegmentlength=\dimen169
+\pgfdecoratedcompleteddistance=\dimen159
+\pgfdecoratedremainingdistance=\dimen160
+\pgfdecoratedinputsegmentcompleteddistance=\dimen161
+\pgfdecoratedinputsegmentremainingdistance=\dimen162
+\pgf@decorate@distancetomove=\dimen163
+\pgf@decorate@repeatstate=\count120
+\pgfdecorationsegmentamplitude=\dimen164
+\pgfdecorationsegmentlength=\dimen165
 )
-\tikz@lib@dec@box=\box54
+\tikz@lib@dec@box=\box38
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.markings.code.tex
@@ -565,8 +547,8 @@ decorations.pathreplacing.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/gra
 phs/tikzlibrarygraphs.code.tex
 File: tikzlibrarygraphs.code.tex 2015/06/05 v3.0.1a (rcs-revision 1.44)
-\tikz@lib@auto@number=\count127
-\tikz@qnode@count=\count128
+\tikz@lib@auto@number=\count121
+\tikz@qnode@count=\count122
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarypatterns.code.tex
@@ -596,72 +578,65 @@ File: tikzlibrarygraphdrawing.code.tex 2013/08/05 v3.0.1a (rcs-revision 1.20)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/graphdrawing/tex/pgflibrarygraph
 drawing.code.tex
 File: pgflibrarygraphdrawing.code.tex 2015/06/08 v3.0.1a (rcs-revision 1.39)
-\pgf@gd@parameter@stack@height=\count129
-\pgf@gd@node@box=\box55
-\pgf@gd@edge@box=\box56
-\pgf@gd@prekind@box=\box57
-\pgf@gd@postkind@box=\box58
+\pgf@gd@parameter@stack@height=\count123
+\pgf@gd@node@box=\box39
+\pgf@gd@edge@box=\box40
+\pgf@gd@prekind@box=\box41
+\pgf@gd@postkind@box=\box42
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikzfeynman.keys.code.tex
 ))) (/usr/share/texlive/texmf-dist/tex/latex/ctable/ctable.sty
 Package: ctable 2015/10/17 v1.31 ctable package for flexible typesetting of tabl
 e and figure floats using key/value directives
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count130
-)
 (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks37
-\XKV@tempa@toks=\toks38
+\XKV@toks=\toks32
+\XKV@tempa@toks=\toks33
 )
-\XKV@depth=\count131
+\XKV@depth=\count124
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen170
-\extrarowheight=\dimen171
-\NC@list=\toks39
-\extratabsurround=\skip49
-\backup@length=\skip50
+\col@sep=\dimen166
+\extrarowheight=\dimen167
+\NC@list=\toks34
+\extratabsurround=\skip44
+\backup@length=\skip45
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
-\TX@col@width=\dimen172
-\TX@old@table=\dimen173
-\TX@old@col=\dimen174
-\TX@target=\dimen175
-\TX@delta=\dimen176
-\TX@cols=\count132
-\TX@ftn=\toks40
+\TX@col@width=\dimen168
+\TX@old@table=\dimen169
+\TX@old@col=\dimen170
+\TX@target=\dimen171
+\TX@delta=\dimen172
+\TX@cols=\count125
+\TX@ftn=\toks35
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen177
-\lightrulewidth=\dimen178
-\cmidrulewidth=\dimen179
-\belowrulesep=\dimen180
-\belowbottomsep=\dimen181
-\aboverulesep=\dimen182
-\abovetopsep=\dimen183
-\cmidrulesep=\dimen184
-\cmidrulekern=\dimen185
-\defaultaddspace=\dimen186
-\@cmidla=\count133
-\@cmidlb=\count134
-\@aboverulesep=\dimen187
-\@belowrulesep=\dimen188
-\@thisruleclass=\count135
-\@lastruleclass=\count136
-\@thisrulewidth=\dimen189
+\heavyrulewidth=\dimen173
+\lightrulewidth=\dimen174
+\cmidrulewidth=\dimen175
+\belowrulesep=\dimen176
+\belowbottomsep=\dimen177
+\aboverulesep=\dimen178
+\abovetopsep=\dimen179
+\cmidrulesep=\dimen180
+\cmidrulekern=\dimen181
+\defaultaddspace=\dimen182
+\@cmidla=\count126
+\@cmidlb=\count127
+\@aboverulesep=\dimen183
+\@belowrulesep=\dimen184
+\@thisruleclass=\count128
+\@lastruleclass=\count129
+\@thisrulewidth=\dimen185
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
@@ -669,44 +644,44 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count137
-\rotFPtop=\skip51
-\rotFPbot=\skip52
-\rot@float@box=\box59
-\rot@mess@toks=\toks41
+\c@r@tfl@t=\count130
+\rotFPtop=\skip46
+\rotFPbot=\skip47
+\rot@float@box=\box43
+\rot@mess@toks=\toks36
 )
 
 Package ctable Warning:  Transparency disabled: incompatible with tikz package  
 on input line 36.
 
-\@CTframesep=\dimen190
-\@dfltCTframesep=\dimen191
-\@CTframerule=\dimen192
-\@dfltCTframerule=\dimen193
-\@CTwidth=\dimen194
-\@dfltCTwidth=\dimen195
-\@CTcaptionskip=\dimen196
-\@dfltCTcaptionskip=\dimen197
-\@CTmaxwidth=\dimen198
-\@dfltCTmaxwidth=\dimen199
-\@CTmincapwidth=\dimen256
-\@dfltCTmincapwidth=\dimen257
-\@CTfooterwidth=\dimen258
-\@dfltCTfooterwidth=\dimen259
-\@CTw=\dimen260
-\@CTfloatwidth=\dimen261
-\@CToldsep=\dimen262
-\@CToldrule=\dimen263
-\CT@t=\box60
-\@CTcurftwidth=\dimen264
+\@CTframesep=\dimen186
+\@dfltCTframesep=\dimen187
+\@CTframerule=\dimen188
+\@dfltCTframerule=\dimen189
+\@CTwidth=\dimen190
+\@dfltCTwidth=\dimen191
+\@CTcaptionskip=\dimen192
+\@dfltCTcaptionskip=\dimen193
+\@CTmaxwidth=\dimen194
+\@dfltCTmaxwidth=\dimen195
+\@CTmincapwidth=\dimen196
+\@dfltCTmincapwidth=\dimen197
+\@CTfooterwidth=\dimen198
+\@dfltCTfooterwidth=\dimen199
+\@CTw=\dimen256
+\@CTfloatwidth=\dimen257
+\@CToldsep=\dimen258
+\@CToldrule=\dimen259
+\CT@t=\box44
+\@CTcurftwidth=\dimen260
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup6
-\symboldletters=\mathgroup7
-\symboldsymbols=\mathgroup8
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 )
@@ -715,24 +690,32 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count138
-\output=\toks42
-\linenoprevgraf=\count139
-\linenumbersep=\dimen265
-\linenumberwidth=\dimen266
-\c@linenumber=\count140
-\c@pagewiselinenumber=\count141
-\c@LN@truepage=\count142
-\c@internallinenumber=\count143
-\c@internallinenumbers=\count144
-\quotelinenumbersep=\dimen267
-\bframerule=\dimen268
-\bframesep=\dimen269
-\bframebox=\box61
+\linenopenalty=\count131
+\output=\toks37
+\linenoprevgraf=\count132
+\linenumbersep=\dimen261
+\linenumberwidth=\dimen262
+\c@linenumber=\count133
+\c@pagewiselinenumber=\count134
+\c@LN@truepage=\count135
+\c@internallinenumber=\count136
+\c@internallinenumbers=\count137
+\quotelinenumbersep=\dimen263
+\bframerule=\dimen264
+\bframesep=\dimen265
+\bframebox=\box45
 LaTeX Info: Redefining \\ on input line 3056.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks38
+\symAMSa=\mathgroup7
+\symAMSb=\mathgroup8
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -741,204 +724,212 @@ Package: expl3 2018/02/21 L3 programming layer (loader)
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2018/02/21 L3 programming layer (code)
 \ucharcat@table=\catcodetable5
-\c_max_int=\count145
-\l_tmpa_int=\count146
-\l_tmpb_int=\count147
-\g_tmpa_int=\count148
-\g_tmpb_int=\count149
-\g__intarray_font_int=\count150
-\g__prg_map_int=\count151
-\c_log_iow=\count152
-\l_iow_line_count_int=\count153
-\l__iow_line_target_int=\count154
-\l__iow_one_indent_int=\count155
-\l__iow_indent_int=\count156
-\c_zero_dim=\dimen270
-\c_max_dim=\dimen271
-\l_tmpa_dim=\dimen272
-\l_tmpb_dim=\dimen273
-\g_tmpa_dim=\dimen274
-\g_tmpb_dim=\dimen275
-\c_zero_skip=\skip53
-\c_max_skip=\skip54
-\l_tmpa_skip=\skip55
-\l_tmpb_skip=\skip56
-\g_tmpa_skip=\skip57
-\g_tmpb_skip=\skip58
-\c_zero_muskip=\muskip12
-\c_max_muskip=\muskip13
-\l_tmpa_muskip=\muskip14
-\l_tmpb_muskip=\muskip15
-\g_tmpa_muskip=\muskip16
-\g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count157
-\c__fp_leading_shift_int=\count158
-\c__fp_middle_shift_int=\count159
-\c__fp_trailing_shift_int=\count160
-\c__fp_big_leading_shift_int=\count161
-\c__fp_big_middle_shift_int=\count162
-\c__fp_big_trailing_shift_int=\count163
-\c__fp_Bigg_leading_shift_int=\count164
-\c__fp_Bigg_middle_shift_int=\count165
-\c__fp_Bigg_trailing_shift_int=\count166
-\c__fp_rand_size_int=\count167
-\c__fp_rand_four_int=\count168
-\c__fp_rand_eight_int=\count169
-\l__sort_length_int=\count170
-\l__sort_min_int=\count171
-\l__sort_top_int=\count172
-\l__sort_max_int=\count173
-\l__sort_true_max_int=\count174
-\l__sort_block_int=\count175
-\l__sort_begin_int=\count176
-\l__sort_end_int=\count177
-\l__sort_A_int=\count178
-\l__sort_B_int=\count179
-\l__sort_C_int=\count180
-\l__tl_build_start_index_int=\count181
-\l__tl_build_index_int=\count182
-\l__tl_analysis_normal_int=\count183
-\l__tl_analysis_index_int=\count184
-\l__tl_analysis_nesting_int=\count185
-\l__tl_analysis_type_int=\count186
-\l__regex_internal_a_int=\count187
-\l__regex_internal_b_int=\count188
-\l__regex_internal_c_int=\count189
-\l__regex_balance_int=\count190
-\l__regex_group_level_int=\count191
-\l__regex_mode_int=\count192
-\c__regex_cs_in_class_mode_int=\count193
-\c__regex_cs_mode_int=\count194
-\l__regex_catcodes_int=\count195
-\l__regex_default_catcodes_int=\count196
-\c__regex_catcode_L_int=\count197
-\c__regex_catcode_O_int=\count198
-\c__regex_catcode_A_int=\count199
-\c__regex_all_catcodes_int=\count266
-\l__regex_show_lines_int=\count267
-\l__regex_min_state_int=\count268
-\l__regex_max_state_int=\count269
-\l__regex_left_state_int=\count270
-\l__regex_right_state_int=\count271
-\l__regex_capturing_group_int=\count272
-\l__regex_min_pos_int=\count273
-\l__regex_max_pos_int=\count274
-\l__regex_curr_pos_int=\count275
-\l__regex_start_pos_int=\count276
-\l__regex_success_pos_int=\count277
-\l__regex_curr_char_int=\count278
-\l__regex_curr_catcode_int=\count279
-\l__regex_last_char_int=\count280
-\l__regex_case_changed_char_int=\count281
-\l__regex_curr_state_int=\count282
-\l__regex_step_int=\count283
-\l__regex_min_active_int=\count284
-\l__regex_max_active_int=\count285
-\l__regex_replacement_csnames_int=\count286
-\l__regex_match_count_int=\count287
-\l__regex_min_submatch_int=\count288
-\l__regex_submatch_int=\count289
-\l__regex_zeroth_submatch_int=\count290
-\g__regex_trace_regex_int=\count291
-\c_empty_box=\box62
-\l_tmpa_box=\box63
-\l_tmpb_box=\box64
-\g_tmpa_box=\box65
-\g_tmpb_box=\box66
-\l__box_top_dim=\dimen276
-\l__box_bottom_dim=\dimen277
-\l__box_left_dim=\dimen278
-\l__box_right_dim=\dimen279
-\l__box_top_new_dim=\dimen280
-\l__box_bottom_new_dim=\dimen281
-\l__box_left_new_dim=\dimen282
-\l__box_right_new_dim=\dimen283
-\l__box_internal_box=\box67
-\l__coffin_internal_box=\box68
-\l__coffin_internal_dim=\dimen284
-\l__coffin_offset_x_dim=\dimen285
-\l__coffin_offset_y_dim=\dimen286
-\l__coffin_x_dim=\dimen287
-\l__coffin_y_dim=\dimen288
-\l__coffin_x_prime_dim=\dimen289
-\l__coffin_y_prime_dim=\dimen290
-\c_empty_coffin=\box69
-\l__coffin_aligned_coffin=\box70
-\l__coffin_aligned_internal_coffin=\box71
-\l_tmpa_coffin=\box72
-\l_tmpb_coffin=\box73
-\l__coffin_display_coffin=\box74
-\l__coffin_display_coord_coffin=\box75
-\l__coffin_display_pole_coffin=\box76
-\l__coffin_display_offset_dim=\dimen291
-\l__coffin_display_x_dim=\dimen292
-\l__coffin_display_y_dim=\dimen293
-\l__coffin_bounding_shift_dim=\dimen294
-\l__coffin_left_corner_dim=\dimen295
-\l__coffin_right_corner_dim=\dimen296
-\l__coffin_bottom_corner_dim=\dimen297
-\l__coffin_top_corner_dim=\dimen298
-\l__coffin_scaled_total_height_dim=\dimen299
-\l__coffin_scaled_width_dim=\dimen300
+\c_max_int=\count138
+\l_tmpa_int=\count139
+\l_tmpb_int=\count140
+\g_tmpa_int=\count141
+\g_tmpb_int=\count142
+\g__intarray_font_int=\count143
+\g__prg_map_int=\count144
+\c_log_iow=\count145
+\l_iow_line_count_int=\count146
+\l__iow_line_target_int=\count147
+\l__iow_one_indent_int=\count148
+\l__iow_indent_int=\count149
+\c_zero_dim=\dimen266
+\c_max_dim=\dimen267
+\l_tmpa_dim=\dimen268
+\l_tmpb_dim=\dimen269
+\g_tmpa_dim=\dimen270
+\g_tmpb_dim=\dimen271
+\c_zero_skip=\skip48
+\c_max_skip=\skip49
+\l_tmpa_skip=\skip50
+\l_tmpb_skip=\skip51
+\g_tmpa_skip=\skip52
+\g_tmpb_skip=\skip53
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count150
+\c__fp_leading_shift_int=\count151
+\c__fp_middle_shift_int=\count152
+\c__fp_trailing_shift_int=\count153
+\c__fp_big_leading_shift_int=\count154
+\c__fp_big_middle_shift_int=\count155
+\c__fp_big_trailing_shift_int=\count156
+\c__fp_Bigg_leading_shift_int=\count157
+\c__fp_Bigg_middle_shift_int=\count158
+\c__fp_Bigg_trailing_shift_int=\count159
+\c__fp_rand_size_int=\count160
+\c__fp_rand_four_int=\count161
+\c__fp_rand_eight_int=\count162
+\l__sort_length_int=\count163
+\l__sort_min_int=\count164
+\l__sort_top_int=\count165
+\l__sort_max_int=\count166
+\l__sort_true_max_int=\count167
+\l__sort_block_int=\count168
+\l__sort_begin_int=\count169
+\l__sort_end_int=\count170
+\l__sort_A_int=\count171
+\l__sort_B_int=\count172
+\l__sort_C_int=\count173
+\l__tl_build_start_index_int=\count174
+\l__tl_build_index_int=\count175
+\l__tl_analysis_normal_int=\count176
+\l__tl_analysis_index_int=\count177
+\l__tl_analysis_nesting_int=\count178
+\l__tl_analysis_type_int=\count179
+\l__regex_internal_a_int=\count180
+\l__regex_internal_b_int=\count181
+\l__regex_internal_c_int=\count182
+\l__regex_balance_int=\count183
+\l__regex_group_level_int=\count184
+\l__regex_mode_int=\count185
+\c__regex_cs_in_class_mode_int=\count186
+\c__regex_cs_mode_int=\count187
+\l__regex_catcodes_int=\count188
+\l__regex_default_catcodes_int=\count189
+\c__regex_catcode_L_int=\count190
+\c__regex_catcode_O_int=\count191
+\c__regex_catcode_A_int=\count192
+\c__regex_all_catcodes_int=\count193
+\l__regex_show_lines_int=\count194
+\l__regex_min_state_int=\count195
+\l__regex_max_state_int=\count196
+\l__regex_left_state_int=\count197
+\l__regex_right_state_int=\count198
+\l__regex_capturing_group_int=\count199
+\l__regex_min_pos_int=\count266
+\l__regex_max_pos_int=\count267
+\l__regex_curr_pos_int=\count268
+\l__regex_start_pos_int=\count269
+\l__regex_success_pos_int=\count270
+\l__regex_curr_char_int=\count271
+\l__regex_curr_catcode_int=\count272
+\l__regex_last_char_int=\count273
+\l__regex_case_changed_char_int=\count274
+\l__regex_curr_state_int=\count275
+\l__regex_step_int=\count276
+\l__regex_min_active_int=\count277
+\l__regex_max_active_int=\count278
+\l__regex_replacement_csnames_int=\count279
+\l__regex_match_count_int=\count280
+\l__regex_min_submatch_int=\count281
+\l__regex_submatch_int=\count282
+\l__regex_zeroth_submatch_int=\count283
+\g__regex_trace_regex_int=\count284
+\c_empty_box=\box46
+\l_tmpa_box=\box47
+\l_tmpb_box=\box48
+\g_tmpa_box=\box49
+\g_tmpb_box=\box50
+\l__box_top_dim=\dimen272
+\l__box_bottom_dim=\dimen273
+\l__box_left_dim=\dimen274
+\l__box_right_dim=\dimen275
+\l__box_top_new_dim=\dimen276
+\l__box_bottom_new_dim=\dimen277
+\l__box_left_new_dim=\dimen278
+\l__box_right_new_dim=\dimen279
+\l__box_internal_box=\box51
+\l__coffin_internal_box=\box52
+\l__coffin_internal_dim=\dimen280
+\l__coffin_offset_x_dim=\dimen281
+\l__coffin_offset_y_dim=\dimen282
+\l__coffin_x_dim=\dimen283
+\l__coffin_y_dim=\dimen284
+\l__coffin_x_prime_dim=\dimen285
+\l__coffin_y_prime_dim=\dimen286
+\c_empty_coffin=\box53
+\l__coffin_aligned_coffin=\box54
+\l__coffin_aligned_internal_coffin=\box55
+\l_tmpa_coffin=\box56
+\l_tmpb_coffin=\box57
+\l__coffin_display_coffin=\box58
+\l__coffin_display_coord_coffin=\box59
+\l__coffin_display_pole_coffin=\box60
+\l__coffin_display_offset_dim=\dimen287
+\l__coffin_display_x_dim=\dimen288
+\l__coffin_display_y_dim=\dimen289
+\l__coffin_bounding_shift_dim=\dimen290
+\l__coffin_left_corner_dim=\dimen291
+\l__coffin_right_corner_dim=\dimen292
+\l__coffin_bottom_corner_dim=\dimen293
+\l__coffin_top_corner_dim=\dimen294
+\l__coffin_scaled_total_height_dim=\dimen295
+\l__coffin_scaled_width_dim=\dimen296
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count292
-\l__driver_tmp_box=\box77
+\l__driver_color_stack_int=\count285
+\l__driver_tmp_box=\box61
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2018/02/21 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count293
-\g__xparse_grabber_int=\count294
-\l__xparse_m_args_int=\count295
-\l__xparse_mandatory_args_int=\count296
-\l__xparse_v_nesting_int=\count297
+\l__xparse_current_arg_int=\count286
+\g__xparse_grabber_int=\count287
+\l__xparse_m_args_int=\count288
+\l__xparse_mandatory_args_int=\count289
+\l__xparse_v_nesting_int=\count290
 )
 Package: siunitx 2017/11/26 v2.7k A comprehensive (SI) units package
 
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks39
+\ex@=\dimen297
+))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box78
-\l__siunitx_tmp_dim=\dimen301
-\l__siunitx_tmp_int=\count298
-\l__siunitx_number_mantissa_length_int=\count299
-\l__siunitx_number_uncert_length_int=\count300
-\l__siunitx_round_int=\count301
-\l__siunitx_process_decimal_int=\count302
-\l__siunitx_process_uncertainty_int=\count303
-\l__siunitx_process_fixed_int=\count304
-\l__siunitx_process_integer_min_int=\count305
-\l__siunitx_process_precision_int=\count306
-\l__siunitx_group_min_int=\count307
-\l__siunitx_angle_marker_box=\box79
-\l__siunitx_angle_unit_box=\box80
-\l__siunitx_angle_marker_dim=\dimen302
-\l__siunitx_angle_unit_dim=\dimen303
-\l__siunitx_unit_int=\count308
-\l__siunitx_unit_denominator_int=\count309
-\l__siunitx_unit_numerator_int=\count310
-\l__siunitx_unit_prefix_int=\count311
-\l__siunitx_unit_prefix_base_int=\count312
-\l__siunitx_unit_prefix_gram_int=\count313
-\l__siunitx_number_product_int=\count314
-\c__siunitx_one_fill_skip=\skip59
-\l__siunitx_table_unit_align_skip=\skip60
-\l__siunitx_table_exponent_dim=\dimen304
-\l__siunitx_table_integer_dim=\dimen305
-\l__siunitx_table_mantissa_dim=\dimen306
-\l__siunitx_table_marker_dim=\dimen307
-\l__siunitx_table_result_dim=\dimen308
-\l__siunitx_table_uncert_dim=\dimen309
-\l__siunitx_table_fill_pre_dim=\dimen310
-\l__siunitx_table_fill_post_dim=\dimen311
-\l__siunitx_table_fill_mid_dim=\dimen312
-\l__siunitx_table_pre_box=\box81
-\l__siunitx_table_post_box=\box82
-\l__siunitx_table_mantissa_box=\box83
-\l__siunitx_table_result_box=\box84
-\l__siunitx_table_number_align_skip=\skip61
-\l__siunitx_table_text_align_skip=\skip62
+\l__siunitx_tmp_box=\box62
+\l__siunitx_tmp_dim=\dimen298
+\l__siunitx_tmp_int=\count291
+\l__siunitx_number_mantissa_length_int=\count292
+\l__siunitx_number_uncert_length_int=\count293
+\l__siunitx_round_int=\count294
+\l__siunitx_process_decimal_int=\count295
+\l__siunitx_process_uncertainty_int=\count296
+\l__siunitx_process_fixed_int=\count297
+\l__siunitx_process_integer_min_int=\count298
+\l__siunitx_process_precision_int=\count299
+\l__siunitx_group_min_int=\count300
+\l__siunitx_angle_marker_box=\box63
+\l__siunitx_angle_unit_box=\box64
+\l__siunitx_angle_marker_dim=\dimen299
+\l__siunitx_angle_unit_dim=\dimen300
+\l__siunitx_unit_int=\count301
+\l__siunitx_unit_denominator_int=\count302
+\l__siunitx_unit_numerator_int=\count303
+\l__siunitx_unit_prefix_int=\count304
+\l__siunitx_unit_prefix_base_int=\count305
+\l__siunitx_unit_prefix_gram_int=\count306
+\l__siunitx_number_product_int=\count307
+\c__siunitx_one_fill_skip=\skip54
+\l__siunitx_table_unit_align_skip=\skip55
+\l__siunitx_table_exponent_dim=\dimen301
+\l__siunitx_table_integer_dim=\dimen302
+\l__siunitx_table_mantissa_dim=\dimen303
+\l__siunitx_table_marker_dim=\dimen304
+\l__siunitx_table_result_dim=\dimen305
+\l__siunitx_table_uncert_dim=\dimen306
+\l__siunitx_table_fill_pre_dim=\dimen307
+\l__siunitx_table_fill_post_dim=\dimen308
+\l__siunitx_table_fill_mid_dim=\dimen309
+\l__siunitx_table_pre_box=\box65
+\l__siunitx_table_post_box=\box66
+\l__siunitx_table_mantissa_box=\box67
+\l__siunitx_table_result_box=\box68
+\l__siunitx_table_number_align_skip=\skip56
+\l__siunitx_table_text_align_skip=\skip57
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1054,7 +1045,7 @@ Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
 . 
 . Defining command \siInBookmark with sig. 'om' on line 7432.
 .................................................
-\g__file_internal_ior=\read2
+\g__file_internal_ior=\read3
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
@@ -1068,83 +1059,47 @@ Package: feynmp-auto 2013/05/03 v1.1 Automatic processing of feynmp graphics
 (/usr/share/texmf/tex/latex/feynmf/feynmp.sty
 Package: feynmp 1996/12/02 v1.08 LaTeX/MetaPost Feynman Diagram Package (ohl)
 \@outfmf=\write5
-\fmfbuf@=\toks43
-\c@fmfgraph=\count315
-)
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
-
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks44
-))
-Class revtex4-1 Info: Unrecognized array package. Please update this document cl
-ass! (Proceeding with fingers crossed.) on input line 69.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 69.
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 69.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 69.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 69.
-
-(./WWstudy.aux)
+\fmfbuf@=\toks40
+\c@fmfgraph=\count308
+)) (./WWstudy.aux)
 \openout1 = WWstudy.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
- ABD: EveryShipout initializing macros
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count316
-\scratchdimen=\dimen313
-\scratchbox=\box85
-\nofMPsegments=\count317
-\nofMParguments=\count318
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count319
-\MPscratchDim=\dimen314
-\MPnumerator=\count320
-\makeMPintoPDFobject=\count321
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count309
+\scratchdimen=\dimen310
+\scratchbox=\box69
+\nofMPsegments=\count310
+\nofMParguments=\count311
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count312
+\MPscratchDim=\dimen311
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
+\everyMPtoPDFconversion=\toks42
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-)))
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
 8.
 Package grfext Info: Graphics extension search list:
@@ -1156,9 +1111,51 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
+\AtBeginShipoutBox=\box70
+Package hyperref Info: Link coloring OFF on input line 147.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count315
+)
+LaTeX Info: Redefining \ref on input line 147.
+LaTeX Info: Redefining \pageref on input line 147.
+LaTeX Info: Redefining \nameref on input line 147.
+
+(./WWstudy.out) (./WWstudy.out)
+\@outlinefile=\write6
+
+\openout6 = WWstudy.out
+ ABD: EveryShipout initializing macros
 
 Package tikz-feynman Warning: The preamble requested version 1.0.0, but the syst
-em version is 1.1.0. This may change some diagrams. on input line 69.
+em version is 1.1.0. This may change some diagrams. on input line 147.
+
+! Argument of \bar has an extra }.
+<inserted text> 
+\par 
+l.147 \begin{document}
+                    
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \bar was complete.
+<to be read again> 
+\par 
+l.147 \begin{document}
+                    
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
@@ -1168,84 +1165,302 @@ Dictionary: translator-basic-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-Class revtex4-1 Info: Overriding lineo.sty, restoring output routine, on input l
-ine 69.
-Class revtex4-1 Info: Line numbering not turned on yet on input line 69.
-
-\openout3 = WWstudyNotes.bib
-Class revtex4-1 Info: Overriding \@LN@LLerror on input line 69.
-\c__siunitx_mathsf_int=\count322
-LaTeX Font Info:    Try loading font information for U+msa on input line 69.
+\c__siunitx_mathsf_int=\count316
+LaTeX Font Info:    Try loading font information for U+msa on input line 147.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 69.
+LaTeX Font Info:    Try loading font information for U+msb on input line 147.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\c__siunitx_mathtt_int=\count323
+\c__siunitx_mathtt_int=\count317
 (load luc: /home/justin/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lm
-roman9-regular.luc)
-(./abstract.tex(load luc: /home/justin/.texlive2017/texmf-var/luatex-cache/gener
-ic/fonts/otl/lmroman6-regular.luc)(load luc: /home/justin/.texlive2017/texmf-var
-/luatex-cache/generic/fonts/otl/lmroman5-regular.luc))(load luc: /home/justin/.t
-exlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc)(load 
-luc: /home/justin/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman1
-2-bold.luc)(load luc: /home/justin/.texlive2017/texmf-var/luatex-cache/generic/f
-onts/otl/lmroman9-italic.luc) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.m
-ap}] [2](load luc: /home/justin/.texlive2017/texmf-var/luatex-cache/generic/font
-s/otl/lmroman9-bold.luc) (./introduction.tex) (./physics.tex(load luc: /home/jus
-tin/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc)(
-load luc: /home/justin/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmr
-oman7-regular.luc) [3] [4]
-<helicity1.pdf, id=40, 1402.23875pt x 430.60875pt>
+roman17-regular.luc)(load luc: /home/justin/.texlive2017/texmf-var/luatex-cache/
+generic/fonts/otl/lmromancaps10-regular.luc)(load luc: /home/justin/.texlive2017
+/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc)(load luc: /home/
+justin/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.l
+uc)(load luc: /home/justin/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl
+/lmroman7-regular.luc)(load luc: /home/justin/.texlive2017/texmf-var/luatex-cach
+e/generic/fonts/otl/lmroman12-italic.luc) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}](load luc: /home/justin/.tex
+live2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc) (./introd
+uction.tex) (./physics.tex(load luc: /home/justin/.texlive2017/texmf-var/luatex-
+cache/generic/fonts/otl/lmroman6-regular.luc)
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1]
+Overfull \hbox (76.43259pt too wide) in paragraph at lines 35--35
+ [][] 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.55 }
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 }
+    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (66.988pt too wide) in paragraph at lines 35--56
+[]$[]$ $[]$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.59 ...ther the fully hadronic $WW\rightarrow q\bar
+                                                  {q}q\bar{q}$, semileptonic...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[2]
+! Missing $ inserted.
+<inserted text> 
+$
+l.59 ...semileptonic $WW\rightarrow q\bar{q}\ell\nu_
+                                                  {\ell}$, or fully leptonic...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[3]
+<helicity1.pdf, id=119, 1402.23875pt x 430.60875pt>
 File: helicity1.pdf Graphic file (type pdf)
 <use helicity1.pdf>
 Package luatex.def Info: helicity1.pdf  used on input line 93.
-(luatex.def)             Requested size: 249.9028pt x 76.73747pt.
-<helicity2.pdf, id=41, 1271.75125pt x 493.845pt>
+(luatex.def)             Requested size: 212.47617pt x 65.24557pt.
+<helicity2.pdf, id=120, 1271.75125pt x 493.845pt>
 File: helicity2.pdf Graphic file (type pdf)
 <use helicity2.pdf>
 Package luatex.def Info: helicity2.pdf  used on input line 94.
-(luatex.def)             Requested size: 249.9028pt x 97.04163pt.
-
+(luatex.def)             Requested size: 212.47617pt x 82.50572pt.
+ [4<./helicity1.pdf><./helicity2.pdf>]
 \openout5 = feyngraph.mp
 
 feynmp: File feyngraph.1 not found:
 feynmp: Process feyngraph.mp with MetaPost and then reprocess this file.
 feynmf: Label file feyngraph.t1 not found:
 feynmf: Process feyngraph.mp with MetaPost and then reprocess this file.
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+
+ []
+
 File: feyngraph.2 Graphic file (type mps)
-[MP to PDF] (./feyngraph.2) (./feyngraph.t2(load luc: /home/justin/.texlive2017/
-texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc))
+[MP to PDF] (./feyngraph.2) (./feyngraph.t2
+! Missing $ inserted.
+<inserted text> 
+$
+l.6 \fmfL(104.66072,22.91899,l){\sm $\bar {u} $}
+                                              %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\@imakepicbox ...t@ #1\unitlength {\mb@l #4\mb@r }
+                                                  \mb@b \kern \z@ }
+l.6 \fmfL(104.66072,22.91899,l){\sm $\bar {u} $}
+                                              %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.6 \fmfL(104.66072,22.91899,l){\sm $\bar {u} $}
+                                              %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.6 \fmfL(104.66072,22.91899,l){\sm $\bar {u} $}
+                                              %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+
+ []
+
 File: feyngraph.3 Graphic file (type mps)
- [MP to PDF]
-(./feyngraph.3) (./feyngraph.t3)) (./detector.tex
-Missing character: There is no − (U+2212) in font cmr7!
-Missing character: There is no − (U+2212) in font cmr7!
-Missing character: There is no − (U+2212) in font cmr7!
-Missing character: There is no − (U+2212) in font cmr7!
- [5<./helicity1.pdf><./helicity2.pdf>]
-<ilc.pdf, id=61, 1438.37375pt x 590.205pt>
+[MP to PDF] (./feyngraph.3) (./feyngraph.t3
+! Missing $ inserted.
+<inserted text> 
+$
+l.5 \fmfL(80.52956,-4.44507,lt){\sm $\bar \nu _e$}
+                                                %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.5 \fmfL(80.52956,-4.44507,lt){\sm $\bar \nu _e$}
+                                                %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.7 \fmfL(89.77014,52.16638,l){\sm $\bar {d}$}
+                                            %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\@imakepicbox ...t@ #1\unitlength {\mb@l #4\mb@r }
+                                                  \mb@b \kern \z@ }
+l.7 \fmfL(89.77014,52.16638,l){\sm $\bar {d}$}
+                                            %
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.7 \fmfL(89.77014,52.16638,l){\sm $\bar {d}$}
+                                            %
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.7 \fmfL(89.77014,52.16638,l){\sm $\bar {d}$}
+                                            %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
+
+ []
+
+) (./detector.tex
+Missing character: There is no − (U+2212) in font cmr8!
+Missing character: There is no − (U+2212) in font cmr8!
+Missing character: There is no − (U+2212) in font cmr8!
+Missing character: There is no − (U+2212) in font cmr8!
+ [5]
+<ilc.pdf, id=162, 1438.37375pt x 590.205pt>
 File: ilc.pdf Graphic file (type pdf)
 <use ilc.pdf>
 Package luatex.def Info: ilc.pdf  used on input line 9.
-(luatex.def)             Requested size: 458.99689pt x 188.3381pt.
- [6<./ilc.pdf>]
-<ild3d.pdf, id=72, 1176.395pt x 824.07875pt>
+(luatex.def)             Requested size: 390.25534pt x 160.13197pt.
+ [6] [7<./ilc.pdf>]
+<ild3d.pdf, id=190, 1176.395pt x 824.07875pt>
 File: ild3d.pdf Graphic file (type pdf)
 <use ild3d.pdf>
 Package luatex.def Info: ild3d.pdf  used on input line 23.
-(luatex.def)             Requested size: 249.9028pt x 175.0484pt.
-<ildxsec.pdf, id=73, 847.165pt x 774.895pt>
+(luatex.def)             Requested size: 212.47617pt x 148.83075pt.
+<ildxsec.pdf, id=191, 847.165pt x 774.895pt>
 File: ildxsec.pdf Graphic file (type pdf)
 <use ildxsec.pdf>
 Package luatex.def Info: ildxsec.pdf  used on input line 24.
-(luatex.def)             Requested size: 249.9028pt x 228.58022pt.
+(luatex.def)             Requested size: 212.47617pt x 194.34995pt.
 ) (./Current_work.tex(load luc: /home/justin/.texlive2017/texmf-var/luatex-cache
-/generic/fonts/otl/lmmono10-regular.luc) [7<./ild3d.pdf><./ildxsec.pdf>] [8]
+/generic/fonts/otl/lmmono12-regular.luc) [8<./ild3d.pdf><./ildxsec.pdf>]
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20  \begin{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{equation} on input line 19 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \end{split}
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27  \begin{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{equation} on input line 26 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32  \end{split}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (265.24861pt too wide) detected at line 33
+[]\OML/cmm/m/it/12 ![] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 f[]f[] \OT1/cmr/m/n/1
+2 = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 9 \OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 0\O
+ML/cmm/m/it/12 :\OT1/cmr/m/n/12 65 = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 585[] \
+OML/cmm/m/it/12 ![] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 f[]f[] \OT1/cmr/m/n/12 =
+ 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 1 \OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 0\OML/
+cmm/m/it/12 :\OT1/cmr/m/n/12 35 = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 035[] \OML
+/cmm/m/it/12 ![] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 f[]f[] \OT1/cmr/m/n/12 = 0\
+OML/cmm/m/it/12 :\OT1/cmr/m/n/12 9 \OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 0\OML/cmm
+/m/it/12 :\OT1/cmr/m/n/12 35 = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 315[] \OML/cm
+m/m/it/12 ![] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 f[]f[] \OT1/cmr/m/n/12 = 0\OML
+/cmm/m/it/12 :\OT1/cmr/m/n/12 1 \OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 0\OML/cmm/m/
+it/12 :\OT1/cmr/m/n/12 65 = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 065[]
+ []
+
+[9] [10]
 Underfull \hbox (badness 10000) in paragraph at lines 54--58
 
  []
@@ -1255,188 +1470,551 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--58
 
  []
 
-<cone.pdf, id=96, 170.05733pt x 157.95512pt>
+! Missing $ inserted.
+<inserted text> 
+$
+l.64 \item $\tau \rightarrow \mu \bar
+                                   {\nu_{\mu}} \nu_{\tau} $
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.64 \item $\tau \rightarrow \mu \bar
+                                   {\nu_{\mu}} \nu_{\tau} $
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.64 \item $\tau \rightarrow \mu \bar
+                                   {\nu_{\mu}} \nu_{\tau} $
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.64 \item $\tau \rightarrow \mu \bar{\nu_
+                                        {\mu}} \nu_{\tau} $
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.64 \item $\tau \rightarrow \mu \bar{\nu_{\mu}}
+                                               \nu_{\tau} $
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.65 \item $\tau \rightarrow e \bar
+                                 {\nu_{e}} \nu_{\tau} $
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.65 \item $\tau \rightarrow e \bar
+                                 {\nu_{e}} \nu_{\tau} $
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.65 \item $\tau \rightarrow e \bar{\nu_
+                                      {e}} \nu_{\tau} $
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.65 \item $\tau \rightarrow e \bar{\nu_{e}}
+                                           \nu_{\tau} $
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.68 \end{itemize}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+<cone.pdf, id=246, 170.05733pt x 157.95512pt>
 File: cone.pdf Graphic file (type pdf)
 <use cone.pdf>
 Package luatex.def Info: cone.pdf  used on input line 72.
-(luatex.def)             Requested size: 146.88017pt x 136.43405pt.
+(luatex.def)             Requested size: 124.8827pt x 115.99557pt.
+
+Overfull \hbox (0.65149pt too wide) in paragraph at lines 59--76
+[]$[]$ $[]$ 
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 59--76
 
  []
 
-[9]
-<matchingangle.pdf, id=100, 569.12625pt x 384.43625pt>
+[11]
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 \begin{split}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{equation} on input line 83 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 \end{split}
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.90 ... with the signal sample $WW\rightarrow q\bar
+                                                  {q}\ell\nu$. The denominat...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[12<./cone.pdf>]
+Overfull \hbox (258.33273pt too wide) in paragraph at lines 90--90
+[]\TU/lmr/m/n/12 q\OML/cmm/m/it/12 `$:Thedenominatorrepresentsthetotal; catego
+ryspecific; numberofeventswhichcontainthreegeneratorvisiblefermions:Thetrue$\TU
+/lmr/m/n/12 q 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.90 ...e acceptance range $|cos\theta| < 0.99$. $N_
+                                                  {match}$ is the number of ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.90 ...g the background sample $WW\rightarrow q\bar
+                                                  {q}q\bar{q}$ and is a func...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (4.50974pt too wide) in paragraph at lines 90--90
+[]\TU/lmr/m/n/12 q\OML/cmm/m/it/12 `$fermionsarerequiredtofallwithintheacceptan
+cerange$\TU/lmr/m/n/12 |cos\OML/cmm/m/it/12 \TU/lmr/m/n/12 | < 0.99$\OML/cmm/m
+/it/12 :$\TU/lmr/m/n/12 N$[][]$ is the
+ []
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.90 ... lepton reconstruction efficiency $\epsilon_
+                                                  F$. The denominator for fa...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+<matchingangle.pdf, id=274, 569.12625pt x 384.43625pt>
 File: matchingangle.pdf Graphic file (type pdf)
 <use matchingangle.pdf>
 Package luatex.def Info: matchingangle.pdf  used on input line 98.
-(luatex.def)             Requested size: 220.31654pt x 148.82085pt.
-<candEnergy.pdf, id=101, 569.12625pt x 384.43625pt>
+(luatex.def)             Requested size: 187.32089pt x 126.53584pt.
+! Missing $ inserted.
+<inserted text> 
+$
+l.99 ...with a muon candidate are matched to truth.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.99 ...with a muon candidate are matched to truth.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.99 ...with a muon candidate are matched to truth.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.99 ...with a muon candidate are matched to truth.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+<candEnergy.pdf, id=275, 569.12625pt x 384.43625pt>
 File: candEnergy.pdf Graphic file (type pdf)
 <use candEnergy.pdf>
 Package luatex.def Info: candEnergy.pdf  used on input line 105.
-(luatex.def)             Requested size: 220.31654pt x 148.82085pt.
- [10<./cone.pdf>]
+(luatex.def)             Requested size: 187.32089pt x 126.53584pt.
+! Missing $ inserted.
+<inserted text> 
+$
+l.106 ...ar{q} q \bar{q}$ both normalized to unity.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.106 ...ar{q} q \bar{q}$ both normalized to unity.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.106 ...ar{q} q \bar{q}$ both normalized to unity.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.106 ...ar{q} q \bar{q}$ both normalized to unity.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.106 ...ar{q} q \bar{q}$ both normalized to unity.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.106 ...ar{q} q \bar{q}$ both normalized to unity.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.106 ...ar{q} q \bar{q}$ both normalized to unity.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.106 ...ar{q} q \bar{q}$ both normalized to unity.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 118--118
-[]|\TU/lmr/m/n/10 Search-Cone
+[]|\TU/lmr/m/n/12 Search-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 118--118
-[]|\TU/lmr/m/n/10 Iso.Cone
+\TU/lmr/m/n/12 Cone
  []
 
-<hxLR.pdf, id=118, 569.12625pt x 408.52625pt>
+
+Overfull \hbox (0.75937pt too wide) in paragraph at lines 118--118
+[]|\TU/lmr/m/n/12 Iso.Cone
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+[]|\TU/lmr/m/n/12 Iso.E
+ []
+
+
+Overfull \hbox (54.8566pt too wide) in paragraph at lines 115--137
+[][] 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.137 ...rations that maximize $(1-P_F)\epsilon_T$ }
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.137 ...rations that maximize $(1-P_F)\epsilon_T$ }
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.137 ...rations that maximize $(1-P_F)\epsilon_T$ }
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.137 ...rations that maximize $(1-P_F)\epsilon_T$ }
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (699.9646pt too wide) in paragraph at lines 137--137
+[]\TU/lmr/m/n/12 q$\OML/cmm/m/it/12 samples:The$\TU/lmr/m/n/12 n   [] \OMS/cmsy
+/m/n/12 \TU/lmr/m/n/12 1$\OML/cmm/m/it/12 columnpertainstosignalsampleswhereat
+leastoneleptoncandidatewasfoundandisnotsubjectedtothetruthmatchingcriteriaof\OT
+1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 radians:Resul
+tsshownaretheconfigurationsthatmaximize$\TU/lmr/m/n/12 (1-P$[][]\OT1/cmr/m/n/12
+ )\OML/cmm/m/it/12 []$ 
+ []
+
+<hxLR.pdf, id=277, 569.12625pt x 408.52625pt>
 File: hxLR.pdf Graphic file (type pdf)
 <use hxLR.pdf>
 Package luatex.def Info: hxLR.pdf  used on input line 148.
-(luatex.def)             Requested size: 244.79782pt x 175.71896pt.
-<hxRL.pdf, id=119, 569.12625pt x 408.52625pt>
+(luatex.def)             Requested size: 208.13574pt x 149.4007pt.
+<hxRL.pdf, id=278, 569.12625pt x 408.52625pt>
 File: hxRL.pdf Graphic file (type pdf)
 <use hxRL.pdf>
 Package luatex.def Info: hxRL.pdf  used on input line 149.
-(luatex.def)             Requested size: 244.79782pt x 175.71896pt.
-<hsLR.pdf, id=120, 569.12625pt x 408.52625pt>
+(luatex.def)             Requested size: 208.13574pt x 149.4007pt.
+<hsLR.pdf, id=279, 569.12625pt x 408.52625pt>
 File: hsLR.pdf Graphic file (type pdf)
 <use hsLR.pdf>
 Package luatex.def Info: hsLR.pdf  used on input line 157.
-(luatex.def)             Requested size: 244.79782pt x 175.71896pt.
-<hsRL.pdf, id=121, 569.12625pt x 408.52625pt>
+(luatex.def)             Requested size: 208.13574pt x 149.4007pt.
+<hsRL.pdf, id=280, 569.12625pt x 408.52625pt>
 File: hsRL.pdf Graphic file (type pdf)
 <use hsRL.pdf>
 Package luatex.def Info: hsRL.pdf  used on input line 158.
-(luatex.def)             Requested size: 244.79782pt x 175.71896pt.
-[11<./matchingangle.pdf><./candEnergy.pdf>] [12<./hxLR.pdf><./hxRL.pdf><./hsLR.p
-df><./hsRL.pdf>]
-<SupDiff.pdf, id=406, 569.12625pt x 309.155pt>
+(luatex.def)             Requested size: 208.13574pt x 149.4007pt.
+[13] [14<./matchingangle.pdf><./candEnergy.pdf>] [15<./hxLR.pdf><./hxRL.pdf><./h
+sLR.pdf><./hsRL.pdf>] [16]
+<SupDiff.pdf, id=592, 569.12625pt x 309.155pt>
 File: SupDiff.pdf Graphic file (type pdf)
 <use SupDiff.pdf>
 Package luatex.def Info: SupDiff.pdf  used on input line 171.
-(luatex.def)             Requested size: 247.40514pt x 134.39642pt.
-<SupMass.pdf, id=407, 569.12625pt x 332.24126pt>
+(luatex.def)             Requested size: 210.35257pt x 114.26762pt.
+<SupMass.pdf, id=593, 569.12625pt x 332.24126pt>
 File: SupMass.pdf Graphic file (type pdf)
 <use SupMass.pdf>
 Package luatex.def Info: SupMass.pdf  used on input line 178.
-(luatex.def)             Requested size: 247.40514pt x 144.43251pt.
- [13<./SupDiff.pdf><./SupMass.pdf>]
-Overfull \hbox (27.00558pt too wide) in paragraph at lines 207--237
- []$ 
+(luatex.def)             Requested size: 210.35257pt x 122.8006pt.
+ [17] [18<./SupDiff.pdf><./SupMass.pdf>] [19]
+Overfull \hbox (215.7403pt too wide) in paragraph at lines 207--270
+[]\TU/lmr/m/n/8 Tight se-lec-tion with muon cone []
  []
 
 
-Overfull \hbox (27.00558pt too wide) in paragraph at lines 239--270
- []$[]$ 
+Underfull \hbox (badness 10000) in paragraph at lines 207--270
+
  []
 
-<moneymassdiff.pdf, id=504, 569.12625pt x 384.43625pt>
+
+Overfull \hbox (100.53227pt too wide) in paragraph at lines 207--270
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--284
+[]|\TU/lmr/m/n/12 0.578 $\OMS/cmsy/m/n/12 $
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--284
+[]|\TU/lmr/m/n/12 0.635 $\OMS/cmsy/m/n/12 $
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
+[]|\TU/lmr/m/n/12 0.541 $\OMS/cmsy/m/n/12 $
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
+[]|\TU/lmr/m/n/12 0.584 $\OMS/cmsy/m/n/12 $
+ []
+
+
+Overfull \hbox (42.62202pt too wide) in paragraph at lines 278--288
+[][] 
+ []
+
+<moneymassdiff.pdf, id=711, 569.12625pt x 384.43625pt>
 File: moneymassdiff.pdf Graphic file (type pdf)
 <use moneymassdiff.pdf>
 Package luatex.def Info: moneymassdiff.pdf  used on input line 295.
-(luatex.def)             Requested size: 247.40514pt x 167.12282pt.
-<mwhadCutsHist.pdf, id=505, 569.12625pt x 385.44pt>
+(luatex.def)             Requested size: 210.35257pt x 142.09253pt.
+<mwhadCutsHist.pdf, id=712, 569.12625pt x 385.44pt>
 File: mwhadCutsHist.pdf Graphic file (type pdf)
 <use mwhadCutsHist.pdf>
 Package luatex.def Info: mwhadCutsHist.pdf  used on input line 300.
-(luatex.def)             Requested size: 247.40514pt x 167.55917pt.
-[14]
-<WWSfit.pdf, id=509, 569.12625pt x 421.575pt>
+(luatex.def)             Requested size: 210.35257pt x 142.46353pt.
+[20<./moneymassdiff.pdf><./mwhadCutsHist.pdf>] [21]
+<WWSfit.pdf, id=823, 569.12625pt x 421.575pt>
 File: WWSfit.pdf Graphic file (type pdf)
 <use WWSfit.pdf>
 Package luatex.def Info: WWSfit.pdf  used on input line 322.
-(luatex.def)             Requested size: 247.40514pt x 183.26785pt.
-<Wtoyfit.pdf, id=510, 569.12625pt x 421.575pt>
+(luatex.def)             Requested size: 210.35257pt x 155.81949pt.
+<Wtoyfit.pdf, id=824, 569.12625pt x 421.575pt>
 File: Wtoyfit.pdf Graphic file (type pdf)
 <use Wtoyfit.pdf>
 Package luatex.def Info: Wtoyfit.pdf  used on input line 327.
-(luatex.def)             Requested size: 247.40514pt x 183.26785pt.
-) (./conclude.tex [15] [16<./moneymassdiff.pdf><./mwhadCutsHist.pdf><./WWSfit.pd
-f><./Wtoyfit.pdf>]) (./append.tex
-<nLepHist.pdf, id=704, 569.12625pt x 385.44pt>
+(luatex.def)             Requested size: 210.35257pt x 155.81949pt.
+) (./conclude.tex [22]
+[23<./WWSfit.pdf><./Wtoyfit.pdf>]) [24] (./append.tex
+<nLepHist.pdf, id=935, 569.12625pt x 385.44pt>
 File: nLepHist.pdf Graphic file (type pdf)
 <use nLepHist.pdf>
 Package luatex.def Info: nLepHist.pdf  used on input line 8.
-(luatex.def)             Requested size: 224.911pt x 152.32065pt.
-<ntracksHist.pdf, id=705, 569.12625pt x 385.44pt>
+(luatex.def)             Requested size: 191.22725pt x 129.50696pt.
+<ntracksHist.pdf, id=936, 569.12625pt x 385.44pt>
 File: ntracksHist.pdf Graphic file (type pdf)
 <use ntracksHist.pdf>
 Package luatex.def Info: ntracksHist.pdf  used on input line 13.
-(luatex.def)             Requested size: 224.911pt x 152.32065pt.
-<EcomHist.pdf, id=706, 569.12625pt x 385.44pt>
+(luatex.def)             Requested size: 191.22725pt x 129.50696pt.
+<EcomHist.pdf, id=937, 569.12625pt x 385.44pt>
 File: EcomHist.pdf Graphic file (type pdf)
 <use EcomHist.pdf>
 Package luatex.def Info: EcomHist.pdf  used on input line 20.
-(luatex.def)             Requested size: 224.911pt x 152.32065pt.
-<EvisHist.pdf, id=707, 569.12625pt x 385.44pt>
+(luatex.def)             Requested size: 191.22725pt x 129.50696pt.
+<EvisHist.pdf, id=938, 569.12625pt x 385.44pt>
 File: EvisHist.pdf Graphic file (type pdf)
 <use EvisHist.pdf>
 Package luatex.def Info: EvisHist.pdf  used on input line 25.
-(luatex.def)             Requested size: 224.911pt x 152.32065pt.
-<PtvisHist.pdf, id=708, 569.12625pt x 385.44pt>
+(luatex.def)             Requested size: 191.22725pt x 129.50696pt.
+<PtvisHist.pdf, id=939, 569.12625pt x 385.44pt>
 File: PtvisHist.pdf Graphic file (type pdf)
 <use PtvisHist.pdf>
 Package luatex.def Info: PtvisHist.pdf  used on input line 33.
-(luatex.def)             Requested size: 224.911pt x 152.32065pt.
-<mwhadHist.pdf, id=709, 569.12625pt x 385.44pt>
+(luatex.def)             Requested size: 191.22725pt x 129.50696pt.
+<mwhadHist.pdf, id=940, 569.12625pt x 385.44pt>
 File: mwhadHist.pdf Graphic file (type pdf)
 <use mwhadHist.pdf>
 Package luatex.def Info: mwhadHist.pdf  used on input line 38.
-(luatex.def)             Requested size: 224.911pt x 152.32065pt.
-<vrecoilHist.pdf, id=710, 569.12625pt x 385.44pt>
+(luatex.def)             Requested size: 191.22725pt x 129.50696pt.
+<vrecoilHist.pdf, id=941, 569.12625pt x 385.44pt>
 File: vrecoilHist.pdf Graphic file (type pdf)
 <use vrecoilHist.pdf>
 Package luatex.def Info: vrecoilHist.pdf  used on input line 45.
-(luatex.def)             Requested size: 224.911pt x 152.32065pt.
-<qcostHist.pdf, id=711, 569.12625pt x 385.44pt>
+(luatex.def)             Requested size: 191.22725pt x 129.50696pt.
+<qcostHist.pdf, id=942, 569.12625pt x 385.44pt>
 File: qcostHist.pdf Graphic file (type pdf)
 <use qcostHist.pdf>
 Package luatex.def Info: qcostHist.pdf  used on input line 50.
-(luatex.def)             Requested size: 224.911pt x 152.32065pt.
-) (./WWstudy.bbl [17] [18<./nLepHist.pdf><./ntracksHist.pdf><./EcomHist.pdf><./E
-visHist.pdf><./PtvisHist.pdf><./mwhadHist.pdf><./vrecoilHist.pdf><./qcostHist.pd
-f>]) [19
-Missing character: There is no ⊥ (U+22A5) in font [lmroman9-regular]:+tlig;!
-] (./WWstudy.aux))
+(luatex.def)             Requested size: 191.22725pt x 129.50696pt.
+) [25] [26<./nLepHist.pdf><./ntracksHist.pdf><./EcomHist.pdf><./EvisHist.pdf><./
+PtvisHist.pdf><./mwhadHist.pdf><./vrecoilHist.pdf><./qcostHist.pdf>] (./WWstudy
+.bbl [27
+
+Missing character: There is no ⊥ (U+22A5) in font [lmroman12-regular]:+tlig;!
+]) [28]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
+
+(./WWstudy.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 255.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 255.
+Package rerunfilecheck Info: File `WWstudy.out' has not changed.
+(rerunfilecheck)             Checksum: 87972D5DEF664A2CCBB87A6B119ED7BD;1010.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 255.
+)
 
 Here is how much of LuaTeX's memory you used:
- 31039 strings out of 494480
- 195352,953878 words of node,token memory allocated
- 615 words of node memory still in use:
-   10 hlist, 2 vlist, 2 rule, 1 glue, 1 kern, 1 sub_mlist, 23 attribute, 64 glue
-_spec, 23 attribute_list nodes
-   avail lists: 1:10,2:4256,3:1487,4:259,5:530,6:10565,7:5589,8:1206,9:3904,10:3
-6,11:686
- 33971 multiletter control sequences out of 65536+600000
- 111 fonts using 11636471 bytes
- 61i,18n,105p,3384b,1661s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/texmf/fonts/opentype/public/lm/lmroman7-regular.otf></usr/share/texm
-f/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texmf/fonts/opentype
-/public/lm/lmroman10-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lmrom
-an9-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular.otf></u
-sr/share/texmf/fonts/opentype/public/lm/lmroman9-italic.otf></usr/share/texmf/fo
-nts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/pu
-blic/lm/lmroman12-bold.otf></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
-2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy9.pfb>
-Output written on WWstudy.pdf (19 pages, 1832457 bytes).
+ 32577 strings out of 494480
+ 125200,953878 words of node,token memory allocated
+ 505 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 3 glue, 1 sub_mlist, 20 attribute, 58 glue_spec, 20
+ attribute_list, 1 write nodes
+   avail lists: 1:11,2:4006,3:740,4:231,5:447,6:7650,7:3337,8:721,9:2158,10:27,1
+1:619
+ 35427 multiletter control sequences out of 65536+600000
+ 111 fonts using 11635351 bytes
+ 61i,18n,105p,3400b,1634s stack positions out of 5000i,500n,10000p,200000b,100000s
 
-PDF statistics: 1202 PDF objects out of 1440 (max. 8388607)
- 592 compressed objects within 6 object streams
- 0 named destinations out of 1000 (max. 131072)
- 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.1'
+</usr/share/texmf/fonts/opentype/public/lm/lmmono12-regular.otf></usr/share/texm
+f/fonts/opentype/public/lm/lmroman12-bold.otf></usr/share/texmf/fonts/opentype/p
+ublic/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroma
+n7-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-italic.otf><
+/usr/share/texmf/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texmf
+/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/share/texmf/fonts/open
+type/public/lm/lmroman17-regular.otf></usr/share/texmf/fonts/opentype/public/lm/
+lmroman12-regular.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on WWstudy.pdf (29 pages, 1796163 bytes).
+
+PDF statistics: 1439 PDF objects out of 1440 (max. 8388607)
+ 815 compressed objects within 9 object streams
+ 93 named destinations out of 1000 (max. 131072)
+ 144 words of extra memory for PDF output out of 10000 (max. 100000000)
 

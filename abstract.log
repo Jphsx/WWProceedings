@@ -1,9 +1,41 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  12 OCT 2019 12:33
- restricted \write18 enabled.
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.4.7)  11 APR 2020 16:38
+ restricted system commands enabled.
 **abstract.tex
 (./abstract.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 1 language(s) loaded.
+LaTeX2e <2017-04-15>
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using write cache: /home/justin/.texlive2017/texmf-var/luatex-cache/ge
+neric)(using read cache: /var/lib/texmf/luatex-cache/generic /home/justin/.texli
+ve2017/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /home/justin/.texlive2017/texmf-var/
+luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /home/justin/.texlive2017/texmf-var/
+luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.120 seconds
+Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 
 ! LaTeX Error: Missing \begin{document}.
 
@@ -11,10 +43,81 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 A
-   n analysis of the semileptonic WW process used to benchmark ILD performan...
+l.10  T
+     he study showcases the approaches towards lepton identification and pil...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 10.
+! Undefined control sequence.
+l.10 ...n integrated luminosity of $1600 \, \, \text
+                                                  {fb}^{-1}$ is the statisti...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.10 ...istical error of the W mass $\Delta M_W\text
+                                                  {(stat.)} =  2.4 $ MeV and...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.10 ... cross-section $\Delta \sigma / \sigma \text
+                                                  {(stat.)} = 0.038\% $.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 10--11
+[]The
+ []
+
+
+Overfull \hbox (23.57637pt too wide) in paragraph at lines 10--11
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 500$
+ []
+
+
+Overfull \hbox (44.33337pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 1600  [][]$
+ []
+
+
+Overfull \hbox (65.43872pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 \OML/cmm/m/it/10 M[][] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4$
+ []
+
+
+Overfull \hbox (63.7859pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 \OML/cmm/m/it/10 =[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (31.1112pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 038%$\nullfont . 
+ []
 
 )
 ! Emergency stop.
@@ -25,11 +128,12 @@ If that doesn't work, type  X <return>  to quit.
 
 
 Here is how much of LuaTeX's memory you used:
- 7 strings out of 495004
- 100000,89155 words of node,token memory allocated 1223 words of node memory still in use:
-   1 hlist, 31 glue, 147 glyph, 34 glue_spec, 1 temp, 1 local_par, 1 dir nodes
-   avail lists: 2:11,3:2
- 3695 multiletter control sequences out of 65536+600000
- 14 fonts using 562767 bytes
- 5i,0n,4p,191b,15s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 21 strings out of 494480
+ 100000,89155 words of node,token memory allocated 5436 words of node memory still in use:
+   21 hlist, 1 vlist, 1 rule, 1 local_par, 1 dir, 4 math, 133 glue, 5 kern, 6 pe
+nalty, 655 glyph, 12 attribute, 35 glue_spec, 12 attribute_list nodes
+   avail lists: 2:2,3:15,4:77,5:2,7:115,8:19,10:76
+ 4258 multiletter control sequences out of 65536+600000
+ 24 fonts using 1213415 bytes
+ 18i,2n,12p,863b,57s stack positions out of 5000i,500n,10000p,200000b,100000s
 !  ==> Fatal error occurred, no output PDF file produced!

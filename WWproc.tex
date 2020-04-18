@@ -1,3 +1,4 @@
+%  sample eprint article in LaTeX           --- M. Peskin, 9/7/00
 
 
 \documentclass[12pt]{article}
@@ -8,6 +9,51 @@
 \usepackage{hyperref}
 \usepackage{fancyvrb}
 \usepackage{etoolbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+
+\usepackage[compat=1.0.0]{tikz-feynman}
+\usepackage{graphicx}% Include figure files
+\usepackage{graphics}
+\usepackage{ctable}
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{ifthen}
+\usepackage{xspace}
+%\usepackage{ptdr-definitions}
+\usepackage{rotating}
+%%number the lines
+\usepackage{lineno,xcolor}
+%% Running line numbers:
+%%\linenumbers
+%\setlength\linenumbersep{5pt}
+%\usepackage{setspace}
+%\linespread{1.3} %1.3 by default
+%\newboolean{cms@external}
+%\setboolean{cms@external}{true}
+\usepackage{amsfonts}
+\usepackage{booktabs}
+%\usepackage{siunitx}
+%\usepackage[version-1-compatibility]{siunitx}
+\usepackage{capt-of}
+\usepackage{color}
+\newcommand{\blue}{\color{blue}}
+\newcommand{\green}{\color{green}}
+\newcommand{\red}{\color{red}}
+\newcommand{\magenta}{\color{magenta}}
+\newcommand{\cyan}{\color{cyan}}
+\newcommand{\sm}{\footnotesize}
+%%\usepackage{feynmf}
+\usepackage{feynmp-auto}
+
+
+
+
+
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % basic data for the eprint:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -26,7 +72,7 @@
 %\newcommand\pubnumber{DPF2015-250}
 %\newcommand\pubdate{\today}
 \newcommand\pubnumber{}
-\newcommand\pubdate{March 18, 2016}
+\newcommand\pubdate{\today}
 
 %%  address and funding acknowledgement data:
 \def\kansas{Department of Physics and Astronomy\\
@@ -72,104 +118,23 @@ University of Kansas, Lawrence, KS 66045, U.S.A.}
  %commentchar=*        % comment character
 }
 
-
-
-%\documentclass[%
- %reprint, %uncomment to make into two columns
-%superscriptaddress,
-%groupedaddress,
-%unsortedaddress,
-%runinaddress,
-%frontmatterverbose, 
-% preprint, %comment to make into two columns
-%showpacs,preprintnumbers,
-%nofootinbib,
-%nobibnotes,
-%bibnotes,
-% amsmath,amssymb,
-% aps,
-% prc,
-% rmp,
-% 12pt
-%pra,
-%prb,cms@ex
-%rmp,
-%prstab,
-%prstper,
-%floatfix,
-%]{revtex4-1}
-\usepackage[compat=1.0.0]{tikz-feynman}
-\usepackage{graphicx}% Include figure files
-\usepackage{graphics}
-\usepackage{ctable}
-\usepackage{dcolumn}% Align table columns on decimal point
-\usepackage{bm}% bold math
-\usepackage{ifthen}
-\usepackage{xspace}
-%\usepackage{ptdr-definitions}
-\usepackage{rotating}
-%number the lines
-\usepackage{lineno,xcolor}
-% Running line numbers:
-%\linenumbers
-\setlength\linenumbersep{5pt}
-\usepackage{setspace}
-\linespread{1.3} %1.3 by default
-\newboolean{cms@external}
-\setboolean{cms@external}{true}
-\usepackage{amsfonts}
-\usepackage{booktabs}
-\usepackage{siunitx}
-\usepackage{capt-of}
-\usepackage{color}
-\newcommand{\blue}{\color{blue}}
-\newcommand{\green}{\color{green}}
-\newcommand{\red}{\color{red}}
-\newcommand{\magenta}{\color{magenta}}
-\newcommand{\cyan}{\color{cyan}}
-\newcommand{\sm}{\footnotesize}
-%\usepackage{feynmf}
-\usepackage{feynmp-auto}
-%\usepackage{hyperref}% add hypertext capabilities
-%\usepackage[mathlines]{lineno}% Enable numbering of text and display math
-%\linenumbers\relax % Commence numbering lines
-
-%\usepackage[showframe,%Uncomment any one of the following lines to test 
-%%scale=0.7, marginratio={1:1, 2:3}, ignoreall,% default settings
-%%text={7in,10in},centering,
-%%margin=1.5in,
-%%total={6.5in,8.75in}, top=1.2in, left=0.9in, includefoot,
-%%height=10in,a5paper,hmargin={3cm,0.8in},
-%]{geometry}
-
-%------------------------------------------------------------
-
 \begin{document}
-
 \begin{titlepage}
 \pubblock
 
 \vfill
-\Title{Updated Study of a Precision Measurement of the W Mass from 
-a Threshold Scan Using Polarized $\rm{e}^-$ and $\rm{e}^+$ at ILC}
+\Title{Study of WW $\rightarrow q\bar{q}\ell\nu$ at ILC500 with ILD }
 \vfill
-\Author{GRAHAM W. WILSON\support}
+\Author{JUSTIN ANGUIANO\support}
 \Address{\kansas}
 \vfill
 \begin{Abstract}
-An updated study of measuring the W mass from a polarized threshold scan at ILC is presented with
-an emphasis on evaluating scan strategies that control experimental systematics.
-Highly longitudinally polarized beams of electrons and positrons 
-such as are feasible at ILC offer significant advantages in terms of statistical power 
-and in-situ control of background.
-Eventual experimental precision of around 2 MeV can be envisaged from this technique.
-Further work on both the accelerator design and theoretical uncertainties
-will likely be needed to take full advantage of this opportunity.
+\input{abstract.tex}
 \end{Abstract}
 \vfill
 \begin{Presented}
-The International Workshop on Future Linear Colliders (LCWS15),\\
-Whistler, Canada, 2-6 November 2015\\
+The International Workshop on Future Linear Colliders (LCWS19),\\
+Sendai, Japan, 2-6?? November 2019\\
 \end{Presented}
 \vfill
 \end{titlepage}
@@ -177,39 +142,22 @@ Whistler, Canada, 2-6 November 2015\\
 \setcounter{footnote}{0}
 %
 
-%\AtEndEnvironment{thebibliography}{
+\AtEndEnvironment{thebibliography}{
 % all your extra bibitems that are not in the .bib file can go here. 
 % But they would all get listed - and at the end of the bibtex citations. So only if really needed.
 %\bibitem{extra1}A. Uthor, Some Extra Paper, vol 123, p.2--3 
-%}
+}
 
-%\title{Study of WW $\rightarrow q\bar{q}\ell\nu$ at ILC500 with ILD }
-%\author{Justin Anguiano}
-%\affiliation{Department of Physics and Astronomy\\
-% University of Kansas, Lawrence, KS 66045, U.S.A}
-%\date{\today} 
-
-
-%------------------------------------------------------------
-
-%\begin{abstract}
-%\input{abstract.tex}
-%\end{abstract}
-
-%------------------------------------------------------------
-
-%\maketitle
-%\clearpage\mbox{}\clearpage
-%------------------------------------------------------------
 
 \section{Introduction and motivation}
 \label{sec:Introduction}
 \input{introduction.tex}
-
 \section{Physics}
 \label{sec:physics}
 %\subsection{Standa physics}
 %\label{subsec:ElectorWeak_physics}
+
+%redo diagrams
 \input{physics.tex}
 
 %------------------------------------------------------------
@@ -225,7 +173,10 @@ Whistler, Canada, 2-6 November 2015\\
 
 \section{Measurement of the W mass and Cross-section}
 \label{Current_Work} 
+
 \input{Current_work.tex}
+
+
 %\subsection{Lepton ID}
 %\label{subsec:Lepton_ID}
 
@@ -246,10 +197,17 @@ Whistler, Canada, 2-6 November 2015\\
 \label{sec:Appendix}
 \input{append.tex}
 
-%------------------------------------------------------------
 
-\clearpage %uncomment to push bib to next page
-\bibliography{mybib}{}
-\bibliographystyle{abbrv}
+
+
+\Acknowledgments
+Great thanks to comments or advice related to this project from Graham W. Wilson
+
+%\begin{thebibliography}{99}
+%\input{refs_bibitems}
+%\end{thebibliography}
+
+\bibliographystyle{utphys}
+\bibliography{mybib}
 
 \end{document}
