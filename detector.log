@@ -1,9 +1,41 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  7 NOV 2019 14:56
- restricted \write18 enabled.
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.4.7)  5 MAY 2020 10:14
+ restricted system commands enabled.
 **detector.tex
 (./detector.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 1 language(s) loaded.
+LaTeX2e <2017-04-15>
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using write cache: /home/justin/.texlive2017/texmf-var/luatex-cache/ge
+neric)(using read cache: /var/lib/texmf/luatex-cache/generic /home/justin/.texli
+ve2017/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /home/justin/.texlive2017/texmf-var/
+luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /home/justin/.texlive2017/texmf-var/
+luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.131 seconds
+Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 ! Undefined control sequence.
 l.1 \subsection
              {Accelerator Description}
@@ -27,7 +59,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 1--3
-[][]Accelerator
+[]Accelerator
  []
 
 
@@ -42,10 +74,11 @@ l.5 T
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 5.
+luaotfload | db : Font names database loaded from /home/justin/.texlive2017/texm
+f-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /home/justin/.te
+xlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc)(load l
+uc: /home/justin/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10
+-bold.luc)
 ! Undefined control sequence.
 <write> ... Warning: Reference `fig:ilc' on page \thepage 
                                                   \space undefined\on@line .
@@ -60,9 +93,13 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: Reference `fig:ilc' on page  undefined on input line 5.
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 5.
 ! Undefined control sequence.
 l.5 ... achieved is $1.35 \times 10^{34} \, \, \text
-                                                  {cm}^{−2}\text{s}^{−1}...
+                                                  {cm}^{-2}\text{s}^{-1}$, l...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -70,21 +107,16 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.5 ...35 \times 10^{34} \, \, \text{cm}^{−2}\text
-                                                  {s}^{−1}$, leading to a ...
+l.5 ...1.35 \times 10^{34} \, \, \text{cm}^{-2}\text
+                                                  {s}^{-1}$, leading to an i...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no − (U+2212) in font cmr7!
-Missing character: There is no − (U+2212) in font cmr7!
-Missing character: There is no − (U+2212) in font cmr10!
-Missing character: There is no − (U+2212) in font cmr7!
-Missing character: There is no − (U+2212) in font cmr7!
 ! Undefined control sequence.
-l.5 ... to a integrated luminosity of $2 \, \, \text
+l.5 ...to an integrated luminosity of $2 \, \, \text
                                                   {ab}^{-1}$ after a decade....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -124,16 +156,11 @@ LaTeX Warning: Citation `tdraccel' on page  undefined on input line 5.
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 5--6
-[][]The
+[]The
  []
 
 
-Overfull \hbox (9.64581pt too wide) in paragraph at lines 5--6
-\OML/cmm/m/it/10 qq$
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--6
+Overfull \hbox (10.85999pt too wide) in paragraph at lines 5--6
 [],
  []
 
@@ -143,7 +170,7 @@ Overfull \hbox (25.55563pt too wide) in paragraph at lines 5--6
  []
 
 
-Overfull \hbox (48.573pt too wide) in paragraph at lines 5--6
+Overfull \hbox (61.07303pt too wide) in paragraph at lines 5--6
 \OT1/cmr/m/n/10 10[]  [][]\OML/cmm/m/it/10 s[]$\nullfont ,
  []
 
@@ -153,12 +180,12 @@ Overfull \hbox (28.64696pt too wide) in paragraph at lines 5--6
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 5--6
+Overfull \hbox (5.43pt too wide) in paragraph at lines 5--6
 LR,RL,RR,LL.[[]]
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 5--6
+Overfull \hbox (5.43pt too wide) in paragraph at lines 5--6
 [[]]. 
  []
 
@@ -251,24 +278,24 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 \end{figure}
+l.12 \end{figure}
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 9--12
-[][][width=0.9]ilc.pdf
+Overfull \hbox (20.0pt too wide) in paragraph at lines 9--13
+[][width=0.9]ilc.pdf
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 9--12
+Overfull \hbox (5.43pt too wide) in paragraph at lines 9--13
 [[]]
  []
 
 ! Undefined control sequence.
-l.13 \subsection
+l.14 \subsection
               {Detector Description}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -283,14 +310,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 \subsection{D
+l.14 \subsection{D
                 etector Description}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 13--15
-[][]Detector
+Overfull \hbox (20.0pt too wide) in paragraph at lines 14--16
+[]Detector
  []
 
 
@@ -300,7 +327,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 T
+l.17 T
     here are two proposed detectors at the ILC which serve the same interact...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -308,7 +335,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 <write> ...rning: Reference `fig:ilddet' on page \thepage 
                                                   \space undefined\on@line .
-l.16 ...cept is feautured in Figure \ref{fig:ilddet}
+l.17 ...cept is feautured in Figure \ref{fig:ilddet}
                                                   . The accelerator's two op...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -317,13 +344,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:ilddet' on page  undefined on input line 16.
+LaTeX Warning: Reference `fig:ilddet' on page  undefined on input line 17.
 
 \citation{pfa}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.16 ...rticles and their energy deposits \cite{pfa}
+l.17 ...rticles and their energy deposits \cite{pfa}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -332,10 +359,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `pfa' on page  undefined on input line 16.
+LaTeX Warning: Citation `pfa' on page  undefined on input line 17.
 
 ! Undefined control sequence.
-l.18 ...$\Delta (1/p) =  2 \time 10^{-5} \, \, \text
+l.19 ...Delta (1/p) =  2 \times  10^{-5} \, \, \text
                                                   {GeV}^{-1}$, a jet energy ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -347,7 +374,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.18 ...driven by missing energy \cite{currdetector}
+l.19 ...driven by missing energy \cite{currdetector}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -356,45 +383,50 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `currdetector' on page  undefined on input line 18.
+LaTeX Warning: Citation `currdetector' on page  undefined on input line 19.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 16--19
-[][]There
+Overfull \hbox (20.0pt too wide) in paragraph at lines 17--20
+[]There
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 16--19
+Overfull \hbox (10.85999pt too wide) in paragraph at lines 17--20
 [].
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 16--19
+Overfull \hbox (5.43pt too wide) in paragraph at lines 17--20
 [[]].
  []
 
 
-Overfull \hbox (14.35875pt too wide) in paragraph at lines 16--19
+Overfull \hbox (14.35875pt too wide) in paragraph at lines 17--20
 \OT1/cmr/m/n/10 4  \OML/cmm/m/it/10 $\nullfont m
  []
 
 
-Overfull \hbox (41.69795pt too wide) in paragraph at lines 16--19
+Overfull \hbox (41.69795pt too wide) in paragraph at lines 17--20
 \OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 =p\OT1/cmr/m/n/10 ) =
  []
 
 
-Overfull \hbox (50.37987pt too wide) in paragraph at lines 16--19
-\OT1/cmr/m/n/10 2[]  [][]$\nullfont ,
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 17--20
+\OT1/cmr/m/n/10 2 \OMS/cmsy/m/n/10 
  []
 
 
-Overfull \hbox (13.33337pt too wide) in paragraph at lines 16--19
+Overfull \hbox (55.37988pt too wide) in paragraph at lines 17--20
+\OT1/cmr/m/n/10 10[]  [][]$\nullfont ,
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 17--20
 \OT1/cmr/m/n/10 3%$\nullfont ,
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 16--19
+Overfull \hbox (5.43pt too wide) in paragraph at lines 17--20
 [[]]. 
  []
 
@@ -405,14 +437,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 \begin{figure}
+l.21 \begin{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.22 \includegraphics
+l.23 \includegraphics
                    [width=0.49\textwidth]{ild3d.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -427,7 +459,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 \includegraphics[
+l.23 \includegraphics[
                     width=0.49\textwidth]{ild3d.pdf}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -435,7 +467,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing number, treated as zero.
 <to be read again> 
 ]
-l.22 \includegraphics[width=0.49\textwidth]
+l.23 \includegraphics[width=0.49\textwidth]
                                          {ild3d.pdf}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -444,7 +476,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
 ]
-l.22 \includegraphics[width=0.49\textwidth]
+l.23 \includegraphics[width=0.49\textwidth]
                                          {ild3d.pdf}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -454,7 +486,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.23 \includegraphics
+l.24 \includegraphics
                    [width=0.49\textwidth]{ildxsec.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -465,7 +497,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
 ]
-l.23 \includegraphics[width=0.49\textwidth]
+l.24 \includegraphics[width=0.49\textwidth]
                                          {ildxsec.pdf}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -474,7 +506,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
 ]
-l.23 \includegraphics[width=0.49\textwidth]
+l.24 \includegraphics[width=0.49\textwidth]
                                          {ildxsec.pdf}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -490,7 +522,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 \caption
+l.25 \caption
            {The ILD concept(Left). Quadrant slice of the ILD and components,...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -499,7 +531,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.24 ...ents, dimensions in mm (Right) \cite{tdrdet}
+l.25 ...ents, dimensions in mm (Right) \cite{tdrdet}
                                                   .}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -508,7 +540,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `tdrdet' on page  undefined on input line 24.
+LaTeX Warning: Citation `tdrdet' on page  undefined on input line 25.
 
 
 ! LaTeX Error: \begin{document} ended by \end{figure}.
@@ -517,14 +549,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 \end{figure}
+l.27 \end{figure}
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.26 \subsection
+l.28 \subsection
               {Software Packages}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -533,12 +565,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 22--28
-[][][width=0.49]ild3d.pdf
+Overfull \hbox (20.0pt too wide) in paragraph at lines 23--30
+[][width=0.49]ild3d.pdf
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 22--28
+Overfull \hbox (5.43pt too wide) in paragraph at lines 23--30
 [[]].
  []
 
@@ -549,7 +581,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 T
+l.31 T
     he software ecosystem for the ILC is contained under iLCSoft \cite{ilcso...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -558,7 +590,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.29 ...LC is contained under iLCSoft \cite{ilcsoft}
+l.31 ...LC is contained under iLCSoft \cite{ilcsoft}
                                                    which is comprised of rec...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -567,14 +599,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `ilcsoft' on page  undefined on input line 29.
+LaTeX Warning: Citation `ilcsoft' on page  undefined on input line 31.
 
 \citation{lcio}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.29 ...rely on the event data model LCIO\cite{lcio}
-                                                  , full simulation samples ...
+l.31 ...rely on the event data model LCIO\cite{lcio}
+                                                  . Full simulation samples ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -582,14 +614,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `lcio' on page  undefined on input line 29.
+LaTeX Warning: Citation `lcio' on page  undefined on input line 31.
 
 \citation{dd4hep}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.29 ...etector descriptions in DD4HEP \cite{dd4hep}
-                                                  , and physics samples cent...
+l.31 ...etector descriptions in DD4HEP \cite{dd4hep}
+                                                  , and physics samples are ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -597,13 +629,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `dd4hep' on page  undefined on input line 29.
+LaTeX Warning: Citation `dd4hep' on page  undefined on input line 31.
 
 \citation{whizard}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.29 ...trally produced with Whizard \cite{ whizard}
+l.31 ... the Whizard event generator \cite{ whizard}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -612,30 +644,30 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `whizard' on page  undefined on input line 29.
+LaTeX Warning: Citation `whizard' on page  undefined on input line 31.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 29--30
-[][]The
+Overfull \hbox (20.0pt too wide) in paragraph at lines 31--32
+[]The
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 29--30
+Overfull \hbox (5.43pt too wide) in paragraph at lines 31--32
 [[]]
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 29--30
-LCIO[[]],
+Overfull \hbox (5.43pt too wide) in paragraph at lines 31--32
+LCIO[[]].
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 29--30
+Overfull \hbox (5.43pt too wide) in paragraph at lines 31--32
 [[]],
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 29--30
+Overfull \hbox (5.43pt too wide) in paragraph at lines 31--32
 [[]]. 
  []
 
@@ -648,12 +680,12 @@ Overfull \hbox (5.43053pt too wide) in paragraph at lines 29--30
 
 
 Here is how much of LuaTeX's memory you used:
- 35 strings out of 495004
- 100000,89155 words of node,token memory allocated 31234 words of node memory still in use:
-   77 hlist, 6 math, 874 glue, 3 kern, 20 penalty, 4381 glyph, 133 glue_spec, 5 
-write, 7 local_par, 1 dir nodes
-   avail lists: 2:12,3:9,4:72,6:1,7:422,10:182
- 3711 multiletter control sequences out of 65536+600000
- 26 fonts using 1033735 bytes
- 18i,2n,21p,1930b,90s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 38 strings out of 494480
+ 100000,89155 words of node,token memory allocated 34055 words of node memory still in use:
+   76 hlist, 7 local_par, 1 dir, 5 math, 884 glue, 1 kern, 22 penalty, 4418 glyp
+h, 67 attribute, 35 glue_spec, 67 attribute_list, 5 write nodes
+   avail lists: 2:4,3:8,4:183,5:6,7:334,8:19,10:182
+ 4273 multiletter control sequences out of 65536+600000
+ 26 fonts using 1476791 bytes
+ 18i,2n,21p,1940b,96s stack positions out of 5000i,500n,10000p,200000b,100000s
 !  ==> Fatal error occurred, no output PDF file produced!

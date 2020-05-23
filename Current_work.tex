@@ -1,10 +1,10 @@
 \subsection{Analysis Overview}
 \label{subsec:ana_overview}
-The analysis relies on Monte Carlo events that are fully simulated using the ILD detector model \url{ ILD_l5_o1_v02 } with iLCSoft version v02-00-02 and includes a complete standard model background for final states with 2,4, and 6 fermions as well standard model Higgs production.  A center of mass energy of 500 GeV and longitudinally-polarized beams in various operating scenarios are considered. The Monte Carlo events are generated for $100\%$ polarized beams, that is, either all left or right handed. Events are weighted in order to obtain realistic cases of partial polarizations for possible running scenarios which are shown in Table \ref{tab:beamscenario}.
+The analysis relies on Monte Carlo events that are fully simulated using the ILD detector model \url{ ILD_l5_o1_v02 } with iLCSoft version v02-00-02 and includes a complete standard model background for final states with 2, 4, and 6 fermions as well standard model Higgs production.  A center of mass energy of 500 GeV and longitudinally-polarized beams in various operating scenarios are considered. The Monte Carlo events are generated for $100\%$ polarized beams, that is, either all left or right handed. Events are weighted in order to obtain realistic cases of partial polarizations for the possible running scenarios which are shown in Table \ref{tab:beamscenario}.
 
 \begin{table}
 
-\caption{Possible running configurations with partial beam polarizations ($P_{e^-},P_{e^+}$) and integrated luminiosity \cite{ilcop} }
+\caption{Possible running configurations with partial longitudinal beam polarizations ($P_{e^-},P_{e^+}$) and integrated luminiosity \cite{ilcop} }
 \label{tab:beamscenario}
 \begin{tabular}{|c|c|c|c|c|}
 \hline 
@@ -15,11 +15,12 @@ $\int$ Lum. [fb$^{-1}$] & 1600 & 1600 & 400 & 400 \\
 \end{tabular} 
 
 \end{table}
- The partial polarizations $P_{e^-} \, \, P_{e^+}$  can be represented by the fraction of the beam which is either left or right handed
+ The fraction of the beam, which is either left or right handed, is related to the the partial polarizations $P_{e^-} \, \, P_{e^+}$ 
+ 
  \begin{equation}
  \begin{split}
-f_R^{e^-} + f_L^{e^-} = 1 \, \, \, \, \, \, f_R^{e^-} = \frac{1}{2}(1 + P_{e^-}) \\
-f_R^{e^+} + f_L^{e^+} = 1 \, \, \, \, \, \, f_R^{e^+} = \frac{1}{2}(1 + P_{e^+})
+f_R^{e^-} + f_L^{e^-} = 1 ,\, \, \, \, \, \, f_R^{e^-} = \frac{1}{2}(1 + P_{e^-}) ,\, \, \, \, \, \, f_L^{e^-}=\frac{1}{2}(1- P_{e^-}) \\
+f_R^{e^+} + f_L^{e^+} = 1 ,\, \, \, \, \, \, f_R^{e^+} = \frac{1}{2}(1 + P_{e^+}) , \, \, \, \, \, \, f_L^{e^-}=\frac{1}{2}(1- P_{e^-})
 \end{split}
  \end{equation}
 where the beam fraction $f$ is denoted with the polarization subscript and respective beam superscript. For a particular scenario like $(P_{e^-}, P_{e^+}) = (-0.8, +0.3)$ the -0.8 represents an electron beam with $90\% $ left handed electrons mixed with $10\% $ right handed electrons and a positron beam with $65\%$ right handed positrons mixed with $35\%$ left handed positrons. The weight $\omega$ for a specific event with particular initial state helicities is given by (with example partial polarizations (-0.8,+0.3) ):
@@ -32,12 +33,12 @@ where the beam fraction $f$ is denoted with the polarization subscript and respe
  \end{split}
  \end{equation} 
 
-The analysis workflow for semileptonic WW has three distinct stages, the lepton identification and selection, pile-up rejection in the hadronic system, and event selection against against full standard model backgrounds. The analysis is performed with the  running scenario that creates the most dominant WW production mode (-0.8,+0.3). 
+The analysis workflow for semileptonic WW has three distinct stages, the lepton identification and selection, pile-up rejection in the hadronic system, and event selection against full standard model backgrounds. The analysis is performed with the  running scenario that creates the most dominant WW production mode (-0.8,+0.3). 
 
 
 \subsection{Lepton Identification}
 \label{subsec:Lepton_ID}
-The approach towards the identification of leptons relies on treating leptons universally. The easiest lepton to identify is the muon, which produces a single track along with hits in the muon detector. The electron also produces a track in the TPC but is often accompanied by photons via bremsstrahlung radiation. The tau is the most difficult lepton to identify due to its decay into multiple charged and neutral particles. To accommodate all types lepton signature, a cone based approach is used to either capture single tracks or collimated jets with low track multiplicity. The lepton finding cone is based on TauFinder \cite{taufinder} designed for the Compact Linear Collider(CLIC). TauFinder consists of two major structures, a search cone containing the particles that belong to the lepton candidate and an isolation cone whose purpose is to reject a lepton candidate if the search cone is not well-isolated from other particles. The acceptance criteria for cone consists of these parameters:
+The approach towards the identification of leptons relies on treating leptons universally. The easiest lepton to identify is the muon, which produces a single track along with hits in the muon detector. The electron also produces a track in the TPC but is often accompanied by photons via bremsstrahlung radiation. The tau is the most difficult lepton to identify due to its frequent decay into multiple charged and neutral particles. To accommodate all types of lepton signature, a cone based approach is used to either capture single tracks or collimated jets with low track multiplicity. The lepton finding cone is based on the TauFinder package \cite{taufinder} designed for the Compact Linear Collider(CLIC). TauFinder consists of two major structures, a search cone containing the particles that belong to the lepton candidate and an isolation cone whose purpose is to reject a lepton candidate if the search cone is not well-isolated from other particles. The acceptance criteria for a search cone consists of these parameters:
 \begin{itemize}
 \item Search cone angle $\alpha$ - The opening (half) angle of the search cone for the lepton jet [rad]
 \item Isolation cone angle $\beta$ - The outer isolation cone angle w.r.t to the search cone [rad]
