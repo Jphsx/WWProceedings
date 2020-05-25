@@ -53,9 +53,9 @@ An example of the cone and parameters are shown in Figure \ref{fig:cone}. Additi
 \item $|cos\theta| < 0.99$
 \end{itemize}
 The formation of a lepton candidate follows three steps (1) candidate construction, (2) candidate merging, and (3) isolation testing.
-The first step starts with seed tracks that are sorted by energy in descending order. Any track or neutral particle that falls within the search cone of the lepton candidate is added to the lepton candidate. For each newly added particle the energy and momentum is updated for the lepton candidate. Each candidate has a unique set of particles. Lepton candidates are continually formed until the seed tracks exhausted. When there are no more candidates to be created, the candidates are subjected to part of the acceptance criteria: the lepton jet mass is required to be below upper mass limit (2 GeV) and the number of charged tracks within the lepton candidate is non-zero and less than or equal to 4. If a lepton jet violates any acceptance conditions it is deleted. The next step in the process is merging. If two lepton candidates fall within each others search cones, the candidates are merged. If the mass or track multiplicity conditions are violated, both lepton candidates are deleted.  All  candidates that survive merging are subjected to the isolation testing. For each candidate, the sum of energy of all the particles that fall inside the isolation cone is computed. If the total energy inside the isolation cone is greater than the maximum allowed energy inside the isolation cone the lepton candidate is deleted.\\
+The first step starts with seed tracks that are sorted by energy in descending order. Any track or neutral particle that falls within the search cone of the lepton candidate is added to the lepton candidate. For each newly added particle, the energy and momentum of the lepton candidate is updated. Each candidate has a unique set of particles. Lepton candidates are continually formed until the seed tracks are exhausted. When there are no more candidates to be created, the candidates are subjected to part of the acceptance criteria: the lepton jet mass is required to be below the upper mass limit (2 GeV) and the number of charged tracks within the lepton candidate is non-zero and less than or equal to 4. If a lepton jet violates any acceptance conditions it is deleted. The next step in the process is merging. If two lepton candidates form an opening angle of less than $2\alpha$, the candidates are merged. If the mass or track multiplicity conditions are violated, both lepton candidates are deleted.  All  candidates that survive merging are subjected to the isolation testing. For each candidate, the sum of energy of all the particles that fall inside the isolation cone is computed. If the total energy inside the isolation cone is greater than the maximum allowed energy inside the isolation cone the lepton candidate is deleted.\\
 \quad \quad \\
-The universal lepton treatment is not conducive to a one size fits all approach to lepton ID due to the abundance of different lepton signatures. To accomodate for variations between lepton signatures, the acceptance criteria for leptons is optimized according to lepton flavor and $\tau$ decay topology. The categories created are:\\
+The universal lepton treatment is not conducive to a one size fits all approach to lepton ID due to the abundance of different lepton signatures. To accommodate variations between lepton signatures, the acceptance criteria for leptons is optimized according to lepton flavor and $\tau$ decay mode. The categories created are:\\
 
 \begin{minipage}[h]{0.48\textwidth}
 \centering
@@ -75,8 +75,8 @@ The universal lepton treatment is not conducive to a one size fits all approach 
 
 \end{minipage}\\
 
-The Prompt categories refer to events in which the leptonic W decays directly to either a muon or electron and associated neutrino. The tau categories address the various dominant decay topologies of the tau lepton. For each category, the optimal lepton acceptance criteria is calculated with respect to the events that match the desired topology. The optimal acceptance criteria is the set of parameters that maximally identify lepton candidates that originate from true leptons and minimize the fake lepton candidates that originate from hadronic jets. To find this set of parameters, a scan over a 3D space is performed using the search cone-$\alpha$, isolation cone-$\beta$, and isolation energy-$E_{iso}$. The invariant mass is held at a fixed 2 GeV for simplicity.
-Two uncorrelated push-pull parameters are defined to find the optimal working point in the lepton finding space. The first is related to correctly identifying jets originating from true leptons. This is denoted as the efficiency of reconstructing a true lepton $\epsilon_T$. The second optimization parameter is denoted as $P_F$, the probability of a fake lepton jet arising from a single hadronic jet.  
+The Prompt categories refer to events in which the leptonic W decays directly to either a muon or electron and associated neutrino. The tau categories address the various dominant decay modes of the tau lepton. The optimal lepton acceptance criteria are calculated for each category. The optimal acceptance criteria is the set of parameters that maximally identify lepton candidates that originate from true leptons and minimize the fake lepton candidates that originate from hadronic jets. To find this set of parameters, a scan over a 3D space is performed using the search cone-$\alpha$, isolation cone-$\beta$, and isolation energy-$E_{iso}$. The invariant mass is held at a fixed 2 GeV for simplicity.
+Two parameters are defined to find the optimal working point in the lepton finding space. The first is related to correctly identifying jets originating from true leptons. This is denoted as the efficiency of reconstructing a true lepton $\epsilon_T$. The second optimization parameter is denoted as $P_F$, the probability of a fake lepton jet arising from a single hadronic jet, which is related to the efficiency of of reconstructing a fake lepton $\epsilon_F$. 
 \begin{equation}
 \label{eq:et}
 \epsilon_T = N_{match}/N_{Stotal}
@@ -88,58 +88,42 @@ P_F = 1-(1-\epsilon_F)^{\frac{1}{4}} \\
 \epsilon_F = N_{fake}/N_{Btotal}
 \end{split}
 \end{equation}
-The true lepton reconstruction efficiency is maximized with the signal sample $WW\rightarrow q\bar{q}\ell\nu$. The denominator represents the total, category specific, number of events which contain three generator visible fermions. The true $q\bar{q}\ell$ fermions are required to fall within the acceptance range $|cos\theta| < 0.99$. $N_{match}$ is the number of signal sample events in which a lepton candidate is reconstructed and can be matched to the true lepton, such that the opening angle between the reconstructed lepton and the true lepton are less than 0.1 radians. The distribution of opening angles is shown if Figure \ref{fig:taupsi}. In the case that a reconstructed lepton is being matched to a true tau, the matching angle formed between the reconstructed lepton and the vector sum of the visible generator components of the tau decay. The visible components of the tau decay consist of the direct decay products whereas photons from final state radiation are excluded. The fake lepton probability $P_f$ is minimized using the background sample $WW\rightarrow q\bar{q}q\bar{q}$ and is a function of the fake lepton reconstruction efficiency $\epsilon_F$. The denominator for fake is also subjected to the same acceptance range $|cos\theta| < 0.99$ for all four fermions. The numerator is the total number of events  that contain at least one reconstructed fake lepton. The fake efficiency can be interpreted as the binomial probability of $r$-successes(lepton reconstructions) in 4 trials(hadronic jets). The probability of a single success in a single trial, $P_F$, can be directly derived from the binomial p.d.f using the fake efficiency $\epsilon_F$. The optimal parameters $\alpha$, $\beta$, $E_{iso}$ for each lepton category are extracted from max$[(1-P_F)\epsilon_T]$. The results for each category are shown in Table \ref{tab:taufinderopt}. 
+The true lepton reconstruction efficiency is maximized with the signal sample $WW\rightarrow q\bar{q}\ell\nu$. The denominator represents the total, category specific, number of events which contain three generator visible fermions. The true $q\bar{q}\ell$ fermions are required to fall within the acceptance range $|cos\theta| < 0.99$. $N_{match}$ is the number of signal sample events in which a lepton candidate is reconstructed and can be matched to the true lepton, such that the opening angle between the reconstructed lepton and the true lepton is less than 0.1 radians. In the case that a reconstructed lepton is being matched to a true tau, the matching angle is formed between the reconstructed lepton and the vector sum of the visible generator components of the tau decay. The visible components of the tau decay consist of the direct decay products whereas photons from final state radiation of the tau prior to decay are excluded. The fake lepton probability $P_f$ is minimized using the background sample $WW\rightarrow q\bar{q}q\bar{q}$ and is a function of the fake lepton reconstruction efficiency $\epsilon_F$. The denominator for fakes is also subjected to the same acceptance range $|cos\theta| < 0.99$ for all four fermions. The numerator is the total number of events  that contain at least one reconstructed fake lepton. The fake efficiency can be interpreted as the binomial probability of $r$-successes(lepton reconstructions) in 4 trials(hadronic jets). The probability of a single success in a single trial, $P_F$, can be directly derived from the binomial p.d.f using the fake efficiency $\epsilon_F$ per hadronic jet. The optimal parameters $\alpha$, $\beta$, $E_{iso}$ for each lepton category are extracted from max$[(1-P_F)\epsilon_T]$. The results for each category are shown in Table \ref{tab:taufinderopt}. 
 
 
-\begin{figure}
-\centering
-    \begin{minipage}{0.48\textwidth}
-        \centering
 
-\includegraphics[width=0.9\textwidth]{matchingangle.pdf}
-\caption{Distribution of opening angles between the closest reconstructed lepton candidate and the true muon from $WW \rightarrow q \bar{q} \mu \nu_\mu$. $99.4\%$ of events with a muon candidate are matched to truth.} 
-\label{fig:taupsi}
-\end{minipage}\hfill
-    \begin{minipage}{0.48\textwidth}
-        \centering
-
-\includegraphics[width=0.9\textwidth]{candEnergy.pdf}
-\caption{Energy distribution of lepton candidates matched to truth from $WW \rightarrow q \bar{q} \mu \nu_\mu $ and fake candidates from $ WW \rightarrow q\bar{q} q \bar{q}$ both normalized to unity.}
-\label{fig:candE}
-\end{minipage}
-\end{figure}
 
 
 
 \begin{table}
 
-\begin{tabular}{|p{0.15\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.1\textwidth}p{0.1\textwidth}p{0.1\textwidth}|}
+\begin{tabular}{|p{0.15\textwidth}|p{0.18\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.1\textwidth}p{0.1\textwidth}p{0.1\textwidth}|}
 
 \hline 
-Channel & $n \, \, \text{Lep} \geq 1$ & $1-P_{F}$ & $\epsilon_T$ & SearchCone [rad] & Iso.Cone [rad] & Iso.E [GeV] \\ 
+Channel & $n \, \, \text{Lep} \geq 1 \, \, (\%)$ & $1-P_{F} \, \, (\%)$ & $\epsilon_T \, \, (\%)$ & SearchCone [rad] & Iso.Cone [rad] & Iso.E [GeV] \\ 
 \hline 
-Prompt $\mu$ & $0.955 \pm 0.003$ & $0.974 \pm 0.001$ & $0.949 \pm 0.003$ & 0.03 & 0.15 & 3.0 \\ 
+Prompt $\mu$ & $95.5 \pm 0.3$ & $97.4 \pm 0.1$ & $94.9 \pm 0.3$ & 0.03 & 0.15 & 3.0 \\ 
 
-Prompt $e$ & $0.920 \pm 0.003$ & $0.961 \pm 0.001$ & $0.904 \pm 0.003$ & 0.04 & 0.15 & 4.0 \\ 
+Prompt $e$ & $92.0 \pm 0.3$ & $96.1 \pm 0.1$ & $90.4 \pm 0.3$ & 0.04 & 0.15 & 4.0 \\ 
 
-Inclusive $\tau$ & $0.800 \pm 0.005$ & $0.943 \pm 0.001$ &  $0.770 \pm 0.006$ & 0.07 & 0.15 & 4.5 \\ 
+Inclusive $\tau$ & $80.0 \pm 0.5$ & $94.3 \pm 0.1$ &  $77.0 \pm 0.6$ & 0.07 & 0.15 & 4.5 \\ 
 
 
  \hline
-$\tau \rightarrow \nu \nu \mu$ & $0.815 \pm 0.012$ & $0.974 \pm 0.001$ & $0.801 \pm 0.013$ & 0.03 & 0.15 & 3.0 \\ 
+$\tau \rightarrow \nu \nu \mu$ & $81.5 \pm 1.2$ & $97.4 \pm 0.1$ & $80.1 \pm 1.3$ & 0.03 & 0.15 & 3.0 \\ 
  
-$\tau \rightarrow \nu \nu e$ &  $0.800 \pm 0.012$ & $0.963 \pm 0.001$ &  $0.781 \pm 0.013$ & 0.05 & 0.15 & 3.5 \\ 
+$\tau \rightarrow \nu \nu e$ &  $80.0 \pm 1.2$ & $96.3 \pm 0.1$ &  $78.1 \pm 1.3$ & 0.05 & 0.15 & 3.5 \\ 
  
-$\tau$ Had-1p & $0.744 \pm 0.009$ & $0.930 \pm 0.002$ & $0.707 \pm 0.009$ & 0.07 & 0.15 & 4.5 \\ 
+$\tau$ Had-1p & $74.4 \pm 0.9$ & $93.0 \pm 0.2$ & $70.7 \pm 0.9$ & 0.07 & 0.15 & 4.5 \\ 
  
-$\tau$ Had-3p &  $0.756 \pm 0.015$ & $0.930 \pm 0.002$ & $0.710 \pm 0.016$ & 0.07 & 0.15 & 5.5  \\
+$\tau$ Had-3p &  $75.6 \pm 1.5$ & $93.0 \pm 0.2$ & $71.0 \pm 1.6$ & 0.07 & 0.15 & 5.5  \\
 \hline
 \end{tabular} 
-\caption{Optimization results using $100 \%$ LR $q\bar{q}\ell \nu$ and $q\bar{q} q\bar{q}$ samples. The $n \, \, \text{Lep} \geq 1$ column pertains to signal samples where at least one lepton candidate was found and is not subjected to the truth matching criteria of 0.1 radians. Results shown are the configurations that maximize $(1-P_F)\epsilon_T$ }
+\caption{Optimization results using $100 \%$ LR $q\bar{q}\ell \nu$ and $q\bar{q} q\bar{q}$ samples. The $n \, \, \text{Lep} \geq 1$ column pertains to signal samples where at least one lepton candidate was found and is not subjected to the truth matching criterion of 0.1 radians. Results shown are the configurations that maximize $(1-P_F)\epsilon_T$. }
 \label{tab:taufinderopt}
 \end{table}
 
-Since only one lepton is expected from signal, a single lepton candidate is selected as the candidate for the event. If multiple lepton jets are reconstructed then the lepton candidate with the highest energy is selected as the single candidate for the event. The energy distribution of true and fake leptons is shown in Figure \ref{fig:candE}. If the two highest energy lepton jets are of equal energy then the candidate selected will be the jet with the highest energy original seed track, due to seed track sorting.  Any additional lepton candidates not selected are treated as part of the hadronic system.
+Since only one lepton is expected from signal, a single lepton candidate is selected as the candidate for the event. If multiple lepton jets are reconstructed then the lepton candidate with the highest energy is selected as the single candidate for the event. Any additional lepton candidates are treated as part of the hadronic system.
 
 
 \subsection{Pileup mitigation}
@@ -161,8 +145,8 @@ Since only one lepton is expected from signal, a single lepton candidate is sele
 \label{fig:fangles}
 \end{figure}
 
-After a lepton candidate has been selected, the remaining particles in the system are expected to form the hadronically decaying W-boson. However, the vector sum of the paricles  produces a distribution that is often in excess of the true hadonic mass. Variation between the true and measured mass naturally arise due to the mismeasurment of particles -- especially neutral hadrons, as well as particles lost beyond the acceptance range of the detector. Neither of these effects should create a systematic excess in the hadronic mass. The nature of the excess can be understood through the kinematics of the WW in the LR and RL configurations shown in Figure \ref{fig:Epartition} and \ref{fig:fangles}. The highest yielding configuration, LR, typically has two fermions that are forward in the detector which both typically have a large fraction of the beam energy. These fermions are susceptible to pile-up scattering into the detector and mixing directly into the reconstructed jets. To combat effects of pile-up, jet clustering algorithms via FastJet\cite{fastjet} are used.  The standard approach for pileup mitigation is to use the kT algorithm\cite{kt} and tune the R parameter such that the pile-up particles are associated with beam jets while the desired particles are not. With successful kT clustering the beam jets can be thrown away without damaging the reconstruction of the desired event. However, this approach only works well in events that are centrally produced.  The pile-up overlap in the forward topology with the kT algorithm  based clustering leads to rejecting desired particles and severe undermeasuremnt of the W mass. The solution to proper pileup mitigation is through the precise removal of foreign particles inside the reconstructed jets.  This can be achieved by using the standard JADE algorithm and mass based cut-off parameter $y_{cut} > y_{ij}$ where $y_{ij} = M_{ij}^2 / Q^2$ with $M_{ij}$ being the invariant mass of the pair of objects being combined and $Q^2$ being the visible energy in the $e^{+}e^{-}$ annihilation \cite{ycut}.  The mass of individually reconstructed jets can be controlled by tuning the $y_{cut}$ parameter. For large values, $y_{cut} =1\times10^{-3}$, a single massive jet is reconstructed. In the limit that $y_{cut}$ becomes infinitely small the number of jets reconstructed converges to the number of reconstructed particles.  The best $y_{cut}$ value is the value that forms mini-jets that safely couple together hard and soft emissions from  the original quark jet while segregating pile-up into its own mini-jets. The mini-jets are then subjected to kinematic cuts that maximize the pileup rejection and minimize the difference  between the true and measured hadronic W mass. 	The best combination of $y_{cut}$ and mini-jet kinematic cuts are found by examining the $100\%$ polarized LR signal muon dataset.  Two statisical estimators are used to maximize the pile-up rejection, both which come from the distribution of $M_{qq}^{meas} - M_{qq}^{true}$. This binned mass difference distribution is created from the subset of mini-jets that arise from clustering with a given $y_{cut}$ and also pass some jet veto cuts $p_{Tjet} > x$ and $|cos\theta_{jet}| < y$. The estimators, from the distribution, are the Full Width Half Maximum(FWHM) and the number of entries in the Mode.  
-Using estimators calculated from a binned histogram creates unwanted sensitivity to bin size. To reduce sensitivity to binning, the mode is defined as the bin with the most entries. The ``mode entries" is the number of entries in the mode bin plus the number of entries in the mode bins nearest neighbors. For the FWHM, the mass distribution is assumed to be monotonically decreasing around the half maxmimum. To create a more sensitive continuous distribution of the FWHM,  the FWHM is weighted towards the bin center of the two bins around (above/below) the half maximum. The results of the optimization are shown in Figure \ref{fig:supmass} and various $y_{cut}$'s are shown in comparison to the optimal configuration in Figure \ref{fig:supdiff}. The leading result uses $y_{cut} = 5\times 10^{-5}$, mini jet $P_T > 2$ GeV, and has no $|\cos \theta|$ requirement. 
+After a lepton candidate has been selected, the remaining particles in the system are expected to form the hadronically decaying W boson. However, the vector sum of the particles  produces a distribution that is often in excess of the true hadonic mass. Variation between the true and measured mass naturally arises due to the mismeasurment of particles -- especially neutral hadrons, as well as particles lost beyond the acceptance of the detector. Neither of these effects should create a systematic excess in the hadronic mass. The nature of the excess can be understood through the kinematics of the WW in the LR and RL configurations shown in Figure \ref{fig:Epartition} and \ref{fig:fangles}. The highest yielding configuration, LR, typically has two fermions that are forward in the detector which both typically have a large fraction of the beam energy. These fermions are susceptible to pile-up scattering into the detector and mixing directly into the reconstructed jets. To combat effects of pile-up, jet clustering algorithms via FastJet\cite{fastjet} are used.  The standard approach for pileup mitigation is to use the $k_T$ algorithm\cite{kt} and tune the R parameter such that the pile-up particles are associated with beam jets while the desired particles are not. With successful $k_T$ clustering the beam jets can be thrown away without damaging the reconstruction of the desired event. However, this approach only works well in events that are centrally produced.  The pile-up overlap in the forward topology with the $k_T$ algorithm  based clustering leads to rejecting desired particles and severe undermeasuremnt of the W mass. The solution to proper pileup mitigation is through the precise removal of foreign particles inside the reconstructed jets.  This can be achieved by using the standard JADE algorithm and mass based cut-off parameter $y_{cut} > y_{ij}$ where $y_{ij} = M_{ij}^2 / Q^2$ with $M_{ij}$ being the invariant mass of the pair of objects being combined and $Q^2$ being the visible energy in the $e^{+}e^{-}$ annihilation \cite{ycut}.  The mass of individually reconstructed jets can be controlled by tuning the $y_{cut}$ parameter. For large values, $y_{cut} =1\times10^{-3}$, a single massive jet is reconstructed. In the limit that $y_{cut}$ becomes infinitely small the number of jets reconstructed converges to the number of reconstructed particles.  The best $y_{cut}$ value is the value that forms mini-jets that safely couple together hard and soft emissions from  the original quark jet while segregating pile-up into its own mini-jets. The mini-jets are then subjected to kinematic cuts that maximize the pileup rejection and minimize the difference  between the true and measured hadronic W mass. 	The best combination of $y_{cut}$ and mini-jet kinematic cuts are found by examining the $100\%$ polarized LR signal dataset for $qq \mu \nu$.  Two statisical estimators are used to maximize the pile-up rejection, both of which come from the distribution of $M_{qq}^{meas} - M_{qq}^{true}$. This binned mass difference distribution is created from the subset of mini-jets that arise from clustering with a given $y_{cut}$ and also pass some jet veto cuts $p_{Tjet} > x$ and $|cos\theta_{jet}| < y$. The estimators, from the distribution, are the Full Width Half Maximum(FWHM) and the number of entries in the Mode.  
+Using estimators calculated from a binned histogram creates unwanted sensitivity to bin size. To reduce sensitivity to binning, the mode is defined as the bin with the most entries. The ``mode entries" is the number of entries in the mode bin plus the number of entries in the mode bins nearest neighbors. For the FWHM, the mass distribution is assumed to be monotonically decreasing around the half maxmimum. To create a more sensitive continuous distribution of the FWHM,  the FWHM is weighted towards the bin center of the two bins around (above/below) the half maximum. The results of the optimization are shown in Figure \ref{fig:supmass} and various $y_{cut}$'s are shown in comparison to the optimal configuration in Figure \ref{fig:supdiff}. The optimal result uses $y_{cut} = 5\times 10^{-5}$, mini jet $P_T > 2$ GeV, and has no $|\cos \theta|$ requirement. 
 
 \begin{figure}
     \centering
@@ -185,7 +169,7 @@ Using estimators calculated from a binned histogram creates unwanted sensitivity
 
 \subsection{EventSelection}
 \label{subsec:EventSelection}
-The W-pair selection has been optimized for a Monte Carlo sample of 1600 $\text{fb}^{-1}$ with the $(-0.8,+0.3)$ beam scenario and is based on the selection in \cite{ivan}. The selection includes the full 2,4,6 fermion and Higgs SM background, and is performed with two independent subsets, a tight and loose selection. The tight selection uses the prompt muon cone to identify signal events that contain both prompt and non-prompt muons and electrons. The tight selection is inefficient in collecting hadronic taus, so, the loose selection, using the inclusive tau cone, is designed to recover the efficiency of hadronic taus and other problematic events. The selection criteria are as follows:
+The W-pair selection has been optimized for a Monte Carlo sample of 1600 $\text{fb}^{-1}$ with the $(-0.8,+0.3)$ beam scenario and is based on the selection in \cite{ivan}. The selection includes the full 2,4,6 fermion and Higgs SM background, and is performed with two mutually exclusive subsets, a tight and loose selection. The tight selection uses the prompt muon cone to identify signal events that contain both prompt and non-prompt muons and electrons. The tight selection is inefficient in collecting hadronic taus, so, the loose selection, using the inclusive tau cone, is designed to recover the efficiency of hadronic taus and other problematic events. The selection criteria is applied after the pileup mitigation and is as follows:
 \begin{itemize}
 \item N Leptons $\geq 1$
 \item Track Multiplicity $> 10$  
@@ -193,78 +177,78 @@ The W-pair selection has been optimized for a Monte Carlo sample of 1600 $\text{
 \item $E_{vis} < 500$ GeV 
 \item $E_{com} > 100$ GeV
 \item $40<M_{qq}<120$ GeV
-\item  $-qcos\theta_W < -0.95$
-\item  $m^2_{\nu recoil} < 135,000 \, \, \text{GeV}^2$
+\item  $-qcos\theta_W > -0.95$
+\item  $m^{vis2}_{recoil} < 135,000 \, \, \text{GeV}^2$
 \end{itemize}
 
-The track multiplicity and $E_{com}$ target 2 fermion backgrounds. $E_{com}$ is the rest-frame energy that consists of the visible and inferred missing energy. The missing energy is treated as a single neutrino with zero mass such that $E_{com} = E_{vis} + |P_{miss}| \, \,  \, \text{and} \, \, P^\mu_{miss} = (|P_{miss}| , -\sum{\vec{p}_{vis}})$. The Visible $P_T$ is scalar sum of all measured transverse momentum and $E_{vis}$ is the sum of all reconstructed visible energy in an event. The $P_T$ and $E_{vis}$ cuts target processes that do not have a genuine missing energy from a neutrino. The hadronic W-mass $M_{qq}$ requirement forces the hadronic system to be ``W-like" and the recoil mass, $m_{\nu recoil}$, uniquely requires the visible system to be recoiling against an invisible system with little to no mass. The recoil mass is defined as $m^2_{\nu recoil} = s + M^2_{vis} - 2\sqrt{s}E_{vis} \, \, \text{and} \, \, M^2_{vis} = ( P^{\mu}_{qq} +  P^{\mu}_{\ell})^2$. The W-scattering cut $-q\cos\theta_W$ is the angle of deflection of the system identified as $W^-$ with respect to the $e^-$ beam axis and is implemented to limit backward scattering.  The charge of the lepton is extracted from the leading momentum track from candidates with 1, 2, or 4 tracks, or in the case of 3 tracks, the charge is the sum of the three track charges. The hadronic system is then tagged with the opposite charge.  This procedure results in the correct charge assignment of the lepton before selection cuts for about $98.9\%$ of prompt muons, $94.8\%$ of prompt electrons, and $95.9\%$ of taus. Following the event selection the correct charge assignment increases to $99.9\%$ for prompt muons, $98.3\%$ for prompt electrons, and $98.8\%$ for taus. The selection variables for signal and background are shown after the lepton requirement in Figure \ref{fig:stacks1} in the Appendix.  The details of the tight and loose selection for (-0.8,+0.3) at 1600$\text{fb}^{-1}$ are summarized in Table \ref{tab:selection}. The selections in Table \ref{tab:selection} differ by the veto of the tight lepton in the loose selection, where the preference for any event is to always choose a tight lepton over loose. The primary selection also includes only ``WW-like" signal, this type of signal is such that both of the true fermion pairs invariant masses are each within $\pm10$ GeV of the nominal W mass. If an event contains a fermion pair that is outside the WW-like range, it is designated as an off-shell(O.S) event and is placed in a different category. The selection cuts are optimized to maximize the efficiency and purity of the total signal for the tight selection. The results are summarized with the two selection cones with and without O.S. events in Table \ref{tab:summary}. The final results for the mass inclusive selection yields a signal efficiency of $58\%$ with only a $9\%$ of background contaminating selected events. The W-boson invariant mass after selection is shown with mass resolution in Figure \ref{fig:money}
+The track multiplicity and $E_{com}$ target 2 fermion backgrounds. $E_{com}$ is the rest-frame energy that consists of the visible and inferred missing energy. The missing energy is treated as a single neutrino with zero mass such that $E_{com} = E_{vis} + |P_{miss}| \, \,  \, \text{and} \, \, P^\mu_{miss} = (|P_{miss}| , -\sum{\vec{p}_{vis}})$. The visible $P_T$ is the magnitude of the vector of all measured transverse momenta and $E_{vis}$ is the sum of all reconstructed visible energy in an event. The $P_T$ and $E_{vis}$ cuts target processes that do not have a genuine missing energy from a neutrino. The hadronic W-mass $M_{qq}$ requirement forces the hadronic system to be ``W-like" and the recoil mass, $m_{\nu recoil}$, uniquely requires the visible system to be recoiling against an invisible system with little to no mass. The recoil mass is defined as $m^2_{\nu recoil} = s + M^2_{vis} - 2\sqrt{s}E_{vis} \, \, \text{and} \, \, M^2_{vis} = ( P^{\mu}_{qq} +  P^{\mu}_{\ell})^2$. The W-scattering angle $-q\cos\theta_W$ is the angle of deflection of the system identified as $W^-$ with respect to the $e^-$ beam axis and is implemented to limit backward scattering.  The charge of the lepton is extracted from the leading momentum track from candidates with 1, 2, or 4 tracks, or in the case of 3 tracks, the charge is the sum of the three track charges. The hadronic system is then tagged with the opposite charge.  This procedure results in the correct charge assignment of the lepton before selection cuts for about $98.9\%$ of prompt muons, $94.8\%$ of prompt electrons, and $95.9\%$ of taus. Following the event selection the correct charge assignment increases to $99.9\%$ for prompt muons, $98.3\%$ for prompt electrons, and $98.8\%$ for taus. The selection variables for signal and background are shown after the lepton requirement in Figure \ref{fig:stacks1} in the Appendix.  The details of the tight and loose selection for (-0.8,+0.3) at 1600$\text{fb}^{-1}$ are summarized in Table \ref{tab:selection}. The selections in Table \ref{tab:selection} differ by the veto of the tight lepton in the loose selection, where the preference for any event is to always choose a tight lepton over loose. The primary selection also includes only ``WW-like" signal, this type of signal is such that both of the true fermion pairs invariant masses are each within $\pm10$ GeV of the nominal W mass. If an event contains a fermion pair that is outside the WW-like range, it is designated as an off-shell(O.S) event and is placed in a different category. The selection cuts are optimized to maximize the efficiency and purity of the total signal for the tight selection. The results are summarized with the two selection cones with and without O.S. events in Table \ref{tab:summary}. The final results for the mass inclusive selection yields a signal efficiency of $58\%$ with only a $9\%$ of background contaminating selected events. The W-boson invariant mass after selection is shown with mass resolution in Figure \ref{fig:money}
 
 
 \begin{table}
 
-\caption{The tight and loose selection for 1600 $\text{fb}^{-1}$ (-0.8,+0.3). The tight selection is most efficient with prompt leptons with $69\%$ and $65\%$  for muons and electrons respectively, but struggles to efficiently reconstruct taus. The loose selection recovers $10\%$ of the tau efficiency and is inefficient for prompt leptons because of the tight lepton veto. The tight lepton veto enforces the orthogonality of the selections gives preference toward better lepton candidates. The signal categories Base Evts. only include events in which the true W mass of both fermion pairs are within 10 GeV of the nominal W mass.}
+\caption{The tight and loose selection for 1600 $\text{fb}^{-1}$ (-0.8,+0.3). The tight selection is most efficient with prompt leptons with $69\%$ and $65\%$  for muons and electrons respectively, but struggles to efficiently reconstruct taus. The loose selection recovers $10\%$ of the tau efficiency and is inefficient for prompt leptons because of the tight lepton veto. The tight lepton veto enforces the orthogonality of the selections and gives preference toward better lepton candidates. The signal categories Base Evts. only include events in which the true W mass of both fermion pairs are within 10 GeV of the nominal W mass.}
 \label{tab:selection}
  \scriptsize
- Tight selection with muon cone
-   \begin{tabular}{|p{0.11\textwidth}|p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.1\textwidth}|}
+ Tight selection with muon cone \\
+   \begin{tabular}{|p{0.11\textwidth}|p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.1\textwidth}|}
 \hline 
-   & Prompt $\mu$ & Prompt $e$ & $\tau$ & Tot. Sig. & 2f & 4f & 6f & Higgs \\ \hline 
-Base Evts & {3.87e+06 } &  {3.89e+06 } &  {3.90e+06} & {1.17e+07} &  {4.22e+07} &  {3.22e+07} &  {2.14e+05} &  {4.12e+05} \\ 
+ $(\times 10^5)$  & $qq\mu\nu$ & $qqe\nu$ & $qq\tau\nu$ & Tot. Sig. & 2f & 4f & 6f & Higgs \\ \hline 
+Base Evts & {38.7 } &  {38.9 } &  {39.0} & {117} &  {422} &  {322} &  {2.14} &  {4.12} \\ 
 
-Lepton & {3.31e+06 } &  {3.20e+06 } &  {2.28e+06} & {8.78e+06} &  {1.15e+07} &  {1.18e+07} &  {1.63e+05} &  {1.15e+05} \\ 
+Lepton & {33.1 } &  {32.0 } &  {22.8} & {87.8} &  {115} &  {118} &  {1.63} &  {1.15} \\ 
  
-$E_{vis}$ & {3.28e+06 } &  {3.11e+06 } &  {2.27e+06} & {8.67e+06} &  {1.06e+07} &  {1.15e+07} &  {1.62e+05} &  {1.11e+05} \\ 
+$E_{vis}$ & {32.8 } &  {31.1 } &  {22.7} & {86.7} &  {106} &  {115} &  {1.62} &  {1.11} \\ 
  
-N Tracks & {3.19e+06 } &  {3.03e+06 } &  {2.21e+06} & {8.43e+06} &  {2.54e+06} &  {2.59e+06} &  {1.49e+05} &  {8.89e+04} \\ 
+N Tracks & {31.9 } &  {30.3 } &  {22.1} & {84.3} &  {25.4} &  {25.9} &  {1.49} &  {0.889} \\ 
  
-$-qcos\theta$ & {3.18e+06 } &  {3.01e+06 } &  {2.18e+06} & {8.37e+06} &  {2.19e+06} &  {2.26e+06} &  {1.44e+05} &  {8.52e+04} \\ 
+$-qcos\theta$ & {31.8 } &  {30.1 } &  {21.8} & {83.7} &  {21.9} &  {22.6} &  {1.44} &  {0.852} \\ 
  
-$M_{qq}$ $>$40 & {2.94e+06 } &  {2.80e+06 } &  {2.03e+06} & {7.77e+06} &  {1.13e+06} &  {1.33e+06} &  {1.42e+05} &  {7.56e+04} \\ 
+$M_{qq}$ $>$40 & {29.4 } &  {28.0 } &  {20.3} & {77.7} &  {11.3} &  {13.3} &  {1.42} &  {0.756} \\ 
  
-$M_{qq}$ $<$120 & {2.72e+06 } &  {2.57e+06 } &  {1.83e+06} & {7.13e+06} &  {5.68e+05} &  {2.68e+05} &  {2.02e+04} &  {2.97e+04} \\ 
+$M_{qq}$ $<$120 & {27.2 } &  {25.7 } &  {18.3} & {71.3} &  {5.68} &  {2.68} &  {0.202} &  {0.297} \\ 
  
-$E_{com}$ & {2.72e+06 } &  {2.57e+06 } &  {1.83e+06} & {7.13e+06} &  {5.58e+05} &  {2.65e+05} &  {2.02e+04} &  {2.96e+04} \\ 
+$E_{com}$ & {27.2 } &  {25.7} &  {18.3} & {71.3} &  {5.58} &  {2.65} &  {0.202} &  {0.296} \\ 
 
-Pt vis. & {2.69e+06 } &  {2.55e+06 } &  {1.81e+06} & {7.05e+06} &  {3.21e+05} &  {2.37e+05} &  {2.01e+04} &  {2.94e+04} \\ 
+Pt vis. & {26.9 } &  {25.5} &  {18.1} & {70.5} &  {3.21} &  {2.37} &  {0.201} &  {0.294} \\ 
 
-$m^2_{\nu recoil}$ & {2.69e+06 } &  {2.54e+06 } &  {1.80e+06} & {7.03e+06} &  {2.93e+05} &  {2.02e+05} &  {1.94e+04} &  {2.23e+04} \\ 
+$m^2_{\nu recoil}$ & {26.9 } &  {25.4 } &  {18.0} & {70.3} &  {2.93} &  {2.02} &  {0.194} &  {0.223} \\ 
 \hline 
 
- $\epsilon$ & $0.694 $ & $0.654 $ & $0.462$ &  $0.603 $ & $0.0069 $ & $0.00626 $ & $0.0905 $ & $0.0541 $ \\ 
+ $\epsilon \, \, (\%)$ & $69.4 $ & $65.4 $ & $46.2$ &  $60.3 $ & $0.69 $ & $0.626 $ & $9.05 $ & $5.41 $ \\ 
  
- 			& $\pm$0.002 & $\pm$0.002 & $\pm$0.003 & $\pm$0.002 & $\pm$ 0.0001 & $\pm$ {8e-05} & $\pm$ 0.0002 & $\pm$0.0005 \\
+ 			& $\pm$0.2 & $\pm$0.2 & $\pm$0.3 & $\pm$0.2 & $\pm$ 0.01 & $\pm$ 0.008 & $\pm$ 0.02 & $\pm$0.05 \\
 \hline
 \end{tabular}
 \quad \quad \\
 Loose selection with tau cone\\
-\begin{tabular}{|p{0.11\textwidth}|p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.11\textwidth}p{0.1\textwidth}|}
+\begin{tabular}{|p{0.11\textwidth}|p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.1\textwidth}|}
 \hline 
-   & Prompt $\mu$ & Prompt $e$ & $\tau$ & Tot. Sig. & 2f & 4f & 6f & Higgs \\ \hline 
-Base Evts & {3.87e+06 } &  {3.89e+06 } &  {3.90e+06} & {1.17e+07} &  {4.22e+07} &  {3.22e+07} &  {2.14e+05} &  {4.12e+05} \\ 
+ $(\times 10^5)$  & $qq\mu\nu$ & $qqe\nu$ & $qq\tau\nu$ & Tot. Sig. & 2f & 4f & 6f & Higgs \\ \hline 
+Base Evts & {38.7 } &  {38.9 } &  {39.0} & {117} &  {422} &  {322} &  {2.14} &  {4.12} \\ 
  
-Lepton & {3.36e+06 } &  {3.30e+06 } &  {2.82e+06} & {9.48e+06} &  {1.30e+07} &  {1.36e+07} &  {1.77e+05} &  {1.38e+05} \\ 
+Lepton & {33.6 } &  {33.0 } &  {28.2} & {94.8} &  {130} &  {136} &  {1.77} &  {1.38} \\ 
 
-Tight Veto & {7.72e+04 } &  {1.28e+05 } &  {5.70e+05} & {7.76e+05} &  {1.93e+06} &  {2.15e+06} &  {1.61e+04} &  {3.12e+04} \\ 
+Tight Veto & {0.772 } &  {1.28 } &  {5.70} & {7.76} &  {19.3} &  {21.5} &  {0.161} &  {0.312} \\ 
  
-$E_{vis}$ & {7.64e+04 } &  {1.26e+05 } &  {5.70e+05} & {7.72e+05} &  {1.82e+06} &  {1.94e+06} &  {1.54e+04} &  {3.02e+04} \\ 
+$E_{vis}$ & {0.764 } &  {1.26 } &  {5.70} & {7.72} &  {18.2} &  {19.4} &  {0.154} &  {0.302} \\ 
 
-N Tracks & {7.37e+04 } &  {1.21e+05 } &  {5.54e+05} & {7.49e+05} &  {1.50e+06} &  {1.64e+06} &  {1.51e+04} &  {2.71e+04} \\ 
+N Tracks & {0.737 } &  {1.21 } &  {5.54} & {7.49} &  {15.0} &  {16.4} &  {0.151} &  {0.271} \\ 
  
-$-qcos\theta$ & {6.30e+04 } &  {1.12e+05 } &  {5.32e+05} & {7.07e+05} &  {1.11e+06} &  {1.41e+06} &  {1.45e+04} &  {2.56e+04} \\ 
+$-qcos\theta$ & {0.630 } &  {1.12 } &  {5.32} & {7.07} &  {11.1} &  {14.1} &  {0.145} &  {0.256} \\ 
  
-$M_{qq}$ $>$ 40 & {4.92e+04 } &  {9.72e+04 } &  {4.86e+05} & {6.33e+05} &  {5.98e+05} &  {1.30e+06} &  {1.44e+04} &  {2.33e+04} \\ 
+$M_{qq}$ $>$ 40 & {0.492 } &  {0.972 } &  {4.86} & {6.33} &  {5.98} &  {13.0} &  {0.144} &  {0.233} \\ 
 
-$M_{qq}$ $<$ 120 & {4.04e+04 } &  {7.81e+04 } &  {4.16e+05} & {5.35e+05} &  {2.58e+05} &  {1.11e+05} &  {1.11e+03} &  {1.24e+04} \\ 
+$M_{qq}$ $<$ 120 & {0.404 } &  {0.781 } &  {4.16} & {5.35} &  {2.58} &  {1.11} &  {0.0111} &  {0.124} \\ 
  
-$E_{com}$ & {4.04e+04 } &  {7.81e+04 } &  {4.16e+05} & {5.34e+05} &  {2.50e+05} &  {1.10e+05} &  {1.11e+03} &  {1.24e+04} \\ 
+$E_{com}$ & {0.404 } &  {0.781 } &  {4.16} & {5.34} &  {2.50} &  {1.10} &  {0.0111} &  {0.124} \\ 
 
-Pt vis. & {4.00e+04 } &  {7.74e+04 } &  {4.12e+05} & {5.29e+05} &  {1.17e+05} &  {1.01e+05} &  {1.11e+03} &  {1.23e+04} \\ 
+Pt vis. & {0.400 } &  {0.774 } &  {4.12} & {5.29} &  {1.17} &  {1.01} &  {0.0111} &  {0.123} \\ 
  
-$m^2_{\nu recoil}$ & {3.94e+04 } &  {7.70e+04 } &  {4.07e+05} & {5.24e+05} &  {1.02e+05} &  {7.59e+04} &  {1.02e+03} &  {9.73e+03} \\ 
+$m^2_{\nu recoil}$ & {0.394 } &  {0.770 } &  {4.07} & {5.24} &  {1.02} &  {0.759} &  {0.0102} &  {0.0973} \\ 
 \hline 
- $\epsilon$ & $0.0102 $ & $0.0198 $ & $0.105 $ &  $0.0449 $ & $0.00241 $ & $0.00236 $ & $0.00474 $ & $0.0236 $ \\ 
+ $\epsilon \, \, (\%)$ & $1.02 $ & $1.98 $ & $10.5 $ &  $4.49 $ & $0.241 $ & $0.236 $ & $0.474 $ & $2.36 $ \\ 
 
-  	     & $\pm 0.005$ & $\pm 0.0007$ & $\pm 0.002$ & $\pm 0.0007$ & $\pm$ {3e-05} & $\pm$ {4e-05} & $\pm$ {7e-05} & $\pm$0.0002 \\
+  	     & $\pm 0.5$ & $\pm 0.07$ & $\pm 0.2$ & $\pm 0.07$ & $\pm 0.003$ & $\pm 0.004$ & $\pm 0.007$ & $\pm 0.02$ \\
 
  \hline
  \end{tabular}
@@ -279,11 +263,11 @@ $m^2_{\nu recoil}$ & {3.94e+04 } &  {7.70e+04 } &  {4.07e+05} & {5.24e+05} &  {1
  \begin{tabular}{ |p{0.12\textwidth}|p{0.12\textwidth}p{0.15\textwidth}|p{0.12\textwidth}|p{0.12\textwidth}p{0.15\textwidth}p{0.12\textwidth}|} 
  \hline 
    &  \multicolumn{3}{|l|}{Tight Selection} &  \multicolumn{3}{|l|}{ Tight + Loose Sel.}  \\  \hline  
- & Sel. Total & Efficiency & Purity & Sel. Total & Efficiency & Purity \\ 
+ & Sel. Total $(\times 10^5)$ & Efficiency $(\%)$ & Purity $(\%)$ & Sel. Total $(\times 10^5)$ & Efficiency $(\%)$& Purity $(\%)$ \\ 
  \hline  
- Bkg. &  {5.36e+05} & & &  {7.25e+05} & &  \\ 
- Signal &  {4.49e+06} & 0.578 $\pm$ 0.002 & 0.893  &  {4.93e+06} & 0.635 $\pm$ 0.002 & 0.872 \\ 
- Sig.+O.S. &  {6.93e+06} & 0.541 $\pm$ 0.001 & 0.928 &  {7.47e+06} & 0.584 $\pm$ 0.001 & 0.912 \\ 
+ Bkg. &  {5.36} & & &  {7.25} & &  \\ 
+ Signal &  {70.3} & 60.3 $\pm$ 0.2 & 92.9  &  {75.5} & 64.6 $\pm$ 0.2 & 91.2 \\ 
+ Sig.+O.S. &  {93.6} & 56.0 $\pm$ 0.1 & 94.6 &  {100.3} & 60.0 $\pm$ 0.1 & 93.3 \\ 
 \hline 
 \end{tabular} 
 \end{table}
@@ -309,7 +293,7 @@ $m^2_{\nu recoil}$ & {3.94e+04 } &  {7.70e+04 } &  {4.07e+05} & {5.24e+05} &  {1
 \subsection{Results}
 \label{subsec:wmass}
 
-A Voigtian fit of the hadronic W mass is performed on the tight signal sample with the combined lepton categories shown in Figure \ref{fig:badfit}. The resulting fit models the shape and the mean of the distribution well but deviates around 90 GeV and edges of the fit window. The width of the fit is also in excess of the true width, which is about 2 GeV. This means the Voitigian model is indadequate in describing  the data, but, because shape is similar to data, the fitted model is used to understand the achievable mass resolution given a perfect model. Statistics consistent with 1600 $\text{fb}^{-1}$ (9.36M Events) are produced according the previously fitted model with a mean  $M_W = 79.7074$ GeV, width $\Gamma_W = 10.6972$ GeV and $\sigma_W = 4.847 \times 10^{-7}$ GeV and refitted to achieve the statistical error on the mean $\Delta M_W \text{(stat.)} = 2.4$ MeV with goodness-of-fit $\chi^2 / ndof = 67.8/77$. The toy model refit is also included in Figure \ref{fig:badfit}.
+A fit with the convolution of a Breit-Wigner with a Gaussian (Voigtian) of the hadronic W mass is performed on the tight signal sample with the combined lepton categories shown in Figure \ref{fig:badfit}. The resulting fit models the shape and the mean of the distribution well but deviates around 90 GeV the and edges of the fit window. The width of the fit is also in excess of the true width, which is about 2 GeV. This means the Voitigian model is inadequate in describing  the data, but, because the shape is similar to data, the fitted model is used to understand the achievable mass resolution given a perfect model. Statistics consistent with 1600 $\text{fb}^{-1}$ (9.36M Events) are produced according to the previously fitted model with a mean  $M_W = 79.7074$ GeV, width $\Gamma_W = 10.6972$ GeV and $\sigma_W = 4.847 \times 10^{-7}$ GeV and refitted to achieve the statistical error on the mean $\Delta M_W \text{(stat.)} = 2.4$ MeV with goodness-of-fit $\chi^2 / ndof = 67.8/77$. The toy model refit is also included in Figure \ref{fig:badfit}.
 The cross-section and errors are extracted from Table \ref{tab:selection} according to the formula:
 \begin{equation}
 \sigma = \frac{N_T - N_B}{L \epsilon}
