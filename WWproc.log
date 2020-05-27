@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  26 MAY 2020 19:22
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  27 MAY 2020 13:49
  restricted \write18 enabled.
 **WWproc.tex
 (./WWproc.tex
@@ -846,26 +846,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <to be read again> 
 \relax 
 l.8 
-   [1]
-Overfull \hbox (76.40822pt too wide) in paragraph at lines 35--35
- [][][] 
- []
-
-
-Overfull \hbox (66.99109pt too wide) in paragraph at lines 35--56
-[][]$[]$ $[]$ 
- []
-
-[2] <helicity1.pdf, id=107, 1402.23875pt x 430.60875pt>
+   [1] [2] <helicity1.pdf, id=105, 1402.23875pt x 430.60875pt>
 File: helicity1.pdf Graphic file (type pdf)
- <use helicity1.pdf>
-Package pdftex.def Info: helicity1.pdf used on input line 93.
-(pdftex.def)             Requested size: 212.47617pt x 65.24557pt.
 
-<helicity2.pdf, id=108, 1271.75125pt x 493.845pt>
+<use helicity1.pdf>
+Package pdftex.def Info: helicity1.pdf used on input line 68.
+(pdftex.def)             Requested size: 212.47617pt x 65.24557pt.
+ <helicity2.pdf, id=106, 1271.75125pt x 493.845pt>
 File: helicity2.pdf Graphic file (type pdf)
- <use helicity2.pdf>
-Package pdftex.def Info: helicity2.pdf used on input line 94.
+
+<use helicity2.pdf>
+Package pdftex.def Info: helicity2.pdf used on input line 69.
 (pdftex.def)             Requested size: 212.47617pt x 82.50572pt.
  [3]
 \openout5 = feyngraph.mp
@@ -875,42 +866,42 @@ feynmp: Process feyngraph.mp with MetaPost and then reprocess this file.
 feynmf: Label file feyngraph.t1 not found:
 feynmf: Process feyngraph.mp with MetaPost and then reprocess this file.
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
 
  []
 
 File: feyngraph.2 Graphic file (type mps)
 [MP to PDF] (./feyngraph.2) (./feyngraph.t2)
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 
  []
 
 File: feyngraph.3 Graphic file (type mps)
 [MP to PDF] (./feyngraph.3) (./feyngraph.t3)
-Underfull \hbox (badness 10000) in paragraph at lines 174--174
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
 
  []
 
 ) (./detector.tex [4<./helicity1.pdf><./helicity2.pdf>]
-<ilc.pdf, id=146, 1438.37375pt x 590.205pt>
+<ilc.pdf, id=147, 1438.37375pt x 590.205pt>
 File: ilc.pdf Graphic file (type pdf)
  <use ilc.pdf>
 Package pdftex.def Info: ilc.pdf used on input line 9.
 (pdftex.def)             Requested size: 390.25534pt x 160.13197pt.
- [5]
-<ild3d.pdf, id=163, 1176.395pt x 824.07875pt>
+ [5<./ilc.pdf>]
+<ild3d.pdf, id=167, 1176.395pt x 824.07875pt>
 File: ild3d.pdf Graphic file (type pdf)
  <use ild3d.pdf>
 Package pdftex.def Info: ild3d.pdf used on input line 23.
 (pdftex.def)             Requested size: 212.47617pt x 148.83075pt.
 
-<ildxsec.pdf, id=164, 847.165pt x 774.895pt>
+<ildxsec.pdf, id=168, 847.165pt x 774.895pt>
 File: ildxsec.pdf Graphic file (type pdf)
  <use ildxsec.pdf>
 Package pdftex.def Info: ildxsec.pdf used on input line 24.
 (pdftex.def)             Requested size: 212.47617pt x 194.34995pt.
- [6<./ilc.pdf>])
-(./Current_work.tex [7<./ild3d.pdf><./ildxsec.pdf>] [8]
+ [6])
+(./Current_work.tex [7<./ild3d.pdf><./ildxsec.pdf>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
@@ -918,7 +909,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
-
+ [8]
 Underfull \hbox (badness 10000) in paragraph at lines 55--59
 
  []
@@ -928,7 +919,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--59
 
  []
 
-[9] <cone.pdf, id=234, 170.05733pt x 157.95512pt>
+<cone.pdf, id=227, 170.05733pt x 157.95512pt>
 File: cone.pdf Graphic file (type pdf)
  <use cone.pdf>
 Package pdftex.def Info: cone.pdf used on input line 73.
@@ -943,13 +934,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--77
 
  []
 
-[10<./cone.pdf>] <matchingangle.pdf, id=257, 569.12625pt x 384.43625pt>
+[9] [10<./cone.pdf>] <matchingangle.pdf, id=256, 569.12625pt x 384.43625pt>
 File: matchingangle.pdf Graphic file (type pdf)
 
 <use matchingangle.pdf>
 Package pdftex.def Info: matchingangle.pdf used on input line 101.
 (pdftex.def)             Requested size: 206.05553pt x 139.18884pt.
- <ildlogo.png, id=258, 288.07625pt x 184.69pt>
+ <ildlogo.png, id=257, 288.07625pt x 184.69pt>
 File: ildlogo.png Graphic file (type png)
 
 <use ildlogo.png>
@@ -960,7 +951,7 @@ Overfull \hbox (5.75217pt too wide) in paragraph at lines 111--112
  [][][] 
  []
 
-<candEnergy.pdf, id=259, 569.12625pt x 384.43625pt>
+<candEnergy.pdf, id=258, 569.12625pt x 384.43625pt>
 File: candEnergy.pdf Graphic file (type pdf)
  <use candEnergy.pdf>
 Package pdftex.def Info: candEnergy.pdf used on input line 120.
@@ -1000,39 +991,38 @@ Overfull \hbox (63.52423pt too wide) in paragraph at lines 140--162
 [][][] 
  []
 
-<hxLR.pdf, id=261, 569.12625pt x 408.52625pt>
+<hxLR.pdf, id=260, 569.12625pt x 408.52625pt>
 File: hxLR.pdf Graphic file (type pdf)
  <use hxLR.pdf>
 Package pdftex.def Info: hxLR.pdf used on input line 173.
 (pdftex.def)             Requested size: 208.13574pt x 149.4007pt.
 
-<hxRL.pdf, id=262, 569.12625pt x 408.52625pt>
+<hxRL.pdf, id=261, 569.12625pt x 408.52625pt>
 File: hxRL.pdf Graphic file (type pdf)
  <use hxRL.pdf>
 Package pdftex.def Info: hxRL.pdf used on input line 174.
 (pdftex.def)             Requested size: 208.13574pt x 149.4007pt.
-
-<hsLR.pdf, id=263, 569.12625pt x 408.52625pt>
+ [11<./matchingangle.pdf><./ildlogo.png><./candEnergy.pdf>]
+<hsLR.pdf, id=364, 569.12625pt x 408.52625pt>
 File: hsLR.pdf Graphic file (type pdf)
  <use hsLR.pdf>
 Package pdftex.def Info: hsLR.pdf used on input line 182.
 (pdftex.def)             Requested size: 208.13574pt x 149.4007pt.
 
-<hsRL.pdf, id=264, 569.12625pt x 408.52625pt>
+<hsRL.pdf, id=365, 569.12625pt x 408.52625pt>
 File: hsRL.pdf Graphic file (type pdf)
  <use hsRL.pdf>
 Package pdftex.def Info: hsRL.pdf used on input line 183.
 (pdftex.def)             Requested size: 208.13574pt x 149.4007pt.
- [11] [12<./matchingangle.pdf><./ildlogo.png><./candEnergy.pdf>] [13<./hxLR.pdf>
-<./hxRL.pdf><./hsLR.pdf><./hsRL.pdf>] <SupDiff.pdf, id=570, 569.12625pt x 309.1
-55pt>
+ [12] [13<./hxLR.pdf><./hxRL.pdf><./hsLR.pdf><./hsRL.pdf>]
+<SupDiff.pdf, id=571, 569.12625pt x 309.155pt>
 File: SupDiff.pdf Graphic file (type pdf)
-
-<use SupDiff.pdf>
+ <use SupDiff.pdf>
 Package pdftex.def Info: SupDiff.pdf used on input line 198.
 (pdftex.def)             Requested size: 210.35257pt x 114.26762pt.
 File: ildlogo.png Graphic file (type png)
- <use ildlogo.png>
+
+<use ildlogo.png>
 Package pdftex.def Info: ildlogo.png used on input line 206.
 (pdftex.def)             Requested size: 21.2489pt x 13.62288pt.
 
@@ -1040,7 +1030,7 @@ Overfull \hbox (5.7088pt too wide) in paragraph at lines 208--209
  [][][] 
  []
 
-<SupMass.pdf, id=571, 569.12625pt x 332.24126pt>
+<SupMass.pdf, id=572, 569.12625pt x 332.24126pt>
 File: SupMass.pdf Graphic file (type pdf)
  <use SupMass.pdf>
 Package pdftex.def Info: SupMass.pdf used on input line 217.
@@ -1055,7 +1045,7 @@ Overfull \hbox (5.7088pt too wide) in paragraph at lines 227--228
  [][][] 
  []
 
-[14] [15<./SupDiff.pdf><./SupMass.pdf>] [16]
+[14] [15<./SupDiff.pdf><./SupMass.pdf>]
 Overfull \hbox (9.47577pt too wide) in paragraph at lines 256--319
 []
  []
@@ -1095,7 +1085,7 @@ Overfull \hbox (42.62202pt too wide) in paragraph at lines 327--337
 [][][] 
  []
 
-<moneymassdiff.pdf, id=689, 569.12625pt x 384.43625pt>
+<moneymassdiff.pdf, id=683, 569.12625pt x 384.43625pt>
 File: moneymassdiff.pdf Graphic file (type pdf)
  <use moneymassdiff.pdf>
 Package pdftex.def Info: moneymassdiff.pdf used on input line 349.
@@ -1110,7 +1100,7 @@ Overfull \hbox (5.7088pt too wide) in paragraph at lines 359--360
  [][][] 
  []
 
-<mwhadCutsHist.pdf, id=690, 569.12625pt x 385.44pt>
+<mwhadCutsHist.pdf, id=684, 569.12625pt x 385.44pt>
 File: mwhadCutsHist.pdf Graphic file (type pdf)
  <use mwhadCutsHist.pdf>
 Package pdftex.def Info: mwhadCutsHist.pdf used on input line 366.
@@ -1125,8 +1115,8 @@ Overfull \hbox (5.7088pt too wide) in paragraph at lines 376--377
  [][][] 
  []
 
-[17<./moneymassdiff.pdf><./mwhadCutsHist.pdf>] [18]
-<WWSfit.pdf, id=801, 569.12625pt x 421.575pt>
+[16] [17] [18<./moneymassdiff.pdf><./mwhadCutsHist.pdf>]
+<WWSfit.pdf, id=798, 569.12625pt x 421.575pt>
 File: WWSfit.pdf Graphic file (type pdf)
  <use WWSfit.pdf>
 Package pdftex.def Info: WWSfit.pdf used on input line 399.
@@ -1141,7 +1131,7 @@ Overfull \hbox (5.7088pt too wide) in paragraph at lines 409--410
  [][][] 
  []
 
-<Wtoyfit.pdf, id=802, 569.12625pt x 421.575pt>
+<Wtoyfit.pdf, id=799, 569.12625pt x 421.575pt>
 File: Wtoyfit.pdf Graphic file (type pdf)
  <use Wtoyfit.pdf>
 Package pdftex.def Info: Wtoyfit.pdf used on input line 413.
@@ -1166,15 +1156,15 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
 )
 
 Here is how much of LuaTeX's memory you used:
- 23092 strings out of 495004
+ 23079 strings out of 495004
  125200,662416 words of node,token memory allocated
- 438 words of node memory still in use:
+ 434 words of node memory still in use:
    5 hlist, 2 vlist, 2 rule, 2 glue, 5 kern, 1 sub_mlist, 44 glue_spec, 2 action
 , 1 write nodes
-   avail lists: 1:7,2:45,3:1304,4:3493,5:404,6:7604,7:1412,8:20,9:1325,10:694
- 25447 multiletter control sequences out of 65536+600000
+   avail lists: 1:7,2:41,3:824,4:3994,5:326,6:6618,7:1356,8:20,9:1425,10:481
+ 25435 multiletter control sequences out of 65536+600000
  84 fonts using 3310579 bytes
- 61i,18n,105p,3419b,1598s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 61i,16n,98p,3419b,1542s stack positions out of 5000i,500n,10000p,200000b,100000s
 <</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><</usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><</usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><</usr/share/texl
@@ -1194,10 +1184,10 @@ ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><</usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb><</usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti12.pfb><</usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
-Output written on WWproc.pdf (24 pages, 1722827 bytes).
+Output written on WWproc.pdf (24 pages, 1721027 bytes).
 
-PDF statistics: 1003 PDF objects out of 1200 (max. 8388607)
- 614 compressed objects within 7 object streams
- 87 named destinations out of 1000 (max. 131072)
+PDF statistics: 1000 PDF objects out of 1000 (max. 8388607)
+ 612 compressed objects within 7 object streams
+ 86 named destinations out of 1000 (max. 131072)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

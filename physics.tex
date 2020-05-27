@@ -6,19 +6,17 @@
 --- \textit{The W-boson }\\
   The most difficult reconstruction of a final state from W decay is the case of a tau lepton. The tau can mimic the signature of hadrons or other leptons in a detector in addition to producing additional missing energy via neutrinos. The tau has a shorter lifetime compared to the other charged leptons and flies a short distance before decaying. If produced from the interaction point in a detector, the tau will travel on average $87\,\mu\text{m}$ before decaying. The other leptons, like the electron, is stable and doesn't decay, and the muon is not stable but is unlikely to decay inside the detector. The tau lepton mainly decays hadronically -- into a tau neutrino and virtual W-boson that produces a pair of quarks. The virtual W's daughter quarks will hadronize into a charged particle ($\pi^\pm$) or radiate more quarks that form either more charged or neutral particles ($\pi^0$). If $\pi^0$'s are created they immediately decay mostly into two photons. When a tau produces a single charged particle this is classified as a 1-prong decay, 3 charged particles is classified as a 3-prong decay. The virtual W in the tau decay is allowed to couple with leptons, so, the tau final state can include either an electron or muon along with the corresponding flavor neutrinos. The decay rates for the tau are given in Table \ref{tab:taudecay}.
 
-\begin{table}[h] 
-
- \parbox{249pt}{
-    \begin{minipage}{0.45\textwidth}
-        \centering
- \begin{tabular}{|c|l|c|} \toprule
+\begin{table}
+\centering
+ \begin{tabular}{|c|l|c|} 
+ 
  \hline
        & Decay Mode & Branching Ratio  \\ \hline \hline
     Hadronic Modes  & $\pi^- \nu_\tau$  & $10.82\%$  \\
       	($64.79\%$) & $\pi^- \pi^0 \nu_\tau$ & $25.49\%$ \\
      				& $\pi^- \pi^0 \pi^0 \nu_\tau$  & $9.26\%$  \\
      				& $\pi^- \pi^0 \pi^0 \pi^0 \nu_\tau$  & $1.04\%$   \\
-      				& $\pi^- \pi^+ \pi^- \nu_\tau$  & $8.99\%$      \\ \midrule
+      				& $\pi^- \pi^+ \pi^- \nu_\tau$  & $8.99\%$      \\ 
       				& $\pi^- \pi^+ \pi^- \pi^0 \nu_\tau$  & $2.74\%$  \\ \hline
     			    
     Leptonic Modes  & $e^- \nu_e \nu_\tau$ & $17.82\%$   \\
@@ -27,33 +25,10 @@
      				
 \end{tabular}
         \caption{\label{tab:taudecay}Most common decay modes for the $\tau^-$ lepton \cite{pdg}}
-
+\end{table}
        
   
-    \end{minipage}\hfill
-
-   }
-   \parbox{249pt}{
-
-    \begin{minipage}{0.45\textwidth}
-        \centering
-        \feynmandiagram [horizontal=a to b] {
-  
-  a -- [photon, edge label=\(  W^{+}\)] b,
-  f1 [particle=\(\bar{s}\)] -- [fermion] b -- [fermion] f2 [particle=\(u\)],
-};
-    \feynmandiagram[horizontal=a to b ]{
-        a -- [photon, edge label=\(  W^{-}\)] b,
-  f1 [particle=\(\nu_{\mu}\)] -- [fermion] b -- [fermion] f2 [particle=\(\mu^{-}\)],
-    };
-    	%\caption{Fundamental vertices between the W-boson and fermions }
-        %\includegraphics[width=0.9\textwidth]{example-image-b} % second figure itself
-       % \caption{second figure}
-       \captionof{figure}{Fundamental vertices between the W-boson and fermions}
-       \label{fig:verts}
-    \end{minipage}
-}
-\end{table}
+   
 
 --- \textit {The W Mass}\\
 The W-boson is an unstable particle and abides by a total decay rate $\Gamma = 1/\tau$ where $\tau$ is the average lifetime.  A consequence of this decay length is that the observed mass distribution will approximately follow a Breit-Wigner distribution. The mass distribution is centered on the nominal W mass $M_W$ with a width characterized by the full width half maximum $\Gamma_W$. The current highest precision measurement for the mass and width are results of measurements through single $W^\pm$ production. These measurements use the combined results from LEP and Tevatron experiments which reports $M_W = 80.379 \pm 0.012 \, \, \text{GeV} $ and $\Gamma_W = 2.085 \pm 0.042 \,  \,\text{GeV}$ \cite{pdg}. The diagrams representing WW are given in Figure \ref{fig:wwdiag}. The final states of the WW process are either the fully hadronic $WW\rightarrow q\bar{q}q\bar{q}$, semileptonic $WW\rightarrow q\bar{q}\ell\nu_{\ell}$, or fully leptonic $WW\rightarrow \ell \nu \ell \nu$. The semileptonic mode is the most favorable way to measure the W mass because the hadronic system is easily obtained after the identification of the lepton. The hadronic mode is more challenging due to the combinatoric assignment of the four hadronic jets into two W's along with color-reconnection which may cause ``cross-talk" between jets. The leptonic channel is also difficult because of the presence of two neutrinos.
