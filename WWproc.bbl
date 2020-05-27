@@ -1,0 +1,112 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{pdg}
+{\bfseries Particle Data Group} Collaboration, ``Review of particle physics,''
+  \href{http://dx.doi.org/10.1103/PhysRevD.98.030001}{{\em Phys. Rev. D}
+  {\bfseries 98} (Aug, 2018) 030001}.
+  \url{https://link.aps.org/doi/10.1103/PhysRevD.98.030001}.
+
+\bibitem{thomson}
+M.~Thomson, {\em Modern particle physics}.
+\newblock Cambridge University Press, 2013.
+
+\bibitem{helicity}
+G.~Moortgat-Pick, T.~Abe, G.~Alexander, B.~Ananthanarayan, A.~Babich, {\em
+  et~al.}, ``The role of polarized positrons and electrons in revealing
+  fundamental interactions at the linear collider, phys. rept. 460, 131--243
+  (2008),'' {\em arXiv preprint hep-ph/0507011} .
+
+\bibitem{currdetector}
+P.~Bambade, T.~Barklow, T.~Behnke, M.~Berggren, J.~Brau, D.~Denisov,
+  A.~Faus-Golfe, K.~Fujii, J.~Fuster, F.~Gaede, {\em et~al.}, ``The
+  international linear collider: A global project,'' 2019.
+
+\bibitem{tdraccel}
+C.~Adolphsen, ``The international linear collider technical design
+  report-volume 3. ii: Accelerator baseline design,'' tech. rep., Argonne
+  National Lab.(ANL), Argonne, IL (United States); Thomas Jefferson~…, 2013.
+
+\bibitem{pfa}
+J.~Marshall and M.~Thomson, ``The pandora particle flow algorithm,'' {\em arXiv
+  preprint arXiv:1308.4537} (2013) .
+
+\bibitem{tdrdet}
+T.~Behnke, ``The international linear collider technical design report-volume
+  4: detectors,'' tech. rep., Argonne National Lab.(ANL), Argonne, IL (United
+  States); Pacific Northwest~…, 2013.
+
+\bibitem{ilcsoft}
+R.~Poeschl, ``{Software Tools for ILC Detector Studies},'' {\em eConf}
+  {\bfseries C0705302} (2007) PLE104.
+[,61(2007)].
+%%CITATION = ECONF,C0705302,PLE104;%%.
+
+\bibitem{lcio}
+S.~Aplin, J.~Engels, F.~Gaede, N.~A. Graf, T.~Johnson, and J.~McCormick,
+  \href{http://dx.doi.org/10.1109/NSSMIC.2012.6551478}{``{LCIO: A Persistency
+  Framework and Event Data Model for HEP},''} in {\em {Proceedings, 2012 IEEE
+  Nuclear Science Symposium and Medical Imaging Conference (NSS/MIC 2012):
+  Anaheim, California, USA, October 29-November 3, 2012}}, pp.~2075--2079.
+\newblock 2012.
+\newblock
+\url{http://www-public.slac.stanford.edu/sciDoc/docMeta.aspx?slacPubNumber=SLAC-PUB-15296}.
+\newblock
+%%CITATION = SLAC-PUB-15296;%%.
+
+\bibitem{dd4hep}
+{\bfseries CLICdp, ILD} Collaboration, A.~Sailer, M.~Frank, F.~Gaede, D.~Hynds,
+  S.~Lu, N.~Nikiforou, M.~Petric, R.~Simoniello, and G.~Voutsinas, ``{DD4Hep
+  based event reconstruction},''
+\href{http://dx.doi.org/10.1088/1742-6596/898/4/042017}{{\em J. Phys. Conf.
+  Ser.} {\bfseries 898} no.~4, (2017) 042017}.
+%%CITATION = 00462,898,042017;%%.
+
+\bibitem{whizard}
+W.~Kilian, F.~Bach, T.~Ohl, and J.~Reuter, ``{WHIZARD 2.2 for Linear
+  Colliders},'' in {\em {International Workshop on Future Linear Colliders
+  (LCWS13) Tokyo, Japan, November 11-15, 2013}}.
+\newblock 2014.
+\newblock
+\href{http://arxiv.org/abs/1403.7433}{{\ttfamily arXiv:1403.7433 [hep-ph]}}.
+\newblock
+%%CITATION = ARXIV:1403.7433;%%.
+
+\bibitem{geant4}
+S.~Agostinelli, J.~Allison, K.~a. Amako, J.~Apostolakis, H.~Araujo, P.~Arce,
+  M.~Asai, D.~Axen, S.~Banerjee, G.~. Barrand, {\em et~al.}, ``Geant4—a
+  simulation toolkit,'' {\em Nuclear instruments and methods in physics
+  research section A: Accelerators, Spectrometers, Detectors and Associated
+  Equipment} {\bfseries 506} no.~3, (2003) 250--303.
+
+\bibitem{ilcop}
+T.~Barklow, J.~Brau, K.~Fujii, J.~Gao, J.~List, N.~Walker, and K.~Yokoya, ``Ilc
+  operating scenarios,'' {\em arXiv preprint arXiv:1506.07830} (2015) .
+
+\bibitem{taufinder}
+A.~M{\"u}nnich, ``Taufinder: A reconstruction algorithm for $\tau$ leptons at
+  linear colliders,'' tech. rep., 2010.
+
+\bibitem{fastjet}
+M.~Cacciari, G.~P. Salam, and G.~Soyez, ``Fastjet user manual,'' 2012.
+
+\bibitem{kt}
+S.~Catani, Y.~L. Dokshitzer, M.~H. Seymour, and B.~R. Webber,
+  ``Longitudinally-invariant k⊥-clustering algorithms for hadron-hadron
+  collisions,'' 1993.
+
+\bibitem{ycut}
+Y.~L. Dokshitzer, G.~Leder, S.~Moretti, and B.~Webber, ``Better jet clustering
+  algorithms,'' 1997.
+
+\bibitem{ivan}
+I.~Marchesini, {\em Triple gauge couplings and polarization at the ILC and
+  leakage in a highly granular calorimeter}.
+\newblock PhD thesis, Hamburg U., 2011.
+
+\bibitem{graham}
+K.~Fujii, C.~Grojean, M.~E. Peskin, T.~Barklow, Y.~Gao, S.~Kanemura, H.~Kim,
+  J.~List, M.~Nojiri, M.~Perelstein, {\em et~al.}, ``Tests of the standard
+  model at the international linear collider,'' {\em arXiv preprint
+  arXiv:1908.11299} (2019) .
+
+\end{thebibliography}\endgroup

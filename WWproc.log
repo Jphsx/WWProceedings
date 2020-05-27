@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  25 MAY 2020 16:19
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  26 MAY 2020 19:22
  restricted \write18 enabled.
 **WWproc.tex
 (./WWproc.tex
@@ -765,20 +765,20 @@ Package: feynmp 1996/12/02 v1.08 LaTeX/MetaPost Feynman Diagram Package (ohl)
 (./WWproc.aux)
 \openout1 = WWproc.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count152
@@ -807,7 +807,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
 \AtBeginShipoutBox=\box49
-Package hyperref Info: Link coloring OFF on input line 121.
+Package hyperref Info: Link coloring OFF on input line 123.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -817,9 +817,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count158
 )
-LaTeX Info: Redefining \ref on input line 121.
-LaTeX Info: Redefining \pageref on input line 121.
-LaTeX Info: Redefining \nameref on input line 121.
+LaTeX Info: Redefining \ref on input line 123.
+LaTeX Info: Redefining \pageref on input line 123.
+LaTeX Info: Redefining \nameref on input line 123.
 
 (./WWproc.out) (./WWproc.out)
 \@outlinefile=\write6
@@ -828,13 +828,13 @@ LaTeX Info: Redefining \nameref on input line 121.
  ABD: EveryShipout initializing macros
 
 Package tikz-feynman Warning: The preamble requested version 1.0.0, but the syst
-em version is 1.1.0. This may change some diagrams. on input line 121.
+em version is 1.1.0. This may change some diagrams. on input line 123.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 123.
+LaTeX Font Info:    Try loading font information for U+msa on input line 125.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 123.
+LaTeX Font Info:    Try loading font information for U+msb on input line 125.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -852,39 +852,22 @@ Overfull \hbox (76.40822pt too wide) in paragraph at lines 35--35
  []
 
 
-LaTeX Warning: Citation `pdg' on page 2 undefined on input line 35.
-
-
-LaTeX Warning: Citation `pdg' on page 2 undefined on input line 35.
-
-
 Overfull \hbox (66.99109pt too wide) in paragraph at lines 35--56
 [][]$[]$ $[]$ 
  []
 
-
-LaTeX Warning: Citation `pdg' on page 2 undefined on input line 59.
-
-[2]
-
-LaTeX Warning: Citation `thomson' on page 3 undefined on input line 89.
-
-<helicity1.pdf, id=106, 1402.23875pt x 430.60875pt>
+[2] <helicity1.pdf, id=107, 1402.23875pt x 430.60875pt>
 File: helicity1.pdf Graphic file (type pdf)
  <use helicity1.pdf>
 Package pdftex.def Info: helicity1.pdf used on input line 93.
 (pdftex.def)             Requested size: 212.47617pt x 65.24557pt.
 
-<helicity2.pdf, id=107, 1271.75125pt x 493.845pt>
+<helicity2.pdf, id=108, 1271.75125pt x 493.845pt>
 File: helicity2.pdf Graphic file (type pdf)
  <use helicity2.pdf>
 Package pdftex.def Info: helicity2.pdf used on input line 94.
 (pdftex.def)             Requested size: 212.47617pt x 82.50572pt.
-
-
-LaTeX Warning: Citation `helicity' on page 3 undefined on input line 95.
-
-[3]
+ [3]
 \openout5 = feyngraph.mp
 
 feynmp: File feyngraph.1 not found:
@@ -908,76 +891,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 174--174
 
  []
 
-) (./detector.tex
-
-LaTeX Warning: Citation `currdetector' on page 4 undefined on input line 5.
-
-
-LaTeX Warning: Citation `tdraccel' on page 4 undefined on input line 5.
-
-[4<./helicity1.pdf><./helicity2.pdf>]
-<ilc.pdf, id=140, 1438.37375pt x 590.205pt>
+) (./detector.tex [4<./helicity1.pdf><./helicity2.pdf>]
+<ilc.pdf, id=146, 1438.37375pt x 590.205pt>
 File: ilc.pdf Graphic file (type pdf)
  <use ilc.pdf>
 Package pdftex.def Info: ilc.pdf used on input line 9.
 (pdftex.def)             Requested size: 390.25534pt x 160.13197pt.
-
-
-LaTeX Warning: Citation `currdetector' on page 5 undefined on input line 10.
-
-
-LaTeX Warning: Citation `pfa' on page 5 undefined on input line 17.
-
-
-LaTeX Warning: Citation `currdetector' on page 5 undefined on input line 19.
-
-[5] <ild3d.pdf, id=152, 1176.395pt x 824.07875pt>
+ [5]
+<ild3d.pdf, id=163, 1176.395pt x 824.07875pt>
 File: ild3d.pdf Graphic file (type pdf)
  <use ild3d.pdf>
 Package pdftex.def Info: ild3d.pdf used on input line 23.
 (pdftex.def)             Requested size: 212.47617pt x 148.83075pt.
 
-<ildxsec.pdf, id=153, 847.165pt x 774.895pt>
+<ildxsec.pdf, id=164, 847.165pt x 774.895pt>
 File: ildxsec.pdf Graphic file (type pdf)
  <use ildxsec.pdf>
 Package pdftex.def Info: ildxsec.pdf used on input line 24.
 (pdftex.def)             Requested size: 212.47617pt x 194.34995pt.
-
-
-LaTeX Warning: Citation `tdrdet' on page 6 undefined on input line 25.
-
-
-LaTeX Warning: Citation `tdrdet' on page 6 undefined on input line 25.
-
-
-LaTeX Warning: Citation `ilcsoft' on page 6 undefined on input line 31.
-
-
-LaTeX Warning: Citation `lcio' on page 6 undefined on input line 31.
-
-
-LaTeX Warning: Citation `dd4hep' on page 6 undefined on input line 31.
-
-
-LaTeX Warning: Citation `whizard' on page 6 undefined on input line 31.
-
-
-LaTeX Warning: Citation `geant4' on page 6 undefined on input line 31.
-
-[6<./ilc.pdf>]) (./Current_work.tex
-
-LaTeX Warning: Citation `ilcop' on page 7 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ilcop' on page 7 undefined on input line 7.
-
-[7<./ild3d.pdf><./ildxsec.pdf>]
-
-LaTeX Warning: Citation `taufinder' on page 8 undefined on input line 41.
-
-[8]
+ [6<./ilc.pdf>])
+(./Current_work.tex [7<./ild3d.pdf><./ildxsec.pdf>] [8]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 43.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
@@ -992,7 +928,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--59
 
  []
 
-[9] <cone.pdf, id=202, 170.05733pt x 157.95512pt>
+[9] <cone.pdf, id=234, 170.05733pt x 157.95512pt>
 File: cone.pdf Graphic file (type pdf)
  <use cone.pdf>
 Package pdftex.def Info: cone.pdf used on input line 73.
@@ -1007,224 +943,236 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--77
 
  []
 
-[10<./cone.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+[10<./cone.pdf>] <matchingangle.pdf, id=257, 569.12625pt x 384.43625pt>
+File: matchingangle.pdf Graphic file (type pdf)
+
+<use matchingangle.pdf>
+Package pdftex.def Info: matchingangle.pdf used on input line 101.
+(pdftex.def)             Requested size: 206.05553pt x 139.18884pt.
+ <ildlogo.png, id=258, 288.07625pt x 184.69pt>
+File: ildlogo.png Graphic file (type png)
+
+<use ildlogo.png>
+Package pdftex.def Info: ildlogo.png used on input line 109.
+(pdftex.def)             Requested size: 20.81483pt x 13.34387pt.
+
+Overfull \hbox (5.75217pt too wide) in paragraph at lines 111--112
+ [][][] 
+ []
+
+<candEnergy.pdf, id=259, 569.12625pt x 384.43625pt>
+File: candEnergy.pdf Graphic file (type pdf)
+ <use candEnergy.pdf>
+Package pdftex.def Info: candEnergy.pdf used on input line 120.
+(pdftex.def)             Requested size: 206.05553pt x 139.18884pt.
+File: ildlogo.png Graphic file (type png)
+
+<use ildlogo.png>
+Package pdftex.def Info: ildlogo.png used on input line 128.
+(pdftex.def)             Requested size: 20.81483pt x 13.34387pt.
+
+Overfull \hbox (5.75217pt too wide) in paragraph at lines 130--131
+ [][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 [][]|\OT1/cmr/m/n/12 Search-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 \OT1/cmr/m/n/12 Cone
  []
 
 
-Overfull \hbox (0.75851pt too wide) in paragraph at lines 103--103
+Overfull \hbox (0.75851pt too wide) in paragraph at lines 143--143
 [][]|\OT1/cmr/m/n/12 Iso.Cone
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 [][]|\OT1/cmr/m/n/12 Iso.E
  []
 
 
-Overfull \hbox (63.52423pt too wide) in paragraph at lines 100--122
+Overfull \hbox (63.52423pt too wide) in paragraph at lines 140--162
 [][][] 
  []
 
-<hxLR.pdf, id=224, 569.12625pt x 408.52625pt>
+<hxLR.pdf, id=261, 569.12625pt x 408.52625pt>
 File: hxLR.pdf Graphic file (type pdf)
  <use hxLR.pdf>
-Package pdftex.def Info: hxLR.pdf used on input line 133.
+Package pdftex.def Info: hxLR.pdf used on input line 173.
 (pdftex.def)             Requested size: 208.13574pt x 149.4007pt.
 
-<hxRL.pdf, id=225, 569.12625pt x 408.52625pt>
+<hxRL.pdf, id=262, 569.12625pt x 408.52625pt>
 File: hxRL.pdf Graphic file (type pdf)
  <use hxRL.pdf>
-Package pdftex.def Info: hxRL.pdf used on input line 134.
+Package pdftex.def Info: hxRL.pdf used on input line 174.
 (pdftex.def)             Requested size: 208.13574pt x 149.4007pt.
 
-<hsLR.pdf, id=226, 569.12625pt x 408.52625pt>
+<hsLR.pdf, id=263, 569.12625pt x 408.52625pt>
 File: hsLR.pdf Graphic file (type pdf)
  <use hsLR.pdf>
-Package pdftex.def Info: hsLR.pdf used on input line 142.
+Package pdftex.def Info: hsLR.pdf used on input line 182.
 (pdftex.def)             Requested size: 208.13574pt x 149.4007pt.
 
-<hsRL.pdf, id=227, 569.12625pt x 408.52625pt>
+<hsRL.pdf, id=264, 569.12625pt x 408.52625pt>
 File: hsRL.pdf Graphic file (type pdf)
  <use hsRL.pdf>
-Package pdftex.def Info: hsRL.pdf used on input line 143.
+Package pdftex.def Info: hsRL.pdf used on input line 183.
 (pdftex.def)             Requested size: 208.13574pt x 149.4007pt.
-
-
-LaTeX Warning: Citation `fastjet' on page 11 undefined on input line 148.
-
-
-LaTeX Warning: Citation `kt' on page 11 undefined on input line 148.
-
-
-LaTeX Warning: Citation `ycut' on page 11 undefined on input line 148.
-
-[11] [12<./hxLR.pdf><./hxRL.pdf>] [13<./hsLR.pdf><./hsRL.pdf>]
-<SupDiff.pdf, id=434, 569.12625pt x 309.155pt>
+ [11] [12<./matchingangle.pdf><./ildlogo.png><./candEnergy.pdf>] [13<./hxLR.pdf>
+<./hxRL.pdf><./hsLR.pdf><./hsRL.pdf>] <SupDiff.pdf, id=570, 569.12625pt x 309.1
+55pt>
 File: SupDiff.pdf Graphic file (type pdf)
- <use SupDiff.pdf>
-Package pdftex.def Info: SupDiff.pdf used on input line 156.
-(pdftex.def)             Requested size: 210.35257pt x 114.26762pt.
 
-<SupMass.pdf, id=435, 569.12625pt x 332.24126pt>
+<use SupDiff.pdf>
+Package pdftex.def Info: SupDiff.pdf used on input line 198.
+(pdftex.def)             Requested size: 210.35257pt x 114.26762pt.
+File: ildlogo.png Graphic file (type png)
+ <use ildlogo.png>
+Package pdftex.def Info: ildlogo.png used on input line 206.
+(pdftex.def)             Requested size: 21.2489pt x 13.62288pt.
+
+Overfull \hbox (5.7088pt too wide) in paragraph at lines 208--209
+ [][][] 
+ []
+
+<SupMass.pdf, id=571, 569.12625pt x 332.24126pt>
 File: SupMass.pdf Graphic file (type pdf)
  <use SupMass.pdf>
-Package pdftex.def Info: SupMass.pdf used on input line 163.
+Package pdftex.def Info: SupMass.pdf used on input line 217.
 (pdftex.def)             Requested size: 210.35257pt x 122.8006pt.
+File: ildlogo.png Graphic file (type png)
 
+<use ildlogo.png>
+Package pdftex.def Info: ildlogo.png used on input line 225.
+(pdftex.def)             Requested size: 21.2489pt x 13.62288pt.
 
-LaTeX Warning: Citation `ivan' on page 14 undefined on input line 172.
+Overfull \hbox (5.7088pt too wide) in paragraph at lines 227--228
+ [][][] 
+ []
 
-[14] [15<./SupDiff.pdf><./SupMass.pdf>]
-Overfull \hbox (9.47577pt too wide) in paragraph at lines 192--255
+[14] [15<./SupDiff.pdf><./SupMass.pdf>] [16]
+Overfull \hbox (9.47577pt too wide) in paragraph at lines 256--319
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--255
+Underfull \hbox (badness 10000) in paragraph at lines 256--319
 
  []
 
 
-Overfull \hbox (9.47577pt too wide) in paragraph at lines 192--255
+Overfull \hbox (9.47577pt too wide) in paragraph at lines 256--319
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
 [][]|\OT1/cmr/m/n/12 Ef-fi-ciency
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
 [][]|\OT1/cmr/m/n/12 Pu-rity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
 [][]|\OT1/cmr/m/n/12 Ef-fi-ciency
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
 [][]|\OT1/cmr/m/n/12 Pu-rity
  []
 
 
-Overfull \hbox (42.62202pt too wide) in paragraph at lines 263--273
+Overfull \hbox (42.62202pt too wide) in paragraph at lines 327--337
 [][][] 
  []
 
-<moneymassdiff.pdf, id=545, 569.12625pt x 384.43625pt>
+<moneymassdiff.pdf, id=689, 569.12625pt x 384.43625pt>
 File: moneymassdiff.pdf Graphic file (type pdf)
  <use moneymassdiff.pdf>
-Package pdftex.def Info: moneymassdiff.pdf used on input line 280.
+Package pdftex.def Info: moneymassdiff.pdf used on input line 349.
 (pdftex.def)             Requested size: 210.35257pt x 142.09253pt.
+File: ildlogo.png Graphic file (type png)
 
-<mwhadCutsHist.pdf, id=546, 569.12625pt x 385.44pt>
+<use ildlogo.png>
+Package pdftex.def Info: ildlogo.png used on input line 357.
+(pdftex.def)             Requested size: 21.2489pt x 13.62288pt.
+
+Overfull \hbox (5.7088pt too wide) in paragraph at lines 359--360
+ [][][] 
+ []
+
+<mwhadCutsHist.pdf, id=690, 569.12625pt x 385.44pt>
 File: mwhadCutsHist.pdf Graphic file (type pdf)
  <use mwhadCutsHist.pdf>
-Package pdftex.def Info: mwhadCutsHist.pdf used on input line 285.
+Package pdftex.def Info: mwhadCutsHist.pdf used on input line 366.
 (pdftex.def)             Requested size: 210.35257pt x 142.46353pt.
+File: ildlogo.png Graphic file (type png)
 
-[16] [17] [18<./moneymassdiff.pdf><./mwhadCutsHist.pdf>]
-<WWSfit.pdf, id=661, 569.12625pt x 421.575pt>
+<use ildlogo.png>
+Package pdftex.def Info: ildlogo.png used on input line 374.
+(pdftex.def)             Requested size: 21.2489pt x 13.62288pt.
+
+Overfull \hbox (5.7088pt too wide) in paragraph at lines 376--377
+ [][][] 
+ []
+
+[17<./moneymassdiff.pdf><./mwhadCutsHist.pdf>] [18]
+<WWSfit.pdf, id=801, 569.12625pt x 421.575pt>
 File: WWSfit.pdf Graphic file (type pdf)
  <use WWSfit.pdf>
-Package pdftex.def Info: WWSfit.pdf used on input line 307.
+Package pdftex.def Info: WWSfit.pdf used on input line 399.
 (pdftex.def)             Requested size: 210.35257pt x 155.81949pt.
+File: ildlogo.png Graphic file (type png)
 
-<Wtoyfit.pdf, id=662, 569.12625pt x 421.575pt>
+<use ildlogo.png>
+Package pdftex.def Info: ildlogo.png used on input line 407.
+(pdftex.def)             Requested size: 21.2489pt x 13.62288pt.
+
+Overfull \hbox (5.7088pt too wide) in paragraph at lines 409--410
+ [][][] 
+ []
+
+<Wtoyfit.pdf, id=802, 569.12625pt x 421.575pt>
 File: Wtoyfit.pdf Graphic file (type pdf)
  <use Wtoyfit.pdf>
-Package pdftex.def Info: Wtoyfit.pdf used on input line 312.
+Package pdftex.def Info: Wtoyfit.pdf used on input line 413.
 (pdftex.def)             Requested size: 210.35257pt x 155.81949pt.
 )
-(./conclude.tex
-
-LaTeX Warning: Citation `graham' on page 19 undefined on input line 1.
-
-[19<./WWSfit.pdf><./Wtoyfit.pdf>] [20]) (./append.tex
-<nLepHist.pdf, id=767, 569.12625pt x 385.44pt>
-File: nLepHist.pdf Graphic file (type pdf)
- <use nLepHist.pdf>
-Package pdftex.def Info: nLepHist.pdf used on input line 8.
-(pdftex.def)             Requested size: 191.22725pt x 129.50696pt.
-
-<ntracksHist.pdf, id=768, 569.12625pt x 385.44pt>
-File: ntracksHist.pdf Graphic file (type pdf)
- <use ntracksHist.pdf>
-Package pdftex.def Info: ntracksHist.pdf used on input line 13.
-(pdftex.def)             Requested size: 191.22725pt x 129.50696pt.
-
-<EcomHist.pdf, id=769, 569.12625pt x 385.44pt>
-File: EcomHist.pdf Graphic file (type pdf)
- <use EcomHist.pdf>
-Package pdftex.def Info: EcomHist.pdf used on input line 20.
-(pdftex.def)             Requested size: 191.22725pt x 129.50696pt.
-
-<EvisHist.pdf, id=770, 569.12625pt x 385.44pt>
-File: EvisHist.pdf Graphic file (type pdf)
- <use EvisHist.pdf>
-Package pdftex.def Info: EvisHist.pdf used on input line 25.
-(pdftex.def)             Requested size: 191.22725pt x 129.50696pt.
-
-<PtvisHist.pdf, id=771, 569.12625pt x 385.44pt>
-File: PtvisHist.pdf Graphic file (type pdf)
- <use PtvisHist.pdf>
-Package pdftex.def Info: PtvisHist.pdf used on input line 33.
-(pdftex.def)             Requested size: 191.22725pt x 129.50696pt.
-
-<mwhadHist.pdf, id=772, 569.12625pt x 385.44pt>
-File: mwhadHist.pdf Graphic file (type pdf)
- <use mwhadHist.pdf>
-Package pdftex.def Info: mwhadHist.pdf used on input line 38.
-(pdftex.def)             Requested size: 191.22725pt x 129.50696pt.
-
-<vrecoilHist.pdf, id=773, 569.12625pt x 385.44pt>
-File: vrecoilHist.pdf Graphic file (type pdf)
- <use vrecoilHist.pdf>
-Package pdftex.def Info: vrecoilHist.pdf used on input line 45.
-(pdftex.def)             Requested size: 191.22725pt x 129.50696pt.
-
-<qcostHist.pdf, id=774, 569.12625pt x 385.44pt>
-File: qcostHist.pdf Graphic file (type pdf)
- <use qcostHist.pdf>
-Package pdftex.def Info: qcostHist.pdf used on input line 50.
-(pdftex.def)             Requested size: 191.22725pt x 129.50696pt.
-)
-No file WWproc.bbl.
-[21] [22<./nLepHist.pdf><./ntracksHist.pdf><./EcomHist.pdf><./EvisHist.pdf><./Pt
-visHist.pdf><./mwhadHist.pdf><./vrecoilHist.pdf><./qcostHist.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
-
-(./WWproc.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 213.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 213.
+(./conclude.tex [19] [20<./WWSfit.pdf><./Wtoyfit.pdf>]) (./WWproc.bbl [21]
+[22
+Missing character: There is no … (U+2026) in font cmr12!
+Missing character: There is no … (U+2026) in font cmr12!
+Missing character: There is no — (U+2014) in font cmr12!
+]) [23
+Missing character: There is no ⊥ (U+22A5) in font cmr12!
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
+ (./WWproc.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
 Package rerunfilecheck Info: File `WWproc.out' has not changed.
-(rerunfilecheck)             Checksum: 87972D5DEF664A2CCBB87A6B119ED7BD;1010.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 213.
+(rerunfilecheck)             Checksum: F08DC28B66A9BF98A473099F94C0BAB7;966.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
 )
 
 Here is how much of LuaTeX's memory you used:
- 23089 strings out of 495004
+ 23092 strings out of 495004
  125200,662416 words of node,token memory allocated
- 417 words of node memory still in use:
-   5 hlist, 2 vlist, 2 rule, 2 glue, 5 kern, 1 sub_mlist, 44 glue_spec, 1 write 
-nodes
-   avail lists: 1:7,2:45,3:1289,4:3829,5:367,6:7171,7:1356,8:16,9:1362,10:659
- 25467 multiletter control sequences out of 65536+600000
+ 438 words of node memory still in use:
+   5 hlist, 2 vlist, 2 rule, 2 glue, 5 kern, 1 sub_mlist, 44 glue_spec, 2 action
+, 1 write nodes
+   avail lists: 1:7,2:45,3:1304,4:3493,5:404,6:7604,7:1412,8:20,9:1325,10:694
+ 25447 multiletter control sequences out of 65536+600000
  84 fonts using 3310579 bytes
  61i,18n,105p,3419b,1598s stack positions out of 5000i,500n,10000p,200000b,100000s
 <</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><</usr
@@ -1246,10 +1194,10 @@ ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><</usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb><</usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti12.pfb><</usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
-Output written on WWproc.pdf (23 pages, 1787376 bytes).
+Output written on WWproc.pdf (24 pages, 1722827 bytes).
 
-PDF statistics: 1222 PDF objects out of 1440 (max. 8388607)
- 683 compressed objects within 7 object streams
- 66 named destinations out of 1000 (max. 131072)
- 144 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 1003 PDF objects out of 1200 (max. 8388607)
+ 614 compressed objects within 7 object streams
+ 87 named destinations out of 1000 (max. 131072)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: WWproc.aux
+The style file: utphys.bst
+Database file #1: mybib.bib.bib
+Warning--empty author in pdg
+Warning--empty pages in helicity
+Warning--empty pages in pfa
+Warning--empty pages in ilcop
+Warning--empty institution in taufinder
+Warning--empty pages in graham
+You've used 19 entries,
+            2328 wiz_defined-function locations,
+            685 strings with 8181 characters,
+and the built_in function-call counts, 4938 in all, are:
+= -- 435
+> -- 283
+< -- 0
++ -- 103
+- -- 84
+* -- 380
+:= -- 696
+add.period$ -- 31
+call.type$ -- 19
+change.case$ -- 22
+chr.to.int$ -- 0
+cite$ -- 25
+duplicate$ -- 254
+empty$ -- 500
+format.name$ -- 84
+if$ -- 1224
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 36
+newline$ -- 76
+num.names$ -- 18
+pop$ -- 129
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 130
+stack$ -- 0
+substring$ -- 104
+swap$ -- 69
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 6
+while$ -- 26
+width$ -- 21
+write$ -- 163
+(There were 6 warnings)
