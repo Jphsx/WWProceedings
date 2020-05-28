@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.4.7)  18 APR 2020 16:18
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.4.7)  28 MAY 2020 13:12
  restricted system commands enabled.
 **physics.tex
 (./physics.tex
@@ -161,7 +161,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.9 \begin{table}
-               [h]
+               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -173,55 +173,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 \begin{table}[
-                h]
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 9--10
-[][h] 
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35    }
-       
+l.11  \begin{tabular}
+                   {|c|l|c|}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-<argument> ... \centering \begin {tabular}{|c|l|c|} \toprule 
-                                                  \hline & Decay Mode & Bran...
-l.35    }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
 <recently read> \midrule 
          
-l.35    }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \midrule 
-         
-l.35    }
-       
+l.23 ...\mu \nu_\tau $  & $17.39\%$      \\ \midrule
+                                                   \hline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -235,8 +196,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35    }
-       
+l.27         \caption
+                   {\label{tab:taudecay}Most common decay modes for the $\ta...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -244,8 +205,8 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.35    }
-       
+l.27 ...cay modes for the $\tau^-$ lepton \cite{pdg}
+                                                  }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -253,50 +214,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `pdg' on page  undefined on input line 35.
-
-
-Overfull \hbox (3437.37498pt too wide) in paragraph at lines 35--35
-[]$[]$ 
- []
-
-! Undefined control sequence.
-<argument> ...e}{0.45\textwidth } \centering \feynmandiagram 
-                                                  [horizontal=a to b] { \par...
-l.55 }
-    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...rmion] f2 [particle=\(u\)], }; \feynmandiagram 
-                                                  [horizontal=a to b ]{ a --...
-l.55 }
-    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...ion] f2 [particle=\(\mu ^{-}\)], }; \captionof 
-                                                  {figure}{Fundamental verti...
-l.55 }
-    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (3437.37498pt too wide) in paragraph at lines 55--55
-[]$[]$ 
- []
+LaTeX Warning: Citation `pdg' on page  undefined on input line 27.
 
 
 ! LaTeX Error: \begin{document} ended by \end{table}.
@@ -305,20 +223,25 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \end{table}
+l.28 \end{table}
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (269.0pt too wide) in paragraph at lines 35--57
-[]$[]$
+Overfull \hbox (121.02043pt too wide) in paragraph at lines 11--29
+[][]
  []
 
 
-Overfull \hbox (249.0pt too wide) in paragraph at lines 35--57
-[]$
+Overfull \hbox (12.2535pt too wide) in paragraph at lines 11--29
+\OML/cmm/m/it/10 []$
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 11--29
+[[]]
  []
 
 
@@ -328,13 +251,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 -
+l.33 -
     -- \textit {The W Mass}\\
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.59 ... reports $M_W = 80.379 \pm 0.012 \, \, \text
+l.34 ... reports $M_W = 80.379 \pm 0.012 \, \, \text
                                                   {GeV} $ and $\Gamma_W = 2....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -343,7 +266,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.59 ... and $\Gamma_W = 2.085 \pm 0.042 \,  \,\text
+l.34 ... and $\Gamma_W = 2.085 \pm 0.042 \,  \,\text
                                                   {GeV}$ \cite{pdg}. The dia...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -355,7 +278,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.59 ...2.085 \pm 0.042 \,  \,\text{GeV}$ \cite{pdg}
+l.34 ...2.085 \pm 0.042 \,  \,\text{GeV}$ \cite{pdg}
                                                   . The diagrams representin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -364,12 +287,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `pdg' on page  undefined on input line 59.
+LaTeX Warning: Citation `pdg' on page  undefined on input line 34.
 
 ! Undefined control sequence.
 <write> ...rning: Reference `fig:wwdiag' on page \thepage 
                                                   \space undefined\on@line .
-l.59 ...ting WW are given in Figure \ref{fig:wwdiag}
+l.34 ...ting WW are given in Figure \ref{fig:wwdiag}
                                                   . The final states of the ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -378,125 +301,125 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:wwdiag' on page  undefined on input line 59.
+LaTeX Warning: Reference `fig:wwdiag' on page  undefined on input line 34.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 58--60
+Overfull \hbox (20.0pt too wide) in paragraph at lines 33--35
 []---
  []
 
 
-Overfull \hbox (16.87001pt too wide) in paragraph at lines 58--60
+Overfull \hbox (16.87001pt too wide) in paragraph at lines 33--35
 \TU/lmr/m/it/10 The
  []
 
 
-Overfull \hbox (9.99pt too wide) in paragraph at lines 58--60
+Overfull \hbox (9.99pt too wide) in paragraph at lines 33--35
 \TU/lmr/m/it/10 W
  []
 
 
-Overfull \hbox (22.56pt too wide) in paragraph at lines 58--60
+Overfull \hbox (22.56pt too wide) in paragraph at lines 33--35
 \TU/lmr/m/it/10 Mass 
  []
 
 
-Overfull \hbox (16.80553pt too wide) in paragraph at lines 58--60
+Overfull \hbox (16.80553pt too wide) in paragraph at lines 33--35
 \OT1/cmr/m/n/10   =
  []
 
 
-Overfull \hbox (15.50351pt too wide) in paragraph at lines 58--60
+Overfull \hbox (15.50351pt too wide) in paragraph at lines 33--35
 \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 =$
  []
 
 
-Overfull \hbox (5.50348pt too wide) in paragraph at lines 58--60
+Overfull \hbox (5.50348pt too wide) in paragraph at lines 33--35
 \OML/cmm/m/it/10 $
  []
 
 
-Overfull \hbox (18.79865pt too wide) in paragraph at lines 58--60
+Overfull \hbox (18.79865pt too wide) in paragraph at lines 33--35
 \OML/cmm/m/it/10 M[]$
  []
 
 
-Overfull \hbox (15.34726pt too wide) in paragraph at lines 58--60
+Overfull \hbox (15.34726pt too wide) in paragraph at lines 33--35
 \OT1/cmr/m/n/10  []$\nullfont .
  []
 
 
-Overfull \hbox (17.58336pt too wide) in paragraph at lines 58--60
+Overfull \hbox (17.58336pt too wide) in paragraph at lines 33--35
 \OML/cmm/m/it/10 W[]$
  []
 
 
-Overfull \hbox (29.35416pt too wide) in paragraph at lines 58--60
+Overfull \hbox (29.35416pt too wide) in paragraph at lines 33--35
 \OML/cmm/m/it/10 M[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (35.55566pt too wide) in paragraph at lines 58--60
+Overfull \hbox (35.55566pt too wide) in paragraph at lines 33--35
 \OT1/cmr/m/n/10 80\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 379 \OMS/cmsy/m/n/10 
  []
 
 
-Overfull \hbox (46.68541pt too wide) in paragraph at lines 58--60
+Overfull \hbox (46.68541pt too wide) in paragraph at lines 33--35
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 012  []$
  []
 
 
-Overfull \hbox (25.90277pt too wide) in paragraph at lines 58--60
+Overfull \hbox (25.90277pt too wide) in paragraph at lines 33--35
 \OT1/cmr/m/n/10  [] =
  []
 
 
-Overfull \hbox (30.55565pt too wide) in paragraph at lines 58--60
+Overfull \hbox (30.55565pt too wide) in paragraph at lines 33--35
 \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 085 \OMS/cmsy/m/n/10 
  []
 
 
-Overfull \hbox (46.68541pt too wide) in paragraph at lines 58--60
+Overfull \hbox (46.68541pt too wide) in paragraph at lines 33--35
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 042  []$
  []
 
 
-Overfull \hbox (5.43pt too wide) in paragraph at lines 58--60
+Overfull \hbox (5.43pt too wide) in paragraph at lines 33--35
 [[]].
  []
 
 
-Overfull \hbox (10.85999pt too wide) in paragraph at lines 58--60
+Overfull \hbox (10.85999pt too wide) in paragraph at lines 33--35
 [].
  []
 
 
-Overfull \hbox (34.44441pt too wide) in paragraph at lines 58--60
+Overfull \hbox (34.44441pt too wide) in paragraph at lines 33--35
 \OML/cmm/m/it/10 WW \OMS/cmsy/m/n/10 !
  []
 
 
-Overfull \hbox (19.29163pt too wide) in paragraph at lines 58--60
+Overfull \hbox (19.29163pt too wide) in paragraph at lines 33--35
 \OML/cmm/m/it/10 q[]q[]$\nullfont ,
  []
 
 
-Overfull \hbox (34.44441pt too wide) in paragraph at lines 58--60
+Overfull \hbox (34.44441pt too wide) in paragraph at lines 33--35
 \OML/cmm/m/it/10 WW \OMS/cmsy/m/n/10 !
  []
 
 
-Overfull \hbox (22.59958pt too wide) in paragraph at lines 58--60
+Overfull \hbox (22.59958pt too wide) in paragraph at lines 33--35
 \OML/cmm/m/it/10 q[]`[]$\nullfont ,
  []
 
 
-Overfull \hbox (34.44441pt too wide) in paragraph at lines 58--60
+Overfull \hbox (34.44441pt too wide) in paragraph at lines 33--35
 \OML/cmm/m/it/10 WW \OMS/cmsy/m/n/10 !
  []
 
 
-Overfull \hbox (19.48615pt too wide) in paragraph at lines 58--60
+Overfull \hbox (19.48615pt too wide) in paragraph at lines 33--35
 \OML/cmm/m/it/10 ``$\nullfont .
  []
 
@@ -507,14 +430,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62 \begin{figure}
+l.37 \begin{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.64 \feynmandiagram
+l.39 \feynmandiagram
                    [horizontal=a to b] {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -529,13 +452,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 \feynmandiagram [
+l.39 \feynmandiagram [
                     horizontal=a to b] {
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.69     \feynmandiagram
+l.44     \feynmandiagram
                       [vertical'=a to b ]{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -550,7 +473,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78 \caption
+l.53 \caption
            {\label{fig:wwdiag} Main WW production modes in the s and t chann...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -562,64 +485,64 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 \end{figure}
+l.54 \end{figure}
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (11.40628pt too wide) in paragraph at lines 64--80
+Overfull \hbox (11.40628pt too wide) in paragraph at lines 39--55
 [particle=$\OML/cmm/m/it/10 e[]$\nullfont ]
  []
 
 
-Overfull \hbox (11.29518pt too wide) in paragraph at lines 64--80
+Overfull \hbox (11.29518pt too wide) in paragraph at lines 39--55
 [particle=$\OML/cmm/m/it/10 e[]$\nullfont ],
  []
 
 
-Overfull \hbox (17.71898pt too wide) in paragraph at lines 64--80
+Overfull \hbox (17.71898pt too wide) in paragraph at lines 39--55
 label=$\OML/cmm/m/it/10 =Z$\nullfont ]
  []
 
 
-Overfull \hbox (17.47226pt too wide) in paragraph at lines 64--80
+Overfull \hbox (17.47226pt too wide) in paragraph at lines 39--55
 [particle=$\OML/cmm/m/it/10 W[]$\nullfont ]
  []
 
 
-Overfull \hbox (17.58336pt too wide) in paragraph at lines 64--80
+Overfull \hbox (17.58336pt too wide) in paragraph at lines 39--55
 [particle=$\OML/cmm/m/it/10 W[]$\nullfont ],
  []
 
 
-Overfull \hbox (11.40628pt too wide) in paragraph at lines 64--80
+Overfull \hbox (11.40628pt too wide) in paragraph at lines 39--55
 [particle=$\OML/cmm/m/it/10 e[]$\nullfont ]
  []
 
 
-Overfull \hbox (17.58336pt too wide) in paragraph at lines 64--80
+Overfull \hbox (17.58336pt too wide) in paragraph at lines 39--55
 [particle=$\OML/cmm/m/it/10 W[]$\nullfont ],
  []
 
 
-Overfull \hbox (5.57639pt too wide) in paragraph at lines 64--80
+Overfull \hbox (5.57639pt too wide) in paragraph at lines 39--55
 label'=$\OML/cmm/m/it/10 $\nullfont ]
  []
 
 
-Overfull \hbox (11.29518pt too wide) in paragraph at lines 64--80
+Overfull \hbox (11.29518pt too wide) in paragraph at lines 39--55
 [particle=$\OML/cmm/m/it/10 e[]$\nullfont ]
  []
 
 
-Overfull \hbox (17.47226pt too wide) in paragraph at lines 64--80
+Overfull \hbox (17.47226pt too wide) in paragraph at lines 39--55
 [particle=$\OML/cmm/m/it/10 W[]$\nullfont ]
  []
 
 ! Undefined control sequence.
-l.83 \subsection
+l.58 \subsection
               {The Anatomy of an Event}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -634,7 +557,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 \subsection{T
+l.58 \subsection{T
                 he Anatomy of an Event}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -642,7 +565,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 <write> ...rning: Reference `fig:wwdiag' on page \thepage 
                                                   \space undefined\on@line .
-l.86 Figure \ref{fig:wwdiag}
+l.61 Figure \ref{fig:wwdiag}
                            illustrates the production of WW through  $e^- \,...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -651,35 +574,35 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:wwdiag' on page  undefined on input line 86.
+LaTeX Warning: Reference `fig:wwdiag' on page  undefined on input line 61.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 83--87
+Overfull \hbox (20.0pt too wide) in paragraph at lines 58--62
 []The
  []
 
 
-Overfull \hbox (24.42pt too wide) in paragraph at lines 83--87
+Overfull \hbox (24.42pt too wide) in paragraph at lines 58--62
 \TU/lmr/m/it/10 Beam
  []
 
 
-Overfull \hbox (11.25002pt too wide) in paragraph at lines 83--87
+Overfull \hbox (11.25002pt too wide) in paragraph at lines 58--62
 \TU/lmr/m/it/10 ef-
  []
 
 
-Overfull \hbox (19.47003pt too wide) in paragraph at lines 83--87
+Overfull \hbox (19.47003pt too wide) in paragraph at lines 58--62
 \TU/lmr/m/it/10 fects 
  []
 
 
-Overfull \hbox (10.85999pt too wide) in paragraph at lines 83--87
+Overfull \hbox (10.85999pt too wide) in paragraph at lines 58--62
 []
  []
 
 
-Overfull \hbox (24.36809pt too wide) in paragraph at lines 83--87
+Overfull \hbox (24.36809pt too wide) in paragraph at lines 58--62
 \OML/cmm/m/it/10 e[] e[]$
  []
 
@@ -690,7 +613,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 -
+l.63 -
     -- \textit{Helicity}\\
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -698,7 +621,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 <write> ...ing: Reference `fig:spindiag' on page \thepage 
                                                   \space undefined\on@line .
-l.89 ...ration is shown in Figure \ref{fig:spindiag}
+l.64 ...ration is shown in Figure \ref{fig:spindiag}
                                                   . In the s-channel, the el...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -707,13 +630,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:spindiag' on page  undefined on input line 89.
+LaTeX Warning: Reference `fig:spindiag' on page  undefined on input line 64.
 
 \citation{thomson}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.89 ...itive to the beam polarization\cite{thomson}
+l.64 ...itive to the beam polarization\cite{thomson}
                                                   .  If the number of events...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -722,50 +645,50 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `thomson' on page  undefined on input line 89.
+LaTeX Warning: Citation `thomson' on page  undefined on input line 64.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 88--90
+Overfull \hbox (20.0pt too wide) in paragraph at lines 63--65
 []---
  []
 
 
-Overfull \hbox (15.61pt too wide) in paragraph at lines 88--90
+Overfull \hbox (15.61pt too wide) in paragraph at lines 63--65
 \TU/lmr/m/it/10 He-
  []
 
 
-Overfull \hbox (13.81001pt too wide) in paragraph at lines 88--90
+Overfull \hbox (13.81001pt too wide) in paragraph at lines 63--65
 \TU/lmr/m/it/10 lic-
  []
 
 
-Overfull \hbox (11.75002pt too wide) in paragraph at lines 88--90
+Overfull \hbox (11.75002pt too wide) in paragraph at lines 63--65
 \TU/lmr/m/it/10 ity 
  []
 
 
-Overfull \hbox (22.70146pt too wide) in paragraph at lines 88--90
+Overfull \hbox (22.70146pt too wide) in paragraph at lines 63--65
 \OML/cmm/m/it/10 e[]e[]$\nullfont (LR)
  []
 
 
-Overfull \hbox (22.70146pt too wide) in paragraph at lines 88--90
+Overfull \hbox (22.70146pt too wide) in paragraph at lines 63--65
 \OML/cmm/m/it/10 e[]e[]$\nullfont (RL)
  []
 
 
-Overfull \hbox (34.65083pt too wide) in paragraph at lines 88--90
+Overfull \hbox (34.65083pt too wide) in paragraph at lines 63--65
 \OML/cmm/m/it/10 P[] P[]$\nullfont .
  []
 
 
-Overfull \hbox (10.85999pt too wide) in paragraph at lines 88--90
+Overfull \hbox (10.85999pt too wide) in paragraph at lines 63--65
 [].
  []
 
 
-Overfull \hbox (5.43pt too wide) in paragraph at lines 88--90
+Overfull \hbox (5.43pt too wide) in paragraph at lines 63--65
 polarization[[]].
  []
 
@@ -776,14 +699,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 \begin{figure}
+l.66 \begin{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.93 \includegraphics
+l.68 \includegraphics
                    [width=0.49\textwidth]{helicity1.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -798,7 +721,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93 \includegraphics[
+l.68 \includegraphics[
                     width=0.49\textwidth]{helicity1.pdf}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -806,7 +729,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing number, treated as zero.
 <to be read again> 
 ]
-l.93 \includegraphics[width=0.49\textwidth]
+l.68 \includegraphics[width=0.49\textwidth]
                                          {helicity1.pdf}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -815,7 +738,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
 ]
-l.93 \includegraphics[width=0.49\textwidth]
+l.68 \includegraphics[width=0.49\textwidth]
                                          {helicity1.pdf}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -825,7 +748,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.94 \includegraphics
+l.69 \includegraphics
                    [width=0.49\textwidth]{helicity2.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -836,7 +759,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
 ]
-l.94 \includegraphics[width=0.49\textwidth]
+l.69 \includegraphics[width=0.49\textwidth]
                                          {helicity2.pdf}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -845,7 +768,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
 ]
-l.94 \includegraphics[width=0.49\textwidth]
+l.69 \includegraphics[width=0.49\textwidth]
                                          {helicity2.pdf}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -861,7 +784,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 \caption
+l.70 \caption
            {Possible spin configurations in the s and t channel. \cite{helic...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -870,7 +793,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.95 ...ions in the s and t channel. \cite{helicity}
+l.70 ...ions in the s and t channel. \cite{helicity}
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -879,7 +802,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `helicity' on page  undefined on input line 95.
+LaTeX Warning: Citation `helicity' on page  undefined on input line 70.
 
 
 ! LaTeX Error: \begin{document} ended by \end{figure}.
@@ -888,19 +811,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 \end{figure}
+l.72 \end{figure}
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 93--98
-[][width=0.49]helicity1.pdf
- []
-
-
-Overfull \hbox (5.43pt too wide) in paragraph at lines 93--98
+Overfull \hbox (5.43pt too wide) in paragraph at lines 68--73
 [[]]
  []
 
@@ -911,70 +829,70 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.100 -
-     -- \textit{Cross-section}\\
+l.75 -
+    -- \textit{Cross-section}\\
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 100--102
+Overfull \hbox (20.0pt too wide) in paragraph at lines 75--77
 []---
  []
 
 
-Overfull \hbox (27.74pt too wide) in paragraph at lines 100--102
+Overfull \hbox (27.74pt too wide) in paragraph at lines 75--77
 \TU/lmr/m/it/10 Cross-
  []
 
 
-Overfull \hbox (30.34003pt too wide) in paragraph at lines 100--102
+Overfull \hbox (30.34003pt too wide) in paragraph at lines 75--77
 \TU/lmr/m/it/10 section 
  []
 
 
-Overfull \hbox (9.12497pt too wide) in paragraph at lines 100--102
+Overfull \hbox (9.12497pt too wide) in paragraph at lines 75--77
 \OML/cmm/m/it/10 N$
  []
 
 
-Overfull \hbox (19.68048pt too wide) in paragraph at lines 100--102
+Overfull \hbox (19.68048pt too wide) in paragraph at lines 75--77
 \OML/cmm/m/it/10 N \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (12.87848pt too wide) in paragraph at lines 100--102
+Overfull \hbox (12.87848pt too wide) in paragraph at lines 75--77
 \OML/cmm/m/it/10 L$
  []
 
 
-Overfull \hbox (6.0729pt too wide) in paragraph at lines 100--102
+Overfull \hbox (6.0729pt too wide) in paragraph at lines 75--77
 \OML/cmm/m/it/10 $
  []
 
 
-Overfull \hbox (6.80557pt too wide) in paragraph at lines 100--102
+Overfull \hbox (6.80557pt too wide) in paragraph at lines 75--77
 \OML/cmm/m/it/10 L$
  []
 
 
-Overfull \hbox (9.12497pt too wide) in paragraph at lines 100--102
+Overfull \hbox (9.12497pt too wide) in paragraph at lines 75--77
 \OML/cmm/m/it/10 N$
  []
 
 
-Overfull \hbox (39.3957pt too wide) detected at line 104
+Overfull \hbox (39.3957pt too wide) detected at line 79
 \OML/cmm/m/it/10 N \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 L
  []
 
 
-Overfull \hbox (4.05904pt too wide) in paragraph at lines 104--106
+Overfull \hbox (4.05904pt too wide) in paragraph at lines 79--81
 \OML/cmm/m/it/10 $
  []
 
 ! Undefined control sequence.
 <argument> \text 
       {The number of signal events that pass selection}
-l.107 ...ber of signal events that can be selected}}
+l.82 ...mber of signal events that can be selected}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -985,7 +903,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument>  \text 
        {The total number of signal events that can be selected}
-l.107 ...ber of signal events that can be selected}}
+l.82 ...mber of signal events that can be selected}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -994,14 +912,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (237.40575pt too wide) detected at line 108
+Overfull \hbox (237.40575pt too wide) detected at line 83
 \OML/cmm/m/it/10  \OT1/cmr/m/n/10 = []
  []
 
 ! Undefined control sequence.
 <write> ...ing: Reference `fig:offshell' on page \thepage 
                                                   \space undefined\on@line .
-l.109 ...rams are given in Figure \ref{fig:offshell}
+l.84 ...grams are given in Figure \ref{fig:offshell}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1010,10 +928,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:offshell' on page  undefined on input line 109.
+LaTeX Warning: Reference `fig:offshell' on page  undefined on input line 84.
 
 
-Overfull \hbox (10.85999pt too wide) in paragraph at lines 108--110
+Overfull \hbox (10.85999pt too wide) in paragraph at lines 83--85
 []. 
  []
 
@@ -1024,8 +942,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 \begin{figure}
-                  
+l.86 \begin{figure}
+                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1037,8 +955,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 \begin{fmffile}
-                   {feyngraph}
+l.88 \begin{fmffile}
+                  {feyngraph}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1050,8 +968,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 \begin{fmffile}{f
-                     eyngraph}
+l.88 \begin{fmffile}{f
+                    eyngraph}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1062,8 +980,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1071,8 +989,8 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 <argument> ...oxrestore  \begin {fmfgraph*}(85,75) \fmflabel 
                                                   {\sm $e^+ $}{v 16} \fmf {f...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1082,8 +1000,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...tore  \begin {fmfgraph*}(85,75) \fmflabel {\sm 
                                                   $e^+ $}{v 16} \fmf {fermio...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1093,8 +1011,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...aph*}(85,75) \fmflabel {\sm $e^+ $}{v 16} \fmf 
                                                   {fermion}{v 20,v 16} \fmfl...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1104,8 +1022,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...+ $}{v 16} \fmf {fermion}{v 20,v 16} \fmflabel 
                                                   {\sm $e^+ $}{v 4} \fmf {fe...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1115,8 +1033,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...v 16} \fmf {fermion}{v 20,v 16} \fmflabel {\sm 
                                                   $e^+ $}{v 4} \fmf {fermion...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1126,8 +1044,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...n}{v 20,v 16} \fmflabel {\sm $e^+ $}{v 4} \fmf 
                                                   {fermion}{v 4,v 20} \fmf {...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1137,8 +1055,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...\sm $e^+ $}{v 4} \fmf {fermion}{v 4,v 20} \fmf 
                                                   {boson,lab=\sm \cyan $\gam...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1148,8 +1066,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...} \fmf {fermion}{v 4,v 20} \fmf {boson,lab=\sm 
                                                   \cyan $\gamma $}{v 21,v 20...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1159,8 +1077,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {fermion}{v 4,v 20} \fmf {boson,lab=\sm \cyan 
                                                   $\gamma $}{v 21,v 20} \fmf...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1170,8 +1088,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...,lab=\sm \cyan $\gamma $}{v 21,v 20} \fmflabel 
                                                   {\sm $\bar {u} $}{v 1} \fm...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1181,8 +1099,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...\sm \cyan $\gamma $}{v 21,v 20} \fmflabel {\sm 
                                                   $\bar {u} $}{v 1} \fmf {fe...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1192,8 +1110,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...21,v 20} \fmflabel {\sm $\bar {u} $}{v 1} \fmf 
                                                   {fermion}{v 1,v 21} \fmf {...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1203,8 +1121,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...\bar {u} $}{v 1} \fmf {fermion}{v 1,v 21} \fmf 
                                                   {fermion,lab=\sm \cyan $\b...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1214,8 +1132,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...\fmf {fermion}{v 1,v 21} \fmf {fermion,lab=\sm 
                                                   \cyan $\bar {u}$}{v 21,v 2...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1225,8 +1143,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...fermion}{v 1,v 21} \fmf {fermion,lab=\sm \cyan 
                                                   $\bar {u}$}{v 21,v 23} \fm...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1236,8 +1154,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...lab=\sm \cyan $\bar {u}$}{v 21,v 23} \fmflabel 
                                                   {\sm $d\ $}{v 2} \fmf {fer...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1247,8 +1165,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...sm \cyan $\bar {u}$}{v 21,v 23} \fmflabel {\sm 
                                                   $d\ $}{v 2} \fmf {fermion}...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1258,8 +1176,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}$}{v 21,v 23} \fmflabel {\sm $d\ $}{v 2} \fmf 
                                                   {fermion}{v 23,v 2} \fmf {...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1269,8 +1187,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...{\sm $d\ $}{v 2} \fmf {fermion}{v 23,v 2} \fmf 
                                                   {boson,lab=\sm \cyan $W^-$...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1280,8 +1198,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...} \fmf {fermion}{v 23,v 2} \fmf {boson,lab=\sm 
                                                   \cyan $W^-$}{v 23,v 0} \fm...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1291,8 +1209,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {fermion}{v 23,v 2} \fmf {boson,lab=\sm \cyan 
                                                   $W^-$}{v 23,v 0} \fmflabel...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1302,8 +1220,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...boson,lab=\sm \cyan $W^-$}{v 23,v 0} \fmflabel 
                                                   {\sm $\nu _e $}{v 8} \fmf ...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1313,8 +1231,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...,lab=\sm \cyan $W^-$}{v 23,v 0} \fmflabel {\sm 
                                                   $\nu _e $}{v 8} \fmf {ferm...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1324,8 +1242,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...{v 23,v 0} \fmflabel {\sm $\nu _e $}{v 8} \fmf 
                                                   {fermion}{v 0,v 8} \fmflab...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1335,8 +1253,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...u _e $}{v 8} \fmf {fermion}{v 0,v 8} \fmflabel 
                                                   {\sm $e^- $}{v 32} \fmf {f...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1346,8 +1264,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...$}{v 8} \fmf {fermion}{v 0,v 8} \fmflabel {\sm 
                                                   $e^- $}{v 32} \fmf {fermio...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1357,8 +1275,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...on}{v 0,v 8} \fmflabel {\sm $e^- $}{v 32} \fmf 
                                                   {fermion}{v 32,v 0} \fmfle...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1368,8 +1286,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...e^- $}{v 32} \fmf {fermion}{v 32,v 0} \fmfleft 
                                                   {v 16,v 32} \fmfright {v 4...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1379,8 +1297,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...mion}{v 32,v 0} \fmfleft {v 16,v 32} \fmfright 
                                                   {v 4,v 1,v 2,v 8} \end {fm...
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1394,14 +1312,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 }
-      \quad \parbox{0.3\textwidth}{
+l.109 }
+      \quad \parbox{0.2\textwidth}{
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
 
  []
 
@@ -1412,8 +1330,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1421,8 +1339,8 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 <argument> ...xrestore  \begin {fmfgraph*}(100,75) \fmflabel 
                                                   {\sm $e^+ $}{v 16} \fmf {f...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1432,8 +1350,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...ore  \begin {fmfgraph*}(100,75) \fmflabel {\sm 
                                                   $e^+ $}{v 16} \fmf {fermio...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1443,8 +1361,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...ph*}(100,75) \fmflabel {\sm $e^+ $}{v 16} \fmf 
                                                   {fermion}{v 0,v 16} \fmfla...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1454,8 +1372,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...^+ $}{v 16} \fmf {fermion}{v 0,v 16} \fmflabel 
                                                   {\sm $\nu _\mu $}{v 8} \fm...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1465,8 +1383,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...{v 16} \fmf {fermion}{v 0,v 16} \fmflabel {\sm 
                                                   $\nu _\mu $}{v 8} \fmf {fe...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1476,8 +1394,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... 0,v 16} \fmflabel {\sm $\nu _\mu $}{v 8} \fmf 
                                                   {fermion}{v 11,v 8} \fmfla...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1487,8 +1405,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...\mu $}{v 8} \fmf {fermion}{v 11,v 8} \fmflabel 
                                                   {\sm $\bar {u} $}{v 1} \fm...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1498,8 +1416,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{v 8} \fmf {fermion}{v 11,v 8} \fmflabel {\sm 
                                                   $\bar {u} $}{v 1} \fmf {fe...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1509,8 +1427,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... 11,v 8} \fmflabel {\sm $\bar {u} $}{v 1} \fmf 
                                                   {fermion}{v 1,v 3} \fmflab...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1520,8 +1438,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {u} $}{v 1} \fmf {fermion}{v 1,v 3} \fmflabel 
                                                   {\sm $d $}{v 2} \fmf {ferm...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1531,8 +1449,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...$}{v 1} \fmf {fermion}{v 1,v 3} \fmflabel {\sm 
                                                   $d $}{v 2} \fmf {fermion}{...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1542,8 +1460,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...rmion}{v 1,v 3} \fmflabel {\sm $d $}{v 2} \fmf 
                                                   {fermion}{v 3,v 2} \fmf {b...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1553,8 +1471,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...l {\sm $d $}{v 2} \fmf {fermion}{v 3,v 2} \fmf 
                                                   {boson,lab=\sm \blue $W^-$...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1564,8 +1482,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...2} \fmf {fermion}{v 3,v 2} \fmf {boson,lab=\sm 
                                                   \blue $W^-$}{v 3,v 11} \fm...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1575,8 +1493,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...f {fermion}{v 3,v 2} \fmf {boson,lab=\sm \blue 
                                                   $W^-$}{v 3,v 11} \fmf {fer...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1586,8 +1504,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...fmf {boson,lab=\sm \blue $W^-$}{v 3,v 11} \fmf 
                                                   {fermion}{v 15,v 11} \fmfl...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1597,8 +1515,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...{v 3,v 11} \fmf {fermion}{v 15,v 11} \fmflabel 
                                                   {\sm $\mu ^+$}{v 4} \fmf {...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1608,8 +1526,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...v 11} \fmf {fermion}{v 15,v 11} \fmflabel {\sm 
                                                   $\mu ^+$}{v 4} \fmf {fermi...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1619,8 +1537,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...{v 15,v 11} \fmflabel {\sm $\mu ^+$}{v 4} \fmf 
                                                   {fermion}{v 4,v 15} \fmf {...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1630,8 +1548,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...m $\mu ^+$}{v 4} \fmf {fermion}{v 4,v 15} \fmf 
                                                   {boson,lab=\sm \blue $Z$}{...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1641,8 +1559,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...} \fmf {fermion}{v 4,v 15} \fmf {boson,lab=\sm 
                                                   \blue $Z$}{v 0,v 15} \fmfl...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1652,8 +1570,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {fermion}{v 4,v 15} \fmf {boson,lab=\sm \blue 
                                                   $Z$}{v 0,v 15} \fmflabel {...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1663,8 +1581,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {boson,lab=\sm \blue $Z$}{v 0,v 15} \fmflabel 
                                                   {\sm $e^- $}{v 32} \fmf {f...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1674,8 +1592,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...on,lab=\sm \blue $Z$}{v 0,v 15} \fmflabel {\sm 
                                                   $e^- $}{v 32} \fmf {fermio...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1685,8 +1603,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...$}{v 0,v 15} \fmflabel {\sm $e^- $}{v 32} \fmf 
                                                   {fermion}{v 32,v 0} \fmfle...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1696,8 +1614,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...e^- $}{v 32} \fmf {fermion}{v 32,v 0} \fmfleft 
                                                   {v 16,v 32} \fmfright {v 8...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1707,8 +1625,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...mion}{v 32,v 0} \fmfleft {v 16,v 32} \fmfright 
                                                   {v 8,v 1,v 2,v 4} \end {fm...
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1722,14 +1640,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.153 }
-     \quad \parbox{0.3\textwidth}{
+l.129 }
+     \quad \parbox{0.2\textwidth}{
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 
  []
 
@@ -1740,7 +1658,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.174 }
+l.150 }
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1749,7 +1667,7 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 <argument> ...oxrestore  \begin {fmfgraph*}(85,75) \fmflabel 
                                                   {\sm $e^+$}{v 16} \fmf {fe...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1760,7 +1678,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...tore  \begin {fmfgraph*}(85,75) \fmflabel {\sm 
                                                   $e^+$}{v 16} \fmf {fermion...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1771,7 +1689,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...raph*}(85,75) \fmflabel {\sm $e^+$}{v 16} \fmf 
                                                   {fermion}{v 27,v 16} \fmfl...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1782,7 +1700,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...^+$}{v 16} \fmf {fermion}{v 27,v 16} \fmflabel 
                                                   {\sm $\bar \nu _e$}{v 8} \...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1793,7 +1711,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...v 16} \fmf {fermion}{v 27,v 16} \fmflabel {\sm 
                                                   $\bar \nu _e$}{v 8} \fmf {...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1804,7 +1722,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...,v 16} \fmflabel {\sm $\bar \nu _e$}{v 8} \fmf 
                                                   {fermion}{v 8,v 11} \fmfla...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1815,7 +1733,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...u _e$}{v 8} \fmf {fermion}{v 8,v 11} \fmflabel 
                                                   {\sm $u$}{v 1} \fmf {fermi...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1826,7 +1744,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{v 8} \fmf {fermion}{v 8,v 11} \fmflabel {\sm 
                                                   $u$}{v 1} \fmf {fermion}{v...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1837,7 +1755,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...rmion}{v 8,v 11} \fmflabel {\sm $u$}{v 1} \fmf 
                                                   {fermion}{v 3,v 1} \fmflab...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1848,7 +1766,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...sm $u$}{v 1} \fmf {fermion}{v 3,v 1} \fmflabel 
                                                   {\sm $\bar {d}$}{v 2} \fmf...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1859,7 +1777,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...$}{v 1} \fmf {fermion}{v 3,v 1} \fmflabel {\sm 
                                                   $\bar {d}$}{v 2} \fmf {fer...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1870,7 +1788,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...{v 3,v 1} \fmflabel {\sm $\bar {d}$}{v 2} \fmf 
                                                   {fermion}{v 2,v 3} \fmf {b...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1881,7 +1799,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... $\bar {d}$}{v 2} \fmf {fermion}{v 2,v 3} \fmf 
                                                   {boson,lab=\sm \blue $W^+$...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1892,7 +1810,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...2} \fmf {fermion}{v 2,v 3} \fmf {boson,lab=\sm 
                                                   \blue $W^+$}{v 11,v 3} \fm...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1903,7 +1821,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...f {fermion}{v 2,v 3} \fmf {boson,lab=\sm \blue 
                                                   $W^+$}{v 11,v 3} \fmf {fer...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1914,7 +1832,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...fmf {boson,lab=\sm \blue $W^+$}{v 11,v 3} \fmf 
                                                   {fermion}{v 11,v 27} \fmf ...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1925,7 +1843,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...W^+$}{v 11,v 3} \fmf {fermion}{v 11,v 27} \fmf 
                                                   {boson,lab=\sm \cyan $\gam...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1936,7 +1854,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... \fmf {fermion}{v 11,v 27} \fmf {boson,lab=\sm 
                                                   \cyan $\gamma $}{v 0,v 27}...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1947,7 +1865,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...{fermion}{v 11,v 27} \fmf {boson,lab=\sm \cyan 
                                                   $\gamma $}{v 0,v 27} \fmfl...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1958,7 +1876,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...n,lab=\sm \cyan $\gamma $}{v 0,v 27} \fmflabel 
                                                   {\sm $e^-$}{v 4} \fmf {fer...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1969,7 +1887,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...=\sm \cyan $\gamma $}{v 0,v 27} \fmflabel {\sm 
                                                   $e^-$}{v 4} \fmf {fermion}...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1980,7 +1898,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...a $}{v 0,v 27} \fmflabel {\sm $e^-$}{v 4} \fmf 
                                                   {fermion}{v 0,v 4} \fmflab...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1991,7 +1909,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... $e^-$}{v 4} \fmf {fermion}{v 0,v 4} \fmflabel 
                                                   {\sm $e^-$}{v 32} \fmf {fe...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2002,7 +1920,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...$}{v 4} \fmf {fermion}{v 0,v 4} \fmflabel {\sm 
                                                   $e^-$}{v 32} \fmf {fermion...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2013,7 +1931,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...ion}{v 0,v 4} \fmflabel {\sm $e^-$}{v 32} \fmf 
                                                   {fermion}{v 32,v 0} \fmfle...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2024,7 +1942,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...$e^-$}{v 32} \fmf {fermion}{v 32,v 0} \fmfleft 
                                                   {v 16,v 32} \fmfright {v 8...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2035,7 +1953,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...mion}{v 32,v 0} \fmfleft {v 16,v 32} \fmfright 
                                                   {v 8,v 1,v 2,v 4} \end {fm...
-l.174 }
+l.150 }
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2050,35 +1968,30 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.174 }
+l.150 }
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--174
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
 
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 112--175
-[]feyngraph
+Overfull \hbox (1638.37498pt too wide) in paragraph at lines 88--151
+ []$ 
  []
 
 
-Overfull \hbox (2457.62498pt too wide) in paragraph at lines 112--175
-[]$
+Overfull \hbox (1638.37498pt too wide) in paragraph at lines 88--151
+ []$ 
  []
 
 
-Overfull \hbox (2457.62498pt too wide) in paragraph at lines 112--175
-[]$
- []
-
-
-Overfull \hbox (2457.62498pt too wide) in paragraph at lines 112--175
-[]$ 
+Overfull \hbox (1638.37498pt too wide) in paragraph at lines 88--151
+ []$ 
  []
 
 
@@ -2088,7 +2001,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 \end{fmffile}
+l.152 \end{fmffile}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2101,7 +2014,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.177 \caption
+l.153 \caption
             {Non signal-like contributions to the WW cross-section, such tha...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2113,7 +2026,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.177 \caption{N
+l.153 \caption{N
               on signal-like contributions to the WW cross-section, such tha...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2125,19 +2038,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 \end{figure}
+l.155 \end{figure}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 177--180
-[]Non
- []
-
-
-Overfull \hbox (4.65627pt too wide) in paragraph at lines 177--180
+Overfull \hbox (4.65627pt too wide) in paragraph at lines 153--156
 \OML/cmm/m/it/10 e$
  []
 
@@ -2150,13 +2058,13 @@ Overfull \hbox (4.65627pt too wide) in paragraph at lines 177--180
 
 
 Here is how much of LuaTeX's memory you used:
- 55 strings out of 494480
- 100000,89155 words of node,token memory allocated 62675 words of node memory still in use:
-   323 hlist, 22 vlist, 51 rule, 5 disc, 22 local_par, 1 dir, 159 math, 1809 glu
-e, 100 kern, 81 penalty, 7129 glyph, 353 attribute, 36 glue_spec, 353 attribute_
-list, 7 write nodes
-   avail lists: 2:2,3:72,4:118,5:10,7:54,8:90,10:117
- 4289 multiletter control sequences out of 65536+600000
+ 52 strings out of 494480
+ 100000,89155 words of node,token memory allocated 60236 words of node memory still in use:
+   306 hlist, 17 vlist, 51 rule, 5 disc, 16 local_par, 1 dir, 139 math, 1748 glu
+e, 97 kern, 75 penalty, 6878 glyph, 329 attribute, 36 glue_spec, 329 attribute_l
+ist, 6 write nodes
+   avail lists: 2:2,3:72,4:118,5:13,7:54,8:90,10:117
+ 4286 multiletter control sequences out of 65536+600000
  27 fonts using 1608479 bytes
- 18i,11n,28p,1420b,214s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 18i,7n,21p,1420b,115s stack positions out of 5000i,500n,10000p,200000b,100000s
 !  ==> Fatal error occurred, no output PDF file produced!

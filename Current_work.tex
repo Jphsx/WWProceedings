@@ -47,7 +47,7 @@ The approach towards the identification of leptons relies on treating leptons un
 \item Track multiplicity - The allowed number of tracks in a lepton candidate
 \item Minimum $P_t$ seed - the minimum transverse momentum of a track that seeds a lepton candidate [GeV] 
 \end{itemize}
-An example of the cone and parameters are shown in Figure \ref{fig:cone}. Additional requirements are imposed on all of the reconstructed Particle Flow Objects(PFOs) in the event in order to suppress pile-up particles being included in the lepton jet.
+An example of the cone and parameters are shown in Figure 6. Additional requirements are imposed on all of the reconstructed Particle Flow Objects(PFOs) in the event in order to suppress pile-up particles being included in the lepton jet.
 \begin{itemize}
 \item $P_t > 0.2$ GeV
 \item $|cos\theta| < 0.99$
@@ -56,7 +56,8 @@ The formation of a lepton candidate follows three steps (1) candidate constructi
 The first step starts with seed tracks that are sorted by energy in descending order. Any track or neutral particle that falls within the search cone of the lepton candidate is added to the lepton candidate. For each newly added particle, the energy and momentum of the lepton candidate is updated. Each candidate has a unique set of particles. Lepton candidates are continually formed until the seed tracks are exhausted. When there are no more candidates to be created, the candidates are subjected to part of the acceptance criteria: the lepton jet mass is required to be below the upper mass limit (2 GeV) and the number of charged tracks within the lepton candidate is non-zero and less than or equal to 4. If a lepton jet violates any acceptance conditions it is deleted. The next step in the process is merging. If two lepton candidates form an opening angle of less than $2\alpha$, the candidates are merged. If the mass or track multiplicity conditions are violated, both lepton candidates are deleted.  All  candidates that survive merging are subjected to the isolation testing. For each candidate, the sum of energy of all the particles that fall inside the isolation cone is computed. If the total energy inside the isolation cone is greater than the maximum allowed energy inside the isolation cone the lepton candidate is deleted.\\
 \quad \quad \\
 The universal lepton treatment is not conducive to a one size fits all approach to lepton ID due to the abundance of different lepton signatures. To accommodate variations between lepton signatures, the acceptance criteria for leptons is optimized according to lepton flavor and $\tau$ decay mode. The categories created are:\\
-
+\begin{figure}
+\label{fig:cone}
 \begin{minipage}[h]{0.48\textwidth}
 \centering
 \begin{itemize}
@@ -69,12 +70,13 @@ The universal lepton treatment is not conducive to a one size fits all approach 
 \end{itemize}
 \end{minipage}\hfill
 \begin{minipage}[h]{0.48\textwidth}
-\label{fig:cone}
+
+
 \includegraphics[width=0.6\textwidth]{cone.pdf}
 \captionof{figure}{Illustration of possible lepton candidate cone with search cone angle $\alpha$ and isolation cone angle $\beta$. The search cone is shown in green and the isolation cone is the surrounding blue cone.}
 
 \end{minipage}\\
-
+\end{figure}
 The Prompt categories refer to events in which the leptonic W decays directly to either a muon or electron and associated neutrino. The tau categories address the various dominant decay modes of the tau lepton. The optimal lepton acceptance criteria are calculated for each category. The optimal acceptance criteria is the set of parameters that maximally identify lepton candidates that originate from true leptons and minimize the fake lepton candidates that originate from hadronic jets. To find this set of parameters, a scan over a 3D space is performed using the search cone-$\alpha$, isolation cone-$\beta$, and isolation energy-$E_{iso}$. The invariant mass is held at a fixed 2 GeV for simplicity.
 Two parameters are defined to find the optimal working point in the lepton finding space. The first is related to correctly identifying jets originating from true leptons. This is denoted as the efficiency of reconstructing a true lepton $\epsilon_T$. The second optimization parameter is denoted as $P_F$, the probability of a fake lepton jet arising from a single hadronic jet, which is related to the efficiency of of reconstructing a fake lepton $\epsilon_F$. 
 \begin{equation}
@@ -137,10 +139,10 @@ The true lepton reconstruction efficiency is maximized with the signal sample $W
 
 \begin{table}
 
-\begin{tabular}{|p{0.15\textwidth}|p{0.18\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.1\textwidth}p{0.1\textwidth}p{0.1\textwidth}|}
+\begin{tabular}{|p{0.14\textwidth}|p{0.14\textwidth}p{0.14\textwidth}p{0.14\textwidth}p{0.1\textwidth}p{0.1\textwidth}p{0.1\textwidth}|}
 
 \hline 
-Channel & $n \, \, \text{Lep} \geq 1 \, \, (\%)$ & $1-P_{F} \, \, (\%)$ & $\epsilon_T \, \, (\%)$ & SearchCone [rad] & Iso.Cone [rad] & Iso.E [GeV] \\ 
+Channel & $n\,\text{Lep}\geq 1$ $\,\, (\%)$ & $1-P_{F} \, \, (\%)$ & $\epsilon_T \, \, (\%)$ & SearchCone [rad] & Iso.Cone [rad] & Iso.E [GeV] \\ 
 \hline 
 Prompt $\mu$ & $95.5 \pm 0.3$ & $97.4 \pm 0.1$ & $94.9 \pm 0.3$ & 0.03 & 0.15 & 3.0 \\ 
 
@@ -245,12 +247,12 @@ The W-pair selection has been optimized for a Monte Carlo sample of 1600 $\text{
 \item  $m^{vis2}_{recoil} < 135,000 \, \, \text{GeV}^2$
 \end{itemize}
 
-The track multiplicity and $E_{com}$ target 2 fermion backgrounds. $E_{com}$ is the rest-frame energy that consists of the visible and inferred missing energy. The missing energy is treated as a single neutrino with zero mass such that $E_{com} = E_{vis} + |P_{miss}| \, \,  \, \text{and} \, \, P^\mu_{miss} = (|P_{miss}| , -\sum{\vec{p}_{vis}})$. The visible $P_T$ is the magnitude of the vector of all measured transverse momenta and $E_{vis}$ is the sum of all reconstructed visible energy in an event. The $P_T$ and $E_{vis}$ cuts target processes that do not have a genuine missing energy from a neutrino. The hadronic W-mass $M_{qq}$ requirement forces the hadronic system to be ``W-like" and the recoil mass, $m_{\nu recoil}$, uniquely requires the visible system to be recoiling against an invisible system with little to no mass. The recoil mass is defined as $m^2_{\nu recoil} = s + M^2_{vis} - 2\sqrt{s}E_{vis} \, \, \text{and} \, \, M^2_{vis} = ( P^{\mu}_{qq} +  P^{\mu}_{\ell})^2$. The W-scattering angle $-q\cos\theta_W$ is the angle of deflection of the system identified as $W^-$ with respect to the $e^-$ beam axis and is implemented to limit backward scattering.  The charge of the lepton is extracted from the leading momentum track from candidates with 1, 2, or 4 tracks, or in the case of 3 tracks, the charge is the sum of the three track charges. The hadronic system is then tagged with the opposite charge.  This procedure results in the correct charge assignment of the lepton before selection cuts for about $98.9\%$ of prompt muons, $94.8\%$ of prompt electrons, and $95.9\%$ of taus. Following the event selection the correct charge assignment increases to $99.9\%$ for prompt muons, $98.3\%$ for prompt electrons, and $98.8\%$ for taus. The details of the tight and loose selection for (-0.8,+0.3) at 1600$\text{fb}^{-1}$ are summarized in Table \ref{tab:selection}. The selections in Table \ref{tab:selection} differ by the veto of the tight lepton in the loose selection, where the preference for any event is to always choose a tight lepton over loose. The primary selection also includes only ``WW-like" signal, this type of signal is such that both of the true fermion pairs invariant masses are each within $\pm10$ GeV of the nominal W mass. If an event contains a fermion pair that is outside the WW-like range, it is designated as an off-shell(O.S) event and is placed in a different category. The selection cuts are optimized to maximize the efficiency and purity of the total signal for the tight selection. The results are summarized with the two selection cones with and without O.S. events in Table \ref{tab:summary}. The final results for the mass inclusive selection yields a signal efficiency of $58\%$ with only a $9\%$ of background contaminating selected events. The W-boson invariant mass after selection is shown with mass resolution in Figure \ref{fig:money}
+The track multiplicity and $E_{com}$ target 2 fermion backgrounds. $E_{com}$ is the rest-frame energy that consists of the visible and inferred missing energy. The missing energy is treated as a single neutrino with zero mass such that $E_{com} = E_{vis} + |P_{miss}| \, \,  \, \text{and} \, \, P^\mu_{miss} = (|P_{miss}| , -\sum{\vec{p}_{vis}})$. The visible $P_T$ is the magnitude of the vector of all measured transverse momenta and $E_{vis}$ is the sum of all reconstructed visible energy in an event. The $P_T$ and $E_{vis}$ cuts target processes that do not have a genuine missing energy from a neutrino. The hadronic W-mass $M_{qq}$ requirement forces the hadronic system to be ``W-like" and the recoil mass, $m_{\nu recoil}$, uniquely requires the visible system to be recoiling against an invisible system with little to no mass. The recoil mass is defined as $m^2_{\nu recoil} = s + M^2_{vis} - 2\sqrt{s}E_{vis} \, \, \text{and} \, \, M^2_{vis} = ( P^{\mu}_{qq} +  P^{\mu}_{\ell})^2$. The W-scattering angle $-q\cos\theta_W$ is the angle of deflection of the system identified as $W^-$ with respect to the $e^-$ beam axis and is implemented to limit backward scattering.  The charge of the lepton is extracted from the leading momentum track from candidates with 1, 2, or 4 tracks, or in the case of 3 tracks, the charge is the sum of the three track charges. The hadronic system is then tagged with the opposite charge.  This procedure results in the correct charge assignment of the lepton before selection cuts for about $98.9\%$ of prompt muons, $94.8\%$ of prompt electrons, and $95.9\%$ of taus. Following the event selection the correct charge assignment increases to $99.9\%$ for prompt muons, $98.3\%$ for prompt electrons, and $98.8\%$ for taus. The details of the tight and loose selection for (-0.8,+0.3) at 1600$\text{fb}^{-1}$ are summarized in Table \ref{tab:selection}. The selections in Table \ref{tab:selection} differ by the veto of the tight lepton in the loose selection, where the preference for any event is to always choose a tight lepton over loose. The primary selection also includes only ``WW-like" signal, this type of signal is such that both of the true fermion pairs invariant masses are each within $\pm10$ GeV of the nominal W mass. If an event contains a fermion pair that is outside the WW-like range, it is designated as an off-shell(O.S) event and is placed in a different category. The selection cuts are optimized to maximize the efficiency and purity of the total signal for the tight selection. The results are summarized with the two selection cones with and without O.S. events in Table \ref{tab:summary}. The final results for the selection with no restrictions on W mass and both cones, yields a signal efficiency of $60\%$ with only a $7\%$ of background contaminating selected events. The W-boson invariant mass after selection is shown with mass resolution in Figure \ref{fig:money}
 
 
 \begin{table}
 
-\caption{The tight and loose selection for 1600 $\text{fb}^{-1}$ (-0.8,+0.3). The tight selection is most efficient with prompt leptons with $69\%$ and $65\%$  for muons and electrons respectively, but struggles to efficiently reconstruct taus. The loose selection recovers $10\%$ of the tau efficiency and is inefficient for prompt leptons because of the tight lepton veto. The tight lepton veto enforces the orthogonality of the selections and gives preference toward better lepton candidates. The signal categories Base Evts. only include events in which the true W mass of both fermion pairs are within 10 GeV of the nominal W mass.}
+\caption{The tight and loose selection for 1600 $\text{fb}^{-1}$ (-0.8,+0.3) WW-like events. The tight selection is most efficient with prompt leptons with $69\%$ and $65\%$  for muons and electrons respectively, but struggles to efficiently reconstruct taus. The loose selection recovers $10\%$ of the tau efficiency and is inefficient for prompt leptons because of the tight lepton veto. The tight lepton veto enforces the orthogonality of the selections and gives preference toward better lepton candidates. The signal categories Base Evts. only include events in which the true W mass of both fermion pairs are within 10 GeV of the nominal W mass.}
 \label{tab:selection}
  \scriptsize
  Tight selection with muon cone \\
@@ -259,7 +261,7 @@ The track multiplicity and $E_{com}$ target 2 fermion backgrounds. $E_{com}$ is 
  $(\times 10^5)$  & $qq\mu\nu$ & $qqe\nu$ & $qq\tau\nu$ & Tot. Sig. & 2f & 4f & 6f & Higgs \\ \hline 
 Base Evts & {38.7 } &  {38.9 } &  {39.0} & {117} &  {422} &  {322} &  {2.14} &  {4.12} \\ 
 
-Lepton & {33.1 } &  {32.0 } &  {22.8} & {87.8} &  {115} &  {118} &  {1.63} &  {1.15} \\ 
+Lep. + Cone & {33.1 } &  {32.0 } &  {22.8} & {87.8} &  {115} &  {118} &  {1.63} &  {1.15} \\ 
  
 $E_{vis}$ & {32.8 } &  {31.1 } &  {22.7} & {86.7} &  {106} &  {115} &  {1.62} &  {1.11} \\ 
  
@@ -290,7 +292,7 @@ Loose selection with tau cone\\
  $(\times 10^5)$  & $qq\mu\nu$ & $qqe\nu$ & $qq\tau\nu$ & Tot. Sig. & 2f & 4f & 6f & Higgs \\ \hline 
 Base Evts & {38.7 } &  {38.9 } &  {39.0} & {117} &  {422} &  {322} &  {2.14} &  {4.12} \\ 
  
-Lepton & {33.6 } &  {33.0 } &  {28.2} & {94.8} &  {130} &  {136} &  {1.77} &  {1.38} \\ 
+Lep.+ Cone & {33.6 } &  {33.0 } &  {28.2} & {94.8} &  {130} &  {136} &  {1.77} &  {1.38} \\ 
 
 Tight Veto & {0.772 } &  {1.28 } &  {5.70} & {7.76} &  {19.3} &  {21.5} &  {0.161} &  {0.312} \\ 
  
@@ -388,7 +390,7 @@ The cross-section and errors are extracted from Table \ref{tab:selection} accord
 \begin{equation}
 \sigma = \frac{N_T - N_B}{L \epsilon}
 \end{equation}
-where $N_T$ is the observed number of events that passes selection and $N_B$ is expected number of background events that contaminate the signal selection. The resulting statistical error on the cross-section with $\epsilon$, $L$, and $N_B$ known perfectly is $\frac{\Delta \sigma}{\sigma} = 0.04 \%$. Combining the errors for efficiency, Poisson errors for $N_T$, and having  no background contribution, the resulting cross-section obtained in the combined selection is $7994 \pm 14 \, \, \text{fb}$
+where $N_T$ is the observed number of events that passes selection and $N_B$ is expected number of background events that contaminate the signal selection. The resulting statistical error on the cross-section with $\epsilon$, $L$, and $N_B$ known perfectly is $\frac{\Delta \sigma}{\sigma} = 0.038 \%$. Combining the errors for efficiency, Poisson errors for $N_T$, and having  no background contribution, the resulting cross-section obtained in the combined selection is $7994 \pm 14 \, \, \text{fb}$
 \begin{figure}
 
 \centering
