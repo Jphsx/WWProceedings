@@ -88,6 +88,16 @@ S.~Agostinelli, J.~Allison, K.~a. Amako, J.~Apostolakis, H.~Araujo, P.~Arce,
   research section A: Accelerators, Spectrometers, Detectors and Associated
   Equipment} {\bfseries 506} no.~3, (2003) 250--303.
 
+\bibitem{wwrepo}
+J.~Anguiano and G.~Wilson, ``Ildbench wwqqlnu.''
+  \url{https://github.com/ILDAnaSoft/ILDbench_WWqqlnu.git}, 2019.
+
+\bibitem{ILDIDR}
+{\bfseries ILD Concept Group} Collaboration, H.~Abramowicz {\em et~al.},
+  ``{International Large Detector: Interim Design Report},''
+  \href{http://arxiv.org/abs/2003.01116}{{\ttfamily arXiv:2003.01116
+  [physics.ins-det]}}.
+
 \bibitem{ilcop}
 T.~Barklow, J.~Brau, K.~Fujii, J.~Gao, J.~List, N.~Walker, and K.~Yokoya,
   ``{ILC Operating Scenarios},''
