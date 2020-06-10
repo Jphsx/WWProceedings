@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.4.7)  9 JUN 2020 20:52
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.4.7)  10 JUN 2020 14:59
  restricted system commands enabled.
 **WWproc.tex
 (./WWproc.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.136 seconds
+luaotfload | main : initialization completed in 0.128 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -1037,20 +1037,15 @@ File: ildlogo.png Graphic file (type png)
 Package luatex.def Info: ildlogo.png  used on input line 234.
 (luatex.def)             Requested size: 21.68231pt x 13.89905pt.
  [14] [15<./SupDiff.pdf><./SupMass.pdf>]
-[16](load luc: /home/justin/.texlive2017/texmf-var/luatex-cache/generic/fonts/ot
-l/lmroman5-regular.luc)
-Overfull \hbox (66.04039pt too wide) in paragraph at lines 265--328
-[]
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
+[]|\TU/lmr/m/n/8 Tot.
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--328
-
- []
-
-
-Overfull \hbox (66.04039pt too wide) in paragraph at lines 265--328
-[] 
+(load luc: /home/justin/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lm
+roman5-regular.luc)
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[]|\TU/lmr/m/n/8 Tot.
  []
 
 
@@ -1059,120 +1054,84 @@ Underfull \hbox (badness 10000) in paragraph at lines 343--344
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--365
-[]|$\OT1/cmr/m/n/8 58\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 8 \OMS/cmsy/m/n/8 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 365--365
-[]|$\OT1/cmr/m/n/8 45\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 4 \OMS/cmsy/m/n/8 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 365--365
-[]|$\OT1/cmr/m/n/8 41\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 1 \OMS/cmsy/m/n/8 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
-[]|$\OT1/cmr/m/n/8 46\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 3 \OMS/cmsy/m/n/8 
- []
-
-
-Overfull \hbox (19.10533pt too wide) in paragraph at lines 340--369
+Overfull \hbox (19.10533pt too wide) in paragraph at lines 340--370
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 []|\TU/lmr/m/n/8 Tot.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--403
-[]|$\OT1/cmr/m/n/8 0\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 63 \OMS/cmsy/m/n/8 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 403--403
-[]|$\OT1/cmr/m/n/8 2\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 36 \OMS/cmsy/m/n/8 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
-[]|$\OT1/cmr/m/n/8 2\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 82 \OMS/cmsy/m/n/8 
- []
-
-
-Overfull \hbox (19.10533pt too wide) in paragraph at lines 376--406
+Overfull \hbox (16.98174pt too wide) in paragraph at lines 377--408
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 418--418
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 []|\TU/lmr/m/n/12 Effi-ciency
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 418--418
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 []|\TU/lmr/m/n/12 Pu-rity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 418--418
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 []|\TU/lmr/m/n/12 Effi-ciency $    $
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 418--419
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
 []|\TU/lmr/m/n/12 Pu-rity
  []
 
 
-Overfull \hbox (38.69482pt too wide) in paragraph at lines 415--425
+Overfull \hbox (17.0125pt too wide) in paragraph at lines 417--427
 [][] 
  []
 
-<mwhadCutsHist.pdf, id=695, 569.12625pt x 385.44pt>
+<mwhadCutsHist.pdf, id=696, 569.12625pt x 385.44pt>
 File: mwhadCutsHist.pdf Graphic file (type pdf)
 <use mwhadCutsHist.pdf>
-Package luatex.def Info: mwhadCutsHist.pdf  used on input line 439.
+Package luatex.def Info: mwhadCutsHist.pdf  used on input line 441.
 (luatex.def)             Requested size: 341.47838pt x 231.26578pt.
 File: ildlogo.png Graphic file (type png)
 <use ildlogo.png>
-Package luatex.def Info: ildlogo.png  used on input line 447.
+Package luatex.def Info: ildlogo.png  used on input line 449.
 (luatex.def)             Requested size: 21.68231pt x 13.89905pt.
-<moneymassdiff.pdf, id=696, 569.12625pt x 384.43625pt>
+<moneymassdiff.pdf, id=697, 569.12625pt x 384.43625pt>
 File: moneymassdiff.pdf Graphic file (type pdf)
 <use moneymassdiff.pdf>
-Package luatex.def Info: moneymassdiff.pdf  used on input line 458.
+Package luatex.def Info: moneymassdiff.pdf  used on input line 460.
 (luatex.def)             Requested size: 341.47838pt x 230.66351pt.
 File: ildlogo.png Graphic file (type png)
 <use ildlogo.png>
-Package luatex.def Info: ildlogo.png  used on input line 466.
+Package luatex.def Info: ildlogo.png  used on input line 468.
 (luatex.def)             Requested size: 21.68231pt x 13.89905pt.
-[17] [18] [19<./mwhadCutsHist.pdf><./moneymassdiff.pdf>]
-<WWSfit.pdf, id=811, 569.12625pt x 421.575pt>
+<WWSfit.pdf, id=701, 569.12625pt x 421.575pt>
 File: WWSfit.pdf Graphic file (type pdf)
 <use WWSfit.pdf>
-Package luatex.def Info: WWSfit.pdf  used on input line 491.
+Package luatex.def Info: WWSfit.pdf  used on input line 493.
 (luatex.def)             Requested size: 210.35257pt x 155.81949pt.
 File: ildlogo.png Graphic file (type png)
 <use ildlogo.png>
-Package luatex.def Info: ildlogo.png  used on input line 499.
+Package luatex.def Info: ildlogo.png  used on input line 501.
 (luatex.def)             Requested size: 21.2489pt x 13.62288pt.
 
-Overfull \hbox (5.87555pt too wide) in paragraph at lines 501--502
+Overfull \hbox (5.87555pt too wide) in paragraph at lines 503--504
  [][] 
  []
 
-<Wtoyfit.pdf, id=812, 569.12625pt x 421.575pt>
+<Wtoyfit.pdf, id=702, 569.12625pt x 421.575pt>
 File: Wtoyfit.pdf Graphic file (type pdf)
 <use Wtoyfit.pdf>
-Package luatex.def Info: Wtoyfit.pdf  used on input line 505.
+Package luatex.def Info: Wtoyfit.pdf  used on input line 507.
 (luatex.def)             Requested size: 210.35257pt x 155.81949pt.
-) (./conclude.tex [20] [21<./WWSfit.pdf><./Wtoyfit.pdf>]) (./WWproc.bbl
-[22] [23]) [24]
+) (./conclude.tex [17] [18] [19] [20<./mwhadCutsHist.pdf><./moneymassdiff.pdf>]
+[21<./WWSfit.pdf><./Wtoyfit.pdf>]) [22] (./WWproc.bbl [23]) [24]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
  (./WWproc.aux)
@@ -1180,21 +1139,17 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 216.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
 Package rerunfilecheck Info: File `WWproc.out' has not changed.
 (rerunfilecheck)             Checksum: 4C636321C0E579022AAD0C5BF98EA90C;959.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
 )
 
 Here is how much of LuaTeX's memory you used:
  23044 strings out of 494480
- 125200,662416 words of node,token memory allocated
+ 156506,662416 words of node,token memory allocated
  571 words of node memory still in use:
    5 hlist, 2 vlist, 2 rule, 3 glue, 1 kern, 1 sub_mlist, 25 attribute, 52 glue_
 spec, 25 attribute_list, 1 write, 6 pdf_action nodes
-   avail lists: 1:8,2:2991,3:1032,4:76,5:322,6:6278,7:4079,8:1246,9:2009,10:27,1
-1:478
+   avail lists: 1:19,2:3303,3:1119,4:77,5:461,6:8632,7:4768,8:1284,9:2173,10:27,
+11:550
  25960 multiletter control sequences out of 65536+600000
  91 fonts using 6338871 bytes
  61i,17n,98p,3371b,1562s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -1219,10 +1174,10 @@ ts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on WWproc.pdf (25 pages, 1687451 bytes).
+Output written on WWproc.pdf (25 pages, 1687757 bytes).
 
-PDF statistics: 1074 PDF objects out of 1200 (max. 8388607)
- 661 compressed objects within 7 object streams
+PDF statistics: 1075 PDF objects out of 1200 (max. 8388607)
+ 662 compressed objects within 7 object streams
  90 named destinations out of 1000 (max. 131072)
  136 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -1,39 +1,39 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: WWproc.aux
 The style file: utphys.bst
 Database file #1: mybib.bib
 Warning--empty author in tdraccel
 You've used 21 entries,
             2328 wiz_defined-function locations,
-            714 strings with 8732 characters,
-and the built_in function-call counts, 6199 in all, are:
-= -- 571
-> -- 331
+            714 strings with 8593 characters,
+and the built_in function-call counts, 6082 in all, are:
+= -- 573
+> -- 304
 < -- 0
-+ -- 119
-- -- 98
-* -- 549
-:= -- 840
++ -- 110
+- -- 89
+* -- 540
+:= -- 817
 add.period$ -- 35
 call.type$ -- 21
 change.case$ -- 21
 chr.to.int$ -- 0
 cite$ -- 22
-duplicate$ -- 310
-empty$ -- 580
-format.name$ -- 98
-if$ -- 1536
+duplicate$ -- 311
+empty$ -- 573
+format.name$ -- 89
+if$ -- 1515
 int.to.chr$ -- 0
 int.to.str$ -- 21
-missing$ -- 55
+missing$ -- 58
 newline$ -- 84
 num.names$ -- 20
-pop$ -- 125
+pop$ -- 120
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 190
+skip$ -- 186
 stack$ -- 0
 substring$ -- 214
 swap$ -- 112
