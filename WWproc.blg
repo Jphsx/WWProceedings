@@ -6,7 +6,7 @@ Database file #1: mybib.bib
 Warning--empty author in tdraccel
 You've used 21 entries,
             2328 wiz_defined-function locations,
-            714 strings with 8593 characters,
+            714 strings with 8595 characters,
 and the built_in function-call counts, 6082 in all, are:
 = -- 573
 > -- 304

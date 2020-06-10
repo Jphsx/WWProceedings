@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.4.7)  10 JUN 2020 14:59
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.4.7)  10 JUN 2020 15:50
  restricted system commands enabled.
 **WWproc.tex
 (./WWproc.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.128 seconds
+luaotfload | main : initialization completed in 0.123 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -874,9 +874,9 @@ mroman17-regular.luc)(load luc: /home/justin/.texlive2017/texmf-var/luatex-cache
 /justin/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.
 luc)(load luc: /home/justin/.texlive2017/texmf-var/luatex-cache/generic/fonts/ot
 l/lmroman7-regular.luc)
-Underfull \hbox (badness 1881) in paragraph at lines 130--130
+Underfull \hbox (badness 1418) in paragraph at lines 130--130
 [][][]\TU/lmr/m/n/10 Work sup-ported by the Na-tional Sci-ence Foun-da-tion un-
-der award PHY-1607262 and
+der awards PHY-1607262 and
  []
 
 (load luc: /home/justin/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lm
@@ -1144,11 +1144,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
 
 Here is how much of LuaTeX's memory you used:
  23044 strings out of 494480
- 156506,662416 words of node,token memory allocated
- 571 words of node memory still in use:
-   5 hlist, 2 vlist, 2 rule, 3 glue, 1 kern, 1 sub_mlist, 25 attribute, 52 glue_
-spec, 25 attribute_list, 1 write, 6 pdf_action nodes
-   avail lists: 1:19,2:3303,3:1119,4:77,5:461,6:8632,7:4768,8:1284,9:2173,10:27,
+ 156507,662416 words of node,token memory allocated
+ 581 words of node memory still in use:
+   5 hlist, 2 vlist, 2 rule, 3 glue, 1 kern, 1 sub_mlist, 26 attribute, 52 glue_
+spec, 26 attribute_list, 1 write, 7 pdf_action nodes
+   avail lists: 1:14,2:3313,3:1119,4:77,5:461,6:8615,7:4769,8:1284,9:2176,10:27,
 11:550
  25960 multiletter control sequences out of 65536+600000
  91 fonts using 6338871 bytes
@@ -1174,10 +1174,10 @@ ts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on WWproc.pdf (25 pages, 1687757 bytes).
+Output written on WWproc.pdf (25 pages, 1687800 bytes).
 
-PDF statistics: 1075 PDF objects out of 1200 (max. 8388607)
- 662 compressed objects within 7 object streams
+PDF statistics: 1076 PDF objects out of 1200 (max. 8388607)
+ 663 compressed objects within 7 object streams
  90 named destinations out of 1000 (max. 131072)
  136 words of extra memory for PDF output out of 10000 (max. 100000000)
 
