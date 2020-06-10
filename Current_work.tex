@@ -163,7 +163,7 @@ $\tau$ Had-1p & $74.4 \pm 0.9$ & $93.0 \pm 0.2$ & $70.7 \pm 0.9$ & 0.07 & 0.15 &
 $\tau$ Had-3p &  $75.6 \pm 1.5$ & $93.0 \pm 0.2$ & $71.0 \pm 1.6$ & 0.07 & 0.15 & 5.5  \\
 \hline
 \end{tabular} 
-\caption{Optimization results using $100 \%$ LR $q\bar{q}\ell \nu$ and $q\bar{q} q\bar{q}$ samples. The $n \, \, \text{Lep} \geq 1$ column pertains to signal samples where at least one lepton candidate was found and is not subjected to the truth matching criterion of 0.1 radians. Results shown are the configurations that maximize $(1-P_F)\epsilon_T$. }
+\caption{Optimization results using $100 \%$ LR $q\bar{q}\ell \nu$ and $q\bar{q} q\bar{q}$ samples. The $n \, \, \text{Lep} \geq 1$ column pertains to signal samples where at least one lepton candidate was found and is not subjected to the truth matching criterion of 0.1 radians. Results shown are the configurations that maximize $(1-P_F)\epsilon_T$. The Prompt $\mu$ and Inclusive $\tau$ cones are chosen for a tight and loose lepton selection respectively. }
 \label{tab:taufinderopt}
 \end{table}
 
@@ -190,54 +190,59 @@ Since only one lepton is expected from signal, a single lepton candidate is sele
 \end{figure}
 
 After a lepton candidate has been selected, the remaining particles in the system are expected to form the hadronically decaying W boson. However, hadronic mass is often in excess of the true hadonic mass. Variation between the true and measured mass naturally arises due to the mismeasurment of particles -- especially neutral hadrons, as well as particles lost beyond the acceptance of the detector. Neither of these effects should create a systematic excess in the hadronic mass. The nature of the excess can be understood through the kinematics of the WW in the LR and RL configurations shown in Figure \ref{fig:Epartition} and \ref{fig:fangles}. The highest yielding configuration, LR, typically has two fermions that are forward in the detector which both typically have a large fraction of the beam energy. These fermions are susceptible to pile-up scattering into the detector and mixing directly into the reconstructed jets. To combat effects of pile-up, jet clustering algorithms via FastJet\cite{fastjet} are used.  The standard approach for pileup mitigation is to use the $k_T$ algorithm\cite{kt} and tune the R parameter such that the pile-up particles are associated with beam jets while the desired particles are not. With successful $k_T$ clustering the beam jets can be thrown away without damaging the reconstruction of the desired event. However, this approach only works well in events that are centrally produced.  The pile-up overlap in the forward topology with the $k_T$ algorithm  based clustering leads to rejecting desired particles and severe undermeasurment of the W mass. The solution to proper pileup mitigation is through the precise removal of foreign particles inside the reconstructed jets.  This can be achieved by using the standard JADE algorithm and mass based cut-off parameter $y_{cut} > y_{ij}$ where $y_{ij} = M_{ij}^2 / Q^2$ with $M_{ij}$ being the invariant mass of the pair of objects being combined and $Q^2$ being the visible energy in the $e^{+}e^{-}$ annihilation \cite{ycut}.  The mass of individually reconstructed jets can be controlled by tuning the $y_{cut}$ parameter. For large values, $y_{cut} =1\times10^{-3}$, a single massive jet is reconstructed. In the limit that $y_{cut}$ becomes infinitely small the number of jets reconstructed converges to the number of reconstructed particles.  The best $y_{cut}$ value is the value that forms mini-jets that safely couple together hard and soft emissions from  the original quark jet while segregating pile-up into its own mini-jets. The mini-jets are then subjected to kinematic cuts that maximize the pileup rejection and minimize the difference  between the true and measured hadronic W mass. 	The best combination of $y_{cut}$ and mini-jet kinematic cuts are found by examining the $100\%$ polarized LR signal dataset for $qq \mu \nu$.  Two statisical estimators are used to maximize the pile-up rejection, both of which come from the distribution of $M_{qq}^{meas} - M_{qq}^{true}$. This binned mass difference distribution is created from the subset of mini-jets that arise from clustering with a given $y_{cut}$ and also pass some jet veto cuts $p_{Tjet} > x$ and $|cos\theta_{jet}| < y$. The estimators, from the distribution, are the Full Width Half Maximum(FWHM) and the number of entries in the Mode.  
-Using estimators calculated from a binned histogram creates unwanted sensitivity to bin size. To reduce sensitivity to binning, the mode is defined as the bin with the most entries. The ``mode entries" is the number of entries in the mode bin plus the number of entries in the mode bins nearest neighbors. For the FWHM, the mass distribution is assumed to be monotonically decreasing around the half maxmimum. To create a more sensitive continuous distribution of the FWHM,  the FWHM is weighted towards the bin center of the two bins around (above/below) the half maximum. The results of the optimization are shown in Figure \ref{fig:supmass} and various $y_{cut}$'s are shown in comparison to the optimal configuration in Figure \ref{fig:supdiff}. The optimal result uses $y_{cut} = 5\times 10^{-5}$, mini jet $P_T > 2$ GeV, and has no $|\cos \theta|$ requirement. 
+Using estimators calculated from a binned histogram creates unwanted sensitivity to bin size. To reduce sensitivity to binning, firstly, the mode is defined as the bin with the most entries. The ``mode entries" is defined as the number of entries in the mode bin plus the number of entries in the nearest neighbors of the mode bin. For the FWHM, the mass distribution is assumed to be monotonically decreasing around the half maxmimum. To create a more sensitive continuous distribution of the FWHM,  the FWHM is weighted towards the bin center of the two bins around (above/below) the half maximum. The results of the optimization are shown in Figure \ref{fig:supmass} and various $y_{cut}$'s are shown in comparison to the optimal configuration in Figure \ref{fig:supdiff}. The optimal result uses $y_{cut} = 5\times 10^{-5}$, mini jet $P_T > 2$ GeV, and has no $|\cos \theta|$ requirement. 
 
 \begin{figure}
     \centering
-    \begin{minipage}{0.49\textwidth}
+ %   \begin{minipage}{0.49\textwidth}
         \centering
         
         %\includegraphics[width=0.99\textwidth]{SupDiff.pdf} % first figure itself
         \begin{tikzpicture}
-    \node(a){\includegraphics[width=0.99\textwidth]{SupDiff.pdf}};
+    %\node(a){\includegraphics[width=0.99\textwidth]{SupDiff.pdf}};
+   \node(a){\includegraphics[scale=.6]{SupDiff.pdf}};
     \node at (a.north west)
     [
     anchor=center,
-    xshift= 2cm,
-    yshift= -1cm
+    xshift= 2.5cm,
+    yshift= -1.5cm
     ]
     {
-        \includegraphics[width=0.1\textwidth]{ildlogo.png}
+        \includegraphics[width=0.05\textwidth]{ildlogo.png}
     };
     \end{tikzpicture}
         \caption{Comparison of mass difference distributions with different $y_{cut}$ values and the same mini-jet cut $P_T > 2$. $y_{cut} = 1\times 10^{-3}$ results in massive jets that are not separated from pile-up and insensitive to small kinematic cuts. $y_{cut} = 5\times 10^{-5}$ has the best balance between jet clustering and mini-jet cuts. $y_{cut} = 5\times 10^{-6}$ yields a highly fragmented version of the jets where the mini-jets are not distinguishable from pile-up and are thrown out, resulting in the small peak around -80 GeV where the hadronic W is completely thrown out.  }
         \label{fig:supdiff}
-    \end{minipage}\hfill
-    \begin{minipage}{0.49\textwidth}
+       \end{figure}
+       
+   % \end{minipage}\hfill
+   % \begin{minipage}{0.49\textwidth}
+   \begin{figure}
         \centering
-        
+       
         %\includegraphics[width=0.99\textwidth]{SupMass.pdf} % second figure itself
         \begin{tikzpicture}
-    \node(a){\includegraphics[width=0.99\textwidth]{SupMass.pdf}};
+    %\node(a){\includegraphics[width=0.99\textwidth]{SupMass.pdf}};
+    \node(a){\includegraphics[scale=.6]{SupMass.pdf}};
     \node at (a.north west)
     [
     anchor=center,
-    xshift= 2cm,
-    yshift= -1cm
+    xshift= 2.5cm,
+    yshift= -1.5cm
     ]
     {
-        \includegraphics[width=0.1\textwidth]{ildlogo.png}
+        \includegraphics[width=0.05\textwidth]{ildlogo.png}
     };
     \end{tikzpicture}
         \caption{The increase of quality of the hadronic mass is shown between the red curve which is the raw hadronic system after lepton identification versus the black curve which is subjected to the pile-up mitigation with $y_{cut} = 5\times10^{-5}$ and mini jet $P_T > 2$ GeV. On average the excess in mass is reduced by $\approx 5$ GeV. }
         \label{fig:supmass}
-    \end{minipage}
+ %   \end{minipage}
 \end{figure}
 
 
 \subsection{EventSelection}
 \label{subsec:EventSelection}
-The W-pair selection has been optimized for a Monte Carlo sample of 1600 $\text{fb}^{-1}$ with the $(-0.8,+0.3)$ beam scenario and is based on the selection in \cite{ivan}. The selection includes the full 2,4,6 fermion and Higgs SM background, and is performed with two mutually exclusive subsets, a tight and loose selection. The tight selection uses the prompt muon cone to identify signal events that contain both prompt and non-prompt muons and electrons. The tight selection is inefficient in collecting hadronic taus, so, the loose selection, using the inclusive tau cone, is designed to recover the efficiency of hadronic taus and other problematic events. The selection criteria is applied after the pileup mitigation and is as follows:
+The W-pair selection has been optimized for a Monte Carlo sample of 1600 $\text{fb}^{-1}$ with the $(-0.8,+0.3)$ beam scenario and builds on those described in \cite{ivan}. However, there is a significant difference between the present and preceeding analysis selections, such that  the previous selection only addresses prompt muons as signal and treats muonic tau decays as background. The selection includes the full 2,4,6 fermion and Higgs SM background, and is performed with two mutually exclusive subsets, a tight and loose selection. The tight selection uses the prompt muon cone to identify signal events that contain both prompt and non-prompt muons and electrons. The tight selection is inefficient in collecting hadronic taus, so, the loose selection, using the inclusive tau cone, is designed to recover the efficiency of hadronic taus and other problematic events. The tight and loose cone parameters are given from the optimization in Table \ref{tab:taufinderopt}. The selection criteria are applied after the pileup mitigation and are as follows:
 \begin{itemize}
 \item N Leptons $\geq 1$
 \item Track Multiplicity $> 10$  
@@ -246,10 +251,10 @@ The W-pair selection has been optimized for a Monte Carlo sample of 1600 $\text{
 \item $E_{com} > 100$ GeV
 \item $40<M_{qq}<120$ GeV
 \item  $-qcos\theta_W > -0.95$
-\item  $m^{vis2}_{recoil} < 135,000 \, \, \text{GeV}^2$
+\item  $(m^{vis}_{recoil})^2 < 135,000 \, \, \text{GeV}^2$
 \end{itemize}
 
-The track multiplicity and $E_{com}$ target 2 fermion backgrounds. $E_{com}$ is the rest-frame energy that consists of the visible and inferred missing energy. The missing energy is treated as a single neutrino with zero mass such that $E_{com} = E_{vis} + |P_{miss}| \, \,  \, \text{and} \, \, P^\mu_{miss} = (|P_{miss}| , -\sum{\vec{p}_{vis}})$. The visible $P_T$ is the magnitude of the vector of all measured transverse momenta and $E_{vis}$ is the sum of all reconstructed visible energy in an event. The $P_T$ and $E_{vis}$ cuts target processes that do not have a genuine missing energy from a neutrino. The hadronic W-mass $M_{qq}$ requirement forces the hadronic system to be ``W-like" and the recoil mass, $m_{\nu recoil}$, uniquely requires the visible system to be recoiling against an invisible system with little to no mass. The recoil mass is defined as $m^2_{\nu recoil} = s + M^2_{vis} - 2\sqrt{s}E_{vis} \, \, \text{and} \, \, M^2_{vis} = ( P^{\mu}_{qq} +  P^{\mu}_{\ell})^2$. The W-scattering angle $-q\cos\theta_W$ is the angle of deflection of the system identified as $W^-$ with respect to the $e^-$ beam axis and is implemented to limit backward scattering.  The charge of the lepton is extracted from the leading momentum track from candidates with 1, 2, or 4 tracks, or in the case of 3 tracks, the charge is the sum of the three track charges. The hadronic system is then tagged with the opposite charge.  This procedure results in the correct charge assignment of the lepton before selection cuts for about $98.9\%$ of prompt muons, $94.8\%$ of prompt electrons, and $95.9\%$ of taus. Following the event selection the correct charge assignment increases to $99.9\%$ for prompt muons, $98.3\%$ for prompt electrons, and $98.8\%$ for taus. The details of the tight and loose selection for (-0.8,+0.3) at 1600$\text{fb}^{-1}$ are summarized in Table \ref{tab:selection}. The selections in Table \ref{tab:selection} differ by the veto of the tight lepton in the loose selection, where the preference for any event is to always choose a tight lepton over loose. The primary selection also includes only ``WW-like" signal, this type of signal is such that both of the true fermion pairs invariant masses are each within $\pm10$ GeV of the nominal W mass. If an event contains a fermion pair that is outside the WW-like range, it is designated as an off-shell(O.S) event and is placed in a different category. The selection cuts are optimized to maximize the efficiency and purity of the total signal for the tight selection. The results are summarized with the two selection cones with and without O.S. events in Table \ref{tab:summary}. The final results for the selection with no restrictions on W mass and both cones, yields a signal efficiency of $60\%$ with only a $7\%$ of background contaminating selected events. The W-boson invariant mass after selection is shown with mass resolution in Figure \ref{fig:money}
+The track multiplicity and $E_{com}$ target 2 fermion backgrounds. $E_{com}$ is the rest-frame energy that consists of the visible and inferred missing energy. The missing energy is treated as a single neutrino with zero mass such that $E_{com} = E_{vis} + |P_{miss}| \, \,  \, \text{and} \, \, P^\mu_{miss} = (|P_{miss}| , -\sum{\vec{p}_{vis}})$. The visible $P_T$ is the magnitude of the vector of all measured transverse momenta and $E_{vis}$ is the sum of all reconstructed visible energy in an event. The $P_T$ and $E_{vis}$ cuts target processes that do not have a genuine missing energy from a neutrino. The hadronic W-mass $M_{qq}$ requirement forces the hadronic system to be ``W-like" and the recoil mass, $m_{\nu recoil}$, uniquely requires the visible system to be recoiling against an invisible system with little to no mass. The recoil mass is defined as $m^2_{\nu recoil} = s + M^2_{vis} - 2\sqrt{s}E_{vis} \, \, \text{and} \, \, M^2_{vis} = ( P^{\mu}_{qq} +  P^{\mu}_{\ell})^2$. The W-scattering angle $-q\cos\theta_W$ is the angle of deflection of the system identified as $W^-$ with respect to the $e^-$ beam axis and is implemented to limit backward scattering.  The charge of the lepton is extracted from the leading momentum track from candidates with 1, 2, or 4 tracks, or in the case of 3 tracks, the charge is the sum of the three track charges. The hadronic system is then tagged with the opposite charge.  This procedure results in the correct charge assignment of the lepton before selection cuts for about $98.9\%$ of prompt muons, $94.8\%$ of prompt electrons, and $95.9\%$ of taus. Following the event selection the correct charge assignment increases to $99.9\%$ for prompt muons, $98.3\%$ for prompt electrons, and $98.8\%$ for taus. The details of the tight and loose selection for (-0.8,+0.3) at 1600$\text{fb}^{-1}$ are summarized in Table \ref{tab:selection}. The selections in Table \ref{tab:selection} differ by the veto of the tight lepton in the loose selection, where the preference for any event is to always choose a tight lepton over loose. The primary selection also includes only ``WW-like" signal, this type of signal is such that both of the true fermion pairs invariant masses are each within $\pm10$ GeV of the nominal W mass. If an event contains a fermion pair that is outside the WW-like range, it is designated as an off-shell(O.S) event and is placed in a different category. The selection cuts are optimized to maximize the efficiency and purity of the total signal for the tight selection. The results are summarized with the two selection cones with and without O.S. events in Table \ref{tab:summary}. The final results for the selection with no restrictions on W mass and both cones, yields a signal efficiency of $60\%$ with only a $7\%$ of background contaminating selected events. The W-boson invariant mass after selection is shown with mass resolution in Figure \ref{fig:money}.
 
 
 \begin{table}
@@ -258,82 +263,161 @@ The track multiplicity and $E_{com}$ target 2 fermion backgrounds. $E_{com}$ is 
 \label{tab:selection}
  \scriptsize
  Tight selection with muon cone \\
-   \begin{tabular}{|p{0.11\textwidth}|p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.1\textwidth}|}
+   \begin{tabular}{|p{0.11\textwidth}|p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}|p{0.08\textwidth}|p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.1\textwidth}|p{0.1\textwidth}|}
 \hline 
- $(\times 10^5)$  & $qq\mu\nu$ & $qqe\nu$ & $qq\tau\nu$ & Tot. Sig. & 2f & 4f & 6f & Higgs \\ \hline 
-Base Evts & {38.7 } &  {38.9 } &  {39.0} & {117} &  {422} &  {322} &  {2.14} &  {4.12} \\ 
+ $(\times 10^5)$  & $qq\mu\nu$ & $qqe\nu$ & $qq\tau\nu$ & Tot. Sig. & 2f & 4f & 6f & Higgs & Tot. Bkg. \\ \hline 
+Base Evts & {38.7 } &  {38.9 } &  {39.0} & {117} &  {422} &  {322} &  {2.14} &  {4.12} & 750 \\ 
 
-Lep. + Cone & {33.1 } &  {32.0 } &  {22.8} & {87.8} &  {115} &  {118} &  {1.63} &  {1.15} \\ 
+Lep. + Cone & {33.1 } &  {32.0 } &  {22.8} & {87.8} &  {115} &  {118} &  {1.63} &  {1.15} & 236 \\ 
  
-$E_{vis}$ & {32.8 } &  {31.1 } &  {22.7} & {86.7} &  {106} &  {115} &  {1.62} &  {1.11} \\ 
+$E_{vis}$ & {32.8 } &  {31.1 } &  {22.7} & {86.7} &  {106} &  {115} &  {1.62} &  {1.11} & 224\\ 
  
-N Tracks & {31.9 } &  {30.3 } &  {22.1} & {84.3} &  {25.4} &  {25.9} &  {1.49} &  {0.889} \\ 
+N Tracks & {31.9 } &  {30.3 } &  {22.1} & {84.3} &  {25.4} &  {25.9} &  {1.49} &  {0.889} & 53.7\\ 
  
-$-qcos\theta$ & {31.8 } &  {30.1 } &  {21.8} & {83.7} &  {21.9} &  {22.6} &  {1.44} &  {0.852} \\ 
+$-qcos\theta$ & {31.8 } &  {30.1 } &  {21.8} & {83.7} &  {21.9} &  {22.6} &  {1.44} &  {0.852} & 46.8\\ 
  
-$M_{qq}$ $>$40 & {29.4 } &  {28.0 } &  {20.3} & {77.7} &  {11.3} &  {13.3} &  {1.42} &  {0.756} \\ 
+$M_{qq}$ $>$40 & {29.4 } &  {28.0 } &  {20.3} & {77.7} &  {11.3} &  {13.3} &  {1.42} &  {0.756} & 26.8\\ 
  
-$M_{qq}$ $<$120 & {27.2 } &  {25.7 } &  {18.3} & {71.3} &  {5.68} &  {2.68} &  {0.202} &  {0.297} \\ 
+$M_{qq}$ $<$120 & {27.2 } &  {25.7 } &  {18.3} & {71.3} &  {5.68} &  {2.68} &  {0.202} &  {0.297} & 8.86\\ 
  
-$E_{com}$ & {27.2 } &  {25.7} &  {18.3} & {71.3} &  {5.58} &  {2.65} &  {0.202} &  {0.296} \\ 
+$E_{com}$ & {27.2 } &  {25.7} &  {18.3} & {71.3} &  {5.58} &  {2.65} &  {0.202} &  {0.296} & 8.73\\ 
 
-Pt vis. & {26.9 } &  {25.5} &  {18.1} & {70.5} &  {3.21} &  {2.37} &  {0.201} &  {0.294} \\ 
+Pt vis. & {26.9 } &  {25.5} &  {18.1} & {70.5} &  {3.21} &  {2.37} &  {0.201} &  {0.294} & 6.08\\ 
 
-$m^2_{\nu recoil}$ & {26.9 } &  {25.4 } &  {18.0} & {70.3} &  {2.93} &  {2.02} &  {0.194} &  {0.223} \\ 
+$(m^{\text{vis}}_{\text{recoil}})^2$ & {26.9 } &  {25.4 } &  {18.0} & {70.3} &  {2.93} &  {2.02} &  {0.194} &  {0.223} & 5.36 \\ 
 \hline 
 
- $\epsilon \, \, (\%)$ & $69.4 $ & $65.4 $ & $46.2$ &  $60.3 $ & $0.69 $ & $0.626 $ & $9.05 $ & $5.41 $ \\ 
+ $\epsilon \, \, (\%)$ & $69.4 $ & $65.4 $ & $46.2$ &  $60.3 $ & $0.69 $ & $0.626 $ & $9.05 $ & $5.41 $ & $0.72$ \\ 
  
- 			& $\pm$0.2 & $\pm$0.2 & $\pm$0.3 & $\pm$0.2 & $\pm$ 0.01 & $\pm$ 0.008 & $\pm$ 0.02 & $\pm$0.05 \\
+ 			& $\pm$0.2 & $\pm$0.2 & $\pm$0.3 & $\pm$0.2 & $\pm$ 0.01 & $\pm$ 0.008 & $\pm$ 0.02 & $\pm$0.05  & $\pm$0.01\\
 \hline
 \end{tabular}
 \quad \quad \\
 Loose selection with tau cone\\
-\begin{tabular}{|p{0.11\textwidth}|p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.1\textwidth}|}
+\begin{tabular}{|p{0.11\textwidth}|p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}|p{0.08\textwidth}|p{0.08\textwidth}p{0.08\textwidth}p{0.08\textwidth}p{0.1\textwidth}|p{0.1\textwidth}|}
 \hline 
- $(\times 10^5)$  & $qq\mu\nu$ & $qqe\nu$ & $qq\tau\nu$ & Tot. Sig. & 2f & 4f & 6f & Higgs \\ \hline 
-Base Evts & {38.7 } &  {38.9 } &  {39.0} & {117} &  {422} &  {322} &  {2.14} &  {4.12} \\ 
+ $(\times 10^5)$  & $qq\mu\nu$ & $qqe\nu$ & $qq\tau\nu$ & Tot. Sig. & 2f & 4f & 6f & Higgs & Tot. Bkg. \\ \hline 
+Base Evts & {38.7 } &  {38.9 } &  {39.0} & {117} &  {422} &  {322} &  {2.14} &  {4.12} & 750\\ 
  
-Lep.+ Cone & {33.6 } &  {33.0 } &  {28.2} & {94.8} &  {130} &  {136} &  {1.77} &  {1.38} \\ 
+Lep.+ Cone & {33.6 } &  {33.0 } &  {28.2} & {94.8} &  {130} &  {136} &  {1.77} &  {1.38} & 269\\ 
 
-Tight Veto & {0.772 } &  {1.28 } &  {5.70} & {7.76} &  {19.3} &  {21.5} &  {0.161} &  {0.312} \\ 
+Tight Veto & {0.772 } &  {1.28 } &  {5.70} & {7.76} &  {19.3} &  {21.5} &  {0.161} &  {0.312} & 41.3 \\ 
  
-$E_{vis}$ & {0.764 } &  {1.26 } &  {5.70} & {7.72} &  {18.2} &  {19.4} &  {0.154} &  {0.302} \\ 
+$E_{vis}$ & {0.764 } &  {1.26 } &  {5.70} & {7.72} &  {18.2} &  {19.4} &  {0.154} &  {0.302} & 38.1\\ 
 
-N Tracks & {0.737 } &  {1.21 } &  {5.54} & {7.49} &  {15.0} &  {16.4} &  {0.151} &  {0.271} \\ 
+N Tracks & {0.737 } &  {1.21 } &  {5.54} & {7.49} &  {15.0} &  {16.4} &  {0.151} &  {0.271} & 31.8\\ 
  
-$-qcos\theta$ & {0.630 } &  {1.12 } &  {5.32} & {7.07} &  {11.1} &  {14.1} &  {0.145} &  {0.256} \\ 
+$-qcos\theta$ & {0.630 } &  {1.12 } &  {5.32} & {7.07} &  {11.1} &  {14.1} &  {0.145} &  {0.256} &25.6\\ 
  
-$M_{qq}$ $>$ 40 & {0.492 } &  {0.972 } &  {4.86} & {6.33} &  {5.98} &  {13.0} &  {0.144} &  {0.233} \\ 
+$M_{qq}$ $>$ 40 & {0.492 } &  {0.972 } &  {4.86} & {6.33} &  {5.98} &  {13.0} &  {0.144} &  {0.233}& 19.4 \\ 
 
-$M_{qq}$ $<$ 120 & {0.404 } &  {0.781 } &  {4.16} & {5.35} &  {2.58} &  {1.11} &  {0.0111} &  {0.124} \\ 
+$M_{qq}$ $<$ 120 & {0.404 } &  {0.781 } &  {4.16} & {5.35} &  {2.58} &  {1.11} &  {0.0111} &  {0.124} & 3.83\\ 
  
-$E_{com}$ & {0.404 } &  {0.781 } &  {4.16} & {5.34} &  {2.50} &  {1.10} &  {0.0111} &  {0.124} \\ 
+$E_{com}$ & {0.404 } &  {0.781 } &  {4.16} & {5.34} &  {2.50} &  {1.10} &  {0.0111} &  {0.124} &3.74\\ 
 
-Pt vis. & {0.400 } &  {0.774 } &  {4.12} & {5.29} &  {1.17} &  {1.01} &  {0.0111} &  {0.123} \\ 
+Pt vis. & {0.400 } &  {0.774 } &  {4.12} & {5.29} &  {1.17} &  {1.01} &  {0.0111} &  {0.123} &2.31\\ 
  
-$m^2_{\nu recoil}$ & {0.394 } &  {0.770 } &  {4.07} & {5.24} &  {1.02} &  {0.759} &  {0.0102} &  {0.0973} \\ 
+$(m^{\text{vis}}_{\text{recoil}})^2$ & {0.394 } &  {0.770 } &  {4.07} & {5.24} &  {1.02} &  {0.759} &  {0.0102} &  {0.0973}& 1.89 \\ 
 \hline 
- $\epsilon \, \, (\%)$ & $1.02 $ & $1.98 $ & $10.5 $ &  $4.49 $ & $0.241 $ & $0.236 $ & $0.474 $ & $2.36 $ \\ 
+ $\epsilon \, \, (\%)$ & $1.02 $ & $1.98 $ & $10.5 $ &  $4.49 $ & $0.241 $ & $0.236 $ & $0.474 $ & $2.36 $ & $0.251$\\ 
 
-  	     & $\pm 0.5$ & $\pm 0.07$ & $\pm 0.2$ & $\pm 0.07$ & $\pm 0.003$ & $\pm 0.004$ & $\pm 0.007$ & $\pm 0.02$ \\
+  	     & $\pm 0.5$ & $\pm 0.07$ & $\pm 0.2$ & $\pm 0.07$ & $\pm 0.003$ & $\pm 0.004$ & $\pm 0.007$ & $\pm 0.02$ & $\pm 0.003$ \\
 
  \hline
  \end{tabular}
+ 
 
 \end{table}
 
+
+\begin{table}
+\centering
+\caption{The tight and loose selection for 1600 fb −1 (-0.8,+0.3) non WW-like or off-shell (O.S.) events.  The Base
+Evts. only include events in which the true W mass of both fermion pairs has a minimum absolute difference
+with the nominal W mass of 10 GeV. The selection is not optimized for selection these types of events so the overall efficiency is less, compared to the WW-like events.}
+\begin{minipage}{0.49\linewidth}
+\scriptsize
+ Tight selection with muon cone \\
+\begin{tabular}{|p{0.24\textwidth}|p{0.14\textwidth}p{0.14\textwidth}p{0.14\textwidth}|p{0.14\textwidth}|}
+\hline
+  $(\times 10^5)$& $qq\mu\nu$ & $qqe\nu$ & $qq\tau\nu$ & Tot. Sig. \\ 
+\hline
+Base Evts &{5.78 } & {38.8 } & {5.70} & 50.3\\ 
+ 
+Lep. + Cone &{5.11 } & {22.7 } & {3.42} & 31.2\\ 
+
+$E_{vis}$ &{5.08 } & {22.5 } & {3.41} & 31.0\\ 
+
+N Tracks &{4.95 } & {21.9 } & {3.35}& 30.2\\ 
+ 
+$-q\cos\theta$ &{4.94 } & {21.0 } & {3.31}& 29.3\\ 
+ 
+$M_{qq}>40$ &{4.67} & {20.1 } & {3.14} & 27.9\\ 
+ 
+$M_{qq}<120$ &{3.44 } & {18.1 } & {2.39} & 23.9\\ 
+
+$E_com$ &{3.44 } & {18.1 } & {2.39} & 23.9\\ 
+ 
+Pt vis. &{3.40 } & {18.0 } & {2.36} & 23.8\\ 
+ 
+$(m^{\text{vis}}_{\text{recoil}})^2$ & {3.40 } & {17.6 } & {2.34}& 23.3\\ 
+\hline 
+ $\epsilon \, \, (\%)$ & $58.8 \pm 0.6$ & $45.4 \pm 0.1$ & $41.1 \pm 0.6$ & $46.3 \pm 0.1$ \\ 
+ \hline
+\end{tabular}
+%\end{table}
+\end{minipage}
+
+
+%\begin{table}
+
+\begin{minipage}{0.49\linewidth}
+\scriptsize
+\quad \quad \\
+Loose selection with tau cone\\
+ \begin{tabular}{|p{0.24\textwidth}|p{0.14\textwidth}p{0.14\textwidth}p{0.14\textwidth}|p{0.14\textwidth}|}
+\hline 
+ $(\times 10^5) $ & $qq\mu\nu$  & $qqe\nu$ & $qq\tau\nu$ & Tot. Sig.\\ \hline 
+Base Evts &{5.78 } & {38.8 } & {5.70} & 50.3\\ 
+ 
+Lep.+ Cone &{5.15 } & {24.7 } & {4.26} & 34.1\\ 
+
+Tight Veto &{0.0818 } & {2.61 } & {0.883} & 3.57\\ 
+
+$E_{vis}$ &{0.0787 } & {2.61 } & {0.883} & 3.57\\ 
+
+N Tracks &{0.0757 } & {2.48 } & {0.863} & 3.42\\ 
+
+$-q\cos\theta$ &{0.0697 } & {2.31 } & {0.815} & 3.20\\ 
+ 
+$M_{qq} > 40$ &{0.0560 } & {1.38 } & {0.766} & 2.20\\ 
+
+$M_{qq} < 120$ &{0.0363 } & {1.20 } & {0.482} & 2.05\\ 
+ 
+$E_{com}$ &{0.363 } & {1.18 } & {0.482} & 2.03\\ 
+ 
+Pt vis. &{0.363 } & {1.18 } & {0.477 }& 2.02\\ 
+
+$(m^{\text{vis}}_{\text{recoil}})^2$ &{0.0363 } & {0.915 } & {0.473} & 1.42\\ 
+\hline 
+ $\epsilon$ & $0.63 \pm 0.1$ & $2.36 \pm 0.05$ & $8.3 \pm 0.4$ & $2.82 \pm 0.05$\\ 
+ \hline
+ \end{tabular}
+
+\end{minipage}
+\label{tab:os}
+ \end{table}
 
 
 \begin{table}
 \caption{Selection summary showing the number of background events that pass the event selection, efficiency, and purity for the tight selection or combined selections and with or without the off-shell contributions.  The O.S. contributions are less efficiently reconstructed so their inclusion reduces the overall signal efficiency but boosts the purity by increasing the base number of signal events that can be selected. Selection is performed with 1600 $\text{fb}^{-1}$ in (-0.8, +0.3). }
 \label{tab:summary}
- \begin{tabular}{ |p{0.12\textwidth}|p{0.12\textwidth}p{0.15\textwidth}|p{0.12\textwidth}|p{0.12\textwidth}p{0.15\textwidth}p{0.12\textwidth}|} 
+ \begin{tabular}{ |p{0.12\textwidth}|p{0.12\textwidth}p{0.15\textwidth}|p{0.10\textwidth}|p{0.12\textwidth}p{0.17\textwidth}|p{0.11\textwidth}|} 
  \hline 
    &  \multicolumn{3}{|l|}{Tight Selection} &  \multicolumn{3}{|l|}{ Tight + Loose Sel.}  \\  \hline  
- & Sel. Total $(\times 10^5)$ & Efficiency $(\%)$ & Purity $(\%)$ & Sel. Total $(\times 10^5)$ & Efficiency $(\%)$& Purity $(\%)$ \\ 
+ & Sel. Total $(\times 10^5)$ & Efficiency $(\%)$ & Purity $(\%)$ & Sel. Total $(\times 10^5)$ & Efficiency $\,\,\,\,$ $(\%)$& Purity $(\%)$ \\ 
  \hline  
- Bkg. &  {5.36} & & &  {7.25} & &  \\ 
+ Bkg. &  {5.36} & 0.72 $\pm$ 0.01 & --&  {7.25} & 0.967 $\pm$ 0.005 &--  \\ 
  Signal &  {70.3} & 60.3 $\pm$ 0.2 & 92.9  &  {75.5} & 64.6 $\pm$ 0.2 & 91.2 \\ 
  Sig.+O.S. &  {93.6} & 56.0 $\pm$ 0.1 & 94.6 &  {100.3} & 60.0 $\pm$ 0.1 & 93.3 \\ 
 \hline 
@@ -346,40 +430,44 @@ $m^2_{\nu recoil}$ & {0.394 } &  {0.770 } &  {4.07} & {5.24} &  {1.02} &  {0.759
 \begin{figure}
 
 \centering
-    \begin{minipage}{0.49\textwidth}
+  %  \begin{minipage}{0.50\textwidth}
        \centering
       %  \includegraphics[width=0.99\textwidth]{moneymassdiff.pdf} % first figure itself
       \begin{tikzpicture}
-    \node(a){\includegraphics[width=0.99\textwidth]{moneymassdiff.pdf}};
+  %  \node(a){\includegraphics[width=0.99\textwidth]{moneymassdiff.pdf}};
+  %	\node(a){\includegraphics[scale=0.4]{moneymassdiff.pdf}};
+  \node(a){\includegraphics[scale=0.6]{mwhadCutsHist.pdf}};
     \node at (a.north west)
     [
     anchor=center,
-    xshift= 2cm,
-    yshift= -1cm
+    xshift= 2.5cm,
+    yshift= -1.5cm
     ]
     {
-        \includegraphics[width=0.1\textwidth]{ildlogo.png}
+        \includegraphics[width=0.05\textwidth]{ildlogo.png}
     };
     \end{tikzpicture}
    
    
-    \end{minipage}\hfill
-    \begin{minipage}{0.49\textwidth}
+  %  \end{minipage}\hfill
+  %  \begin{minipage}{0.50\textwidth}
         \centering
         \begin{tikzpicture}
-        \node(a){\includegraphics[width=0.99\textwidth]{mwhadCutsHist.pdf}}; % second figure itself
+       % \node(a){\includegraphics[width=0.99\textwidth]{mwhadCutsHist.pdf}}; % second figure itself
+       %\node(a){\includegraphics[scale=0.42]{mwhadCutsHist.pdf}};
+       \node(a){\includegraphics[scale=0.6]{moneymassdiff.pdf}};
         \node at (a.north west)
         [
         anchor = center,
-        xshift=2cm,
-        yshift=-1cm
+        xshift=2.5cm,
+        yshift=-1.5cm
      	]
      	{
-     		\includegraphics[width=0.1\textwidth]{ildlogo.png}
+     		\includegraphics[width=0.05\textwidth]{ildlogo.png}
      	};
      	\end{tikzpicture}
-     \end{minipage}\\
-     \caption{The right distribution is the mass of the hadronic W-boson after pile up removal and selection cuts against the remaining background events . The left distribution shows the resolution of the hadronic W mass with respect to the true mass in Monte Carlo before pile up removal and selection cuts and after pile up removal and selection cuts. The resolution shows a significant improvement in symmetry and events with excess mass are shifted centrally.  Uses 1600 $\text{fb}^{-1}$ in (-0.8,+0.3). 
+%     \end{minipage}\\
+     \caption{The top distribution is the mass of the hadronic W-boson after pile up removal and selection cuts against the remaining background events. The tight signal selection does not include off shell events. The bottom distribution shows the resolution of the hadronic W mass with respect to the true mass in Monte Carlo before pile up removal and selection cuts and after pile up removal and selection cuts. The resolution shows a significant improvement in symmetry and events with excess mass are shifted centrally.  Uses 1600 $\text{fb}^{-1}$ in $(-0.8,+0.3)$. 
 }
 \label{fig:money}
 \end{figure}
@@ -387,12 +475,12 @@ $m^2_{\nu recoil}$ & {0.394 } &  {0.770 } &  {4.07} & {5.24} &  {1.02} &  {0.759
 \subsection{Results}
 \label{subsec:wmass}
 
-A fit with the convolution of a Breit-Wigner with a Gaussian (Voigtian) of the hadronic W mass is performed on the tight signal sample with the combined lepton categories shown in Figure \ref{fig:badfit}. The resulting fit models the shape and the mean of the distribution well but deviates around 90 GeV the and edges of the fit window. The width of the fit is also in excess of the true width, which is about 2 GeV. This means the Voitigian model is inadequate in describing  the data, but, because the shape is similar to data, the fitted model is used to understand the achievable mass resolution given a perfect model. Statistics consistent with 1600 $\text{fb}^{-1}$ (9.36M Events) are produced according to the previously fitted model with a mean  $M_W = 79.7074$ GeV, width $\Gamma_W = 10.6972$ GeV and $\sigma_W = 4.847 \times 10^{-7}$ GeV and refitted to achieve the statistical error on the mean $\Delta M_W \text{(stat.)} = 2.4$ MeV with goodness-of-fit $\chi^2 / ndof = 67.8/77$. The toy model refit is also included in Figure \ref{fig:badfit}.
+A fit with the convolution of a Breit-Wigner with a Gaussian (Voigtian) of the hadronic W mass is performed on the tight signal sample with the combined lepton categories shown in Figure \ref{fig:badfit}. The resulting fit models the shape and the mean of the distribution well but deviates around 90 GeV and edges of the fit window. The width of the fit is also in excess of the true width, which is about 2 GeV. This means that the Voigtian model is inadequate in describing  the simulated data likely due to the inadequacy of a single Gaussian for modeling teh resolution. However, because the shape is similar to simulated data, the fitted model is used to understand the achievable mass resolution given a perfect model. Statistics consistent with 1600 $\text{fb}^{-1}$ (9.36M Events) are produced according to the previously fitted model with a mean  $M_W = 79.7074$ GeV, width $\Gamma_W = 10.6972$ GeV and $\sigma_W = 0$ GeV and refitted to achieve the statistical error on the mean $\Delta M_W \text{(stat.)} = 2.4$ MeV with goodness-of-fit $\chi^2 / ndof = 67.8/77$. This fit neglects background contributions but inc includes the off shell contributions. The toy model refit is also included in Figure \ref{fig:badfit}.
 The cross-section and errors are extracted from Table \ref{tab:selection} according to the formula:
 \begin{equation}
 \sigma = \frac{N_T - N_B}{L \epsilon}
 \end{equation}
-where $N_T$ is the observed number of events that passes selection and $N_B$ is expected number of background events that contaminate the signal selection. The resulting statistical error on the cross-section with $\epsilon$, $L$, and $N_B$ known perfectly is $\frac{\Delta \sigma}{\sigma} = 0.036 \%$. Combining the errors for efficiency, Poisson errors for $N_T$, and having  no background contribution, the resulting cross-section obtained in the combined selection is $8001 \pm 17 \, \, \text{fb}$
+where $N_T$ is the observed number of events that passes the selection and $N_B$ is the expected number of background events that contaminate the signal selection. The resulting statistical error on the cross-section with $\epsilon$, $L$, and $N_B$ known perfectly is $\frac{\Delta \sigma}{\sigma} = 0.036 \%$. Combining the errors for efficiency, Poisson errors for $N_T$, and having  no background contribution, the resulting cross-section obtained in the combined selection is $8001 \pm 17 \, \, \text{fb}$
 \begin{figure}
 
 \centering
