@@ -23,7 +23,9 @@ P.~Bambade, T.~Barklow, T.~Behnke, M.~Berggren, J.~Brau, P.~Burrows,
   P.~Grannis, C.~Grojean, A.~Hutton, B.~List, J.~List, S.~Michizono,
   A.~Miyamoto, O.~Napoly, M.~Peskin, R.~Poeschl, F.~Simon, J.~Strube, J.~Tian,
   M.~Titov, M.~Vos, A.~White, G.~Wilson, A.~Yamamoto, H.~Yamamoto, and
-  K.~Yokoya, ``The international linear collider: A global project,'' 2019.
+  K.~Yokoya, ``{The International Linear Collider: A Global Project},''
+  \href{http://arxiv.org/abs/1903.01629}{{\ttfamily arXiv:1903.01629
+  [hep-ex]}}.
 
 \bibitem{tdraccel}
 ``{The International Linear Collider Technical Design Report - Volume 3.II:
@@ -82,11 +84,10 @@ W.~Kilian, F.~Bach, T.~Ohl, and J.~Reuter, ``{WHIZARD 2.2 for Linear
 %%CITATION = ARXIV:1403.7433;%%.
 
 \bibitem{geant4}
-S.~Agostinelli, J.~Allison, K.~a. Amako, J.~Apostolakis, H.~Araujo, P.~Arce,
-  M.~Asai, D.~Axen, S.~Banerjee, G.~. Barrand, {\em et~al.}, ``Geant4—a
-  simulation toolkit,'' {\em Nuclear instruments and methods in physics
-  research section A: Accelerators, Spectrometers, Detectors and Associated
-  Equipment} {\bfseries 506} no.~3, (2003) 250--303.
+S.~Agostinelli {\em et~al.}, ``Geant4—a simulation toolkit,'' {\em Nuclear
+  instruments and methods in physics research section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment} {\bfseries 506} no.~3,
+  (2003) 250--303.
 
 \bibitem{wwrepo}
 J.~Anguiano and G.~Wilson, ``Ildbench wwqqlnu.''
