@@ -7,21 +7,40 @@ Jenny's comments from first draft
 - for Fig 5, Sec 3.2 (detector) and Sec 3.3 (software and MC samples) cite IDR. Especially for the MC, explicitly say that you're using samples produced
    for the IDR benchmarking effort.
 
+	>> Changed TDR refrence in figure 5 to IDR, Added IDR reference with comment "The Monte Carlo samples being used are for the Interim Design Report benchmarking effort"
+
 
 - some parts read rather like a draft for a thesis than like a proceedings or an ILD note, in particular section 2 and 3. I'd recommend to shorten
    them significantly. Also in several cases the (sub)section titles don't match the content, e.g. Sec 2.1 is called W boson but speaks about taus
 
+	>> shortened section 2.1 (physics) and reorganized the content
+    >> removed section on cross-section and non-signal like cross-section contribution diagrams
+    >> Merging Anatomy of an event into overall physics section
+	-- add reference about cross section %, interference, non resonant qqlnu (non signalike)
+	>> removed accelerator description and most of detector (ILD/SID) descriptions
+	>> modeled section 3 after ILD-PHYS-PUB-2019-011
+	>> added pythia 6, -- need to add reference
+
 
 - in some places numbers are missing. E.g. in Sec 2.2 - beam effects the decisive number of <N>=1.05 overlay events/BX is never mentioned.
    in combination with using the LHC term of pile-up, this gives the impression like we were talking tens or hundreds of overlay events
+	
+	-- add events per crossing comment
+	>> changed all references of pile-up to "overlay"
 
 
 - the Feynman diagrams in Figs 1, 2, 3 look very different in style -> unify?
+	 
+	>> removed qqlnu non-signal like final state diagrams, removed polarization diagrams
 
 
 - in Sec 4.1, there are too many details given on the polarisation weighting ("thesis-style"). The actual "Analysis Overview" promised by the title
    is missing, though - I'd expected here an explanation of the general strategy (generic lepton ID for e,mu,tau, followed by overlay removal, event selection,
    fitting of W mass peak).
+	
+	>> removed detailed description of polarazation, added important components to section 3, MC and detector desc.
+	>> section now begins with acutal analysis strategy 
+	-- need to elaborate on strategy a little
 
 
 - bullet list on top of page 10 out of context?

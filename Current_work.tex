@@ -1,37 +1,5 @@
 \subsection{Analysis Overview}
 \label{subsec:ana_overview}
-The analysis relies on Monte Carlo events that are fully simulated using the ILD detector model \url{ ILD_l5_o1_v02 } with iLCSoft version v02-00-02 and includes a complete standard model background for final states with 2, 4, and 6 fermions as well standard model Higgs production. Details of the detector design and reconstrution methods are given in \cite{ILDIDR}.  A center of mass energy of 500 GeV and longitudinally-polarized beams in various operating scenarios are considered. The Monte Carlo events are generated for $100\%$ polarized beams, that is, either all left or right handed. Events are weighted in order to obtain realistic cases of partial polarizations for the possible running scenarios which are shown in Table \ref{tab:beamscenario}.
-
-\begin{table}
-
-\caption{Possible running configurations with partial longitudinal beam polarizations ($P_{e^-},P_{e^+}$) and integrated luminiosity \cite{ilcop} }
-\label{tab:beamscenario}
-\begin{tabular}{|c|c|c|c|c|}
-\hline 
-Pol. &(-0.8,+0.3) & (+0.8,-0.3) & (-0.8,-0.3) & (+0.8,+0.3) \\ 
-\hline 
-$\int$ Lum. [fb$^{-1}$] & 1600 & 1600 & 400 & 400 \\ 
-\hline 
-\end{tabular} 
-
-\end{table}
- The fraction of the beam, which is either left or right handed, is related to the the partial polarizations $P_{e^-}$, $P_{e^+}$ 
- 
- \begin{equation}
- \begin{split}
-f_R^{e^-} + f_L^{e^-} = 1 ,\, \, \, \, \, \, f_R^{e^-} = \frac{1}{2}(1 + P_{e^-}) ,\, \, \, \, \, \, f_L^{e^-}=\frac{1}{2}(1- P_{e^-}) \\
-f_R^{e^+} + f_L^{e^+} = 1 ,\, \, \, \, \, \, f_R^{e^+} = \frac{1}{2}(1 + P_{e^+}) , \, \, \, \, \, \, f_L^{e^-}=\frac{1}{2}(1- P_{e^-})
-\end{split}
- \end{equation}
-where the beam fraction $f$ is denoted with the polarization subscript and respective beam superscript. For a particular scenario like $(P_{e^-}, P_{e^+}) = (-0.8, +0.3)$ the $-0.8$ represents an electron beam with $90\% $ left handed electrons mixed with $10\% $ right handed electrons and a positron beam with $65\%$ right handed positrons mixed with $35\%$ left handed positrons. The weight $\omega$ for a specific event with particular initial state helicities is given by (with example partial polarizations $(-0.8,+0.3)$ ):
- \begin{equation}
- \begin{split} 
- \omega_{LR} = f_L^{e^-}f_R^{e^+} = 0.9 \times 0.65 = 0.585 \\
- \omega_{RL} = f_R^{e^-}f_L^{e^+} = 0.1 \times 0.35 = 0.035 \\
- \omega_{LL} = f_L^{e^-}f_L^{e^+} = 0.9 \times 0.35 = 0.315 \\
- \omega_{LR} = f_R^{e^-}f_R^{e^+} = 0.1 \times 0.65 = 0.065 
- \end{split}
- \end{equation} 
 
 The analysis workflow for semileptonic WW has three distinct stages, the lepton identification and selection, pile-up rejection in the hadronic system, and event selection against full standard model backgrounds. The analysis is performed with the  running scenario that creates the most dominant WW production mode (-0.8,+0.3). 
 
