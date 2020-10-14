@@ -4,10 +4,11 @@ Jenny's comments from first draft
 - as a general remark, the document is very sparse on references, especially in the introduction, section 2 and the discussion at the end
 
 	>>added reference to TDR
-	--add references to OPAL
-	-- add references to lumi error and stuff in discussion
-	>> added reference to pythia6
-	-- add reference to OL from daniel's paper
+	>> added references to OPAL for xsec%
+	>> add references to lumi error and poll in discussion
+	>> added reference to pythia6 --
+	>> add reference to OL for TDR
+	>> added reference to TaJet in conclusions
 
 - for Fig 5, Sec 3.2 (detector) and Sec 3.3 (software and MC samples) cite IDR. Especially for the MC, explicitly say that you're using samples produced
    for the IDR benchmarking effort.
@@ -21,7 +22,7 @@ Jenny's comments from first draft
 	>> shortened section 2.1 (physics) and reorganized the content
     >> removed section on cross-section and non-signal like cross-section contribution diagrams
     >> Merging Anatomy of an event into overall physics section
-	-- add reference about cross section %, interference, non resonant qqlnu (non signal-like)
+	>> add edreference about cross section % and non resonant qqenu (non signal-like)
 	>> removed accelerator description and most of detector (ILD/SID) descriptions
 	>> modeled section 3 after ILD-PHYS-PUB-2019-011
 	>> added pythia 6, -- need to add reference
@@ -45,7 +46,7 @@ Jenny's comments from first draft
 	
 	>> removed detailed description of polarazation, added important components to section 3, MC and detector desc.
 	>> section now begins with acutal analysis strategy 
-	-- need to elaborate on strategy a little
+
 
 
 - bullet list on top of page 10 out of context?
@@ -62,7 +63,7 @@ Jenny's comments from first draft
     only can cause a loss, but can lead to double counting of neutral hadrons. Maybe reformulate.
 
 	>>reformulated to say "This effect (referring to pf confusion) is not substantial enought to account for the systematic excess observed in reconstruction as shown in Figure 8"
-	-- possibly add a mass distribution, this makes figure reference out of order
+	-- possibly add a mass distribution, current state makes figure reference out of order
 
 
 - the strategy to remove overlay via the JADE algorithm and a mass cut-off is very interesting. However the description should be improved.
@@ -81,15 +82,18 @@ Jenny's comments from first draft
 	>>added a description for gen level hadronic mass determination
 	>> slightly reformulated caption
 
+
 - show plots of all final selection variables for S and B (p 16)
 
 
 - Sec 4.5, stat err on xsection: At least put this in perspective with uncertainties from lumi and pol measurement, citing the appropriate references
 
+	>> added comment about subleading errors due to delta L/L, polarisation contribution, and reference to ILC500 paper
   
 
 - discussion and conclusion: cite studies from Robert, Ivan, Takahiro (JES), mention TaJet as alternative tau finder
 
+	>> added comment about tau clustering alternatives with TaJet and reference
 
 - in general: please use ILD style for all plots (not only logo in corner, but all the rest of the style as well)
 

@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  14 OCT 2020 10:39
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  14 OCT 2020 16:49
  restricted \write18 enabled.
 **Current_work.tex
 (./Current_work.tex
@@ -1656,9 +1656,18 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.171         \caption
-                    {Comparison of mass difference distributions with differ...
+                    {Comparison of generator and reconstruction mass differe...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.171 ...boson. The results of the largest $y_{\text
+                                                  {cut}}$ are massive (high ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 ! LaTeX Error: \begin{document} ended by \end{figure}.
@@ -1689,18 +1698,13 @@ Overfull \hbox (5.00002pt too wide) in paragraph at lines 160--174
  []
 
 
-Overfull \hbox (27.28098pt too wide) in paragraph at lines 160--174
-\OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 =
+Overfull \hbox (16.72546pt too wide) in paragraph at lines 160--174
+\OML/cmm/m/it/10 y[]$
  []
 
 
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 160--174
-\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 
- []
-
-
-Overfull \hbox (20.73618pt too wide) in paragraph at lines 160--174
-\OT1/cmr/m/n/10 10[]$
+Overfull \hbox (12.71979pt too wide) in paragraph at lines 160--174
+\OML/cmm/m/it/10 P[]$\nullfont )
  []
 
 
@@ -1731,6 +1735,11 @@ Overfull \hbox (12.77782pt too wide) in paragraph at lines 160--174
 
 Overfull \hbox (20.73618pt too wide) in paragraph at lines 160--174
 \OT1/cmr/m/n/10 10[]$
+ []
+
+
+Overfull \hbox (12.71979pt too wide) in paragraph at lines 160--174
+\OML/cmm/m/it/10 P[]$
  []
 
 
@@ -14252,9 +14261,24 @@ Overfull \hbox (63.28033pt too wide) detected at line 441
 \OML/cmm/m/it/10  \OT1/cmr/m/n/10 = []
  []
 
+\citation{lumi paper}
+! Undefined control sequence.
+<write> ... Warning: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.442 ...l to $\frac{\Delta L}{L}$ \cite{lumi paper}
+                                                  . With $\epsilon$, $L$, an...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `lumi paper' on page  undefined on input line 442.
+
 ! Undefined control sequence.
 l.442 ...bined selection is $8001 \pm 17 \, \, \text
-                                                  {fb}$
+                                                  {fb}$ with statistical err...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -14285,6 +14309,36 @@ Overfull \hbox (14.91771pt too wide) in paragraph at lines 441--444
  []
 
 
+Overfull \hbox (14.33437pt too wide) in paragraph at lines 441--444
+\OML/cmm/m/it/10 N[]$\nullfont ,
+ []
+
+
+Overfull \hbox (25.01112pt too wide) in paragraph at lines 441--444
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (31.1112pt too wide) in paragraph at lines 441--444
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 026%$
+ []
+
+
+Overfull \hbox (36.11122pt too wide) in paragraph at lines 441--444
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0019%$
+ []
+
+
+Overfull \hbox (14.45561pt too wide) in paragraph at lines 441--444
+[]$
+ []
+
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 441--444
+[[]].
+ []
+
+
 Overfull \hbox (4.05904pt too wide) in paragraph at lines 441--444
 \OML/cmm/m/it/10 $\nullfont ,
  []
@@ -14300,18 +14354,13 @@ Overfull \hbox (14.91771pt too wide) in paragraph at lines 441--444
  []
 
 
-Overfull \hbox (24.41008pt too wide) in paragraph at lines 441--444
-[] \OT1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (31.1112pt too wide) in paragraph at lines 441--444
-\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 036%$\nullfont .
- []
-
-
 Overfull \hbox (14.33437pt too wide) in paragraph at lines 441--444
 \OML/cmm/m/it/10 N[]$\nullfont ,
+ []
+
+
+Overfull \hbox (15.13893pt too wide) in paragraph at lines 441--444
+\OT1/cmr/m/n/10 \OML/cmm/m/it/10 L$\nullfont ,
  []
 
 
@@ -14322,6 +14371,16 @@ Overfull \hbox (27.77786pt too wide) in paragraph at lines 441--444
 
 Overfull \hbox (23.5972pt too wide) in paragraph at lines 441--444
 \OT1/cmr/m/n/10 17  []$
+ []
+
+
+Overfull \hbox (24.41008pt too wide) in paragraph at lines 441--444
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (31.1112pt too wide) in paragraph at lines 441--444
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 036%$\nullfont .
  []
 
 
@@ -14548,13 +14607,13 @@ or  <return>  to continue without it.
 
 
 Here is how much of LuaTeX's memory you used:
- 51 strings out of 495004
- 156261,89155 words of node,token memory allocated 123996 words of node memory still in use:
-   1803 hlist, 458 vlist, 818 rule, 10 disc, 312 math, 5500 glue, 139 kern, 1009
- penalty, 1 sub_mlist, 10088 glyph, 1858 glue_spec, 9 write, 461 local_par, 1 di
+ 52 strings out of 495004
+ 156266,89155 words of node,token memory allocated 126351 words of node memory still in use:
+   1833 hlist, 460 vlist, 820 rule, 10 disc, 319 math, 5573 glue, 143 kern, 1008
+ penalty, 1 sub_mlist, 10372 glyph, 1861 glue_spec, 9 write, 461 local_par, 1 di
 r nodes
-   avail lists: 2:17,3:5,4:1,6:1636,7:203,10:165
- 3726 multiletter control sequences out of 65536+600000
+   avail lists: 2:17,3:5,4:1,6:1498,7:201,10:165
+ 3727 multiletter control sequences out of 65536+600000
  26 fonts using 1033735 bytes
  20i,13n,26p,3435b,184s stack positions out of 5000i,500n,10000p,200000b,100000s
 !  ==> Fatal error occurred, no output PDF file produced!

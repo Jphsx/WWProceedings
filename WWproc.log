@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  14 OCT 2020 13:23
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  14 OCT 2020 17:07
  restricted \write18 enabled.
 **WWproc.tex
 (./WWproc.tex
@@ -847,23 +847,27 @@ un-der awards PHY-1607262 and
 (./abstract.tex) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(./introduction.tex) (./physics.texLuaTeX warning (ext4): destination with the s
-ame identifier (name{page.1}) has been already used, duplicate ignored
+(./introduction.tex) (./physics.tex
+
+LaTeX Warning: Citation `wwOPAL' on page 1 undefined on input line 5.
+
+LuaTeX warning (ext4): destination with the same identifier (name{page.1}) has b
+een already used, duplicate ignored
 <to be read again> 
 \relax 
-l.8 
+l.6 
    [1]
 
 LaTeX Warning: Citation `ILDTDR' on page 2 undefined on input line 56.
 
 [2]) (./detector.tex
 
-LaTeX Warning: Citation `pythia' on page 3 undefined on input line 6.
+LaTeX Warning: Citation `pythia6' on page 3 undefined on input line 6.
 
 
 LaTeX Warning: Citation `pandora' on page 3 undefined on input line 6.
 
-) (./Current_work.tex [3]
+[3]) (./Current_work.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
@@ -1050,6 +1054,9 @@ File: ildlogo.png Graphic file (type png)
 Package pdftex.def Info: ildlogo.png used on input line 425.
 (pdftex.def)             Requested size: 21.68231pt x 13.89905pt.
 
+
+LaTeX Warning: Citation `ilcluminosity' on page 13 undefined on input line 442.
+
 <WWSfit.pdf, id=595, 569.12625pt x 421.575pt>
 File: WWSfit.pdf Graphic file (type pdf)
  <use WWSfit.pdf>
@@ -1072,7 +1079,11 @@ Package pdftex.def Info: Wtoyfit.pdf used on input line 464.
 (pdftex.def)             Requested size: 210.35257pt x 155.81949pt.
  [13] [14]
 [15] [16<./mwhadCutsHist.pdf><./moneymassdiff.pdf>]) (./conclude.tex [17<./WWSfi
-t.pdf><./Wtoyfit.pdf>]) [18] (./WWproc.bbl [19] [20
+t.pdf><./Wtoyfit.pdf>]
+
+LaTeX Warning: Citation `tajet' on page 18 undefined on input line 3.
+
+) [18] (./WWproc.bbl [19] [20
 Missing character: There is no — (U+2014) in font cmr12!
 ]) [21]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
@@ -1090,15 +1101,15 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
 )
 
 Here is how much of LuaTeX's memory you used:
- 22900 strings out of 495004
+ 22903 strings out of 495004
  125200,662416 words of node,token memory allocated
- 434 words of node memory still in use:
+ 432 words of node memory still in use:
    5 hlist, 2 vlist, 2 rule, 2 glue, 3 kern, 1 sub_mlist, 43 glue_spec, 7 action
 , 1 write nodes
-   avail lists: 1:12,2:45,3:1127,4:5545,5:381,6:8052,7:1440,8:34,9:2146,10:528
- 25337 multiletter control sequences out of 65536+600000
+   avail lists: 1:12,2:44,3:1130,4:5623,5:399,6:8349,7:1440,8:33,9:2165,10:542
+ 25340 multiletter control sequences out of 65536+600000
  84 fonts using 3310579 bytes
- 61i,17n,98p,3470b,1542s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 61i,17n,98p,3470b,1546s stack positions out of 5000i,500n,10000p,200000b,100000s
 <</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><</usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><</usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><</usr/share/texl
@@ -1115,7 +1126,7 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><</usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><</usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><</usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on WWproc.pdf (22 pages, 483641 bytes).
+Output written on WWproc.pdf (22 pages, 484513 bytes).
 
 PDF statistics: 929 PDF objects out of 1000 (max. 8388607)
  564 compressed objects within 6 object streams
