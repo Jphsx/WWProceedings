@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  14 OCT 2020 10:38
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  14 OCT 2020 13:23
  restricted \write18 enabled.
 **WWproc.tex
 (./WWproc.tex
@@ -852,14 +852,18 @@ ame identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
 \relax 
 l.8 
-   [1] [2]) (./detector.tex
+   [1]
+
+LaTeX Warning: Citation `ILDTDR' on page 2 undefined on input line 56.
+
+[2]) (./detector.tex
 
 LaTeX Warning: Citation `pythia' on page 3 undefined on input line 6.
 
 
 LaTeX Warning: Citation `pandora' on page 3 undefined on input line 6.
 
-) [3] (./Current_work.tex
+) (./Current_work.tex [3]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
@@ -948,7 +952,7 @@ File: hsRL.pdf Graphic file (type pdf)
 Package pdftex.def Info: hsRL.pdf used on input line 144.
 (pdftex.def)             Requested size: 208.13574pt x 149.4007pt.
  [7<./matchingangle.pdf><./ildlogo.png><./candEnergy.pdf>] [8<./hxLR.pdf><./hxRL
-.pdf>] [9<./hsLR.pdf><./hsRL.pdf>] <SupDiff.pdf, id=472, 569.12625pt x 309.155p
+.pdf>] [9<./hsLR.pdf><./hsRL.pdf>] <SupDiff.pdf, id=471, 569.12625pt x 309.155p
 t>
 File: SupDiff.pdf Graphic file (type pdf)
 
@@ -960,7 +964,7 @@ File: ildlogo.png Graphic file (type png)
 Package pdftex.def Info: ildlogo.png used on input line 168.
 (pdftex.def)             Requested size: 21.68231pt x 13.89905pt.
 
-<SupMass.pdf, id=473, 569.12625pt x 332.24126pt>
+<SupMass.pdf, id=472, 569.12625pt x 332.24126pt>
 File: SupMass.pdf Graphic file (type pdf)
  <use SupMass.pdf>
 Package pdftex.def Info: SupMass.pdf used on input line 183.
@@ -970,7 +974,7 @@ File: ildlogo.png Graphic file (type png)
 <use ildlogo.png>
 Package pdftex.def Info: ildlogo.png used on input line 191.
 (pdftex.def)             Requested size: 21.68231pt x 13.89905pt.
- [10] [11<./SupDiff.pdf><./SupMass.pdf>]
+ [10] [11<./SupDiff.pdf>] [12<./SupMass.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 225--225
 [][]|\OT1/cmr/m/n/8 Tot.
  []
@@ -1025,7 +1029,7 @@ Overfull \hbox (17.0125pt too wide) in paragraph at lines 374--384
 [][][] 
  []
 
-<mwhadCutsHist.pdf, id=586, 569.12625pt x 385.44pt>
+<mwhadCutsHist.pdf, id=590, 569.12625pt x 385.44pt>
 File: mwhadCutsHist.pdf Graphic file (type pdf)
  <use mwhadCutsHist.pdf>
 Package pdftex.def Info: mwhadCutsHist.pdf used on input line 398.
@@ -1035,7 +1039,7 @@ File: ildlogo.png Graphic file (type png)
 <use ildlogo.png>
 Package pdftex.def Info: ildlogo.png used on input line 406.
 (pdftex.def)             Requested size: 21.68231pt x 13.89905pt.
- <moneymassdiff.pdf, id=587, 569.12625pt x 384.43625pt>
+ <moneymassdiff.pdf, id=591, 569.12625pt x 384.43625pt>
 File: moneymassdiff.pdf Graphic file (type pdf)
 
 <use moneymassdiff.pdf>
@@ -1045,15 +1049,15 @@ File: ildlogo.png Graphic file (type png)
  <use ildlogo.png>
 Package pdftex.def Info: ildlogo.png used on input line 425.
 (pdftex.def)             Requested size: 21.68231pt x 13.89905pt.
- [12] [13] [14] [15<./mwhadCutsHist.pdf><./moneymassdiff.pdf>] <WWSfit.pdf, id=
-706, 569.12625pt x 421.575pt>
-File: WWSfit.pdf Graphic file (type pdf)
 
-<use WWSfit.pdf>
+<WWSfit.pdf, id=595, 569.12625pt x 421.575pt>
+File: WWSfit.pdf Graphic file (type pdf)
+ <use WWSfit.pdf>
 Package pdftex.def Info: WWSfit.pdf used on input line 450.
 (pdftex.def)             Requested size: 210.35257pt x 155.81949pt.
 File: ildlogo.png Graphic file (type png)
- <use ildlogo.png>
+
+<use ildlogo.png>
 Package pdftex.def Info: ildlogo.png used on input line 458.
 (pdftex.def)             Requested size: 21.2489pt x 13.62288pt.
 
@@ -1061,16 +1065,16 @@ Overfull \hbox (5.7088pt too wide) in paragraph at lines 460--461
  [][][] 
  []
 
-<Wtoyfit.pdf, id=707, 569.12625pt x 421.575pt>
+<Wtoyfit.pdf, id=596, 569.12625pt x 421.575pt>
 File: Wtoyfit.pdf Graphic file (type pdf)
  <use Wtoyfit.pdf>
 Package pdftex.def Info: Wtoyfit.pdf used on input line 464.
 (pdftex.def)             Requested size: 210.35257pt x 155.81949pt.
-)
-(./conclude.tex [16] [17<./WWSfit.pdf><./Wtoyfit.pdf>]) (./WWproc.bbl [18]
-[19
+ [13] [14]
+[15] [16<./mwhadCutsHist.pdf><./moneymassdiff.pdf>]) (./conclude.tex [17<./WWSfi
+t.pdf><./Wtoyfit.pdf>]) [18] (./WWproc.bbl [19] [20
 Missing character: There is no — (U+2014) in font cmr12!
-]) [20]
+]) [21]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
  (./WWproc.aux)
@@ -1082,22 +1086,19 @@ Package rerunfilecheck Info: File `WWproc.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
 )
 
 Here is how much of LuaTeX's memory you used:
- 22898 strings out of 495004
+ 22900 strings out of 495004
  125200,662416 words of node,token memory allocated
  434 words of node memory still in use:
    5 hlist, 2 vlist, 2 rule, 2 glue, 3 kern, 1 sub_mlist, 43 glue_spec, 7 action
 , 1 write nodes
-   avail lists: 1:10,2:49,3:1098,4:5663,5:417,6:8353,7:1441,8:25,9:2149,10:542
- 25336 multiletter control sequences out of 65536+600000
+   avail lists: 1:12,2:45,3:1127,4:5545,5:381,6:8052,7:1440,8:34,9:2146,10:528
+ 25337 multiletter control sequences out of 65536+600000
  84 fonts using 3310579 bytes
- 61i,17n,98p,3467b,1542s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 61i,17n,98p,3470b,1542s stack positions out of 5000i,500n,10000p,200000b,100000s
 <</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><</usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><</usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><</usr/share/texl
@@ -1114,10 +1115,10 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><</usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><</usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><</usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on WWproc.pdf (21 pages, 483154 bytes).
+Output written on WWproc.pdf (22 pages, 483641 bytes).
 
-PDF statistics: 925 PDF objects out of 1000 (max. 8388607)
- 561 compressed objects within 6 object streams
- 74 named destinations out of 1000 (max. 131072)
+PDF statistics: 929 PDF objects out of 1000 (max. 8388607)
+ 564 compressed objects within 6 object streams
+ 75 named destinations out of 1000 (max. 131072)
  112 words of extra memory for PDF output out of 10000 (max. 10000000)
 

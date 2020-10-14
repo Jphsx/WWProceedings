@@ -6,6 +6,8 @@ Jenny's comments from first draft
 	>>added reference to TDR
 	--add references to OPAL
 	-- add references to lumi error and stuff in discussion
+	>> added reference to pythia6
+	-- add reference to OL from daniel's paper
 
 - for Fig 5, Sec 3.2 (detector) and Sec 3.3 (software and MC samples) cite IDR. Especially for the MC, explicitly say that you're using samples produced
    for the IDR benchmarking effort.
@@ -28,7 +30,7 @@ Jenny's comments from first draft
 - in some places numbers are missing. E.g. in Sec 2.2 - beam effects the decisive number of <N>=1.05 overlay events/BX is never mentioned.
    in combination with using the LHC term of pile-up, this gives the impression like we were talking tens or hundreds of overlay events
 	
-	-- add events per crossing comment
+	>> add 1.1 events per crossing comment with a reference to TDR (taken from page 93)
 	>> changed all references of pile-up to "overlay"
 
 
@@ -76,7 +78,8 @@ Jenny's comments from first draft
 - Fig 11: how do you define the "true mass"? The labeling indicates you take the invariant mass of the quarks from the W, i.e. before PS/hadronisation?
     or do you use the TrueJet processor (as you should ;-) ) - or do you run the same JADE algorithm on the generator stable MCParticles, or.... ?
 
-	>>
+	>>added a description for gen level hadronic mass determination
+	>> slightly reformulated caption
 
 - show plots of all final selection variables for S and B (p 16)
 
