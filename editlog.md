@@ -26,11 +26,11 @@ Jenny's comments from first draft
 
 	>> shortened section 2.1 (physics) and reorganized the content
     >> removed section on cross-section and non-signal like cross-section contribution diagrams
-    >> Merging Anatomy of an event into overall physics section
-	>> add edreference about cross section % and non resonant qqenu (non signal-like)
+    >> Merged Anatomy of an Event into overall physics section
+	>> added reference about cross section % and non resonant qqenu (non signal-like)
 	>> removed accelerator description and most of detector (ILD/SID) descriptions
 	>> modeled section 3 after ILD-PHYS-PUB-2019-011
-	>> added pythia 6, -- need to add reference
+	>> added pythia 6 with reference
 
 
 - in some places numbers are missing. E.g. in Sec 2.2 - beam effects the decisive number of <N>=1.05 overlay events/BX is never mentioned.
@@ -50,7 +50,7 @@ Jenny's comments from first draft
    fitting of W mass peak).
 	
 	>> removed detailed description of polarazation, added important components to section 3, MC and detector desc.
-	>> section now begins with acutal analysis strategy 
+	>> section now begins with actual analysis strategy 
 
 
 
@@ -68,7 +68,7 @@ Jenny's comments from first draft
     only can cause a loss, but can lead to double counting of neutral hadrons. Maybe reformulate.
 
 	>>reformulated to say "This effect (referring to pf confusion) is not substantial enought to account for the systematic excess observed in reconstruction as shown in Figure 8"
-	-- possibly add a mass distribution, current state makes figure reference out of order
+	>> TODO: possibly add a mass distribution, current state makes figure reference out of order
 
 
 - the strategy to remove overlay via the JADE algorithm and a mass cut-off is very interesting. However the description should be improved.
@@ -77,14 +77,14 @@ Jenny's comments from first draft
     => Q= E(had W) = 250 GeV, M(had W)= 80 GeV => y (whole W in one jet) = (80/250)^2 ~= 0.1 >> 0.001 )
    Also plots of the p_Tjet and |costheta_jet| distributions with W-jets and overlay jets shown separately would be nice.
 
-	>> updated according to fast jet user manual, changed reference from jade paper (slightly inconsistent ycuts)
+	>> updated according to fast jet user manual, changed reference from jade paper (inconsistent ycut definition)
 	>> M^2/Q^2 is now yij = dij/Q^2 where dij=2EiEj(1-costheta) and ycut = dcut/Q^2
 
 
 - Fig 11: how do you define the "true mass"? The labeling indicates you take the invariant mass of the quarks from the W, i.e. before PS/hadronisation?
     or do you use the TrueJet processor (as you should ;-) ) - or do you run the same JADE algorithm on the generator stable MCParticles, or.... ?
 
-	>>added a description for gen level hadronic mass determination
+	>> added a description for gen level hadronic mass determination
 	>> slightly reformulated caption
 
 
@@ -111,6 +111,6 @@ Jenny's comments from first draft
 	>> changed all text subscripts to have \text{} and cos->\cos etc......
 
 
-
 - spell checking wouldn't harm ;-)
+	>> corrected some spelling (still needs a full check)
 
