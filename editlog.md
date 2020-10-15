@@ -9,10 +9,15 @@ Jenny's comments from first draft
 - as a general remark, the document is very sparse on references, especially in the introduction, section 2 and the discussion at the end
 
 	>> added reference to TDR in samples
+
 	>> added references to OPAL for xsec%
+
 	>> added references to lumi error and poll in discussion
+
 	>> added reference to pythia6 --
+
 	>> added reference to OL for TDR
+
 	>> added reference to TaJet in conclusions
 
 - for Fig 5, Sec 3.2 (detector) and Sec 3.3 (software and MC samples) cite IDR. Especially for the MC, explicitly say that you're using samples produced
@@ -25,11 +30,17 @@ Jenny's comments from first draft
    them significantly. Also in several cases the (sub)section titles don't match the content, e.g. Sec 2.1 is called W boson but speaks about taus
 
 	>> shortened section 2.1 (physics) and reorganized the content
+
     >> removed section on cross-section and non-signal like cross-section contribution diagrams
+
     >> Merged Anatomy of an Event into overall physics section
+
 	>> added reference about cross section % and non resonant qqenu (non signal-like)
+
 	>> removed accelerator description and most of detector (ILD/SID) descriptions
+
 	>> modeled section 3 after ILD-PHYS-PUB-2019-011
+
 	>> added pythia 6 with reference
 
 
@@ -37,6 +48,7 @@ Jenny's comments from first draft
    in combination with using the LHC term of pile-up, this gives the impression like we were talking tens or hundreds of overlay events
 	
 	>> add 1.1 events per crossing comment with a reference to TDR (taken from page 93)
+
 	>> changed all references of pile-up to "overlay"
 
 
@@ -50,6 +62,7 @@ Jenny's comments from first draft
    fitting of W mass peak).
 	
 	>> removed detailed description of polarazation, added important components to section 3, MC and detector desc.
+
 	>> section now begins with actual analysis strategy 
 
 
@@ -68,6 +81,7 @@ Jenny's comments from first draft
     only can cause a loss, but can lead to double counting of neutral hadrons. Maybe reformulate.
 
 	>>reformulated to say "This effect (referring to pf confusion) is not substantial enought to account for the systematic excess observed in reconstruction as shown in Figure 8"
+
 	>> TODO: possibly add a mass distribution, current state makes figure reference out of order
 
 
@@ -78,6 +92,7 @@ Jenny's comments from first draft
    Also plots of the p_Tjet and |costheta_jet| distributions with W-jets and overlay jets shown separately would be nice.
 
 	>> updated according to fast jet user manual, changed reference from jade paper (inconsistent ycut definition)
+
 	>> M^2/Q^2 is now yij = dij/Q^2 where dij=2EiEj(1-costheta) and ycut = dcut/Q^2
 
 
@@ -85,6 +100,7 @@ Jenny's comments from first draft
     or do you use the TrueJet processor (as you should ;-) ) - or do you run the same JADE algorithm on the generator stable MCParticles, or.... ?
 
 	>> added a description for gen level hadronic mass determination
+
 	>> slightly reformulated caption
 
 
