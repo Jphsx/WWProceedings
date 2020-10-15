@@ -6,46 +6,20 @@
   \href{http://dx.doi.org/10.1103/PhysRevD.98.030001}{{\em Phys. Rev. D}
   {\bfseries 98} no.~3, (2018) 030001}.
 
+\bibitem{wwOPAL}
+G.~Abbiendi, ``Measurement of the mass and width of the w boson,'' {\em The
+  European Physical Journal C-Particles and Fields} {\bfseries 45} no.~2,
+  (2006) 307--335.
+
+\bibitem{ILDIDR}
+{\bfseries ILD Concept Group} Collaboration, H.~Abramowicz {\em et~al.},
+  ``{International Large Detector: Interim Design Report},''
+  \href{http://arxiv.org/abs/2003.01116}{{\ttfamily arXiv:2003.01116
+  [physics.ins-det]}}.
+
 \bibitem{thomson}
 M.~Thomson, {\em {Modern Particle Physics}}.
 \newblock Cambridge University Press, New York, 2013.
-
-\bibitem{helicity}
-G.~Moortgat-Pick {\em et~al.}, ``{The Role of Polarized Positrons and Electrons
-  in Revealing Fundamental Interactions at the Linear Collider},''
-  \href{http://dx.doi.org/10.1016/j.physrep.2007.12.003}{{\em Phys. Rept.}
-  {\bfseries 460} (2008) 131--243},
-  \href{http://arxiv.org/abs/hep-ph/0507011}{{\ttfamily arXiv:hep-ph/0507011}}.
-
-\bibitem{currdetector}
-P.~Bambade, T.~Barklow, T.~Behnke, M.~Berggren, J.~Brau, P.~Burrows,
-  D.~Denisov, A.~Faus-Golfe, B.~Foster, K.~Fujii, J.~Fuster, F.~Gaede,
-  P.~Grannis, C.~Grojean, A.~Hutton, B.~List, J.~List, S.~Michizono,
-  A.~Miyamoto, O.~Napoly, M.~Peskin, R.~Poeschl, F.~Simon, J.~Strube, J.~Tian,
-  M.~Titov, M.~Vos, A.~White, G.~Wilson, A.~Yamamoto, H.~Yamamoto, and
-  K.~Yokoya, ``{The International Linear Collider: A Global Project},''
-  \href{http://arxiv.org/abs/1903.01629}{{\ttfamily arXiv:1903.01629
-  [hep-ex]}}.
-
-\bibitem{tdraccel}
-``{The International Linear Collider Technical Design Report - Volume 3.II:
-  Accelerator Baseline Design},''
-  \href{http://arxiv.org/abs/1306.6328}{{\ttfamily arXiv:1306.6328
-  [physics.acc-ph]}}.
-
-\bibitem{pfa}
-J.~Marshall and M.~Thomson, ``{Pandora Particle Flow Algorithm},'' in {\em
-  {International Conference on Calorimetry for the High Energy Frontier}},
-  pp.~305--315.
-\newblock 2013.
-\newblock \href{http://arxiv.org/abs/1308.4537}{{\ttfamily arXiv:1308.4537
-  [physics.ins-det]}}.
-
-\bibitem{tdrdet}
-H.~Abramowicz {\em et~al.}, ``{The International Linear Collider Technical
-  Design Report - Volume 4: Detectors},''
-  \href{http://arxiv.org/abs/1306.6329}{{\ttfamily arXiv:1306.6329
-  [physics.ins-det]}}.
 
 \bibitem{ilcsoft}
 R.~Poeschl, ``{Software Tools for ILC Detector Studies},'' {\em eConf}
@@ -83,27 +57,28 @@ W.~Kilian, F.~Bach, T.~Ohl, and J.~Reuter, ``{WHIZARD 2.2 for Linear
 \newblock
 %%CITATION = ARXIV:1403.7433;%%.
 
+\bibitem{pythia6}
+T.~Sjostrand, S.~Mrenna, and P.~Skands, ``Pythia 6.4 physics and manual, jhep
+  05 (2006) 026,'' {\em arXiv preprint hep-ph/0603175} (2006) .
+
 \bibitem{geant4}
 S.~Agostinelli {\em et~al.}, ``Geant4—a simulation toolkit,'' {\em Nuclear
   instruments and methods in physics research section A: Accelerators,
   Spectrometers, Detectors and Associated Equipment} {\bfseries 506} no.~3,
   (2003) 250--303.
 
+\bibitem{tdrdet}
+H.~Abramowicz {\em et~al.}, ``{The International Linear Collider Technical
+  Design Report - Volume 4: Detectors},''
+  \href{http://arxiv.org/abs/1306.6329}{{\ttfamily arXiv:1306.6329
+  [physics.ins-det]}}.
+
+\bibitem{particleflowA}
+
+
 \bibitem{wwrepo}
 J.~Anguiano and G.~Wilson, ``Ildbench wwqqlnu.''
   \url{https://github.com/ILDAnaSoft/ILDbench_WWqqlnu.git}, 2019.
-
-\bibitem{ILDIDR}
-{\bfseries ILD Concept Group} Collaboration, H.~Abramowicz {\em et~al.},
-  ``{International Large Detector: Interim Design Report},''
-  \href{http://arxiv.org/abs/2003.01116}{{\ttfamily arXiv:2003.01116
-  [physics.ins-det]}}.
-
-\bibitem{ilcop}
-T.~Barklow, J.~Brau, K.~Fujii, J.~Gao, J.~List, N.~Walker, and K.~Yokoya,
-  ``{ILC Operating Scenarios},''
-  \href{http://arxiv.org/abs/1506.07830}{{\ttfamily arXiv:1506.07830
-  [hep-ex]}}.
 
 \bibitem{taufinder}
 A.~Muennich, ``{TauFinder: A Reconstruction Algorithm for $\tau$ Leptons at
@@ -121,21 +96,25 @@ S.~Catani, Y.~L. Dokshitzer, M.~Seymour, and B.~Webber, ``{Longitudinally
   \href{http://dx.doi.org/10.1016/0550-3213(93)90166-M}{{\em Nucl. Phys. B}
   {\bfseries 406} (1993) 187--224}.
 
-\bibitem{ycut}
-Y.~L. Dokshitzer, G.~Leder, S.~Moretti, and B.~Webber, ``{Better jet clustering
-  algorithms},'' \href{http://dx.doi.org/10.1088/1126-6708/1997/08/001}{{\em
-  JHEP} {\bfseries 08} (1997) 001},
-  \href{http://arxiv.org/abs/hep-ph/9707323}{{\ttfamily arXiv:hep-ph/9707323}}.
-
 \bibitem{ivan}
 I.~Marchesini, {\em {Triple gauge couplings and polarization at the ILC and
   leakage in a highly granular calorimeter}}.
 \newblock PhD thesis, Hamburg U., 2011.
+
+\bibitem{ilcluminosity}
+I.~B. Jelisav{\v{c}}i{\'c}, S.~Luki{\'c}, G.~M. Dumbelovi{\'c},
+  M.~Pandurovi{\'c}, and I.~Smiljani{\'c}, ``Luminosity measurement at ilc,''
+  {\em Journal of Instrumentation} {\bfseries 8} no.~08, (2013) P08012.
 
 \bibitem{graham}
 {\bfseries LCC Physics Working Group} Collaboration, K.~Fujii {\em et~al.},
   ``{Tests of the Standard Model at the International Linear Collider},''
   \href{http://arxiv.org/abs/1908.11299}{{\ttfamily arXiv:1908.11299
   [hep-ex]}}.
+
+\bibitem{tajet}
+T.~Suehara, A.~Miyamoto, K.~Fujii, N.~Okada, H.~Ito, K.~Ikematsu, and
+  R.~Yonamine, ``Tau-pair performance in ild detectors,'' {\em arXiv preprint
+  arXiv:0902.3740} (2009) .
 
 \end{thebibliography}\endgroup

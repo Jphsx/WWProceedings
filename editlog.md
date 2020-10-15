@@ -1,13 +1,18 @@
 
 Jenny's comments from first draft
 
+	==Various changes from my proof read
+		>> reformulated introduction and motivation slightly, tried to better motivate mass measurement and make section flow better
+
+
+
 - as a general remark, the document is very sparse on references, especially in the introduction, section 2 and the discussion at the end
 
-	>>added reference to TDR
+	>> added reference to TDR in samples
 	>> added references to OPAL for xsec%
-	>> add references to lumi error and poll in discussion
+	>> added references to lumi error and poll in discussion
 	>> added reference to pythia6 --
-	>> add reference to OL for TDR
+	>> added reference to OL for TDR
 	>> added reference to TaJet in conclusions
 
 - for Fig 5, Sec 3.2 (detector) and Sec 3.3 (software and MC samples) cite IDR. Especially for the MC, explicitly say that you're using samples produced
@@ -95,12 +100,15 @@ Jenny's comments from first draft
 
 	>> added comment about tau clustering alternatives with TaJet and reference
 
+
+
 - in general: please use ILD style for all plots (not only logo in corner, but all the rest of the style as well)
 
 
 - carefully check for inconsistent naming of variables etc, eg p_T vs P_T, m^vis_recoil vs m_\nurecoil, and many others
 - I also hate subscript text in mathmode... make it eg E_{\mathrm{vis}} etc, and use $\sin{}$ etc
 
+	>> changed all text subscripts to have \text{} and cos->\cos etc......
 
 
 

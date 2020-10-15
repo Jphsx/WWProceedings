@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  14 OCT 2020 16:49
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  15 OCT 2020 12:05
  restricted \write18 enabled.
 **Current_work.tex
 (./Current_work.tex
@@ -108,12 +108,12 @@ Overfull \hbox (6.18402pt too wide) in paragraph at lines 12--13
  []
 
 
-Overfull \hbox (9.94098pt too wide) in paragraph at lines 16--17
+Overfull \hbox (12.71979pt too wide) in paragraph at lines 16--17
 \OML/cmm/m/it/10 P[]$
  []
 
 
-Overfull \hbox (20.49649pt too wide) in paragraph at lines 20--21
+Overfull \hbox (23.2753pt too wide) in paragraph at lines 20--21
 \OML/cmm/m/it/10 P[] >
  []
 
@@ -123,8 +123,8 @@ Overfull \hbox (12.77782pt too wide) in paragraph at lines 20--21
  []
 
 
-Overfull \hbox (34.9456pt too wide) in paragraph at lines 21--22
-\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 cos\OMS/cmsy/m/n/10 j \OML/cmm/m/it/10 <
+Overfull \hbox (37.80547pt too wide) in paragraph at lines 21--22
+\OMS/cmsy/m/n/10 j [] \OML/cmm/m/it/10 \OMS/cmsy/m/n/10 j \OML/cmm/m/it/10 <
  []
 
 
@@ -133,37 +133,42 @@ Overfull \hbox (17.77783pt too wide) in paragraph at lines 21--22
  []
 
 
-Overfull \hbox (11.43405pt too wide) in paragraph at lines 23--27
+Overfull \hbox (11.43405pt too wide) in paragraph at lines 23--25
 \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 $\nullfont ,
  []
 
 
-Overfull \hbox (5.50348pt too wide) in paragraph at lines 23--27
+Overfull \hbox (20.0pt too wide) in paragraph at lines 26--27
+[][]The
+ []
+
+
+Overfull \hbox (5.50348pt too wide) in paragraph at lines 26--27
 \OML/cmm/m/it/10 $
  []
 
 
-Overfull \hbox (4.16669pt too wide) in paragraph at lines 23--27
+Overfull \hbox (4.16669pt too wide) in paragraph at lines 26--27
 \OML/cmm/m/it/10 `$\nullfont ,
  []
 
 
-Overfull \hbox (18.2812pt too wide) in paragraph at lines 23--27
+Overfull \hbox (18.2812pt too wide) in paragraph at lines 26--27
 \OML/cmm/m/it/10  \OMS/cmsy/m/n/10 !
  []
 
 
-Overfull \hbox (22.89049pt too wide) in paragraph at lines 23--27
+Overfull \hbox (22.89049pt too wide) in paragraph at lines 26--27
 \OML/cmm/m/it/10 `[][]$\nullfont ,
  []
 
 
-Overfull \hbox (18.2812pt too wide) in paragraph at lines 23--27
+Overfull \hbox (18.2812pt too wide) in paragraph at lines 26--27
 \OML/cmm/m/it/10  \OMS/cmsy/m/n/10 !$\nullfont hadrons.
  []
 
 
-Overfull \hbox (5.50348pt too wide) in paragraph at lines 23--27
+Overfull \hbox (5.50348pt too wide) in paragraph at lines 26--27
 \OML/cmm/m/it/10 $
  []
 
@@ -248,8 +253,26 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
+l.34 ...cone-$\beta$, and isolation energy-$E_{\text
+                                                  {iso}}$. The invariant mas...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
 l.36 ...as  $\epsilon_T$. The denominator, $N_{\text
                                                   {Stotal}}$, represents the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.36 ...tance range $|\cos\theta| < 0.99$. $N_{\text
+                                                  {match}}$ is the number of...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -316,8 +339,8 @@ Overfull \hbox (13.8125pt too wide) in paragraph at lines 34--37
  []
 
 
-Overfull \hbox (34.9456pt too wide) in paragraph at lines 34--37
-\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 cos\OMS/cmsy/m/n/10 j \OML/cmm/m/it/10 <
+Overfull \hbox (37.80547pt too wide) in paragraph at lines 34--37
+\OMS/cmsy/m/n/10 j [] \OML/cmm/m/it/10 \OMS/cmsy/m/n/10 j \OML/cmm/m/it/10 <
  []
 
 
@@ -382,6 +405,15 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
+l.43 ...imal parameters $\alpha$, $\beta$, $E_{\text
+                                                  {iso}}$ for each lepton ca...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
 <write> ... Reference `tab:taufinderopt' on page \thepage 
                                                   \space undefined\on@line .
 l.43 ...ry are shown in Table \ref{tab:taufinderopt}
@@ -437,8 +469,8 @@ Overfull \hbox (31.81372pt too wide) in paragraph at lines 43--44
  []
 
 
-Overfull \hbox (34.9456pt too wide) in paragraph at lines 43--44
-\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 cos\OMS/cmsy/m/n/10 j \OML/cmm/m/it/10 <
+Overfull \hbox (37.80547pt too wide) in paragraph at lines 43--44
+\OMS/cmsy/m/n/10 j [] \OML/cmm/m/it/10 \OMS/cmsy/m/n/10 j \OML/cmm/m/it/10 <
  []
 
 
@@ -509,6 +541,24 @@ l.45 \begin{split}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.48 \epsilon_F = N_{\text
+                        {fake}}/N_{\text{Btotal}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.48 \epsilon_F = N_{\text{fake}}/N_{\text
+                                        {Btotal}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 ! LaTeX Error: \begin{equation} on input line 44 ended by \end{split}.
@@ -939,7 +989,7 @@ Overfull \hbox (10.86105pt too wide) in paragraph at lines 127--128
 
 ! Undefined control sequence.
 l.130 \subsection
-               {Pileup mitigation}
+               {$\gamma\gamma$ Overlay Mitigation}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -960,8 +1010,8 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 130--133
-[][]Pileup
+Overfull \hbox (31.4657pt too wide) in paragraph at lines 130--133
+[][]$\OML/cmm/m/it/10 $
  []
 
 ! Undefined control sequence.
@@ -1188,18 +1238,18 @@ Overfull \hbox (23.3334pt too wide) in paragraph at lines 143--148
  []
 
 
-Overfull \hbox (19.10721pt too wide) in paragraph at lines 143--148
-\OML/cmm/m/it/10 sin$
+Overfull \hbox (18.91666pt too wide) in paragraph at lines 143--148
+[] \OML/cmm/m/it/10 $
  []
 
 
-Overfull \hbox (18.83452pt too wide) in paragraph at lines 143--148
-\OML/cmm/m/it/10 cos$\nullfont .
+Overfull \hbox (20.02776pt too wide) in paragraph at lines 143--148
+[] \OML/cmm/m/it/10 $\nullfont .
  []
 
 
-Overfull \hbox (31.88493pt too wide) in paragraph at lines 143--148
-\OML/cmm/m/it/10 sin \OMS/cmsy/m/n/10 !
+Overfull \hbox (31.69438pt too wide) in paragraph at lines 143--148
+[] \OML/cmm/m/it/10  \OMS/cmsy/m/n/10 !
  []
 
 
@@ -1208,8 +1258,8 @@ Overfull \hbox (5.00002pt too wide) in paragraph at lines 143--148
  []
 
 
-Overfull \hbox (37.4405pt too wide) in paragraph at lines 143--148
-\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 sin\OMS/cmsy/m/n/10 j !
+Overfull \hbox (38.91658pt too wide) in paragraph at lines 143--148
+\OMS/cmsy/m/n/10 j [] \OML/cmm/m/it/10 \OMS/cmsy/m/n/10 j !
  []
 
 
@@ -1289,11 +1339,20 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: Citation `kt' on page  undefined on input line 149.
 
+! Undefined control sequence.
+l.149 ...E algorithm and cut-off parameter $y_{\text
+                                                  {cut}} > y_{ij}$ where $y_...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 \citation{fastjet}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.149 ...he $e^{+}e^{-}$ annihilation \cite{fastjet}
+l.149 ...2E_i E_j(1-\cos\theta_{ij})$ \cite{fastjet}
                                                   .  The mass of individuall...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1305,10 +1364,82 @@ and I'll forget about whatever was undefined.
 LaTeX Warning: Citation `fastjet' on page  undefined on input line 149.
 
 ! Undefined control sequence.
+l.149 ...s can be controlled by tuning the $y_{\text
+                                                  {cut}}$ parameter. For lar...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.149 ...t}}$ parameter. For large values, $y_{\text
+                                                  {cut}} =1\times10^{-3}$, a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.149 ... reconstructed. In the limit that $y_{\text
+                                                  {cut}}$ becomes infinitely...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.149 ...econstructed particles.  The best $y_{\text
+                                                  {cut}}$ value is the value...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.149 ... W mass. 	The best combination of $y_{\text
+                                                  {cut}}$ and mini-jet kinem...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.149 ...ome from the distribution of $M_{qq}^{\text
+                                                  {meas}} - M_{qq}^{\text{tr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.149 ...on of $M_{qq}^{\text{meas}} - M_{qq}^{\text
+                                                  {true}}$. This binned mass...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.149 ...rise from clustering with a given $y_{\text
+                                                  {cut}}$ and also pass some...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
 <write> ...ning: Reference `fig:supmass' on page \thepage 
                                                   \space undefined\on@line .
 l.150 ...ation are shown in Figure \ref{fig:supmass}
-                                                   and various $y_{cut}$'s a...
+                                                   and various $y_{\text{cut...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1317,6 +1448,15 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `fig:supmass' on page  undefined on input line 150.
+
+! Undefined control sequence.
+l.150 ...ure \ref{fig:supmass} and various $y_{\text
+                                                  {cut}}$'s are shown in com...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 <write> ...ning: Reference `fig:supdiff' on page \thepage 
@@ -1331,6 +1471,15 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `fig:supdiff' on page  undefined on input line 150.
+
+! Undefined control sequence.
+l.150 ...supdiff}. The optimal result uses $y_{\text
+                                                  {cut}} = 5\times 10^{-5}$,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 149--151
@@ -1350,6 +1499,16 @@ Overfull \hbox (10.86105pt too wide) in paragraph at lines 149--151
 
 Overfull \hbox (10.86105pt too wide) in paragraph at lines 149--151
 [].
+ []
+
+
+Overfull \hbox (11.4657pt too wide) in paragraph at lines 149--151
+\OML/cmm/m/it/10 $
+ []
+
+
+Overfull \hbox (11.4657pt too wide) in paragraph at lines 149--151
+\OML/cmm/m/it/10 $
  []
 
 
@@ -1410,16 +1569,6 @@ Overfull \hbox (43.97346pt too wide) in paragraph at lines 149--151
 
 Overfull \hbox (30.68172pt too wide) in paragraph at lines 149--151
 [] \OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )$
- []
-
-
-Overfull \hbox (12.39168pt too wide) in paragraph at lines 149--151
-\OML/cmm/m/it/10 Q[]$
- []
-
-
-Overfull \hbox (22.70146pt too wide) in paragraph at lines 149--151
-\OML/cmm/m/it/10 e[]e[]$
  []
 
 
@@ -1488,8 +1637,8 @@ Overfull \hbox (16.72546pt too wide) in paragraph at lines 149--151
  []
 
 
-Overfull \hbox (32.41493pt too wide) in paragraph at lines 149--151
-\OML/cmm/m/it/10 p[] >
+Overfull \hbox (23.2753pt too wide) in paragraph at lines 149--151
+\OML/cmm/m/it/10 P[] >
  []
 
 
@@ -1498,8 +1647,8 @@ Overfull \hbox (5.71527pt too wide) in paragraph at lines 149--151
  []
 
 
-Overfull \hbox (45.69633pt too wide) in paragraph at lines 149--151
-\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 cos[]\OMS/cmsy/m/n/10 j \OML/cmm/m/it/10 <
+Overfull \hbox (37.80547pt too wide) in paragraph at lines 149--151
+\OMS/cmsy/m/n/10 j [] \OML/cmm/m/it/10 \OMS/cmsy/m/n/10 j \OML/cmm/m/it/10 <
  []
 
 
@@ -1661,8 +1810,35 @@ You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
+l.171 ...n mass differences with different $y_{\text
+                                                  {cut}}$ values and the sam...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
 l.171 ...boson. The results of the largest $y_{\text
                                                   {cut}}$ are massive (high ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.171 ...ensitive to small kinematic cuts. $y_{\text
+                                                  {cut}} = 5\times 10^{-5}$ ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.171 ...jet clustering and mini-jet cuts. $y_{\text
+                                                  {cut}} = 5\times 10^{-6}$ ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3529,13 +3705,13 @@ Missing character: There is no r (U+0072) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no u (U+0075) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
 Missing character: There is no p (U+0070) in font nullfont!
 Missing character: There is no a (U+0061) in font nullfont!
 Missing character: There is no r (U+0072) in font nullfont!
@@ -8720,13 +8896,14 @@ Missing character: There is no u (U+0075) in font nullfont!
 Missing character: There is no r (U+0072) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no P (U+0050) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no O (U+004F) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no u (U+0075) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
-Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no M (U+004D) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no t (U+0074) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
@@ -9587,6 +9764,18 @@ Missing character: There is no c (U+0063) in font nullfont!
 Missing character: There is no t (U+0074) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no x (U+0078) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
 Missing character: There is no , (U+002C) in font nullfont!
 Missing character: There is no t (U+0074) in font nullfont!
 Missing character: There is no h (U+0068) in font nullfont!
@@ -9793,6 +9982,7 @@ Missing character: There is no a (U+0061) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
 Missing character: There is no u (U+0075) in font nullfont!
 Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
 Missing character: There is no m (U+006D) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
@@ -9921,7 +10111,6 @@ Missing character: There is no o (U+006F) in font nullfont!
 Missing character: There is no u (U+0075) in font nullfont!
 Missing character: There is no g (U+0067) in font nullfont!
 Missing character: There is no h (U+0068) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
 Missing character: There is no t (U+0074) in font nullfont!
 Missing character: There is no o (U+006F) in font nullfont!
 Missing character: There is no a (U+0061) in font nullfont!
@@ -10270,13 +10459,6 @@ Missing character: There is no l (U+006C) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 Missing character: There is no t (U+0074) in font nullfont!
 Missing character: There is no o (U+006F) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no u (U+0075) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
 Missing character: There is no c (U+0063) in font nullfont!
 Missing character: There is no a (U+0061) in font nullfont!
@@ -10361,13 +10543,16 @@ Missing character: There is no t (U+0074) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
 Missing character: There is no o (U+006F) in font nullfont!
 Missing character: There is no f (U+0066) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no u (U+0075) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
 Missing character: There is no , (U+002C) in font nullfont!
 Missing character: There is no j (U+006A) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
@@ -10434,12 +10619,13 @@ Missing character: There is no h (U+0068) in font nullfont!
 Missing character: There is no f (U+0066) in font nullfont!
 Missing character: There is no o (U+006F) in font nullfont!
 Missing character: There is no r (U+0072) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no u (U+0075) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
 Missing character: There is no m (U+006D) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no t (U+0074) in font nullfont!
@@ -10502,13 +10688,13 @@ Missing character: There is no t (U+0074) in font nullfont!
 Missing character: There is no t (U+0074) in font nullfont!
 Missing character: There is no h (U+0068) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no u (U+0075) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
 Missing character: There is no p (U+0070) in font nullfont!
 Missing character: There is no a (U+0061) in font nullfont!
 Missing character: There is no r (U+0072) in font nullfont!
@@ -10743,13 +10929,13 @@ Missing character: There is no . (U+002E) in font nullfont!
 Missing character: There is no T (U+0054) in font nullfont!
 Missing character: There is no h (U+0068) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no u (U+0075) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
 Missing character: There is no o (U+006F) in font nullfont!
 Missing character: There is no v (U+0076) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
@@ -10894,12 +11080,13 @@ Missing character: There is no o (U+006F) in font nullfont!
 Missing character: There is no p (U+0070) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 Missing character: There is no r (U+0072) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no u (U+0075) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
 Missing character: There is no m (U+006D) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no t (U+0074) in font nullfont!
@@ -11032,15 +11219,6 @@ Missing character: There is no m (U+006D) in font nullfont!
 Missing character: There is no a (U+0061) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no d (U+0064) in font nullfont!
-Missing character: There is no m (U+006D) in font nullfont!
-Missing character: There is no a (U+0061) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no b (U+0062) in font nullfont!
-Missing character: There is no a (U+0061) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no d (U+0064) in font nullfont!
 Missing character: There is no c (U+0063) in font nullfont!
 Missing character: There is no u (U+0075) in font nullfont!
 Missing character: There is no t (U+0074) in font nullfont!
@@ -11066,99 +11244,6 @@ Missing character: There is no w (U+0077) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no t (U+0074) in font nullfont!
 Missing character: There is no h (U+0068) in font nullfont!
-Missing character: There is no b (U+0062) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no h (U+0068) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no v (U+0076) in font nullfont!
-Missing character: There is no a (U+0061) in font nullfont!
-Missing character: There is no r (U+0072) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no a (U+0061) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no m (U+006D) in font nullfont!
-Missing character: There is no a (U+0061) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no o (U+006F) in font nullfont!
-Missing character: There is no f (U+0066) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no h (U+0068) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
-Missing character: There is no a (U+0061) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no r (U+0072) in font nullfont!
-Missing character: There is no o (U+006F) in font nullfont!
-Missing character: There is no f (U+0066) in font nullfont!
-Missing character: There is no o (U+006F) in font nullfont!
-Missing character: There is no b (U+0062) in font nullfont!
-Missing character: There is no j (U+006A) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no c (U+0063) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no b (U+0062) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no c (U+0063) in font nullfont!
-Missing character: There is no o (U+006F) in font nullfont!
-Missing character: There is no m (U+006D) in font nullfont!
-Missing character: There is no b (U+0062) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no d (U+0064) in font nullfont!
-Missing character: There is no a (U+0061) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no d (U+0064) in font nullfont!
-Missing character: There is no b (U+0062) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no h (U+0068) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no v (U+0076) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no s (U+0073) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no b (U+0062) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no r (U+0072) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no y (U+0079) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no h (U+0068) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no a (U+0061) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no h (U+0068) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no a (U+0061) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no o (U+006F) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no [ (U+005B) in font nullfont!
 Missing character: There is no ] (U+005D) in font nullfont!
 Missing character: There is no . (U+002E) in font nullfont!
@@ -11517,13 +11602,13 @@ Missing character: There is no t (U+0074) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no u (U+0075) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
 Missing character: There is no i (U+0069) in font nullfont!
 Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no t (U+0074) in font nullfont!
@@ -11602,12 +11687,13 @@ Missing character: There is no e (U+0065) in font nullfont!
 Missing character: There is no t (U+0074) in font nullfont!
 Missing character: There is no h (U+0068) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no u (U+0075) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
 Missing character: There is no r (U+0072) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 Missing character: There is no j (U+006A) in font nullfont!
@@ -11817,13 +11903,13 @@ Missing character: There is no e (U+0065) in font nullfont!
 Missing character: There is no t (U+0074) in font nullfont!
 Missing character: There is no h (U+0068) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
-Missing character: There is no i (U+0069) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no u (U+0075) in font nullfont!
-Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
 Missing character: There is no r (U+0072) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 Missing character: There is no j (U+006A) in font nullfont!
@@ -11991,12 +12077,16 @@ Missing character: There is no e (U+0065) in font nullfont!
 Missing character: There is no j (U+006A) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
 Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no v (U+0076) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
 Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no o (U+006F) in font nullfont!
-Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no q (U+0071) in font nullfont!
 Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
 Missing character: There is no t (U+0074) in font nullfont!
 Missing character: There is no s (U+0073) in font nullfont!
 Missing character: There is no a (U+0061) in font nullfont!
@@ -12857,6 +12947,15 @@ l.194         \caption
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+! Undefined control sequence.
+l.194 ...ed to the overlay mitigation with $y_{\text
+                                                  {cut}} = 5\times10^{-5}$ a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 ! LaTeX Error: \begin{document} ended by \end{figure}.
 
@@ -13003,14 +13102,23 @@ Overfull \hbox (10.00003pt too wide) in paragraph at lines 205--206
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 206--207
-\OML/cmm/m/it/10 >
+Overfull \hbox (23.2753pt too wide) in paragraph at lines 206--207
+\OML/cmm/m/it/10 P[] >
  []
 
 
 Overfull \hbox (5.00002pt too wide) in paragraph at lines 206--207
 \OT1/cmr/m/n/10 5$
  []
+
+! Undefined control sequence.
+l.207 \item $E_{\text
+                   {vis}} < 500$ GeV
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 Overfull \hbox (29.29225pt too wide) in paragraph at lines 207--208
@@ -13021,6 +13129,15 @@ Overfull \hbox (29.29225pt too wide) in paragraph at lines 207--208
 Overfull \hbox (15.00005pt too wide) in paragraph at lines 207--208
 \OT1/cmr/m/n/10 500$
  []
+
+! Undefined control sequence.
+l.208 \item $E_{\text
+                   {com}} > 100$ GeV
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 Overfull \hbox (33.05453pt too wide) in paragraph at lines 208--209
@@ -13048,8 +13165,8 @@ Overfull \hbox (15.00005pt too wide) in paragraph at lines 209--210
  []
 
 
-Overfull \hbox (50.8102pt too wide) in paragraph at lines 210--211
-\OMS/cmsy/m/n/10  \OML/cmm/m/it/10 qcos[] >
+Overfull \hbox (53.67006pt too wide) in paragraph at lines 210--211
+\OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q [] [] >
  []
 
 
@@ -13058,7 +13175,25 @@ Overfull \hbox (25.55563pt too wide) in paragraph at lines 210--211
  []
 
 ! Undefined control sequence.
-l.211 ...$(m^{vis}_{recoil})^2 < 135,000 \, \, \text
+l.211 \item  $(m^{\text
+                     {vis}}_{\text{recoil}})^2 < 135,000 \, \, \text{GeV}^2$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.211 \item  $(m^{\text{vis}}_{\text
+                                  {recoil}})^2 < 135,000 \, \, \text{GeV}^2$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.211 ...}}_{\text{recoil}})^2 < 135,000 \, \, \text
                                                   {GeV}^2$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13077,8 +13212,8 @@ Overfull \hbox (62.8382pt too wide) in paragraph at lines 211--212
  []
 
 ! Undefined control sequence.
-l.214 ...com} = E_{vis} + |P_{miss}| \, \,  \, \text
-                                                  {and} \, \, P^\mu_{miss} =...
+l.214 The track multiplicity and $E_{\text
+                                        {com}}$ target 2 fermion backgrounds...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -13086,8 +13221,143 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.214 ... + M^2_{vis} - 2\sqrt{s}E_{vis} \, \, \text
-                                                  {and} \, \, M^2_{vis} = ( ...
+l.214 ...}}$ target 2 fermion backgrounds. $E_{\text
+                                                  {com}}$ is the rest-frame ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.214 ...neutrino with zero mass such that $E_{\text
+                                                  {com}} = E_{\text{vis}} + ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.214 ...o mass such that $E_{\text{com}} = E_{\text
+                                                  {vis}} + |P_{\text{miss}}|...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.214 ...E_{\text{com}} = E_{\text{vis}} + |P_{\text
+                                                  {miss}}| \, \,  \, \text{a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.214 ...t{vis}} + |P_{\text{miss}}| \, \,  \, \text
+                                                  {and} \, \, P^\mu_{\text{m...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.214 ...}}| \, \,  \, \text{and} \, \, P^\mu_{\text
+                                                  {miss}} = (|P_{\text{miss}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.214 ...and} \, \, P^\mu_{\text{miss}} = (|P_{\text
+                                                  {miss}}| , -\sum{\vec{p}_{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.214 ...= (|P_{\text{miss}}| , -\sum{\vec{p}_{\text
+                                                  {vis}}})$. The visible $P_...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.214 ...l measured transverse momenta and $E_{\text
+                                                  {vis}}$ is the sum of all ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.214 ...energy in an event. The $P_T$ and $E_{\text
+                                                  {vis}}$ cuts target proces...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.214 ...`W-like" and the recoil mass, $m_{\nu \text
+                                                  {recoil}}$, uniquely requi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.214 ...e recoil mass is defined as $m^2_{\nu \text
+                                                  {recoil}} = s + M^2_{\text...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.214 ...s $m^2_{\nu \text{recoil}} = s + M^2_{\text
+                                                  {vis}} - 2\sqrt{s}E_{\text...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.214 ... = s + M^2_{\text{vis}} - 2\sqrt{s}E_{\text
+                                                  {vis}} \, \, \text{and} \,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.214 ...vis}} - 2\sqrt{s}E_{\text{vis}} \, \, \text
+                                                  {and} \, \, M^2_{\text{vis...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.214 ...ext{vis}} \, \, \text{and} \, \, M^2_{\text
+                                                  {vis}} = ( P^{\mu}_{qq} + ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -13408,6 +13678,24 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
+l.230 $E_{\text
+             {vis}}$ & {32.8 } &  {31.1 } &  {22.7} & {86.7} &  {106} &  {11...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.240 $E_{\text
+             {com}}$ & {27.2 } &  {25.7} &  {18.3} & {71.3} &  {5.58} &  {2....
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
 l.244 $(m^{\text
               {vis}}_{\text{recoil}})^2$ & {26.9 } &  {25.4 } &  {18.0} & {7...
 The control sequence at the end of the top line
@@ -13419,6 +13707,24 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 l.244 $(m^{\text{vis}}_{\text
                            {recoil}})^2$ & {26.9 } &  {25.4 } &  {18.0} & {7...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.263 $E_{\text
+             {vis}}$ & {0.764 } &  {1.26 } &  {5.70} & {7.72} &  {18.2} &  {...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.273 $E_{\text
+             {com}}$ & {0.404 } &  {0.781 } &  {4.16} & {5.34} &  {2.50} &  ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -13556,6 +13862,15 @@ Overfull \hbox (20.72568pt too wide) in paragraph at lines 300--300
 [][]$\OML/cmm/m/it/10 qq$| 
  []
 
+! Undefined control sequence.
+l.306 $E_{\text
+             {vis}}$ &{5.08 } & {22.5 } & {3.41} & 31.0\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 Overfull \hbox (18.73674pt too wide) in paragraph at lines 306--306
 [][]$\OML/cmm/m/it/10 E[]$| 
@@ -13586,9 +13901,23 @@ Overfull \hbox (15.00005pt too wide) in paragraph at lines 314--314
 \OT1/cmr/m/n/10 120$| 
  []
 
+! Undefined control sequence.
+l.316 $E_{\text
+             {com}}$ &{3.44 } & {18.1 } & {2.39} & 23.9\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 Overfull \hbox (22.49902pt too wide) in paragraph at lines 316--316
 [][]$\OML/cmm/m/it/10 E[]$| 
+ []
+
+
+Overfull \hbox (12.71979pt too wide) in paragraph at lines 318--318
+[][]$\OML/cmm/m/it/10 P[]$
  []
 
 ! Undefined control sequence.
@@ -13695,6 +14024,15 @@ Overfull \hbox (20.72568pt too wide) in paragraph at lines 338--338
 [][]$\OML/cmm/m/it/10 qq$| 
  []
 
+! Undefined control sequence.
+l.345 $E_{\text
+             {vis}}$ &{0.079 } & {2.61 } & {0.88} & 3.57\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 Overfull \hbox (18.73674pt too wide) in paragraph at lines 345--345
 [][]$\OML/cmm/m/it/10 E[]$| 
@@ -13725,9 +14063,23 @@ Overfull \hbox (15.00005pt too wide) in paragraph at lines 353--353
 \OT1/cmr/m/n/10 120$| 
  []
 
+! Undefined control sequence.
+l.355 $E_{\text
+             {com}}$ &{0.036 } & {1.18 } & {0.48} & 2.03\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 Overfull \hbox (22.49902pt too wide) in paragraph at lines 355--355
 [][]$\OML/cmm/m/it/10 E[]$| 
+ []
+
+
+Overfull \hbox (12.71979pt too wide) in paragraph at lines 357--357
+[][]$\OML/cmm/m/it/10 P[]$
  []
 
 ! Undefined control sequence.
@@ -14261,11 +14613,11 @@ Overfull \hbox (63.28033pt too wide) detected at line 441
 \OML/cmm/m/it/10  \OT1/cmr/m/n/10 = []
  []
 
-\citation{lumi paper}
+\citation{ilcluminosity}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.442 ...l to $\frac{\Delta L}{L}$ \cite{lumi paper}
+l.442 ...o $\frac{\Delta L}{L}$ \cite{ilcluminosity}
                                                   . With $\epsilon$, $L$, an...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14274,7 +14626,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `lumi paper' on page  undefined on input line 442.
+LaTeX Warning: Citation `ilcluminosity' on page  undefined on input line 442.
 
 ! Undefined control sequence.
 l.442 ...bined selection is $8001 \pm 17 \, \, \text
@@ -14608,12 +14960,12 @@ or  <return>  to continue without it.
 
 Here is how much of LuaTeX's memory you used:
  52 strings out of 495004
- 156266,89155 words of node,token memory allocated 126351 words of node memory still in use:
-   1833 hlist, 460 vlist, 820 rule, 10 disc, 319 math, 5573 glue, 143 kern, 1008
- penalty, 1 sub_mlist, 10372 glyph, 1861 glue_spec, 9 write, 461 local_par, 1 di
+ 156266,89155 words of node,token memory allocated 126577 words of node memory still in use:
+   1845 hlist, 460 vlist, 820 rule, 10 disc, 327 math, 5578 glue, 143 kern, 1010
+ penalty, 1 sub_mlist, 10376 glyph, 1870 glue_spec, 9 write, 461 local_par, 1 di
 r nodes
-   avail lists: 2:17,3:5,4:1,6:1498,7:201,10:165
+   avail lists: 2:17,3:5,4:1,6:1403,7:201,10:163
  3727 multiletter control sequences out of 65536+600000
  26 fonts using 1033735 bytes
- 20i,13n,26p,3435b,184s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 20i,13n,26p,3395b,184s stack positions out of 5000i,500n,10000p,200000b,100000s
 !  ==> Fatal error occurred, no output PDF file produced!
