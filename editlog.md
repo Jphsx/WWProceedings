@@ -3,7 +3,8 @@
 Various changes from my proof read
 
 - introduction choppy and still lacks solid motivation for analysis
-		>> reformulated introduction and motivation slightly, tried to better motivate mass measurement and make section flow better
+
+	>> reformulated introduction and motivation slightly, tried to better motivate mass measurement and make section flow better
 
 Jenny's comments from first draft
 
