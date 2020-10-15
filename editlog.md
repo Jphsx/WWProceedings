@@ -1,10 +1,11 @@
 
-Jenny's comments from first draft
 
-	==Various changes from my proof read
+Various changes from my proof read
+
+- introduction choppy and still lacks solid motivation for analysis
 		>> reformulated introduction and motivation slightly, tried to better motivate mass measurement and make section flow better
 
-
+Jenny's comments from first draft
 
 - as a general remark, the document is very sparse on references, especially in the introduction, section 2 and the discussion at the end
 
