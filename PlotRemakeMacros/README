@@ -12,3 +12,6 @@ macro.sh needs to be run on desy
 The Generator mass diff for various ycuts and the wmass distribution with optimal ycut and 1e-3 (no y cut)
 these plots can be made from the location
 ILDbench_WWqqlnu/macros/WqqJetOptimizationmacros/plotter.C
+
+I modified plotter.C to output a file optplots.C and have copied the file locally for ease
+
