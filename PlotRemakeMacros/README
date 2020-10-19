@@ -1,0 +1,14 @@
+
+
+**Some macros here plot to hard coded spaces only on laptop 
+There were extra workspaces for tau optimization and qq optimization that i worked on outside of git repo
+
+
+macro.C remakes the lepEnergy and matching angle plots from a root file on my laptop
+
+
+macro.sh runs other old scripts to remake stuff
+macro.sh needs to be run on desy
+The Generator mass diff for various ycuts and the wmass distribution with optimal ycut and 1e-3 (no y cut)
+these plots can be made from the location
+ILDbench_WWqqlnu/macros/WqqJetOptimizationmacros/plotter.C
