@@ -15,3 +15,4 @@ ILDbench_WWqqlnu/macros/WqqJetOptimizationmacros/plotter.C
 
 I modified plotter.C to output a file optplots.C and have copied the file locally for ease
 
+macro2.C runs over optplots.C locally and remakes the qq optimization plots
