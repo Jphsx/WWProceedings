@@ -15,3 +15,8 @@ ILDbench_WWqqlnu/macros/WqqJetOptimizationmacros/plotter.C
 
 I modified plotter.C to output a file optplots.C and have copied the file locally for ease
 
+
+
+for cut flow
+I modified stackplot.c to output a file that is copied locally to be run in a macro script
+/afs/desy.de/user/a/anguiano/work/repos/ILDbench_WWqqlnu/macros/v2Analysis/stacks/stackplot.c
