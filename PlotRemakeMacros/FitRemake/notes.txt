@@ -1,0 +1,16 @@
+
+
+apply vrec 175x10^3 examine optimal range in 125x10^3 to 240x10^3
+
+cut about 135x10^3 it says 132700 but with more additional cuts we should probably move to a looser cut
+
+now trying to apply max ntracks with all cuts between 40 and 70
+this cut didnt help
+
+it also doesnt look like wl recoiling from qq will help either
+
+trying mwlep mass? looking at 120 to 400 in bins of 1
+will also look at low mass cut, there is significant bg to reject in this region
+go from 1 to 70
+
+opt chose max lep mass of 400 so this cut isnt effective
