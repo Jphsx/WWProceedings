@@ -74,7 +74,12 @@ H.~Abramowicz {\em et~al.}, ``{The International Linear Collider Technical
   [physics.ins-det]}}.
 
 \bibitem{particleflowA}
-
+J.~Marshall and M.~Thomson, ``{Pandora Particle Flow Algorithm},'' in {\em
+  {International Conference on Calorimetry for the High Energy Frontier}},
+  pp.~305--315.
+\newblock 2013.
+\newblock \href{http://arxiv.org/abs/1308.4537}{{\ttfamily arXiv:1308.4537
+  [physics.ins-det]}}.
 
 \bibitem{wwrepo}
 J.~Anguiano and G.~Wilson, ``Ildbench wwqqlnu.''

@@ -15,7 +15,7 @@ The approach towards the identification of leptons relies on treating leptons un
 \item Track multiplicity - The allowed number of tracks in a lepton candidate
 \item Minimum $P_T$ seed - the minimum transverse momentum of a track that seeds a lepton candidate [GeV] 
 \end{itemize}
-An example of the cone and parameters are shown in Figure 6. Additional requirements are imposed on all of the reconstructed Particle Flow Objects(PFOs) in the event in order to suppress overlay particles being included in the lepton jet.
+An example of the cone and parameters are shown in Figure 2. Additional requirements are imposed on all of the reconstructed Particle Flow Objects(PFOs) in the event in order to suppress overlay particles being included in the lepton jet.
 \begin{itemize}
 \item $P_T > 0.2$ GeV
 \item $|\cos\theta| < 0.99$
@@ -23,14 +23,18 @@ An example of the cone and parameters are shown in Figure 6. Additional requirem
 The formation of a lepton candidate follows three steps (1) candidate construction, (2) candidate merging, and (3) isolation testing.
 The first step starts with seed tracks that are sorted by energy in descending order. Any track or neutral particle that falls within the search cone of the lepton candidate is added to the lepton candidate. For each newly added particle, the energy and momentum of the lepton candidate is updated. Each candidate has a unique set of particles. Lepton candidates are continually formed until the seed tracks are exhausted. When there are no more candidates to be created, the candidates are subjected to part of the acceptance criteria: the lepton jet mass is required to be below the upper mass limit (2 GeV) and the number of charged tracks within the lepton candidate is non-zero and less than or equal to 4. If a lepton jet violates any acceptance conditions it is deleted. The next step in the process is merging. If two lepton candidates form an opening angle of less than $2\alpha$, the candidates are merged. If the mass or track multiplicity conditions are violated, both lepton candidates are deleted.  All  candidates that survive merging are subjected to the isolation testing. For each candidate, the sum of energy of all the particles that fall inside the isolation cone is computed. If the total energy inside the isolation cone is greater than the maximum allowed energy inside the isolation cone the lepton candidate is deleted.\\
 
-	The universal lepton treatment is not conducive to a one size fits all approach to lepton ID due to the abundance of different lepton signatures. To accommodate variations between lepton signatures, the acceptance criteria for leptons is optimized according to lepton flavor and $\tau$ decay mode. The categories created are: Prompt $\ell$, $\tau \rightarrow \ell\bar{\nu_{\ell}} \nu_{\tau}$, $\tau \rightarrow $hadrons. The leptonic categories, for both prompt and $\tau$ decays, are further subdivided between light flavors whereas the hadronic category is separated by either 1-prong or 3-prong decays\\
+	The universal lepton treatment is not conducive to a one size fits all approach to lepton ID due to the abundance of different lepton signatures. To accommodate variations between lepton signatures, the acceptance criteria for leptons is optimized according to lepton flavor and $\tau$ decay mode. The categories created are: Prompt $\ell$, $\tau \rightarrow \ell\bar{\nu_{\ell}} \nu_{\tau}$, $\tau \rightarrow $hadrons. The leptonic categories, for both prompt and $\tau$ decays, are further subdivided between light flavors whereas the hadronic category is separated by either 1-prong or 3-prong decays.\\
 
-\begin{figure}
 
+\begin{figure}[hp]
+\centering
+\captionsetup{justification=raggedright,margin=3cm}
 \includegraphics[width=0.4\textwidth]{cone.pdf}
-\captionof{figure}{Illustration of possible lepton candidate cone with search cone angle $\alpha$ and isolation cone angle $\beta$. The search cone is shown in green and the isolation cone is the surrounding blue cone.}
-
+%\captionof{figure}{Illustration of possible lepton candidate cone with search cone angle $\alpha$ and isolation cone angle $\beta$. The search cone is shown in green and the isolation cone is the surrounding blue cone.}
+\caption{Illustration of possible lepton candidate cone with search cone angle $\alpha$ and isolation cone angle $\beta$. The search cone is shown in green and the isolation cone is the surrounding blue cone.}
 \end{figure}
+
+
  The optimal selection criteria for each category is the set of parameters that maximally identify lepton candidates that originate from true leptons and minimize the fake lepton candidates that originate from hadronic jets. To find this set of parameters, a scan over a 3D space is performed using the search cone-$\alpha$, isolation cone-$\beta$, and isolation energy-$E_{\text{iso}}$. The invariant mass is held at a fixed 2 GeV for simplicity.\\
 Two parameters are defined to find the optimal working point in the lepton finding space. The first is related to correctly identifying jets originating from true leptons..
 The true lepton reconstruction efficiency is maximized with the signal sample $WW\rightarrow q\bar{q}\ell\nu$ and denoted as  $\epsilon_T$. The denominator, $N_{\text{Stotal}}$, represents the total, category specific, number of events which contain three generator visible fermions. The truth $q\bar{q}\ell$ fermions are required to fall within the acceptance range $|\cos\theta| < 0.99$. $N_{\text{match}}$ is the number of signal sample events in which a lepton candidate is reconstructed and can be matched to the true lepton, such that the opening angle between the reconstructed lepton and the true lepton is less than 0.1 radians. The distribution of opening angles is show in Figure \ref{fig:taupsi}. In the case that a reconstructed lepton is being matched to a true tau, the matching angle is formed between the reconstructed lepton and the vector sum of the visible generator components of the tau decay. The visible components of the tau decay consist of the direct decay products whereas photons from final state radiation of the tau prior to decay are excluded.
@@ -63,11 +67,11 @@ P_F = 1-(1-\epsilon_F)^{\frac{1}{4}} \\
     \node at (a.north west)
     [
     anchor=center,
-    xshift= 2cm,
+    xshift= 2.5cm,
     yshift= -1cm
     ]
     {
-        \includegraphics[width=0.1\textwidth]{ildlogo.png}
+        \includegraphics[width=0.13\textwidth]{ildlogo.png}
     };
     \end{tikzpicture}
 \caption{Distribution of opening angles between the closest reconstructed lepton candidate and the true muon from $WW \rightarrow q \bar{q} \mu \nu_\mu$. $99.4\%$ of events with a muon candidate are matched to truth.} 
@@ -82,14 +86,14 @@ P_F = 1-(1-\epsilon_F)^{\frac{1}{4}} \\
     \node at (a.north west)
     [
     anchor=center,
-    xshift= 2cm,
+    xshift= 2.5 cm,
     yshift= -1cm
     ]
     {
-        \includegraphics[width=0.1\textwidth]{ildlogo.png}
+        \includegraphics[width=0.13\textwidth]{ildlogo.png}
     };
     \end{tikzpicture}
-\caption{Energy distribution of lepton candidates matched to truth from $WW \rightarrow q \bar{q} \mu \nu_\mu $ and fake candidates from $ WW \rightarrow q\bar{q} q \bar{q}$ both normalized to unity.}
+\caption{Energy distribution of lepton candidates matched to truth from $WW \rightarrow q \bar{q} \mu \nu_\mu $ and fake candidates from $ WW \rightarrow q\bar{q} q \bar{q}$ both normalized to unity.\\}
 \label{fig:candE}
 \end{minipage}
 \end{figure}
@@ -157,15 +161,15 @@ Using estimators calculated from a binned histogram creates unwanted sensitivity
         %\includegraphics[width=0.99\textwidth]{SupDiff.pdf} % first figure itself
         \begin{tikzpicture}
     %\node(a){\includegraphics[width=0.99\textwidth]{SupDiff.pdf}};
-   \node(a){\includegraphics[scale=.6]{SupDiff.pdf}};
+   \node(a){\includegraphics[scale=.45]{SupDiff.pdf}};
     \node at (a.north west)
     [
     anchor=center,
-    xshift= 2.5cm,
-    yshift= -1.5cm
+    xshift= 3.3cm,
+    yshift= -1.3cm
     ]
     {
-        \includegraphics[width=0.05\textwidth]{ildlogo.png}
+        \includegraphics[width=0.06\textwidth]{ildlogo.png}
     };
     \end{tikzpicture}
         \caption{Comparison of generator and reconstruction mass differences with different $y_{\text{cut}}$ values and the same  flat mini-jet cut of $P_T > 2$. The generator mass is computed from the vector sum of true di-quark pair from the hadronic W boson. The results of the largest $y_{\text{cut}}$ are massive (high $P_T$) jets that are not separated from overlay and insensitive to small kinematic cuts. $y_{\text{cut}} = 5\times 10^{-5}$ has the best balance between jet clustering and mini-jet cuts. $y_{\text{cut}} = 5\times 10^{-6}$ yields a highly fragmented system where the mini-jets are not distinguishable from overlay. The most fragmented system is sensitive to the $P_T$ requirement resulting in the small peak around -80 GeV where the hadronic W is completely thrown out.  }
@@ -180,15 +184,15 @@ Using estimators calculated from a binned histogram creates unwanted sensitivity
         %\includegraphics[width=0.99\textwidth]{SupMass.pdf} % second figure itself
         \begin{tikzpicture}
     %\node(a){\includegraphics[width=0.99\textwidth]{SupMass.pdf}};
-    \node(a){\includegraphics[scale=.6]{SupMass.pdf}};
+    \node(a){\includegraphics[scale=.45]{SupMass.pdf}};
     \node at (a.north west)
     [
     anchor=center,
-    xshift= 2.5cm,
-    yshift= -1.5cm
+    xshift= 3.3cm,
+    yshift= -1.3cm
     ]
     {
-        \includegraphics[width=0.05\textwidth]{ildlogo.png}
+        \includegraphics[width=0.06\textwidth]{ildlogo.png}
     };
     \end{tikzpicture}
         \caption{The increase of quality of the hadronic mass is shown between the red curve which is the raw hadronic system after lepton identification versus the black curve which is subjected to the overlay mitigation with $y_{\text{cut}} = 5\times10^{-5}$ and mini jet $P_T > 2$ GeV. On average the excess in mass is reduced by $\approx 5$ GeV. }
@@ -199,7 +203,7 @@ Using estimators calculated from a binned histogram creates unwanted sensitivity
 
 \subsection{EventSelection}
 \label{subsec:EventSelection}
-The W-pair selection has been optimized for a Monte Carlo sample of 1600 $\text{fb}^{-1}$ with the $(-0.8,+0.3)$ beam scenario and builds on those described in \cite{ivan}. However, there is a significant difference between the present and preceeding analysis selections, such that  the previous selection only addresses prompt muons as signal and treats muonic tau decays as background. The selection includes the full 2,4,6 fermion and Higgs SM background, and is performed with two mutually exclusive subsets, a tight and loose selection. The tight selection uses the prompt muon cone to identify signal events that contain both prompt and non-prompt muons and electrons. The tight selection is inefficient in collecting hadronic taus, so, the loose selection, using the inclusive tau cone, is designed to recover the efficiency of hadronic taus and other problematic events. The tight and loose cone parameters are given from the optimization in Table \ref{tab:taufinderopt}. The selection criteria are applied after the overlay mitigation and are as follows:
+The W-pair selection has been optimized for a Monte Carlo sample of 1600 $\text{fb}^{-1}$ with the $(-0.8,+0.3)$ beam scenario and builds on those described in \cite{ivan}. However, there is a significant difference between the present and preceeding analysis selections, such that  the previous selection only addresses prompt muons as signal and treats muonic tau decays as background. The selection includes the full 2,4,6 fermion and Higgs SM background, and is performed with two mutually exclusive subsets, a tight and loose selection. The tight selection uses the prompt muon cone to identify signal events that contain both prompt and non-prompt muons and electrons. The tight selection is inefficient in collecting hadronic taus, so, the loose selection, using the inclusive tau cone, is designed to recover the efficiency of hadronic taus and other problematic events. The tight and loose cone parameters are given from the optimization in Table \ref{tab:taufinderopt}. \pagebreak[4] The selection criteria are applied after the overlay mitigation and are as follows:
 \begin{itemize}
 \item N Leptons $\geq 1$
 \item Track Multiplicity $> 10$  
@@ -211,7 +215,7 @@ The W-pair selection has been optimized for a Monte Carlo sample of 1600 $\text{
 \item  $(m^{\text{vis}}_{\text{recoil}})^2 < 135,000 \, \, \text{GeV}^2$
 \end{itemize}
 
-The track multiplicity and $E_{\text{com}}$ target 2 fermion backgrounds. $E_{\text{com}}$ is the rest-frame energy that consists of the visible and inferred missing energy. The missing energy is treated as a single neutrino with zero mass such that $E_{\text{com}} = E_{\text{vis}} + |P_{\text{miss}}| \, \,  \, \text{and} \, \, P^\mu_{\text{miss}} = (|P_{\text{miss}}| , -\sum{\vec{p}_{\text{vis}}})$. The visible $P_T$ is the magnitude of the vector of all measured transverse momenta and $E_{\text{vis}}$ is the sum of all reconstructed visible energy in an event. The $P_T$ and $E_{\text{vis}}$ cuts target processes that do not have a genuine missing energy from a neutrino. The hadronic W-mass $M_{qq}$ requirement forces the hadronic system to be ``W-like" and the recoil mass, $m_{\nu \text{recoil}}$, uniquely requires the visible system to be recoiling against an invisible system with little to no mass. The recoil mass is defined as $m^2_{\nu \text{recoil}} = s + M^2_{\text{vis}} - 2\sqrt{s}E_{\text{vis}} \, \, \text{and} \, \, M^2_{\text{vis}} = ( P^{\mu}_{qq} +  P^{\mu}_{\ell})^2$. The W-scattering angle $-q\cos\theta_W$ is the angle of deflection of the system identified as $W^-$ with respect to the $e^-$ beam axis and is implemented to limit backward scattering.  The charge of the lepton is extracted from the leading momentum track from candidates with 1, 2, or 4 tracks, or in the case of 3 tracks, the charge is the sum of the three track charges. The hadronic system is then tagged with the opposite charge.  This procedure results in the correct charge assignment of the lepton before selection cuts for about $98.9\%$ of prompt muons, $94.8\%$ of prompt electrons, and $95.9\%$ of taus. Following the event selection the correct charge assignment increases to $99.9\%$ for prompt muons, $98.3\%$ for prompt electrons, and $98.8\%$ for taus. The details of the tight and loose selection for (-0.8,+0.3) at 1600$\text{fb}^{-1}$ are summarized in Table \ref{tab:selection}. The selections in Table \ref{tab:selection} differ by the veto of the tight lepton in the loose selection, where the preference for any event is to always choose a tight lepton over loose. The primary selection also includes only ``WW-like" signal, this type of signal is such that both of the true fermion pairs invariant masses are each within $\pm10$ GeV of the nominal W mass. If an event contains a fermion pair that is outside the WW-like range, it is designated as an off-shell(O.S) event and is placed in a different category. The selection details for events from the O.S. category are given in Table \ref{tab:os}. The selection criterion applied to every category are optimized to maximize the efficiency and purity of the total signal for the tight selection with WW-like events. The results are summarized with the two selection cones with and without O.S. events in Table \ref{tab:summary}. The final results for the selection with no restrictions on W mass and both cones, yields a signal efficiency of $60\%$ with only a $7\%$ of background contaminating selected events. The W-boson invariant mass after selection is shown with mass resolution in Figure \ref{fig:money}.
+The track multiplicity and $E_{\text{com}}$ target 2 fermion backgrounds. $E_{\text{com}}$ is the rest-frame energy that consists of the visible and inferred missing energy. The missing energy is treated as a single neutrino with zero mass such that $E_{\text{com}} = E_{\text{vis}} + |P_{\text{miss}}| \, \,  \, \text{and} \, \, P^\mu_{\text{miss}} = (|P_{\text{miss}}| , -\sum{\vec{p}_{\text{vis}}})$. The visible $P_T$ is the magnitude of the vector of all measured transverse momenta and $E_{\text{vis}}$ is the sum of all reconstructed visible energy in an event. The $P_T$ and $E_{\text{vis}}$ cuts target processes that do not have a genuine missing energy from a neutrino. The hadronic W-mass $M_{qq}$ requirement forces the hadronic system to be ``W-like" and the recoil mass, $m_{\nu \text{recoil}}$, uniquely requires the visible system to be recoiling against an invisible system with little to no mass. The recoil mass is defined as $m^2_{\nu \text{recoil}} = s + M^2_{\text{vis}} - 2\sqrt{s}E_{\text{vis}} \, \, \text{and} \, \, M^2_{\text{vis}} = ( P^{\mu}_{qq} +  P^{\mu}_{\ell})^2$. The W-scattering angle $-q\cos\theta_W$ is the angle of deflection of the system identified as $W^-$ with respect to the $e^-$ beam axis and is implemented to limit backward scattering.  The charge of the lepton is extracted from the leading momentum track from candidates with 1, 2, or 4 tracks, or in the case of 3 tracks, the charge is the sum of the three track charges. The hadronic system is then tagged with the opposite charge.  This procedure results in the correct charge assignment of the lepton before selection cuts for about $98.9\%$ of prompt muons, $94.8\%$ of prompt electrons, and $95.9\%$ of taus. Following the event selection the correct charge assignment increases to $99.9\%$ for prompt muons, $98.3\%$ for prompt electrons, and $98.8\%$ for taus. The distributions for the tight selection are shown in Figure \ref{fig:cutflow}. The details of the tight and loose selection for (-0.8,+0.3) at 1600$\text{fb}^{-1}$ are summarized in Table \ref{tab:selection}. The selections in Table \ref{tab:selection} differ by the veto of the tight lepton in the loose selection, where the preference for any event is to always choose a tight lepton over loose. The primary selection also includes only ``WW-like" signal, this type of signal is such that both of the true fermion pairs invariant masses are each within $\pm10$ GeV of the nominal W mass. If an event contains a fermion pair that is outside the WW-like range, it is designated as an off-shell(O.S) event and is placed in a different category. The selection details for events from the O.S. category are given in Table \ref{tab:os}. The selection criterion applied to every category are optimized to maximize the efficiency and purity of the total signal for the tight selection with WW-like events. The results are summarized with the two selection cones with and without O.S. events in Table \ref{tab:summary}. The final results for the selection with no restrictions on W mass and both cones, yields a signal efficiency of $60\%$ with only a $7\%$ of background contaminating selected events. The W-boson invariant mass after selection is shown with mass resolution in Figure \ref{fig:money}.
 
 
 \begin{table}
@@ -383,7 +387,130 @@ $(m^{\text{vis}}_{\text{recoil}})^2$ &{0.036 } & {0.92 } & {0.47} & 1.42\\
 \end{tabular} 
 \end{table}
 
+\begin{figure}[htpb]%cutflow
+\caption{ Distributions of the selection criteria for the $qq\ell\nu$ tight signal region. All distributions, excluding N tight leptons, include only one preceeding requirement such that there is at least 1 identified tight lepton. The signal selection only includes events that pass tight muon cone requirement. Uses 1600$\text{fb}^{-1}$ in $(-0.8,+0.3)$.}
+\centering
+    \begin{minipage}{0.49\textwidth}
+        \centering
+   		\begin{tikzpicture}
+        \node(a){\includegraphics[width=0.99\textwidth]{nlep.pdf}}; % second figure itself
+        \node at (a.north west)
+        [
+        anchor = center,
+        xshift=6.4cm,
+        yshift=-1cm
+     	]
+     	{
+     		\includegraphics[width=0.08\textwidth]{ildlogo.png}
+     	};
+     	\end{tikzpicture}
+    \end{minipage}\hfill
+    \begin{minipage}{0.49\textwidth}
+        \begin{tikzpicture}
+        \node(a){\includegraphics[width=0.99\textwidth]{Evis.pdf}}; % second figure itself
+        \node at (a.north west)
+        [
+        anchor = center,
+        xshift=6.4cm,
+        yshift=-1cm
+     	]
+     	{
+     		\includegraphics[width=0.08\textwidth]{ildlogo.png}
+     	};
+     	\end{tikzpicture}
+     \end{minipage}\\
+     \begin{minipage}{0.49\textwidth}
+        \centering
+   		\begin{tikzpicture}
+        \node(a){\includegraphics[width=0.99\textwidth]{trackmult.pdf}}; % second figure itself
+        \node at (a.north west)
+        [
+        anchor = center,
+        xshift=6.4cm,
+        yshift=-1cm
+     	]
+     	{
+     		\includegraphics[width=0.08\textwidth]{ildlogo.png}
+     	};
+     	\end{tikzpicture}
+    \end{minipage}\hfill
+    \begin{minipage}{0.49\textwidth}
+        \begin{tikzpicture}
+        \node(a){\includegraphics[width=0.99\textwidth]{mqcost.pdf}}; % second figure itself
+        \node at (a.north west)
+        [
+        anchor = center,
+        xshift=6.2cm,
+        yshift=-1cm
+     	]
+     	{
+     		\includegraphics[width=0.08\textwidth]{ildlogo.png}
+     	};
+     	\end{tikzpicture}
+     \end{minipage}\\
+     \begin{minipage}{0.49\textwidth}
+        \centering
+   		\begin{tikzpicture}
+        \node(a){\includegraphics[width=0.99\textwidth]{mqq.pdf}}; % second figure itself
+        \node at (a.north west)
+        [
+        anchor = center,
+        xshift=6.4cm,
+        yshift=-1cm
+     	]
+     	{
+     		\includegraphics[width=0.08\textwidth]{ildlogo.png}
+     	};
+     	\end{tikzpicture}
+    \end{minipage}\hfill
+    \begin{minipage}{0.49\textwidth}
+        \begin{tikzpicture}
+        \node(a){\includegraphics[width=0.99\textwidth]{Ecom.pdf}}; % second figure itself
+        \node at (a.north west)
+        [
+        anchor = center,
+        xshift=6.4cm,
+        yshift=-1cm
+     	]
+     	{
+     		\includegraphics[width=0.08\textwidth]{ildlogo.png}
+     	};
+     	\end{tikzpicture}
+     \end{minipage}\\
+     \begin{minipage}{0.49\textwidth}
+        \centering
+   		\begin{tikzpicture}
+        \node(a){\includegraphics[width=0.99\textwidth]{ptvis.pdf}}; % second figure itself
+        \node at (a.north west)
+        [
+        anchor = center,
+        xshift=6.4cm,
+        yshift=-1cm
+     	]
+     	{
+     		\includegraphics[width=0.08\textwidth]{ildlogo.png}
+     	};
+     	\end{tikzpicture}
+    \end{minipage}\hfill
+    \begin{minipage}{0.49\textwidth}
+        \begin{tikzpicture}
+        \node(a){\includegraphics[width=0.99\textwidth]{mvisrecoil.pdf}}; % second figure itself
+        \node at (a.north west)
+        [
+        anchor = center,
+        xshift=6.4cm,
+        yshift=-1cm
+     	]
+     	{
+     		\includegraphics[width=0.08\textwidth]{ildlogo.png}
+     	};
+     	\end{tikzpicture}
+     \end{minipage}\\
+     
+\label{fig:cutflow}
 
+
+\end{figure}
 
 
 \begin{figure}
@@ -400,35 +527,35 @@ $(m^{\text{vis}}_{\text{recoil}})^2$ &{0.036 } & {0.92 } & {0.47} & 1.42\\
     \node at (a.north west)
     [
     anchor=center,
-    xshift= 2.5cm,
-    yshift= -1.5cm
+    xshift= 3.9cm,
+    yshift= -1.7cm
     ]
     {
-        \includegraphics[width=0.05\textwidth]{ildlogo.png}
+        \includegraphics[width=0.1\textwidth]{ildlogo.png}
     };
     \end{tikzpicture}
    
    
   %  \end{minipage}\hfill
   %  \begin{minipage}{0.50\textwidth}
-        \centering
-        \begin{tikzpicture}
+       % \centering
+       % \begin{tikzpicture}
        % \node(a){\includegraphics[width=0.99\textwidth]{mwhadCutsHist.pdf}}; % second figure itself
        %\node(a){\includegraphics[scale=0.42]{mwhadCutsHist.pdf}};
       % \node(a){\includegraphics[scale=0.6]{moneymassdiff.pdf}};
-      \node(a){\includegraphics[scale=0.6]{mqqdiffHist.pdf}};
-        \node at (a.north west)
-        [
-        anchor = center,
-        xshift=2.5cm,
-        yshift=-1.5cm
-     	]
-     	{
-     		\includegraphics[width=0.05\textwidth]{ildlogo.png}
-     	};
-     	\end{tikzpicture}
+      %\node(a){\includegraphics[scale=0.6]{mqqdiffHist.pdf}};
+        %\node at (a.north west)
+        %[
+        %anchor = center,
+       % xshift=2.5cm,
+      %  yshift=-1.5cm
+     %	]
+     %	{
+     %		\includegraphics[width=0.05\textwidth]{ildlogo.png}
+     %	};
+    % 	\end{tikzpicture}
 %     \end{minipage}\\
-     \caption{The top distribution is the mass of the hadronic W-boson after overlay removal and selection cuts against the remaining background events. The tight signal selection does not include off shell events. The bottom distribution shows the resolution of the hadronic W mass with respect to the true mass in Monte Carlo before overlay removal and selection cuts and after overlay removal and selection cuts. The resolution shows a significant improvement in symmetry and events with excess mass are shifted centrally.  Uses 1600 $\text{fb}^{-1}$ in $(-0.8,+0.3)$. 
+     \caption{The  mass of the hadronic W-boson after overlay removal and selection cuts against the remaining background events. The tight signal selection does not include off shell events.  Uses 1600 $\text{fb}^{-1}$ in $(-0.8,+0.3)$. 
 }
 \label{fig:money}
 \end{figure}
@@ -436,7 +563,7 @@ $(m^{\text{vis}}_{\text{recoil}})^2$ &{0.036 } & {0.92 } & {0.47} & 1.42\\
 \subsection{Results}
 \label{subsec:wmass}
 
-A fit with the convolution of a Breit-Wigner with a Gaussian (Voigtian) of the hadronic W mass is performed on the tight signal sample with the combined lepton categories shown in Figure \ref{fig:badfit}. The resulting fit models the shape and the mean of the distribution well but deviates around 90 GeV and edges of the fit window. The width of the fit is also in excess of the true width, which is about 2 GeV. This means that the Voigtian model is inadequate in describing the simulated data likely due to the inadequacy of a single Gaussian for modeling the resolution. However, because the shape is similar to simulated data, the fitted model is used to understand the achievable mass resolution given a perfect model. Statistics consistent with 1600 $\text{fb}^{-1}$ (9.36M Events) are produced according to the previously fitted model with a mean  $M_W = 79.7074$ GeV, width $\Gamma_W = 10.6972$ GeV and $\sigma_W = 0.0$ GeV and refitted to achieve the statistical error on the mean $\Delta M_W \text{(stat.)} = 2.4$ MeV with goodness-of-fit $\chi^2 / ndof = 67.8/77$. This fit neglects background contributions but includes the off shell contributions. The toy model refit is also included in Figure \ref{fig:badfit}.
+A fit with the convolution of a Breit-Wigner with a Gaussian (Voigtian) of the hadronic W mass is performed on the tight signal sample with the combined lepton categories shown in Figure \ref{fig:badfit}. The resulting fit models the shape and the mean of the distribution well but deviates around 90 GeV and edges of the fit window. The width of the fit is also in excess of the true width, which is about 2 GeV. This means that the Voigtian model is inadequate in describing the simulated data likely due to the inadequacy of a single Gaussian for modeling the resolution. However, because the shape is similar to simulated data, the fitted model is used to understand the achievable mass resolution given a perfect model. Statistics consistent with 1600 $\text{fb}^{-1}$ (9.36M Events) are produced according to the previously fitted model with a mean  $M_W = 79.7079$ GeV, width $\Gamma_W = 10.6972$ GeV and $\sigma_W = 0.0$ GeV and refitted to achieve the statistical error on the mean $\Delta M_W \text{(stat.)} = 2.4$ MeV with goodness-of-fit $\chi^2 / ndof = 67.8/77$. This fit neglects background contributions but includes the off shell contributions. The toy model refit is also included in Figure \ref{fig:badfit}.
 The cross-section and errors are extracted from Table \ref{tab:selection} according to the formula:
 \begin{equation}
 \sigma = \frac{N_T - N_B}{L \epsilon}
@@ -453,11 +580,11 @@ where $N_T$ is the observed number of events that passes the selection and $N_B$
         \node at (a.north west)
         [
         anchor = center,
-        xshift=2cm,
+        xshift=6cm,
         yshift=-1cm
      	]
      	{
-     		\includegraphics[width=0.1\textwidth]{ildlogo.png}
+     		\includegraphics[width=0.13\textwidth]{ildlogo.png}
      	};
      	\end{tikzpicture}
     \end{minipage}\hfill
@@ -466,7 +593,7 @@ where $N_T$ is the observed number of events that passes the selection and $N_B$
         \includegraphics[width=0.99\textwidth]{Wtoyfit.pdf} % second figure itself
      
      \end{minipage}\\
-     \caption{ The left distribution shows the (-0.8,+0.3) W mass distribution for all signal after selection cuts. The fit results in the Voigtian parameters $M_W = 79.7074$ GeV, width $\Gamma_W = 10.6972$ GeV and $\sigma_W = 0.0$ GeV with Monte Carlo statistics scaled up to 1600 $\text{fb}^{-1}$. The right distribution shows the refit with 9.36M W's generated according to the fitted model.}
+     \caption{ The left distribution shows the (-0.8,+0.3) W mass distribution for all signal after selection cuts. The fit results in the Voigtian parameters $M_W = 79.7079$ GeV, width $\Gamma_W = 10.6972$ GeV and $\sigma_W = 0.0$ GeV with Monte Carlo statistics scaled up to 1600 $\text{fb}^{-1}$. The right distribution shows the refit with 9.36M W's generated according to the fitted model.}
 \label{fig:badfit}
 
 

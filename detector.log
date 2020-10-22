@@ -1,18 +1,41 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.10.30)  12 OCT 2020 11:20
- restricted \write18 enabled.
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.4.7)  22 OCT 2020 12:08
+ restricted system commands enabled.
 **detector.tex
 (./detector.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 1 language(s) loaded.
-! Undefined control sequence.
-l.3 \subsection
-             {Event Generation and Detector Simulation}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+LaTeX2e <2017-04-15>
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using write cache: /home/justin/.texlive2017/texmf-var/luatex-cache/ge
+neric)(using read cache: /var/lib/texmf/luatex-cache/generic /home/justin/.texli
+ve2017/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /home/justin/.texlive2017/texmf-var/
+luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /home/justin/.texlive2017/texmf-var/
+luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.116 seconds
+Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 
 ! LaTeX Error: Missing \begin{document}.
 
@@ -20,34 +43,22 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 \subsection{E
-               vent Generation and Detector Simulation}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 3--5
-[][]Event
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 T
+l.5 T
    he software ecosystem for the ILC is contained under iLCSoft \cite{ilcsof...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 \citation{ilcsoft}
+luaotfload | db : Font names database loaded from /home/justin/.texlive2017/texm
+f-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /home/justin/.te
+xlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc)(load l
+uc: /home/justin/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10
+-bold.luc)
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.7 ...ILC is contained under iLCSoft \cite{ilcsoft}
-                                                   version ilc_xx_xx_xx whic...
+l.5 ...ILC is contained under iLCSoft \cite{ilcsoft}
+                                                   version \url{v02-00-02} w...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -55,25 +66,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `ilcsoft' on page  undefined on input line 7.
+LaTeX Warning: Citation `ilcsoft' on page  undefined on input line 5.
 
-! Missing $ inserted.
-<inserted text> 
-$
-l.7 ...ned under iLCSoft \cite{ilcsoft} version ilc_
-                                                  xx_xx_xx which is comprise...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+! Undefined control sequence.
+l.5 ...ned under iLCSoft \cite{ilcsoft} version \url
+                                                  {v02-00-02} which is compr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 7.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 7.
 \citation{lcio}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.7 ... rely on the event data model LCIO\cite{lcio}
+l.5 ... rely on the event data model LCIO\cite{lcio}
                                                   . Full simulation samples ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -82,13 +90,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `lcio' on page  undefined on input line 7.
+LaTeX Warning: Citation `lcio' on page  undefined on input line 5.
 
 \citation{dd4hep}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.7 ...detector descriptions in DD4HEP \cite{dd4hep}
+l.5 ...detector descriptions in DD4HEP \cite{dd4hep}
                                                   . The physics hard events ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -97,13 +105,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `dd4hep' on page  undefined on input line 7.
+LaTeX Warning: Citation `dd4hep' on page  undefined on input line 5.
 
 \citation{whizard}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.7 ...h the Whizard event generator \cite{ whizard}
+l.5 ...h the Whizard event generator \cite{ whizard}
                                                    with hadronization perfor...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -112,13 +120,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `whizard' on page  undefined on input line 7.
+LaTeX Warning: Citation `whizard' on page  undefined on input line 5.
 
-\citation{pythia}
+\citation{pythia6}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.7 ...ronization performed in Pythia6 \cite{pythia}
+l.5 ...onization performed in Pythia6 \cite{pythia6}
                                                    then simulated in the det...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -127,13 +135,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `pythia' on page  undefined on input line 7.
+LaTeX Warning: Citation `pythia6' on page  undefined on input line 5.
 
 \citation{geant4}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.7 ...ted in the detector with Geant4 \cite{geant4}
+l.5 ...ted in the detector with Geant4 \cite{geant4}
                                                   . The Monte Carlo samples ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -142,13 +150,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `geant4' on page  undefined on input line 7.
+LaTeX Warning: Citation `geant4' on page  undefined on input line 5.
 
 \citation{ILDIDR}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.7 ...sign Report benchmarking effort \cite{ILDIDR}
+l.5 ...sign Report benchmarking effort \cite{ILDIDR}
                                                    and are based on events c...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -157,14 +165,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `ILDIDR' on page  undefined on input line 7.
+LaTeX Warning: Citation `ILDIDR' on page  undefined on input line 5.
 
 \citation{tdrdet}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.7 ...the ILD Technical Design Report \cite{tdrdet}
-                                                  . The detector description...
+l.5 ...the ILD Technical Design Report \cite{tdrdet}
+                                                  . The analysis relies on M...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -172,28 +180,43 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `tdrdet' on page  undefined on input line 7.
+LaTeX Warning: Citation `tdrdet' on page  undefined on input line 5.
 
-\citation{ILDIDR}
 ! Undefined control sequence.
-<write> ... Warning: Citation `\@citeb ' on page \thepage 
-                                                  \space undefined\on@line .
-l.7 ...x which is described in the IDR \cite{ILDIDR}
-                                                  . The $\gamma \gamma$ even...
+l.5 ...y simulated using the ILD detector model \url
+                                                  { ILD_l5_o1_v02 } and incl...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+! Missing $ inserted.
+<inserted text> 
+$
+l.5 ...lated using the ILD detector model \url{ ILD_
+                                                  l5_o1_v02 } and includes a...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-LaTeX Warning: Citation `ILDIDR' on page  undefined on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 5.
+! Extra }, or forgotten $.
+l.5 ... the ILD detector model \url{ ILD_l5_o1_v02 }
+                                                   and includes a complete s...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
-\citation{pandora}
+\citation{particleflowA}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.7 ... reconstructed with PandoraPFA \cite{pandora}
+l.5 ...structed with PandoraPFA \cite{particleflowA}
                                                    into particle flow object...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -202,13 +225,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `pandora' on page  undefined on input line 7.
+LaTeX Warning: Citation `particleflowA' on page  undefined on input line 5.
 
 \citation{wwrepo}
 ! Undefined control sequence.
 <write> ... Warning: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.7 ...or this project can be found at \cite{wwrepo}
+l.5 ...or this project can be found at \cite{wwrepo}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -217,67 +240,91 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `wwrepo' on page  undefined on input line 7.
+LaTeX Warning: Citation `wwrepo' on page  undefined on input line 5.
 
 ! Missing $ inserted.
 <inserted text> 
 $
-l.8 
+l.6 
   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 7--8
-[][]The
+Overfull \hbox (20.0pt too wide) in paragraph at lines 5--6
+[]The
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 7--8
+Overfull \hbox (5.43pt too wide) in paragraph at lines 5--6
 [[]]
  []
 
 
-Overfull \hbox (2396.99445pt too wide) in paragraph at lines 7--8
-ilc$[][]\OML/cmm/m/it/10 x[]x[]xwhichiscomprisedofreconstructiontoolsthatrelyon
-theeventdatamodelLCIO\OT1/cmr/m/n/10 [[]]\OML/cmm/m/it/10 :Fullsimulationsample
-sthataregeneratedarebasedondetectordescriptionsinDD\OT1/cmr/m/n/10 4\OML/cmm/m/
-it/10 HEP\OT1/cmr/m/n/10 [[]]\OML/cmm/m/it/10 :Thephysicshardeventsarecentrally
-producedwiththeWhizardeventgenerator\OT1/cmr/m/n/10 [[]]\OML/cmm/m/it/10 withha
-dronizationperformedinPythia\OT1/cmr/m/n/10 6[[]]\OML/cmm/m/it/10 thensimulated
-inthedetectorwithGeant\OT1/cmr/m/n/10 4[[]]\OML/cmm/m/it/10 :TheMonteCarlosampl
-esbeingusedarefortheInterimDesignReportbenchmarkingeffort\OT1/cmr/m/n/10 [[]]\O
-ML/cmm/m/it/10 andarebasedoneventscreatedfortheILDTechnicalDesignReport\OT1/cmr
-/m/n/10 [[]]\OML/cmm/m/it/10 :ThedetectordescriptionstudiedhereisIDR \OMS/cmsy/
-m/n/10  
+Overfull \hbox (5.43pt too wide) in paragraph at lines 5--6
+LCIO[[]].
  []
 
 
-Overfull \hbox (26.41394pt too wide) in paragraph at lines 7--8
-\OML/cmm/m/it/10 Lild \OMS/cmsy/m/n/10  
+Overfull \hbox (5.43pt too wide) in paragraph at lines 5--6
+[[]].
  []
 
 
-Overfull \hbox (15.95839pt too wide) in paragraph at lines 7--8
-\OML/cmm/m/it/10 l\OT1/cmr/m/n/10 5 \OMS/cmsy/m/n/10  
+Overfull \hbox (5.43pt too wide) in paragraph at lines 5--6
+[[]]
  []
 
 
-Overfull \hbox (1392.0045pt too wide) in paragraph at lines 7--8
-\OML/cmm/m/it/10 xxwhichisdescribedintheIDR\OT1/cmr/m/n/10 [[]]\OML/cmm/m/it/10
- :The$$eventcontributionsareoverlaidontopofthehardeventbeforereconstruction:E
-ventsarereconstructedwithPandoraPFA\OT1/cmr/m/n/10 [[]]\OML/cmm/m/it/10 intopar
-ticleflowobjects\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 PFOs\OT1/cmr/m/n/10 )\OML/cmm
-/m/it/10 :Eacheventisweightedbasedwith$\nullfont -80%$\OML/cmm/m/it/10 fortheel
-ectronbeamand$\nullfont +30%$\OML/cmm/m/it/10 forthepositronbeam; comprisingani
-ntegratedluminosityof\OT1/cmr/m/n/10 1600\OML/cmm/m/it/10 fb \OMS/cmsy/m/n/10  
-
+Overfull \hbox (5.43pt too wide) in paragraph at lines 5--6
+[[]]
  []
 
 
-Overfull \hbox (391.54146pt too wide) in paragraph at lines 7--8
-\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 fortheparticularbeamscenario:Theanalysisframe
-workforthisprojectcanbefoundat\OT1/cmr/m/n/10 [[]]\OML/cmm/m/it/10 :$ 
+Overfull \hbox (5.43pt too wide) in paragraph at lines 5--6
+[[]].
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 5--6
+[[]]
+ []
+
+
+Overfull \hbox (5.43pt too wide) in paragraph at lines 5--6
+[[]].
+ []
+
+
+Overfull \hbox (824.15176pt too wide) in paragraph at lines 5--6
+ILD$[][]\OT1/cmr/m/n/10 5[]1[]02\OML/cmm/m/it/10 andincludesacompletestandardmo
+delbackgroundforfinalstateswith\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n
+/10 4\OML/cmm/m/it/10 ; and\OT1/cmr/m/n/10 6\OML/cmm/m/it/10 fermionsaswellstan
+dardmodelHiggsproduction:Acenterofmassenergyof\OT1/cmr/m/n/10 500\OML/cmm/m/it/
+10 GeVandlongitudinally \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (1455.59978pt too wide) in paragraph at lines 5--6
+\OML/cmm/m/it/10 polarizedbeams:TheMonteCarloeventsaregeneratedfor$\nullfont 10
+0%$\OML/cmm/m/it/10 polarizedbeams:The$$eventcontributionsareoverlaidontopoft
+hehardeventbeforereconstruction:EventsarereconstructedwithPandoraPFA\OT1/cmr/m/
+n/10 [[]]\OML/cmm/m/it/10 intoparticleflowobjects\OT1/cmr/m/n/10 (\OML/cmm/m/it
+/10 PFOs\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :Eacheventisweightedinordertoobtainar
+ealisticcaseofpartialpolarizationforapossiblerunningwith$\nullfont -
+ []
+
+
+Overfull \hbox (405.58272pt too wide) in paragraph at lines 5--6
+80%$\OML/cmm/m/it/10 fortheelectronbeamand$\nullfont +30%$\OML/cmm/m/it/10 fort
+hepositronbeam; comprisinganintegratedluminosityof\OT1/cmr/m/n/10 1600\OML/cmm/
+m/it/10 fb \OMS/cmsy/m/n/10  
+ []
+
+
+Overfull \hbox (255.37715pt too wide) in paragraph at lines 5--6
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :Theanalysisframeworkforthisprojectcanbefound
+at\OT1/cmr/m/n/10 [[]]\OML/cmm/m/it/10 :$ 
  []
 
 )
@@ -289,12 +336,12 @@ workforthisprojectcanbefoundat\OT1/cmr/m/n/10 [[]]\OML/cmm/m/it/10 :$
 
 
 Here is how much of LuaTeX's memory you used:
- 33 strings out of 495004
- 100000,89155 words of node,token memory allocated 7404 words of node memory still in use:
-   28 hlist, 8 math, 42 glue, 181 kern, 9 penalty, 962 glyph, 42 glue_spec, 1 wr
-ite, 2 local_par, 1 dir nodes
-   avail lists: 1:1,2:12,3:518,4:488,6:2,7:17,10:9
- 3709 multiletter control sequences out of 65536+600000
- 26 fonts using 1033735 bytes
- 20i,4n,26p,1251b,94s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 36 strings out of 494480
+ 100000,89155 words of node,token memory allocated 9692 words of node memory still in use:
+   37 hlist, 2 disc, 1 local_par, 1 dir, 10 math, 144 glue, 135 kern, 6 penalty,
+ 1200 glyph, 29 attribute, 35 glue_spec, 29 attribute_list nodes
+   avail lists: 2:4,3:225,4:17,5:2,7:117,8:230,10:16
+ 4271 multiletter control sequences out of 65536+600000
+ 26 fonts using 1476791 bytes
+ 19i,4n,23p,1593b,100s stack positions out of 5000i,500n,10000p,200000b,100000s
 !  ==> Fatal error occurred, no output PDF file produced!

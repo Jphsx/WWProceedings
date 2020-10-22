@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.4.7)  21 OCT 2020 12:33
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.4.7)  22 OCT 2020 12:43
  restricted system commands enabled.
 **WWproc.tex
 (./WWproc.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.122 seconds
+luaotfload | main : initialization completed in 0.116 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -652,7 +652,24 @@ File: pgflibrarygraphdrawing.code.tex 2015/06/08 v3.0.1a (rcs-revision 1.39)
 \pgf@gd@postkind@box=\box44
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikzfeynman.keys.code.tex
-))) (/usr/share/texlive/texmf-dist/tex/latex/ctable/ctable.sty
+))) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen175
+\captionmargin@=\dimen176
+\captionwidth=\dimen177
+\caption@tempdima=\dimen178
+\caption@indent=\dimen179
+\caption@parindent=\dimen180
+\caption@hangindent=\dimen181
+)
+\c@ContinuedFloat=\count136
+Package caption Info: hyperref package is loaded.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ctable/ctable.sty
 Package: ctable 2015/10/17 v1.31 ctable package for flexible typesetting of tabl
 e and figure floats using key/value directives
 
@@ -664,46 +681,46 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks37
 \XKV@tempa@toks=\toks38
 )
-\XKV@depth=\count136
+\XKV@depth=\count137
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen175
-\extrarowheight=\dimen176
+\col@sep=\dimen182
+\extrarowheight=\dimen183
 \NC@list=\toks39
 \extratabsurround=\skip47
 \backup@length=\skip48
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
-\TX@col@width=\dimen177
-\TX@old@table=\dimen178
-\TX@old@col=\dimen179
-\TX@target=\dimen180
-\TX@delta=\dimen181
-\TX@cols=\count137
+\TX@col@width=\dimen184
+\TX@old@table=\dimen185
+\TX@old@col=\dimen186
+\TX@target=\dimen187
+\TX@delta=\dimen188
+\TX@cols=\count138
 \TX@ftn=\toks40
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen182
-\lightrulewidth=\dimen183
-\cmidrulewidth=\dimen184
-\belowrulesep=\dimen185
-\belowbottomsep=\dimen186
-\aboverulesep=\dimen187
-\abovetopsep=\dimen188
-\cmidrulesep=\dimen189
-\cmidrulekern=\dimen190
-\defaultaddspace=\dimen191
-\@cmidla=\count138
-\@cmidlb=\count139
-\@aboverulesep=\dimen192
-\@belowrulesep=\dimen193
-\@thisruleclass=\count140
-\@lastruleclass=\count141
-\@thisrulewidth=\dimen194
+\heavyrulewidth=\dimen189
+\lightrulewidth=\dimen190
+\cmidrulewidth=\dimen191
+\belowrulesep=\dimen192
+\belowbottomsep=\dimen193
+\aboverulesep=\dimen194
+\abovetopsep=\dimen195
+\cmidrulesep=\dimen196
+\cmidrulekern=\dimen197
+\defaultaddspace=\dimen198
+\@cmidla=\count139
+\@cmidlb=\count140
+\@aboverulesep=\dimen199
+\@belowrulesep=\dimen256
+\@thisruleclass=\count141
+\@lastruleclass=\count142
+\@thisrulewidth=\dimen257
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
@@ -711,7 +728,7 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count142
+\c@r@tfl@t=\count143
 \rotFPtop=\skip49
 \rotFPbot=\skip50
 \rot@float@box=\box45
@@ -721,26 +738,26 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 Package ctable Warning:  Transparency disabled: incompatible with tikz package  
 on input line 36.
 
-\@CTframesep=\dimen195
-\@dfltCTframesep=\dimen196
-\@CTframerule=\dimen197
-\@dfltCTframerule=\dimen198
-\@CTwidth=\dimen199
-\@dfltCTwidth=\dimen256
-\@CTcaptionskip=\dimen257
-\@dfltCTcaptionskip=\dimen258
-\@CTmaxwidth=\dimen259
-\@dfltCTmaxwidth=\dimen260
-\@CTmincapwidth=\dimen261
-\@dfltCTmincapwidth=\dimen262
-\@CTfooterwidth=\dimen263
-\@dfltCTfooterwidth=\dimen264
-\@CTw=\dimen265
-\@CTfloatwidth=\dimen266
-\@CToldsep=\dimen267
-\@CToldrule=\dimen268
+\@CTframesep=\dimen258
+\@dfltCTframesep=\dimen259
+\@CTframerule=\dimen260
+\@dfltCTframerule=\dimen261
+\@CTwidth=\dimen262
+\@dfltCTwidth=\dimen263
+\@CTcaptionskip=\dimen264
+\@dfltCTcaptionskip=\dimen265
+\@CTmaxwidth=\dimen266
+\@dfltCTmaxwidth=\dimen267
+\@CTmincapwidth=\dimen268
+\@dfltCTmincapwidth=\dimen269
+\@CTfooterwidth=\dimen270
+\@dfltCTfooterwidth=\dimen271
+\@CTw=\dimen272
+\@CTfloatwidth=\dimen273
+\@CToldsep=\dimen274
+\@CToldrule=\dimen275
 \CT@t=\box46
-\@CTcurftwidth=\dimen269
+\@CTcurftwidth=\dimen276
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
 )
@@ -757,19 +774,19 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count143
+\linenopenalty=\count144
 \output=\toks42
-\linenoprevgraf=\count144
-\linenumbersep=\dimen270
-\linenumberwidth=\dimen271
-\c@linenumber=\count145
-\c@pagewiselinenumber=\count146
-\c@LN@truepage=\count147
-\c@internallinenumber=\count148
-\c@internallinenumbers=\count149
-\quotelinenumbersep=\dimen272
-\bframerule=\dimen273
-\bframesep=\dimen274
+\linenoprevgraf=\count145
+\linenumbersep=\dimen277
+\linenumberwidth=\dimen278
+\c@linenumber=\count146
+\c@pagewiselinenumber=\count147
+\c@LN@truepage=\count148
+\c@internallinenumber=\count149
+\c@internallinenumbers=\count150
+\quotelinenumbersep=\dimen279
+\bframerule=\dimen280
+\bframesep=\dimen281
 \bframebox=\box47
 LaTeX Info: Redefining \\ on input line 3056.
 )
@@ -783,40 +800,40 @@ Package: feynmp-auto 2013/05/03 v1.1 Automatic processing of feynmp graphics
 Package: feynmp 1996/12/02 v1.08 LaTeX/MetaPost Feynman Diagram Package (ohl)
 \@outfmf=\write5
 \fmfbuf@=\toks43
-\c@fmfgraph=\count150
+\c@fmfgraph=\count151
 )) (./econfmacros.tex)
 (./WWproc.aux)
 \openout1 = WWproc.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count151
-\scratchdimen=\dimen275
+\scratchcounter=\count152
+\scratchdimen=\dimen282
 \scratchbox=\box48
-\nofMPsegments=\count152
-\nofMParguments=\count153
+\nofMPsegments=\count153
+\nofMParguments=\count154
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count154
-\MPscratchDim=\dimen276
-\MPnumerator=\count155
-\makeMPintoPDFobject=\count156
+\MPscratchCnt=\count155
+\MPscratchDim=\dimen283
+\MPnumerator=\count156
+\makeMPintoPDFobject=\count157
 \everyMPtoPDFconversion=\toks45
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -836,7 +853,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
 \AtBeginShipoutBox=\box49
-Package hyperref Info: Link coloring OFF on input line 123.
+Package hyperref Info: Link coloring OFF on input line 124.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -844,11 +861,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count157
+\c@section@level=\count158
 )
-LaTeX Info: Redefining \ref on input line 123.
-LaTeX Info: Redefining \pageref on input line 123.
-LaTeX Info: Redefining \nameref on input line 123.
+LaTeX Info: Redefining \ref on input line 124.
+LaTeX Info: Redefining \pageref on input line 124.
+LaTeX Info: Redefining \nameref on input line 124.
 
 (./WWproc.out) (./WWproc.out)
 \@outlinefile=\write6
@@ -857,13 +874,16 @@ LaTeX Info: Redefining \nameref on input line 123.
  ABD: EveryShipout initializing macros
 
 Package tikz-feynman Warning: The preamble requested version 1.0.0, but the syst
-em version is 1.1.0. This may change some diagrams. on input line 123.
+em version is 1.1.0. This may change some diagrams. on input line 124.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 125.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 126.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 125.
+LaTeX Font Info:    Try loading font information for U+msb on input line 126.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -874,7 +894,7 @@ mroman17-regular.luc)(load luc: /home/justin/.texlive2017/texmf-var/luatex-cache
 /justin/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.
 luc)(load luc: /home/justin/.texlive2017/texmf-var/luatex-cache/generic/fonts/ot
 l/lmroman7-regular.luc)
-Underfull \hbox (badness 1418) in paragraph at lines 130--130
+Underfull \hbox (badness 1418) in paragraph at lines 131--131
 [][][]\TU/lmr/m/n/10 Work sup-ported by the Na-tional Sci-ence Foun-da-tion un-
 der awards PHY-1607262 and
  []
@@ -899,228 +919,331 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-<cone.pdf, id=127, 170.05733pt x 157.95512pt>
+<cone.pdf, id=128, 170.05733pt x 157.95512pt>
 File: cone.pdf Graphic file (type pdf)
 <use cone.pdf>
-Package luatex.def Info: cone.pdf  used on input line 30.
+Package luatex.def Info: cone.pdf  used on input line 32.
 (luatex.def)             Requested size: 173.44534pt x 161.10965pt.
-[5] [6<./cone.pdf>]
-<matchingangle.pdf, id=155, 569.12625pt x 384.43625pt>
+[5]
+<matchingangle.pdf, id=135, 569.12625pt x 384.43625pt>
 File: matchingangle.pdf Graphic file (type pdf)
 <use matchingangle.pdf>
-Package luatex.def Info: matchingangle.pdf  used on input line 62.
+Package luatex.def Info: matchingangle.pdf  used on input line 66.
 (luatex.def)             Requested size: 206.05553pt x 139.18884pt.
-<ildlogo.png, id=156, 288.07625pt x 184.69pt>
+<ildlogo.png, id=136, 236.885pt x 145.54375pt>
 File: ildlogo.png Graphic file (type png)
 <use ildlogo.png>
-Package luatex.def Info: ildlogo.png  used on input line 70.
-(luatex.def)             Requested size: 20.81483pt x 13.34387pt.
+Package luatex.def Info: ildlogo.png  used on input line 74.
+(luatex.def)             Requested size: 27.05865pt x 16.62502pt.
 
-Overfull \hbox (5.91891pt too wide) in paragraph at lines 72--73
+Overfull \hbox (5.91891pt too wide) in paragraph at lines 76--77
  [][] 
  []
 
-<candEnergy.pdf, id=157, 569.12625pt x 384.43625pt>
+<candEnergy.pdf, id=137, 569.12625pt x 384.43625pt>
 File: candEnergy.pdf Graphic file (type pdf)
 <use candEnergy.pdf>
-Package luatex.def Info: candEnergy.pdf  used on input line 81.
+Package luatex.def Info: candEnergy.pdf  used on input line 85.
 (luatex.def)             Requested size: 206.05553pt x 139.18884pt.
 File: ildlogo.png Graphic file (type png)
 <use ildlogo.png>
-Package luatex.def Info: ildlogo.png  used on input line 89.
-(luatex.def)             Requested size: 20.81483pt x 13.34387pt.
+Package luatex.def Info: ildlogo.png  used on input line 93.
+(luatex.def)             Requested size: 27.05865pt x 16.62502pt.
 
-Overfull \hbox (5.91891pt too wide) in paragraph at lines 91--92
+Overfull \hbox (5.91891pt too wide) in paragraph at lines 95--96
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 []|$\OML/cmm/m/it/12 E[]$
  []
 
 
-Overfull \hbox (24.50002pt too wide) in paragraph at lines 101--123
+Overfull \hbox (24.50002pt too wide) in paragraph at lines 105--127
 [][] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 130.
+(hyperref)                removing `math shift' on input line 134.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 130.
+(hyperref)                removing `\gamma' on input line 134.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 130.
+(hyperref)                removing `\gamma' on input line 134.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 130.
+(hyperref)                removing `math shift' on input line 134.
 
-<hxLR.pdf, id=159, 569.12625pt x 408.52625pt>
+<hxLR.pdf, id=139, 569.12625pt x 408.52625pt>
 File: hxLR.pdf Graphic file (type pdf)
 <use hxLR.pdf>
-Package luatex.def Info: hxLR.pdf  used on input line 134.
+Package luatex.def Info: hxLR.pdf  used on input line 138.
 (luatex.def)             Requested size: 208.13574pt x 149.4007pt.
-<hxRL.pdf, id=160, 569.12625pt x 408.52625pt>
+<hxRL.pdf, id=140, 569.12625pt x 408.52625pt>
 File: hxRL.pdf Graphic file (type pdf)
 <use hxRL.pdf>
-Package luatex.def Info: hxRL.pdf  used on input line 135.
+Package luatex.def Info: hxRL.pdf  used on input line 139.
 (luatex.def)             Requested size: 208.13574pt x 149.4007pt.
-<hsLR.pdf, id=161, 569.12625pt x 408.52625pt>
+<hsLR.pdf, id=141, 569.12625pt x 408.52625pt>
 File: hsLR.pdf Graphic file (type pdf)
 <use hsLR.pdf>
-Package luatex.def Info: hsLR.pdf  used on input line 143.
+Package luatex.def Info: hsLR.pdf  used on input line 147.
 (luatex.def)             Requested size: 208.13574pt x 149.4007pt.
-<hsRL.pdf, id=162, 569.12625pt x 408.52625pt>
+<hsRL.pdf, id=142, 569.12625pt x 408.52625pt>
 File: hsRL.pdf Graphic file (type pdf)
 <use hsRL.pdf>
-Package luatex.def Info: hsRL.pdf  used on input line 144.
+Package luatex.def Info: hsRL.pdf  used on input line 148.
 (luatex.def)             Requested size: 208.13574pt x 149.4007pt.
-[7<./matchingangle.pdf><./ildlogo.png><./candEnergy.pdf>] [8<./hxLR.pdf><./hxRL.
-pdf>] [9<./hsLR.pdf><./hsRL.pdf>]
-<SupDiff.pdf, id=472, 569.12625pt x 384.43625pt>
+[6] [7<./cone.pdf><./matchingangle.pdf><./ildlogo.png><./candEnergy.pdf>]
+[8<./hxLR.pdf><./hxRL.pdf>] [9<./hsLR.pdf><./hsRL.pdf>]
+<SupDiff.pdf, id=471, 569.12625pt x 384.43625pt>
 File: SupDiff.pdf Graphic file (type pdf)
 <use SupDiff.pdf>
-Package luatex.def Info: SupDiff.pdf  used on input line 160.
-(luatex.def)             Requested size: 341.47838pt x 230.66351pt.
+Package luatex.def Info: SupDiff.pdf  used on input line 164.
+(luatex.def)             Requested size: 256.10445pt x 172.9947pt.
 File: ildlogo.png Graphic file (type png)
 <use ildlogo.png>
-Package luatex.def Info: ildlogo.png  used on input line 168.
-(luatex.def)             Requested size: 21.68231pt x 13.89905pt.
-<SupMass.pdf, id=473, 569.12625pt x 384.43625pt>
+Package luatex.def Info: ildlogo.png  used on input line 172.
+(luatex.def)             Requested size: 26.01613pt x 15.9832pt.
+<SupMass.pdf, id=472, 569.12625pt x 384.43625pt>
 File: SupMass.pdf Graphic file (type pdf)
 <use SupMass.pdf>
-Package luatex.def Info: SupMass.pdf  used on input line 183.
-(luatex.def)             Requested size: 341.47838pt x 230.66351pt.
+Package luatex.def Info: SupMass.pdf  used on input line 187.
+(luatex.def)             Requested size: 256.10445pt x 172.9947pt.
 File: ildlogo.png Graphic file (type png)
 <use ildlogo.png>
-Package luatex.def Info: ildlogo.png  used on input line 191.
-(luatex.def)             Requested size: 21.68231pt x 13.89905pt.
- [10] [11<./SupDiff.pdf>] [12<./SupMass.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Package luatex.def Info: ildlogo.png  used on input line 195.
+(luatex.def)             Requested size: 26.01613pt x 15.9832pt.
+ [10] [11<./SupDiff.pdf><./SupMass.pdf>] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
 []|\TU/lmr/m/n/8 Tot.
  []
 
 (load luc: /home/justin/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lm
 roman5-regular.luc)
-Underfull \hbox (badness 10000) in paragraph at lines 256--256
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
 []|\TU/lmr/m/n/8 Tot.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 []|\TU/lmr/m/n/8 Tot.
  []
 
 
-Overfull \hbox (19.10533pt too wide) in paragraph at lines 297--327
+Overfull \hbox (19.10533pt too wide) in paragraph at lines 301--331
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--338
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
 []|\TU/lmr/m/n/8 Tot.
  []
 
 
-Overfull \hbox (16.98174pt too wide) in paragraph at lines 334--365
+Overfull \hbox (16.98174pt too wide) in paragraph at lines 338--369
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 []|\TU/lmr/m/n/12 Effi-ciency
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 []|\TU/lmr/m/n/12 Pu-rity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 []|\TU/lmr/m/n/12 Effi-ciency $    $
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
 []|\TU/lmr/m/n/12 Pu-rity
  []
 
 
-Overfull \hbox (17.0125pt too wide) in paragraph at lines 374--384
+Overfull \hbox (17.0125pt too wide) in paragraph at lines 378--388
 [][] 
  []
 
-<massAllCut.pdf, id=590, 569.12625pt x 384.43625pt>
-File: massAllCut.pdf Graphic file (type pdf)
-<use massAllCut.pdf>
-Package luatex.def Info: massAllCut.pdf  used on input line 399.
-(luatex.def)             Requested size: 341.47838pt x 230.66351pt.
-File: ildlogo.png Graphic file (type png)
-<use ildlogo.png>
-Package luatex.def Info: ildlogo.png  used on input line 407.
-(luatex.def)             Requested size: 21.68231pt x 13.89905pt.
-<mqqdiffHist.pdf, id=591, 569.12625pt x 384.43625pt>
-File: mqqdiffHist.pdf Graphic file (type pdf)
-<use mqqdiffHist.pdf>
-Package luatex.def Info: mqqdiffHist.pdf  used on input line 419.
-(luatex.def)             Requested size: 341.47838pt x 230.66351pt.
-File: ildlogo.png Graphic file (type png)
-<use ildlogo.png>
-Package luatex.def Info: ildlogo.png  used on input line 427.
-(luatex.def)             Requested size: 21.68231pt x 13.89905pt.
-[13] [14] [15] [16<./massAllCut.pdf><./mqqdiffHist.pdf>]
-<WWSfit.pdf, id=712, 569.12625pt x 384.43625pt>
-File: WWSfit.pdf Graphic file (type pdf)
-<use WWSfit.pdf>
-Package luatex.def Info: WWSfit.pdf  used on input line 452.
+<nlep.pdf, id=595, 569.12625pt x 384.43625pt>
+File: nlep.pdf Graphic file (type pdf)
+<use nlep.pdf>
+Package luatex.def Info: nlep.pdf  used on input line 396.
 (luatex.def)             Requested size: 210.35257pt x 142.09253pt.
 File: ildlogo.png Graphic file (type png)
 <use ildlogo.png>
-Package luatex.def Info: ildlogo.png  used on input line 460.
-(luatex.def)             Requested size: 21.2489pt x 13.62288pt.
+Package luatex.def Info: ildlogo.png  used on input line 404.
+(luatex.def)             Requested size: 16.99847pt x 10.44226pt.
 
-Overfull \hbox (5.87555pt too wide) in paragraph at lines 462--463
+Overfull \hbox (5.87555pt too wide) in paragraph at lines 406--407
  [][] 
  []
 
-<Wtoyfit.pdf, id=713, 569.12625pt x 384.43625pt>
+<Evis.pdf, id=596, 569.12625pt x 384.43625pt>
+File: Evis.pdf Graphic file (type pdf)
+<use Evis.pdf>
+Package luatex.def Info: Evis.pdf  used on input line 410.
+(luatex.def)             Requested size: 210.35257pt x 142.09253pt.
+File: ildlogo.png Graphic file (type png)
+<use ildlogo.png>
+Package luatex.def Info: ildlogo.png  used on input line 418.
+(luatex.def)             Requested size: 16.99847pt x 10.44226pt.
+
+Overfull \hbox (5.87555pt too wide) in paragraph at lines 420--421
+[][] 
+ []
+
+<trackmult.pdf, id=597, 569.12625pt x 384.43625pt>
+File: trackmult.pdf Graphic file (type pdf)
+<use trackmult.pdf>
+Package luatex.def Info: trackmult.pdf  used on input line 425.
+(luatex.def)             Requested size: 210.35257pt x 142.09253pt.
+File: ildlogo.png Graphic file (type png)
+<use ildlogo.png>
+Package luatex.def Info: ildlogo.png  used on input line 433.
+(luatex.def)             Requested size: 16.99847pt x 10.44226pt.
+
+Overfull \hbox (5.87555pt too wide) in paragraph at lines 435--436
+ [][] 
+ []
+
+<mqcost.pdf, id=598, 569.12625pt x 384.43625pt>
+File: mqcost.pdf Graphic file (type pdf)
+<use mqcost.pdf>
+Package luatex.def Info: mqcost.pdf  used on input line 439.
+(luatex.def)             Requested size: 210.35257pt x 142.09253pt.
+File: ildlogo.png Graphic file (type png)
+<use ildlogo.png>
+Package luatex.def Info: ildlogo.png  used on input line 447.
+(luatex.def)             Requested size: 16.99847pt x 10.44226pt.
+
+Overfull \hbox (5.87555pt too wide) in paragraph at lines 449--450
+[][] 
+ []
+
+<mqq.pdf, id=599, 569.12625pt x 384.43625pt>
+File: mqq.pdf Graphic file (type pdf)
+<use mqq.pdf>
+Package luatex.def Info: mqq.pdf  used on input line 454.
+(luatex.def)             Requested size: 210.35257pt x 142.09253pt.
+File: ildlogo.png Graphic file (type png)
+<use ildlogo.png>
+Package luatex.def Info: ildlogo.png  used on input line 462.
+(luatex.def)             Requested size: 16.99847pt x 10.44226pt.
+
+Overfull \hbox (5.87555pt too wide) in paragraph at lines 464--465
+ [][] 
+ []
+
+<Ecom.pdf, id=600, 569.12625pt x 384.43625pt>
+File: Ecom.pdf Graphic file (type pdf)
+<use Ecom.pdf>
+Package luatex.def Info: Ecom.pdf  used on input line 468.
+(luatex.def)             Requested size: 210.35257pt x 142.09253pt.
+File: ildlogo.png Graphic file (type png)
+<use ildlogo.png>
+Package luatex.def Info: ildlogo.png  used on input line 476.
+(luatex.def)             Requested size: 16.99847pt x 10.44226pt.
+
+Overfull \hbox (5.87555pt too wide) in paragraph at lines 478--479
+[][] 
+ []
+
+<ptvis.pdf, id=601, 569.12625pt x 384.43625pt>
+File: ptvis.pdf Graphic file (type pdf)
+<use ptvis.pdf>
+Package luatex.def Info: ptvis.pdf  used on input line 483.
+(luatex.def)             Requested size: 210.35257pt x 142.09253pt.
+File: ildlogo.png Graphic file (type png)
+<use ildlogo.png>
+Package luatex.def Info: ildlogo.png  used on input line 491.
+(luatex.def)             Requested size: 16.99847pt x 10.44226pt.
+
+Overfull \hbox (5.87555pt too wide) in paragraph at lines 493--494
+ [][] 
+ []
+
+<mvisrecoil.pdf, id=602, 569.12625pt x 384.43625pt>
+File: mvisrecoil.pdf Graphic file (type pdf)
+<use mvisrecoil.pdf>
+Package luatex.def Info: mvisrecoil.pdf  used on input line 497.
+(luatex.def)             Requested size: 210.35257pt x 142.09253pt.
+File: ildlogo.png Graphic file (type png)
+<use ildlogo.png>
+Package luatex.def Info: ildlogo.png  used on input line 505.
+(luatex.def)             Requested size: 16.99847pt x 10.44226pt.
+
+Overfull \hbox (5.87555pt too wide) in paragraph at lines 507--508
+[][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 75.13919pt on input line 513.
+
+<massAllCut.pdf, id=603, 569.12625pt x 384.43625pt>
+File: massAllCut.pdf Graphic file (type pdf)
+<use massAllCut.pdf>
+Package luatex.def Info: massAllCut.pdf  used on input line 526.
+(luatex.def)             Requested size: 341.47838pt x 230.66351pt.
+File: ildlogo.png Graphic file (type png)
+<use ildlogo.png>
+Package luatex.def Info: ildlogo.png  used on input line 534.
+(luatex.def)             Requested size: 43.36464pt x 26.64311pt.
+<WWSfit.pdf, id=608, 569.12625pt x 384.43625pt>
+File: WWSfit.pdf Graphic file (type pdf)
+<use WWSfit.pdf>
+Package luatex.def Info: WWSfit.pdf  used on input line 579.
+(luatex.def)             Requested size: 210.35257pt x 142.09253pt.
+File: ildlogo.png Graphic file (type png)
+<use ildlogo.png>
+Package luatex.def Info: ildlogo.png  used on input line 587.
+(luatex.def)             Requested size: 27.62292pt x 16.97147pt.
+
+Overfull \hbox (5.87555pt too wide) in paragraph at lines 589--590
+ [][] 
+ []
+
+<Wtoyfit.pdf, id=609, 569.12625pt x 384.43625pt>
 File: Wtoyfit.pdf Graphic file (type pdf)
 <use Wtoyfit.pdf>
-Package luatex.def Info: Wtoyfit.pdf  used on input line 466.
+Package luatex.def Info: Wtoyfit.pdf  used on input line 593.
 (luatex.def)             Requested size: 210.35257pt x 142.09253pt.
-) (./conclude.tex [17] [18<./WWSfit.pdf><./Wtoyfit.pdf>]) (./WWproc.bbl
-[19] [20]) [21]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
+) (./conclude.tex [13] [14] [15] [16<./nlep.pdf><./Evis.pdf><./trackmult.pdf><./
+mqcost.pdf><./mqq.pdf><./Ecom.pdf><./ptvis.pdf><./mvisrecoil.pdf>] [17<./massAll
+Cut.pdf><./WWSfit.pdf><./Wtoyfit.pdf>] [18]) (./WWproc.bbl [19] [20])
+[21]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
  (./WWproc.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 216.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
 Package rerunfilecheck Info: File `WWproc.out' has not changed.
 (rerunfilecheck)             Checksum: 099775500E0E6F2A71744C812CE089E2;646.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 217.
 )
 
 Here is how much of LuaTeX's memory you used:
- 22852 strings out of 494480
- 156506,662416 words of node,token memory allocated
+ 23977 strings out of 494480
+ 156502,662416 words of node,token memory allocated
  537 words of node memory still in use:
    5 hlist, 2 vlist, 2 rule, 3 glue, 1 kern, 1 sub_mlist, 18 attribute, 52 glue_
 spec, 18 attribute_list, 1 write, 5 pdf_action nodes
-   avail lists: 1:14,2:3285,3:1064,4:59,5:440,6:8286,7:4653,8:1280,9:2159,10:27,
-11:533
- 25857 multiletter control sequences out of 65536+600000
+   avail lists: 1:15,2:4247,3:1389,4:73,5:491,6:8440,7:5097,8:1331,9:2426,10:27,
+11:724
+ 26912 multiletter control sequences out of 65536+600000
  100 fonts using 6897455 bytes
- 61i,18n,98p,3430b,1566s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 61i,18n,98p,3430b,1592s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman6-regular.otf></usr/share/texm
 f/fonts/opentype/public/lm/lmmono12-regular.otf></usr/share/texmf/fonts/opentype
 /public/lm/lmroman12-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman
@@ -1139,10 +1262,10 @@ onts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type
 amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y8.pfb>
-Output written on WWproc.pdf (22 pages, 441012 bytes).
+Output written on WWproc.pdf (22 pages, 596029 bytes).
 
-PDF statistics: 959 PDF objects out of 1000 (max. 8388607)
- 571 compressed objects within 6 object streams
+PDF statistics: 1292 PDF objects out of 1440 (max. 8388607)
+ 719 compressed objects within 8 object streams
  72 named destinations out of 1000 (max. 131072)
  96 words of extra memory for PDF output out of 10000 (max. 100000000)
 
