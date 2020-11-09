@@ -112,7 +112,7 @@ void macro3(){
 	THStack* vrecoilHist2 = newstack(vrecoilHist);
 	TCanvas* c8 = new TCanvas();
 	vrecoilHist2->Draw("HIST E");
-	vrecoilHist2->SetTitle(";m_{recoil}^{vis} [GeV^{2}];N Events");
+	vrecoilHist2->SetTitle(";(m_{recoil}^{vis})^{2} [GeV^{2}];N Events");
 
 	THStack* mwhadCutsHist = (THStack*) f->Get("mwhadCutsHist");
 	THStack* mwhadCutsHist2 = newstack(mwhadCutsHist);

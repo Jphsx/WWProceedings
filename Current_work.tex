@@ -37,23 +37,26 @@ The first step starts with seed tracks that are sorted by energy in descending o
 
  The optimal selection criteria for each category is the set of parameters that maximally identify lepton candidates that originate from true leptons and minimize the fake lepton candidates that originate from hadronic jets. To find this set of parameters, a scan over a 3D space is performed using the search cone-$\alpha$, isolation cone-$\beta$, and isolation energy-$E_{\text{iso}}$. The invariant mass is held at a fixed 2 GeV for simplicity.\\
 Two parameters are defined to find the optimal working point in the lepton finding space. The first is related to correctly identifying jets originating from true leptons.
-The true lepton reconstruction efficiency is maximized with the signal sample $WW\rightarrow q\bar{q}\ell\nu$ and denoted as  $\epsilon_T$. The denominator, $N_{\text{Stotal}}$, represents the total, category specific, number of events which contain three generator visible fermions. The truth $q\bar{q}\ell$ fermions are required to fall within the acceptance range $|\cos\theta| < 0.99$. $N_{\text{match}}$ is the number of signal sample events in which a lepton candidate is reconstructed and can be matched to the true lepton, such that the opening angle between the reconstructed lepton and the true lepton is less than 0.1 radians. The distribution of opening angles is show in Figure \ref{fig:taupsi}. In the case that a reconstructed lepton is being matched to a true tau, the matching angle is formed between the reconstructed lepton and the vector sum of the visible generator components of the tau decay. The visible components of the tau decay consist of the direct decay products whereas photons from final state radiation of the tau prior to decay are excluded.
-
+The true lepton reconstruction efficiency is maximized with the signal sample $WW\rightarrow q\bar{q}\ell\nu$ and denoted as  $\epsilon_T$.
 \begin{equation}
 \label{eq:et}
 \epsilon_T = N_{\text{match}}/N_{\text{Stotal}}
 \end{equation}
+ The denominator, $N_{\text{Stotal}}$, represents the total, category specific, number of events which contain three generator visible fermions. The truth $q\bar{q}\ell$ fermions are required to fall within the acceptance range $|\cos\theta| < 0.99$. $N_{\text{match}}$ is the number of signal sample events in which a lepton candidate is reconstructed and can be matched to the true lepton, such that the opening angle between the reconstructed lepton and the true lepton is less than 0.1 radians. The distribution of opening angles is shown in Figure \ref{fig:taupsi}. In the case that a reconstructed lepton is being matched to a true tau, the matching angle is formed between the reconstructed lepton and the vector sum of the visible generator components of the tau decay. The visible components of the tau decay consist of the direct decay products whereas photons from final state radiation of the tau prior to decay are excluded.
 
- The second optimization parameter is denoted as $P_F$, the probability of a fake lepton jet arising from a single hadronic jet. The fake lepton probability $P_F$ is minimized using the background sample $WW\rightarrow q\bar{q}q\bar{q}$ and is a function of the fake lepton reconstruction efficiency $\epsilon_F$.
+
+
+ The second optimization parameter is denoted as $P_F$, the probability of a fake lepton jet arising from a single hadronic jet. 
+\begin{equation}
+\label{eq:pf}
+P_F = 1-(1-\epsilon_F)^{\frac{1}{4}} 
+\end{equation} 
+ The fake lepton probability $P_F$ is minimized using the background sample $WW\rightarrow q\bar{q}q\bar{q}$ and is a function of the fake lepton reconstruction efficiency $\epsilon_F$.
 \begin{equation}
 \label{eq:ef}
 \epsilon_F = N_{\text{fake}}/N_{\text{Btotal}}
 \end{equation}
 The $\epsilon_F$ denominator, $N_{\text{Btotal}}$ represents the total number of background events and is also subjected to the same acceptance range $|\cos\theta| < 0.99$ for all four fermions. The numerator, $N_{\text{fake}}$, is the total number of events  that contain at least one reconstructed fake lepton. The fake efficiency can be interpreted as the binomial probability of $r$-successes(lepton reconstructions) in 4 trials(hadronic jets). The probability of a single success in a single trial, $P_F$, can be directly derived from the binomial p.d.f using the fake efficiency $\epsilon_F$ per hadronic jet. 
-\begin{equation}
-\label{eq:pf}
-P_F = 1-(1-\epsilon_F)^{\frac{1}{4}} 
-\end{equation}
 The optimal parameters $\alpha$, $\beta$, $E_{\text{iso}}$ for each lepton category are extracted from max$[\epsilon_T(1-P_F)]$. The results for each category are shown in Table \ref{tab:taufinderopt}. 
 
 \begin{table}
@@ -210,16 +213,16 @@ Using estimators calculated from a binned histogram creates unwanted sensitivity
 The W-pair selection has been optimized for a Monte Carlo sample of 1600 $\text{fb}^{-1}$ with the $(-0.8,+0.3)$ beam scenario and builds on those described in \cite{ivan}. However, there is a significant difference between the present and preceding analysis selections, such that  the previous selection only addresses prompt muons as signal and treats muonic tau decays as background. The selection includes the full 2, 4, 6 fermion and Higgs SM background, and is performed with two mutually exclusive subsets, a tight and loose selection. The tight selection uses the prompt muon cone to identify signal events that contain both prompt and non-prompt muons and electrons. The tight selection is inefficient in collecting hadronic taus, so, the loose selection, using the inclusive tau cone, is designed to recover the efficiency of hadronic taus and other problematic events. The tight and loose cone parameters are given from the optimization in Table \ref{tab:taufinderopt}. The selection criteria are applied after the overlay mitigation and are as follows:
 \begin{itemize}
 \item N Leptons $\geq 1$
-\item Track Multiplicity $> 10$  
-\item Visible $P_T > 5$ GeV  
 \item $E_{\text{vis}} < 500$ GeV 
-\item $E_{\text{com}} > 100$ GeV
+\item Track Multiplicity $> 10$ 
+\item  $-q\cos\theta_W > -0.95$ 
 \item $40<M_{qq}<120$ GeV
-\item  $-q\cos\theta_W > -0.95$
+\item $E_{\text{com}} > 100$ GeV
+\item Visible $P_T > 5$ GeV  
 \item  $(m^{\text{vis}}_{\text{recoil}})^2 < 135,000 \, \, \text{GeV}^2$
 \end{itemize}
 
-The track multiplicity and $E_{\text{com}}$ target 2 fermion backgrounds. $E_{\text{com}}$ is the rest-frame energy that consists of the visible and inferred missing energy. The missing energy is treated as a single neutrino with zero mass such that $E_{\text{com}} = E_{\text{vis}} + |P_{\text{miss}}| \, \,  \, \text{and} \, \, P^\mu_{\text{miss}} = (|P_{\text{miss}}| , -\sum{\vec{p}_{\text{vis}}})$. The visible $P_T$ is the magnitude of the vector of all measured transverse momenta and $E_{\text{vis}}$ is the sum of all reconstructed visible energy in an event. The $P_T$ and $E_{\text{vis}}$ cuts target processes that do not have a genuine missing energy from a neutrino. The hadronic W-mass $M_{qq}$ requirement forces the hadronic system to be ``W-like" and the recoil mass, $m_{\text{recoil}}^{\text{vis}}$, uniquely requires the visible system to be recoiling against an invisible system with little to no mass. The recoil mass is defined as $(m_{ \text{recoil}}^{\text{vis}})^2 = s + M^2_{\text{vis}} - 2\sqrt{s}E_{\text{vis}} \, \, \text{and} \, \, M^2_{\text{vis}} = ( P^{\mu}_{qq} +  P^{\mu}_{\ell})^2$. The W-scattering angle $-q\cos\theta_W$ is the angle of deflection of the system identified as $W^-$ with respect to the $e^-$ beam axis and is implemented to limit backward scattering.  The charge of the lepton is extracted from the leading momentum track from candidates with 1, 2, or 4 tracks, or in the case of 3 tracks, the charge is the sum of the three track charges. The hadronic system is then tagged with the opposite charge.  This procedure results in the correct charge assignment of the lepton before selection cuts for about $98.9\%$ of prompt muons, $94.8\%$ of prompt electrons, and $95.9\%$ of taus. Following the event selection the correct charge assignment increases to $99.9\%$ for prompt muons, $98.3\%$ for prompt electrons, and $98.8\%$ for taus. The distributions for the tight selection are shown in Figure \ref{fig:cutflow}. The details of the tight and loose selection for $(-0.8,+0.3)$ at 1600$\text{fb}^{-1}$ are summarized in Table \ref{tab:selection}. The selections in Table \ref{tab:selection} differ by the veto of the tight lepton in the loose selection, where the preference for any event is to always choose a tight lepton over loose. The primary selection also includes only ``WW-like" signal, this type of signal is such that both of the true fermion pairs invariant masses are each within $\pm10$ GeV of the nominal W mass. If an event contains a fermion pair that is outside the WW-like range, it is designated as an off-shell (O.S.) event and is placed in a different category. The selection details for events from the O.S. category are given in Table \ref{tab:os}. The selection criterion applied to every category are optimized to maximize the efficiency and purity of the total signal for the tight selection with WW-like events. The results are summarized with the two selection cones with and without O.S. events in Table \ref{tab:summary}. The final results for the selection with no restrictions on W mass and both cones, yields a signal efficiency of $60\%$ with only $7\%$ of background contaminating the selected events. The W-boson invariant mass distribution after selection is shown with mass resolution in Figure \ref{fig:money}.
+The track multiplicity and $E_{\text{com}}$ target 2 fermion backgrounds. $E_{\text{com}}$ is the rest-frame energy that consists of the visible and inferred missing energy. The missing energy is treated as a single neutrino with zero mass such that $E_{\text{com}} = E_{\text{vis}} + |P_{\text{miss}}| \, \,  \, \text{and} \, \, P^\mu_{\text{miss}} = (|P_{\text{miss}}| , -\sum{\vec{p}_{\text{vis}}})$. The visible $P_T$ is the magnitude of the vector of all measured transverse momenta and $E_{\text{vis}}$ is the sum of all reconstructed visible energy in an event. The $P_T$ and $E_{\text{vis}}$ cuts target processes that do not have a genuine missing energy from a neutrino. The hadronic W-mass $M_{qq}$ requirement forces the hadronic system to be ``W-like" and the recoil mass, $m_{\text{recoil}}^{\text{vis}}$, uniquely requires the visible system to be recoiling against an invisible system with little to no mass. The recoil mass is defined as $(m_{ \text{recoil}}^{\text{vis}})^2 = s + M^2_{\text{vis}} - 2\sqrt{s}E_{\text{vis}} \, \, \text{and} \, \, M^2_{\text{vis}} = ( P^{\mu}_{qq} +  P^{\mu}_{\ell})^2$. The W-scattering angle $-q\cos\theta_W$ is the angle of deflection of the system identified as $W^-$ with respect to the $e^-$ beam axis and is implemented to limit backward scattering.  The charge of the lepton is extracted from the leading momentum track from candidates with 1, 2, or 4 tracks, or in the case of 3 tracks, the charge is the sum of the three track charges. The hadronic system is then tagged with the opposite charge.  This procedure results in the correct charge assignment of the lepton before selection cuts for about $98.9\%$ of prompt muons, $94.8\%$ of prompt electrons, and $95.9\%$ of taus. Following the event selection the correct charge assignment increases to $99.9\%$ for prompt muons, $98.3\%$ for prompt electrons, and $98.8\%$ for taus. The distributions for the tight selection are shown in Figure \ref{fig:cutflow} and Figure \ref{fig:cutflow2}. The details of the tight and loose selection for $(-0.8,+0.3)$ at 1600$\text{fb}^{-1}$ are summarized in Table \ref{tab:selection}. The selections in Table \ref{tab:selection} differ by the veto of the tight lepton in the loose selection, where the preference for any event is to always choose a tight lepton over loose. The primary selection also includes only ``WW-like" signal, this type of signal is such that both of the true fermion pairs invariant masses are each within $\pm10$ GeV of the nominal W mass. If an event contains a fermion pair that is outside the WW-like range, it is designated as an off-shell (O.S.) event and is placed in a different category. The selection details for events from the O.S. category are given in Table \ref{tab:os}. The selection criterion applied to every category are optimized to maximize the efficiency and purity of the total signal for the tight selection with WW-like events. The results are summarized with the two selection cones with and without O.S. events in Table \ref{tab:summary}. The final results for the selection with no restrictions on W mass and both cones, yields a signal efficiency of $60\%$ with only $7\%$ of background contaminating the selected events. The W-boson invariant mass distribution after selection is shown with mass resolution in Figure \ref{fig:money}.
 
 
 \begin{table}
@@ -392,7 +395,6 @@ $(m^{\text{vis}}_{\text{recoil}})^2$ &{0.036 } & {0.92 } & {0.47} & 1.42\\
 \end{table}
 
 \begin{figure}[htpb]%cutflow
-\caption{ Distributions of the selection criteria for the $qq\ell\nu$ tight signal region. All distributions, excluding N tight leptons, include only one preceding requirement such that there is at least 1 identified tight lepton. The signal selection only includes events that pass the tight muon cone requirement. Uses 1600 $\text{fb}^{-1}$ in $(-0.8,+0.3)$.}
 \centering
     \begin{minipage}{0.49\textwidth}
         \centering
@@ -452,6 +454,12 @@ $(m^{\text{vis}}_{\text{recoil}})^2$ &{0.036 } & {0.92 } & {0.47} & 1.42\\
      	};
      	\end{tikzpicture}
      \end{minipage}\\
+     	
+     	\caption{ The distributions of the first four selection criteria selection criteria for the $qq\ell\nu$ tight signal region. All distributions, excluding N tight leptons, include only one preceding requirement such that there is at least 1 identified tight lepton. The signal selection only includes events that pass the tight muon cone requirement. Uses 1600 $\text{fb}^{-1}$ in $(-0.8,+0.3)$.}
+     	\label{fig:cutflow}
+
+     \end{figure}
+     \begin{figure}[htpb]
      \begin{minipage}{0.49\textwidth}
         \centering
    		\begin{tikzpicture}
@@ -510,8 +518,11 @@ $(m^{\text{vis}}_{\text{recoil}})^2$ &{0.036 } & {0.92 } & {0.47} & 1.42\\
      	};
      	\end{tikzpicture}
      \end{minipage}\\
+     	\caption{ The distributions of the last four selection criteria for the $qq\ell\nu$ tight signal region. All distributions, excluding N tight leptons, include only one preceding requirement such that there is at least 1 identified tight lepton. The signal selection only includes events that pass the tight muon cone requirement. Uses 1600 $\text{fb}^{-1}$ in $(-0.8,+0.3)$.}
+     	     \label{fig:cutflow2}
+
      
-\label{fig:cutflow}
+
 
 
 \end{figure}
