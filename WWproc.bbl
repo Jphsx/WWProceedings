@@ -1,15 +1,13 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
 \bibitem{pdg}
-{\bfseries Particle Data Group} Collaboration, M.~Tanabashi {\em et~al.},
-  ``Review of particle physics,''
-  \href{http://dx.doi.org/10.1103/PhysRevD.98.030001}{{\em Phys. Rev. D}
-  {\bfseries 98} no.~3, (2018) 030001}.
+{\bfseries Particle Data Group} Collaboration, P.~Zyla {\em et~al.}, ``{Review
+  of Particle Physics},'' \href{http://dx.doi.org/10.1093/ptep/ptaa104}{{\em
+  PTEP} {\bfseries 2020} no.~8, (2020) 083C01}.
 
 \bibitem{wwOPAL}
-G.~Abbiendi, ``Measurement of the mass and width of the w boson,'' {\em The
-  European Physical Journal C-Particles and Fields} {\bfseries 45} no.~2,
-  (2006) 307--335.
+{\bfseries OPAL} Collaboration, G.~Abbiendi {\em et~al.}, ``Measurement of the
+  mass and width of the {W} boson,''.
 
 \bibitem{ILDIDR}
 {\bfseries ILD Concept Group} Collaboration, H.~Abramowicz {\em et~al.},
@@ -44,7 +42,7 @@ S.~Aplin, J.~Engels, F.~Gaede, N.~A. Graf, T.~Johnson, and J.~McCormick,
   S.~Lu, N.~Nikiforou, M.~Petric, R.~Simoniello, and G.~Voutsinas, ``{DD4Hep
   based event reconstruction},''
 \href{http://dx.doi.org/10.1088/1742-6596/898/4/042017}{{\em J. Phys. Conf.
-  Ser.} {\bfseries 898} no.~4, (2017) 042017}.
+  Ser.} {\bfseries 898} (2017) 042017}.
 %%CITATION = 00462,898,042017;%%.
 
 \bibitem{whizard}
@@ -64,8 +62,8 @@ T.~Sjostrand, S.~Mrenna, and P.~Skands, ``Pythia 6.4 physics and manual, jhep
 \bibitem{geant4}
 S.~Agostinelli {\em et~al.}, ``Geant4—a simulation toolkit,'' {\em Nuclear
   instruments and methods in physics research section A: Accelerators,
-  Spectrometers, Detectors and Associated Equipment} {\bfseries 506} no.~3,
-  (2003) 250--303.
+  Spectrometers, Detectors and Associated Equipment} {\bfseries 506} (2003)
+  250--303.
 
 \bibitem{tdrdet}
 H.~Abramowicz {\em et~al.}, ``{The International Linear Collider Technical
@@ -82,7 +80,7 @@ J.~Marshall and M.~Thomson, ``{Pandora Particle Flow Algorithm},'' in {\em
   [physics.ins-det]}}.
 
 \bibitem{wwrepo}
-J.~Anguiano and G.~Wilson, ``Ildbench wwqqlnu.''
+J.~Anguiano and G.~W. Wilson, ``{ILD}bench {WW}qqlnu.''
   \url{https://github.com/ILDAnaSoft/ILDbench_WWqqlnu.git}, 2019.
 
 \bibitem{taufinder}
@@ -105,10 +103,11 @@ S.~Catani, Y.~L. Dokshitzer, M.~Seymour, and B.~Webber, ``{Longitudinally
 I.~Marchesini, {\em {Triple gauge couplings and polarization at the ILC and
   leakage in a highly granular calorimeter}}.
 \newblock PhD thesis, Hamburg U., 2011.
+\newblock DESY-THESIS-2011-044.
 
 \bibitem{ilcluminosity}
 I.~B. Jelisav{\v{c}}i{\'c}, S.~Luki{\'c}, G.~M. Dumbelovi{\'c},
-  M.~Pandurovi{\'c}, and I.~Smiljani{\'c}, ``Luminosity measurement at ilc,''
+  M.~Pandurovi{\'c}, and I.~Smiljani{\'c}, ``Luminosity measurement at {ILC},''
   {\em Journal of Instrumentation} {\bfseries 8} no.~08, (2013) P08012.
 
 \bibitem{graham}
@@ -119,7 +118,7 @@ I.~B. Jelisav{\v{c}}i{\'c}, S.~Luki{\'c}, G.~M. Dumbelovi{\'c},
 
 \bibitem{tajet}
 T.~Suehara, A.~Miyamoto, K.~Fujii, N.~Okada, H.~Ito, K.~Ikematsu, and
-  R.~Yonamine, ``Tau-pair performance in ild detectors,'' {\em arXiv preprint
+  R.~Yonamine, ``Tau-pair performance in {ILD} detectors,'' {\em arXiv preprint
   arXiv:0902.3740} (2009) .
 
 \end{thebibliography}\endgroup

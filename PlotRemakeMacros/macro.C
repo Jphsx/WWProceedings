@@ -3,8 +3,10 @@
 void macro(){
 
 	//remake tau energy and matching angle plots
-	TFile* f1 = new TFile("/home/bears/work/research/WWbenchmark/tauFinder_eff/optimalTrees/muon/lepenergy.root");
-	
+//	TFile* f1 = new TFile("/home/bears/work/research/WWbenchmark/tauFinder_eff/optimalTrees/muon/lepenergy.root");
+	//now works locally from repo
+	TFile* f1 = new TFile("lepenergy.root");	
+
 	TH1D* lepEtrue = (TH1D*) f1->Get("lepEtrue");
 	TH1D* lepEfake = (TH1D*) f1->Get("lepEfake");
 	lepEtrue->Scale(1./lepEtrue->Integral());
@@ -26,8 +28,9 @@ void macro(){
 	legend->AddEntry(lepEfake,"Fake Lepton Candidate","lp");
 	legend->Draw();
 
-	TFile* f2 = new TFile("/home/bears/work/research/WWbenchmark/tauFinder_eff/optimalTrees/muon/compplots.root");
-	
+//	TFile* f2 = new TFile("/home/bears/work/research/WWbenchmark/tauFinder_eff/optimalTrees/muon/compplots.root");
+	TFile* f2 = new TFile("compplots.root");
+
 	TH1D* matchingangle = (TH1D*) f2->Get("matchingangle");
 	TCanvas* c2 = new TCanvas();
 	matchingangle->SetLineWidth(2);

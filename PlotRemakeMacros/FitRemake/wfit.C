@@ -51,7 +51,7 @@ void wfit(string histname="hmass",float sigmafixed=3.5){
   db->plotOn(massframe);
   model.plotOn(massframe,LineColor(kBlue));
   model.paramOn(massframe,Parameters(RooArgSet(mean,width,sigma)),Layout(0.90,0.48,0.90));
- massframe->GetXaxis()->SetTitle("Mass GeV");  massframe->GetXaxis()->SetTitleOffset(1.2);
+ massframe->GetXaxis()->SetTitle("Mass [GeV]");  massframe->GetXaxis()->SetTitleOffset(1.2);
   massframe->Draw();
 
 
