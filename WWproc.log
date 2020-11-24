@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.4.7)  9 NOV 2020 10:26
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.4.7)  24 NOV 2020 12:29
  restricted system commands enabled.
 **WWproc.tex
 (./WWproc.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.116 seconds
+luaotfload | main : initialization completed in 0.119 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -909,7 +909,7 @@ uction.tex)
 (./physics.tex
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1] [2]) (./detector.tex(load luc: /home/justin/.texlive2017/texmf-var/luatex-ca
-che/generic/fonts/otl/lmmono12-regular.luc)) [3] (./Current_work.tex [4]
+che/generic/fonts/otl/lmmono12-regular.luc) [3]) (./Current_work.tex [4]
 Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
@@ -1259,11 +1259,11 @@ Here is how much of LuaTeX's memory you used:
  549 words of node memory still in use:
    5 hlist, 2 vlist, 2 rule, 3 glue, 1 kern, 1 sub_mlist, 21 attribute, 52 glue_
 spec, 21 attribute_list, 1 write, 5 pdf_action nodes
-   avail lists: 1:11,2:4133,3:1358,4:71,5:492,6:8155,7:4678,8:1325,9:2337,10:27,
-11:726
+   avail lists: 1:10,2:4133,3:1358,4:71,5:490,6:8090,7:4678,8:1325,9:2337,10:27,
+11:719
  26918 multiletter control sequences out of 65536+600000
  100 fonts using 6897455 bytes
- 61i,17n,98p,3392b,1592s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 61i,17n,98p,3393b,1592s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman6-regular.otf></usr/share/texm
 f/fonts/opentype/public/lm/lmmono12-regular.otf></usr/share/texmf/fonts/opentype
 /public/lm/lmroman12-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman
@@ -1282,7 +1282,7 @@ onts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type
 amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y8.pfb>
-Output written on WWproc.pdf (22 pages, 613506 bytes).
+Output written on WWproc.pdf (22 pages, 613428 bytes).
 
 PDF statistics: 1342 PDF objects out of 1440 (max. 8388607)
  743 compressed objects within 8 object streams

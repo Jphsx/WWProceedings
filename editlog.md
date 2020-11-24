@@ -1,4 +1,105 @@
 
+Changes from official review:
+
+- general It would  have been great if the draft had line numbers.
+
+- Title page Could you add “on behalf of the ILD concept group” ?
+
+Page 1
+
+- Chapter 1, line 10: insert a space couplings(TGCs) —> couplings (TGCs)
+	>> updated
+
+- Chapter 1, line 11: the Standard Model —> the standard model (to be consistent with line 3 and others)
+	>> added standard mdoel (SM) to define SM on line 3
+	>> lowered sm case
+
+- Chapter 1, line 13: at center of mass energy —> at a center of mass energy
+	>> updated
+
+- Chapter 2, line 2 $WW$ —> WW ? (to be consistent with others)
+	>> changed all occurences of $WW$ to WW 
+
+- Chapter 2, line 5 The diagrams representing WW —> The diagrams representing the WW production
+	>> changed to "The diagrams representing WW production"
+Page 2
+
+- Figure 1, caption the s and t channels —> the $s$ and $t$ channels
+	>> updated
+Page 3
+
+- Chapter 2, line 3 from the bottom t-channel —> $t$-channel
+	>> updated
+
+- Chapter 3, line 8 the ILD Technical Design Report —> the ILD Detailed Baseline Design
+	>> updated
+Page 4
+
+- 4,1 line 1 for semileptonic WW —> for the semileptonic mode (or for the semileptonic decay)
+	>> updated to "for the semileptonic mode"
+
+- 4.2 line 9: insert a space Collider(CLIC) —> Collider (CLIC)
+	>> updated
+
+- itemization, item 2 w.r.t to —> with respect to
+	>> updated
+
+- itemization, item 4 Invariant Mass —> Invariant mass
+	>> updated
+
+Page 5
+
+- I would move Figure 2 on page 7 to page 5.
+	>>latex very much insists this figure not move :(
+
+- line 2: insert a space Particle Flow Objects(PFO) —> Particle Flow Objects (PFO)
+	>> updated
+
+- the sentence the beginning of 2nd paragraph. a one size fits all approach —> a one-size-fits-all approach
+	>> updated
+
+- line 3 from the bottom The invariant mass —> The invariant mass upper limit (?)
+	>> added upper limit
+- the bottom line line break may not be necessary here.
+	>> removed line break
+
+Page 6
+
+- line 10 from the bottom: insert a space r-successes(lepton reconstructions) in 4 trials(hadronic jets) —> r-successes (lepton reconstructions) in 4 trials (hadronic jets)
+	>> updated
+Page 10
+
+- line 16 the Full Width Half Maximum(FWHM) —> the full width at half maximum (FWHM)
+	>>updated 
+
+- 4.4 line 5 SM is not defined. Replace with "standard model" ?
+	>> added standard model (SM) definition earlier
+
+Page 12
+
+- line 5 from the bottom: insert a space between 1600 and fb
+	>> updated
+
+Page 17
+
+- 4.5 line 11 Do the 6 digits (79.7079 and 10.6972) make sense here ?
+	>> yes, measurements are order MeV
+
+page 18
+
+- line 1, 2 (look nicer) $\frac{\Delta L}{L}$ —> $\Delta L/L$
+	>> updated
+
+- line 5 (look nicer) $\frac{\Delta \sigma}{\sigma}$ —> $\Delta \sigma/\sigma$
+	>> updated
+Page 20
+
+- Reference [2] Journal is not given: should be Eur.Phys.J.C45:307-335,2006 # Graham and myself are included in the author list.
+	>> fixed bug in latex causing journal to not be shown
+
+- Reference [5] Something funny: [,61(2004)]
+	>> removed weird auto generated note
+
 
 Various changes from my proof read
 
@@ -131,4 +232,12 @@ Jenny's comments from first draft
 
 - spell checking wouldn't harm ;-)
 	>> corrected some spelling (still needs a full check)
+
+
+
+
+
+
+
+
 

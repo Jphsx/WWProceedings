@@ -7,7 +7,8 @@
 
 \bibitem{wwOPAL}
 {\bfseries OPAL} Collaboration, G.~Abbiendi {\em et~al.}, ``Measurement of the
-  mass and width of the {W} boson,''.
+  mass and width of the {W} boson,'' {\em The Eur. Phys. J. C} {\bfseries 45}
+  (2006) 307--335.
 
 \bibitem{ILDIDR}
 {\bfseries ILD Concept Group} Collaboration, H.~Abramowicz {\em et~al.},
@@ -20,9 +21,8 @@ M.~Thomson, {\em {Modern Particle Physics}}.
 \newblock Cambridge University Press, New York, 2013.
 
 \bibitem{ilcsoft}
-R.~Poeschl, ``{Software Tools for ILC Detector Studies},'' {\em eConf}
-  {\bfseries C0705302} (2007) PLE104.
-[,61(2007)].
+R.~Poeschl, ``{Software Tools for ILC Detector Studies},''
+{\em eConf} {\bfseries C0705302} (2007) PLE104.
 %%CITATION = ECONF,C0705302,PLE104;%%.
 
 \bibitem{lcio}
